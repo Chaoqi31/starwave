@@ -1,3 +1,4 @@
+import { sparkline } from "./history.js";
 import type { Snapshot, Wave, Window } from "./types.js";
 import { ageDays } from "./waves.js";
 
@@ -19,7 +20,7 @@ export function renderTable(snapshot: Snapshot, { top, color }: { top: number; c
   const withHistory = snapshot.waves.some((w) => w.velocity3d !== undefined);
   const header = bold(tableLine(HEADER_CELLS(withHistory), COLUMN_WIDTHS(withHistory), COLUMN_LEFT(withHistory)));
   const lines = [
-    `${bold("starwave")} ${dim(snapshot.generatedAt)}`,
+    `${bold("starwave")} ${dim(utcMinute(snapshot.generatedAt))}`,
     `recent    ${windowLine(snapshot.recentCount, snapshot.recentWindow)}`,
     `baseline  ${windowLine(snapshot.baselineCount, snapshot.baselineWindow)}`,
     "",
@@ -33,7 +34,7 @@ export function renderTable(snapshot: Snapshot, { top, color }: { top: number; c
       lines.push(tableRow(i + 1, wave, withHistory), dim(`    ${wave.flags.join(" · ")}`));
     }
   }
-  if (withHistory) lines.push("", dim("3d/d: stars in the last 3 full days (stargazers/history)"));
+  if (withHistory) lines.push("", dim("vel/d: stars per day since each repo was created · 3d/d: stars per day over the last 3 full days"));
   return `${lines.join("\n")}\n`;
 }
 
@@ -41,17 +42,15 @@ export function renderMarkdown(snapshot: Snapshot, { top }: { top: number }): st
   const organic = snapshot.waves.filter((w) => w.flags.length === 0).slice(0, top);
   const flagged = snapshot.waves.filter((w) => w.flags.length > 0).slice(0, top);
   const shown = [...organic, ...flagged];
-  const hasHistory = snapshot.waves.some((w) => w.velocity3d !== undefined);
+  const hasHistory = snapshot.waves.some((w) => w.daily !== undefined);
+  const head = ["#", "wave", "repos", "owners", "stars", "vel/d", ...(hasHistory ? ["3d/d", "last 14 days"] : []), "first seen", "anchor", "flags"];
+  const align = ["--:", "---", "--:", "--:", "--:", "--:", ...(hasHistory ? ["--:", "---"] : []), "---", "---", "---"];
   const lines = [
     `_recent ${windowLine(snapshot.recentCount, snapshot.recentWindow)} · ` +
-      `baseline ${windowLine(snapshot.baselineCount, snapshot.baselineWindow)} · generated ${snapshot.generatedAt}_`,
+      `baseline ${windowLine(snapshot.baselineCount, snapshot.baselineWindow)} · generated ${utcMinute(snapshot.generatedAt)}_`,
     "",
-    hasHistory
-      ? "| # | wave | repos | owners | stars | vel/d | 3d/d | first seen | anchor | flags |"
-      : "| # | wave | repos | owners | stars | vel/d | first seen | anchor | flags |",
-    hasHistory
-      ? "|--:|------|------:|-------:|------:|------:|-----:|------------|--------|-------|"
-      : "|--:|------|------:|-------:|------:|------:|------------|--------|-------|",
+    `| ${head.join(" | ")} |`,
+    `|${align.join("|")}|`,
     ...shown.map((wave, i) => {
       const cells = [
         i + 1,
@@ -59,8 +58,8 @@ export function renderMarkdown(snapshot: Snapshot, { top }: { top: number }): st
         wave.repoCount,
         wave.ownerCount,
         formatCount(wave.stars),
-        `${formatCount(Math.round(wave.velocity))}/d`,
-        ...(hasHistory ? [shortVelocity3d(wave)] : []),
+        perDay(wave.velocity),
+        ...(hasHistory ? [wave.velocity3d === undefined ? "-" : perDay(wave.velocity3d), wave.daily ? sparkline(wave.daily) : "-"] : []),
         wave.firstSeen,
         repoLink(wave.anchor.fullName),
         wave.flags.join(", "),
@@ -69,11 +68,12 @@ export function renderMarkdown(snapshot: Snapshot, { top }: { top: number }): st
     }),
   ];
   for (const wave of shown.slice(0, 5)) {
-    lines.push("", `**${wave.id}**: ${wave.repoCount} repos, ${formatCount(wave.stars)} stars`);
+    lines.push("", `<details><summary><b>${wave.id}</b>: ${wave.repoCount} repos, ${formatCount(wave.stars)} stars</summary>`, "");
     for (const repo of wave.repos.slice(0, 5)) {
       const description = truncate(repo.description, 80).replace(/\|/g, "\\|");
       lines.push(`- ${repoLink(repo.fullName)} ${formatCount(repo.stars)}★ ${description}`);
     }
+    lines.push("", "</details>");
   }
   return `${lines.join("\n")}\n`;
 }
@@ -89,9 +89,9 @@ export function renderWave(wave: Wave, today: string): string {
     ].join("  "),
   );
   const header =
-    wave.velocity3d === undefined
+    wave.daily === undefined || wave.velocity3d === undefined
       ? []
-      : [`${wave.id}  ${wave.spark ?? ""}  ${wave.velocity3d} stars in the last 3 full days`, ""];
+      : [`${wave.id}  ${sparkline(wave.daily)}  ${perDay(wave.velocity3d)} over the last 3 full days (chart: 14 days)`, ""];
   return `${[...header, ...lines].join("\n")}\n`;
 }
 
@@ -102,16 +102,16 @@ function tableRow(rank: number, wave: Wave, withHistory: boolean): string {
     String(wave.repoCount),
     String(wave.ownerCount),
     formatCount(wave.stars),
-    `${formatCount(Math.round(wave.velocity))}/d`,
-    ...(withHistory ? [shortVelocity3d(wave)] : []),
+    perDay(wave.velocity),
+    ...(withHistory ? [wave.velocity3d === undefined ? "-" : perDay(wave.velocity3d)] : []),
     wave.firstSeen,
     truncate(wave.anchor.fullName, 18),
   ];
   return tableLine(cells, COLUMN_WIDTHS(withHistory), COLUMN_LEFT(withHistory));
 }
 
-const shortVelocity3d = (wave: Wave) =>
-  wave.velocity3d === undefined ? "-" : `${formatCount(Math.round(wave.velocity3d / 3))}/d`;
+const perDay = (n: number) => `${formatCount(Math.round(n))}/d`;
+const utcMinute = (iso: string) => `${iso.slice(0, 10)} ${iso.slice(11, 16)} UTC`;
 
 const HEADER_CELLS = (withHistory: boolean): string[] => [
   "#",

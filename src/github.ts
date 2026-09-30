@@ -100,14 +100,13 @@ export async function fetchStarHistory(fullName: string, token: string, useCache
   const key = `history ${fullName}`;
   const cached = useCache ? loadCached<StarBucket[]>(key) : undefined;
   if (cached) return cached;
-  const response = await fetch(`https://api.github.com/repos/${fullName}/stargazers/history`, {
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
-      "X-GitHub-Api-Version": "2022-11-28",
-      "User-Agent": "starwave",
-    },
-  });
+  const url = `https://api.github.com/repos/${fullName}/stargazers/history`;
+  let response = await fetch(url, { headers: headersFor(token) });
+  if (isRateLimited(response)) {
+    await sleep(rateLimitWaitMs(response));
+    response = await fetch(url, { headers: headersFor(token) });
+  }
+  if (response.status === 404) return [];
   if (!response.ok) throw new Error(`stargazers/history for ${fullName} returned ${response.status}`);
   const buckets = (await response.json()) as StarBucket[];
   saveCached(key, buckets);
@@ -124,14 +123,16 @@ async function request(url: string, token: string): Promise<Response> {
 async function pacedFetch(url: string, token: string): Promise<Response> {
   await sleep(lastRequestAt + PACE_MS - Date.now());
   lastRequestAt = Date.now();
-  return fetch(url, {
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
-      "X-GitHub-Api-Version": "2022-11-28",
-      "User-Agent": "starwave",
-    },
-  });
+  return fetch(url, { headers: headersFor(token) });
+}
+
+function headersFor(token: string): Record<string, string> {
+  return {
+    Accept: "application/vnd.github+json",
+    Authorization: `Bearer ${token}`,
+    "X-GitHub-Api-Version": "2022-11-28",
+    "User-Agent": "starwave",
+  };
 }
 
 function isRateLimited(response: Response): boolean {

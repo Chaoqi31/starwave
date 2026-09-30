@@ -1,40 +1,35 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { dayCounts, sparkline, starsInLastDays } from "../dist/history.js";
+import { dailyStars, sparkline } from "../dist/history.js";
 import type { StarBucket } from "../dist/history.js";
 
-const week = (start: string, days: number[]): StarBucket => ({
-  week: Date.parse(`${start}T00:00:00Z`) / 1000,
+const week = (sunday: string, days: number[]): StarBucket => ({
+  week: Date.parse(`${sunday}T00:00:00Z`) / 1000,
   total: days.reduce((a, b) => a + b, 0),
   days,
 });
 
-const history = [week("2026-09-20", [1, 2, 3, 4, 5, 6, 7]), week("2026-09-27", [10, 20, 30, 40, 0, 0, 0])];
+const laya = [
+  week("2026-09-13", [0, 0, 0, 0, 0, 336, 1451]),
+  week("2026-09-20", [3943, 6486, 5577, 3468, 2178, 1444, 1129]),
+  week("2026-09-27", [971, 934, 877, 156, 0, 0, 0]),
+];
+const small = [week("2026-09-27", [10, 20, 30, 5, 0, 0, 0])];
 
-test("dayCounts maps buckets to dates in order", () => {
-  const counts = dayCounts(history);
-  assert.equal(counts.length, 14);
-  assert.deepEqual(counts[0], { date: "2026-09-20", count: 1 });
-  assert.deepEqual(counts.at(-1), { date: "2026-10-03", count: 0 });
+test("dailyStars returns complete days before today, oldest first", () => {
+  assert.deepEqual(dailyStars([laya], "2026-09-30", 3), [971, 934, 877]);
+  assert.deepEqual(dailyStars([laya], "2026-09-23", 4), [1451, 3943, 6486, 5577]);
 });
 
-test("starsInLastDays counts only complete days", () => {
-  assert.equal(starsInLastDays(history, "2026-09-30", 3), 10 + 20 + 30);
-  assert.equal(starsInLastDays(history, "2026-09-30", 7), 4 + 5 + 6 + 7 + 10 + 20 + 30);
-  assert.equal(starsInLastDays(history, "2026-09-20", 3), 0);
+test("dailyStars sums across the repos of a wave and fills missing days with 0", () => {
+  assert.deepEqual(dailyStars([laya, small], "2026-09-30", 3), [981, 954, 907]);
+  assert.deepEqual(dailyStars([small], "2026-09-28", 3), [0, 0, 10]);
+  assert.deepEqual(dailyStars([], "2026-09-30", 2), [0, 0]);
 });
 
-test("sparkline is one block per complete day with the peak at full height", () => {
-  const spark = sparkline(history, "2026-09-30", 14);
-  assert.equal(spark.length, 10);
-  assert.ok(spark.endsWith("█"), spark);
-  assert.equal(sparkline([], "2026-09-30"), "");
-});
-
-test("matches the real laya capture from 2026-09-30", () => {
-  const laya = [
-    week("2026-09-20", [3943, 6486, 5577, 3468, 2178, 1444, 1129]),
-    week("2026-09-27", [971, 934, 877, 156, 0, 0, 0]),
-  ];
-  assert.equal(starsInLastDays(laya, "2026-09-30", 3), 971 + 934 + 877);
+test("sparkline puts the peak at full height", () => {
+  const spark = sparkline(dailyStars([laya], "2026-09-30", 14));
+  assert.equal(spark.length, 14);
+  assert.equal(spark[5], "█", spark);
+  assert.equal(sparkline([0, 0]), "▁▁");
 });

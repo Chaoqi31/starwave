@@ -3,7 +3,8 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { parseArgs } from "node:util";
 import { gunzipSync, gzipSync } from "node:zlib";
 import { fetchStarHistory, fetchWindow, loadCached, resolveToken, saveCached, shiftDays } from "./github.js";
-import { sparkline, starsInLastDays } from "./history.js";
+import { dailyStars } from "./history.js";
+import type { StarBucket } from "./history.js";
 import { renderMarkdown, renderTable, renderWave } from "./render.js";
 import type { Capture, Repo, Snapshot, Window } from "./types.js";
 import { detectWaves } from "./waves.js";
@@ -23,7 +24,7 @@ usage: starwave [options]
   --from <path>             read a capture or snapshot (.json or .json.gz) instead of GitHub
   --save <path>             write the raw capture (.json or .json.gz)
   --no-cache                ignore the 6 h cache in ~/.cache/starwave
-  --no-history              skip the per-wave star history call (3d velocity, sparkline)
+  --no-history              skip star history (one request per repo in a wave: 3d/d, 14-day chart)
   --no-color                plain output
   -h, --help                show this help
   -v, --version             show the version
@@ -33,6 +34,8 @@ needs a GitHub token: GITHUB_TOKEN or an authenticated gh CLI.
 
 const RECENT_SLICE_DAYS = 3;
 const BASELINE_SLICE_DAYS = 7;
+const HISTORY_DAYS = 14;
+const HISTORY_CONCURRENCY = 6;
 
 function parseFlags() {
   return parseArgs({
@@ -149,24 +152,39 @@ async function fetchCached(label: string, window: Window, sliceDays: number, tok
 async function enrichWithStarHistory(snapshot: Snapshot, noCache: boolean): Promise<void> {
   let token: string;
   try {
-    token = process.env.GITHUB_TOKEN?.trim() || resolveToken();
+    token = resolveToken();
   } catch {
     progress("no GitHub token, skipping star history");
     return;
   }
   const today = snapshot.generatedAt.slice(0, 10);
-  const targets = snapshot.waves.filter((w) => w.velocity3d === undefined);
-  await Promise.all(
-    targets.map(async (wave) => {
-      try {
-        const history = await fetchStarHistory(wave.anchor.fullName, token, !noCache);
-        wave.velocity3d = starsInLastDays(history, today, 3);
-        wave.spark = sparkline(history, today);
-      } catch {
-        progress(`star history unavailable for ${wave.anchor.fullName}`);
-      }
-    }),
-  );
+  const targets = snapshot.waves.filter((w) => w.daily === undefined);
+  const names = [...new Set(targets.flatMap((w) => w.repos.map((r) => r.fullName)))];
+  const histories = new Map<string, StarBucket[]>();
+  let done = 0;
+  await forEachLimit(names, HISTORY_CONCURRENCY, async (name) => {
+    try {
+      histories.set(name, await fetchStarHistory(name, token, !noCache));
+    } catch (error) {
+      progress(`star history: ${error instanceof Error ? error.message : String(error)}`);
+    }
+    done++;
+    if (done % 50 === 0 || done === names.length) progress(`star history  ${done}/${names.length} repos`);
+  });
+  for (const wave of targets) {
+    const found = wave.repos.map((r) => histories.get(r.fullName));
+    if (found.some((h) => h === undefined)) continue;
+    wave.daily = dailyStars(found as StarBucket[][], today, HISTORY_DAYS);
+    wave.velocity3d = wave.daily.slice(-3).reduce((sum, n) => sum + n, 0) / 3;
+  }
+}
+
+async function forEachLimit<T>(items: T[], limit: number, fn: (item: T) => Promise<void>): Promise<void> {
+  let next = 0;
+  const worker = async () => {
+    while (next < items.length) await fn(items[next++] as T);
+  };
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
 }
 
 function positiveInt(value: string, flag: string): number {

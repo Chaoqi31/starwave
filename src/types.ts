@@ -18,7 +18,7 @@ export type Wave = {
   stars: number;
   velocity: number;
   velocity3d?: number;
-  spark?: string;
+  daily?: number[];
   firstSeen: string;
   baselineCount: number;
   burst: number;
