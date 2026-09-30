@@ -46,22 +46,22 @@ You need Node 20 or newer and a GitHub token. A logged-in `gh` CLI works, and so
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  2026-07-18..2026-09-15  stars>=150 · generated 2026-09-30 12:53 UTC_
+_recent 1,456 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,833 repos  2026-07-18..2026-09-15  stars>=150 · generated 2026-09-30 16:22 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 35 more) | 249 | 232 | 145.5k | 13.2k/d | 5.1k/d | ▁▃▄▅▆█▇▅▃▃▂▂▃▂ | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
-| 2 | **opus** | 21 | 20 | 7.0k | 1.4k/d | 1.1k/d | ▁▁▁▁▁▁▂▇▅▃▅█▇▄ | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
-| 3 | **films** | 7 | 7 | 2.4k | 498/d | 351/d | ▁▁▁▁▁▁▂▂▃▃█▆▆▃ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
-| 4 | **steamos** | 5 | 5 | 637 | 114/d | 160/d | ▁▁▁▁▁▁▁▃▂▂▂▆█▇ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
-| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 626 | 83/d | 54/d | ▁▁▁▁▁▁▆█▇█▅▃▄▇ | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
-| 6 | **roblox** | 5 | 5 | 332 | 56/d | 52/d | ▁▁▁▁▁▁▁▂▃▄▄█▂▂ | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
-| 7 | **apimart** (+api-docs, pay-as-you-go, ai-api-gateway, llm-api-pricing, llm-api, 101 more) | 173 | 163 | 14.8k | 2.2k/d | 766/d | ▁▁▁▁▃▂▂▁▁█▅▁█▃ | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
+| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 38 more) | 251 | 233 | 146.0k | 13.3k/d | 5.2k/d | ▁▃▄▅▆█▇▅▃▃▂▂▃▂ | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
+| 2 | **opus** (+motion-graphics) | 22 | 21 | 7.1k | 1.4k/d | 1.1k/d | ▁▁▁▁▁▁▂▇▅▃▅█▇▄ | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
+| 3 | **films** | 7 | 7 | 2.6k | 552/d | 351/d | ▁▁▁▁▁▁▂▂▃▃█▆▆▃ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
+| 4 | **steamos** | 5 | 5 | 660 | 118/d | 160/d | ▁▁▁▁▁▁▁▃▂▂▂▆█▇ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
+| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 638 | 84/d | 54/d | ▁▁▁▁▁▁▆█▇█▅▃▄▇ | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
+| 6 | **roblox** | 5 | 5 | 335 | 57/d | 52/d | ▁▁▁▁▁▁▁▂▃▄▄█▂▂ | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
+| 7 | **apimart** (+ai-api-gateway, api-docs, pay-as-you-go, aggregator, llm-api, 22 more) | 68 | 61 | 6.2k | 859/d | 766/d | ▁▁▁▁▃▂▂▁▁█▅▁█▃ | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
 | 8 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 622/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
 
-<details><summary><b>jev</b>: 249 repos, 145.5k stars</summary>
+<details><summary><b>jev</b>: 251 repos, 146.0k stars</summary>
 
-- [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) 29.0k★ Non-autoregressive System 1 decision engine. Typed choice, score and yes/no dec…
+- [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) 29.1k★ Non-autoregressive System 1 decision engine. Typed choice, score and yes/no dec…
 - [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) 21.5k★ Fastest and cheapest web agent
 - [jaredpalmer/kev](https://github.com/jaredpalmer/kev) 8.0k★ Jev-like family of decision models built on top of Qwen3.5/3.8 you can train an…
 - [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) 7.2k★ Claude Code plugin that replaces the compaction summary with Jev decisions: eve…
@@ -69,42 +69,42 @@ _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  
 
 </details>
 
-<details><summary><b>opus</b>: 21 repos, 7.0k stars</summary>
+<details><summary><b>opus</b>: 22 repos, 7.1k stars</summary>
 
-- [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) 1.5k★ Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)
+- [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) 1.6k★ Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)
 - [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 1.0k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
-- [dgreenheck/tidewater](https://github.com/dgreenheck/tidewater) 988★ Coastal town built with Opus 5.5
-- [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 937★ claude-opus-5-5-demo
-- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 651★ 43 film styles, each a reusable style prompt plus a short film made entirely in…
+- [dgreenheck/tidewater](https://github.com/dgreenheck/tidewater) 995★ Coastal town built with Opus 5.5
+- [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 938★ claude-opus-5-5-demo
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 666★ 43 film styles, each a reusable style prompt plus a short film made entirely in…
 
 </details>
 
-<details><summary><b>films</b>: 7 repos, 2.4k stars</summary>
+<details><summary><b>films</b>: 7 repos, 2.6k stars</summary>
 
 - [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.0k★ Motion films that never cut to the next slide: every beat grows out of the one …
-- [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) 710★ Art and animation, written as code. Illustrations, loops, interactive web art, …
-- [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat) 262★ Procedural risograph films in single HTML files (Window Seat, Roost and more), …
-- [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) 174★ Claude Code skill kit for premium AI-assisted business videos: independent crit…
+- [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) 720★ Art and animation, written as code. Illustrations, loops, interactive web art, …
+- [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) 324★ Claude Code skill kit for premium AI-assisted business videos: independent crit…
+- [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat) 263★ Procedural risograph films in single HTML files (Window Seat, Roost and more), …
 - [tugrawork-creator/saas-motion-kit](https://github.com/tugrawork-creator/saas-motion-kit) 140★ Promo & motion videos for software products with HyperFrames + Claude Code. No …
 
 </details>
 
-<details><summary><b>steamos</b>: 5 repos, 637 stars</summary>
+<details><summary><b>steamos</b>: 5 repos, 660 stars</summary>
 
-- [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 281★ DroidDeck brings the SteamOS experience to Android
+- [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 298★ DroidDeck brings the SteamOS experience to Android
 - [DeeJanuz/frametop](https://github.com/DeeJanuz/frametop) 112★ Multi-screen KDE Plasma desktop and universal 3D mouse for the Valve Steam Fram…
-- [MaSieS4Fun/SteamOS-ARM-SM8550](https://github.com/MaSieS4Fun/SteamOS-ARM-SM8550) 107★ Official SteamOS ARM version, custom-adapted for SM8550 ARM devices.
-- [hashtagbasit/SteamOS-ARM-Handhelds](https://github.com/hashtagbasit/SteamOS-ARM-Handhelds) 92★ Valve's SteamOS for ARM on Snapdragon handhelds. Runs on 8 Gen 3 (SM8650) and 8…
-- [saphid/frame-control](https://github.com/saphid/frame-control) 45★ Frame Control: a free, open-source app for Valve Steam Frame on macOS, Windows,…
+- [MaSieS4Fun/SteamOS-ARM-SM8550](https://github.com/MaSieS4Fun/SteamOS-ARM-SM8550) 110★ Official SteamOS ARM version, custom-adapted for SM8550 ARM devices.
+- [hashtagbasit/SteamOS-ARM-Handhelds](https://github.com/hashtagbasit/SteamOS-ARM-Handhelds) 94★ Valve's SteamOS for ARM on Snapdragon handhelds. Runs on 8 Gen 3 (SM8650) and 8…
+- [saphid/frame-control](https://github.com/saphid/frame-control) 46★ Frame Control: a free, open-source app for Valve Steam Frame on macOS, Windows,…
 
 </details>
 
-<details><summary><b>qwen-image</b>: 5 repos, 626 stars</summary>
+<details><summary><b>qwen-image</b>: 5 repos, 638 stars</summary>
 
-- [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) 238★ ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi…
+- [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) 246★ ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi…
 - [iamyoki/qwen-image-2.1-skill](https://github.com/iamyoki/qwen-image-2.1-skill) 128★ 🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and m…
-- [wildminder/awesome-qwen-image](https://github.com/wildminder/awesome-qwen-image) 110★ Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling
-- [Work-Fisher/ComfyUI-Fisher-Pose](https://github.com/Work-Fisher/ComfyUI-Fisher-Pose) 95★ ComfyUI 姿势与机位编辑器 for Qwen Image 2.1：VNCCS 真人人偶 + OpenPose 一键摆姿（内置 209 骨架）+ 自由视角…
+- [wildminder/awesome-qwen-image](https://github.com/wildminder/awesome-qwen-image) 111★ Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling
+- [Work-Fisher/ComfyUI-Fisher-Pose](https://github.com/Work-Fisher/ComfyUI-Fisher-Pose) 98★ ComfyUI 姿势与机位编辑器 for Qwen Image 2.1：VNCCS 真人人偶 + OpenPose 一键摆姿（内置 209 骨架）+ 自由视角…
 - [janishar/qwen-image-2.1-studio](https://github.com/janishar/qwen-image-2.1-studio) 55★ Local Qwen-Image-2.1 studio for Apple Silicon: text-to-image, multi-image editi…
 
 </details>

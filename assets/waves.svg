@@ -11,22 +11,22 @@
 <circle cx="24" cy="20" r="6" fill="#ff5f56"/><circle cx="44" cy="20" r="6" fill="#ffbd2e"/><circle cx="64" cy="20" r="6" fill="#27c93f"/>
 <text x="500" y="24" fill="#7d8590" text-anchor="middle">starwave</text>
 <text class="l" x="24" y="52" fill="#d7dae0" style="animation-delay:0.00s"><tspan fill="#7ee787">$</tspan> npx github:Chaoqi31/starwave</text>
-<text class="l" x="24" y="72" fill="#d7dae0" style="animation-delay:0.90s"><tspan font-weight="700">starwave</tspan><tspan fill="#7d8590"> 2026-09-30 12:53 UTC</tspan></text>
-<text class="l" x="24" y="92" fill="#7d8590" style="animation-delay:0.99s">recent    1,538 repos  2026-09-16..2026-09-30  stars&gt;=40</text>
-<text class="l" x="24" y="112" fill="#7d8590" style="animation-delay:1.08s">baseline  2,828 repos  2026-07-18..2026-09-15  stars&gt;=150</text>
+<text class="l" x="24" y="72" fill="#d7dae0" style="animation-delay:0.90s"><tspan font-weight="700">starwave</tspan><tspan fill="#7d8590"> 2026-09-30 16:22 UTC</tspan></text>
+<text class="l" x="24" y="92" fill="#7d8590" style="animation-delay:0.99s">recent    1,456 repos  2026-09-16..2026-09-30  stars&gt;=40</text>
+<text class="l" x="24" y="112" fill="#7d8590" style="animation-delay:1.08s">baseline  2,833 repos  2026-07-18..2026-09-15  stars&gt;=150</text>
 <text class="l" x="24" y="132" fill="#d7dae0" style="animation-delay:1.17s"></text>
 <text class="l" x="24" y="152" fill="#e3b341" style="animation-delay:1.26s">Waves (6 of 6)</text>
 <text class="l" x="24" y="172" fill="#7d8590" style="animation-delay:1.35s"> #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor</text>
-<text class="l" x="24" y="192" fill="#d7dae0" style="animation-delay:1.44s"> 1  <tspan fill="#7ee787" font-weight="700">jev</tspan> (+typesafe, 39 more)        249     232  145.5k  13.2k/d   5.1k/d  2026-09-16  NandhaKishorM/laya</text>
-<text class="l" x="24" y="212" fill="#d7dae0" style="animation-delay:1.53s"> 2  <tspan fill="#7ee787" font-weight="700">opus</tspan>                             21      20    7.0k   1.4k/d   1.1k/d  2026-09-22  JohnHeibel/PDoomV…</text>
-<text class="l" x="24" y="232" fill="#d7dae0" style="animation-delay:1.62s"> 3  <tspan fill="#7ee787" font-weight="700">films</tspan>                             7       7    2.4k    498/d    351/d  2026-09-22  feitangyuan/oneta…</text>
-<text class="l" x="24" y="252" fill="#d7dae0" style="animation-delay:1.71s"> 4  <tspan fill="#7ee787" font-weight="700">steamos</tspan>                           5       5     637    114/d    160/d  2026-09-23  Droid-Deck/DroidD…</text>
-<text class="l" x="24" y="272" fill="#d7dae0" style="animation-delay:1.80s"> 5  <tspan fill="#7ee787" font-weight="700">qwen-image</tspan> (+qwen-image-2.1)      5       5     626     83/d     54/d  2026-09-21  nihui/qwenimage-n…</text>
-<text class="l" x="24" y="292" fill="#d7dae0" style="animation-delay:1.89s"> 6  <tspan fill="#7ee787" font-weight="700">roblox</tspan>                            5       5     332     56/d     52/d  2026-09-17  caomod2077/Deobfu…</text>
+<text class="l" x="24" y="192" fill="#d7dae0" style="animation-delay:1.44s"> 1  <tspan fill="#7ee787" font-weight="700">jev</tspan> (+typesafe, 42 more)        251     233  146.0k  13.3k/d   5.2k/d  2026-09-16  NandhaKishorM/laya</text>
+<text class="l" x="24" y="212" fill="#d7dae0" style="animation-delay:1.53s"> 2  <tspan fill="#7ee787" font-weight="700">opus</tspan> (+motion-graphics)          22      21    7.1k   1.4k/d   1.1k/d  2026-09-22  JohnHeibel/PDoomV…</text>
+<text class="l" x="24" y="232" fill="#d7dae0" style="animation-delay:1.62s"> 3  <tspan fill="#7ee787" font-weight="700">films</tspan>                             7       7    2.6k    552/d    351/d  2026-09-22  feitangyuan/oneta…</text>
+<text class="l" x="24" y="252" fill="#d7dae0" style="animation-delay:1.71s"> 4  <tspan fill="#7ee787" font-weight="700">steamos</tspan>                           5       5     660    118/d    160/d  2026-09-23  Droid-Deck/DroidD…</text>
+<text class="l" x="24" y="272" fill="#d7dae0" style="animation-delay:1.80s"> 5  <tspan fill="#7ee787" font-weight="700">qwen-image</tspan> (+qwen-image-2.1)      5       5     638     84/d     54/d  2026-09-21  nihui/qwenimage-n…</text>
+<text class="l" x="24" y="292" fill="#d7dae0" style="animation-delay:1.89s"> 6  <tspan fill="#7ee787" font-weight="700">roblox</tspan>                            5       5     335     57/d     52/d  2026-09-17  caomod2077/Deobfu…</text>
 <text class="l" x="24" y="312" fill="#d7dae0" style="animation-delay:1.98s"></text>
 <text class="l" x="24" y="332" fill="#e3b341" style="animation-delay:2.07s">Looks coordinated (2 of 2)</text>
 <text class="l" x="24" y="352" fill="#7d8590" style="animation-delay:2.16s"> #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor</text>
-<text class="l" x="24" y="372" fill="#d7dae0" style="animation-delay:2.25s"> 1  <tspan fill="#ffa198" font-weight="700">apimart</tspan> (+106 more)             173     163   14.8k   2.2k/d    766/d  2026-09-16  apimart001a/llm-g…</text>
+<text class="l" x="24" y="372" fill="#d7dae0" style="animation-delay:2.25s"> 1  <tspan fill="#ffa198" font-weight="700">apimart</tspan> (+27 more)               68      61    6.2k    859/d    766/d  2026-09-16  apimart001a/llm-g…</text>
 <text class="l" x="24" y="392" fill="#f47067" style="animation-delay:2.34s">    near-duplicate · same-day · flat-stars</text>
 <text class="l" x="24" y="412" fill="#d7dae0" style="animation-delay:2.43s"> 2  <tspan fill="#ffa198" font-weight="700">auto-raid-complete-script</tspan>        44      39    1.9k    159/d    622/d  2026-09-18  1234512345z/Arcad…</text>
 <text class="l" x="24" y="432" fill="#f47067" style="animation-delay:2.52s">    near-duplicate · same-day · flat-stars</text>
