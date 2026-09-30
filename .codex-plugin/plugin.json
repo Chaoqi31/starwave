@@ -1,0 +1,7 @@
+{
+  "name": "starwave",
+  "description": "Find the GitHub waves forming right now: clusters of new repos that share a bursting term, ranked by star velocity, with coordinated-looking clusters flagged. Runs npx starwave and summarizes the result.",
+  "version": "0.1.0",
+  "skills": "./skills/",
+  "license": "MIT"
+}

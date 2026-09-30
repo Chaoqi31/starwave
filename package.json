@@ -1,0 +1,27 @@
+{
+  "name": "starwave",
+  "version": "0.1.0",
+  "description": "Find waves of new GitHub repos that share a bursting term, ranked by star velocity, with coordinated-looking clusters flagged",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "starwave": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test",
+    "start": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "^5.9.3"
+  }
+}

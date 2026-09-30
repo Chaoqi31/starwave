@@ -1,0 +1,48 @@
+name: daily
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  waves:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run build
+      - name: Snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p data
+          node dist/cli.js --json > "data/$(date -u +%F).json"
+          node dist/cli.js --from "data/$(date -u +%F).json" --md --top 10 > /tmp/waves.md
+      - name: Update README block
+        run: |
+          node -e '
+            const fs = require("node:fs");
+            const body = fs.readFileSync("/tmp/waves.md", "utf8").trim();
+            const re = /(<!-- starwave:start -->)[\s\S]*?(<!-- starwave:end -->)/;
+            for (const file of ["README.md", "README.zh-CN.md"]) {
+              const src = fs.readFileSync(file, "utf8");
+              if (!re.test(src)) throw new Error("markers not found in " + file);
+              fs.writeFileSync(file, src.replace(re, (_, start, end) => start + "\n" + body + "\n" + end));
+            }
+          '
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data README.md README.zh-CN.md
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "waves: $(date -u +%F)"
+            git push
+          fi
