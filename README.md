@@ -26,6 +26,8 @@ You need Node 20 or newer and a GitHub token. A logged-in `gh` CLI works, and so
 
 ## What it found on 2026-09-30
 
+These numbers come from the 12:53 UTC capture that the tests use. The image at the top and the table below update every day.
+
 - **jev: 249 repos and 145k stars in 15 days.** TypeSafe AI released its Jev decision model on September 15. starwave merged 40 terms into this wave (`laya`, `typesafe`, `system-one`, `decision-model`, and more), which no single keyword search would join. The wave's best day was September 21, with 24,568 new stars, and it is cooling: 13.2k stars a day since launch, 5.1k a day over the last 3 days.
 - **opus: 21 repos of code-rendered videos made with Claude Opus 5.5.** The oldest is 8 days old. They still gain 1.1k stars a day, and none of them was on GitHub Trending's daily or weekly list that day.
 - **Two clusters look coordinated.** All 173 `apimart` repos mention the same API reseller, and 146 of them were created on September 24. All 44 Roblox script repos were created on September 18, and 98 % of their stars from the last 14 days arrived on one day, September 27. starwave lists both under "Looks coordinated" and keeps them out of the ranking.
