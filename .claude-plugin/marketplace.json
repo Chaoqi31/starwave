@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "starwave",
+  "description": "The waves forming on GitHub right now, from your agent.",
+  "owner": {
+    "name": "Chaoqi",
+    "url": "https://github.com/Chaoqi31"
+  },
+  "plugins": [
+    {
+      "name": "starwave",
+      "description": "Find the GitHub waves forming right now: clusters of new repos that share a bursting term, ranked by stars per day, with clone farms flagged.",
+      "source": "./",
+      "category": "research"
+    }
+  ]
+}

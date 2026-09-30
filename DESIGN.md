@@ -1,15 +1,13 @@
-# starwave design
+# How starwave works
 
-One sentence: `npx starwave` fetches every GitHub repo created in the last N days with at least M stars, plus a baseline of repos from the weeks before, and reports the *waves*: clusters of new repos that share a bursting term (a new model, harness, API, or idea), ranked by star velocity, with coordinated-looking clusters flagged.
-
-Non-goals for v1: no LLM calls, no database, no web UI, no Chinese word segmentation (CJK runs are skipped; note the ceiling in code), no star-history per repo.
+starwave answers one question: which groups of new GitHub repos are growing together right now? It fetches every repo created in the last 14 days with at least 40 stars, compares their vocabulary with repos from the 60 days before, and reports the terms that burst. A group of repos that shares a bursting term is a *wave*. Waves are ranked by stars per day. Groups built from copies of one template are set aside and flagged.
 
 ## Constraints
 
-- Node >= 20, TypeScript compiled with `tsc` to `dist/`. **Zero runtime dependencies.** Only dev dependency: `typescript`. Global `fetch`, `node:util` `parseArgs`, `node:test`, `node:zlib`, `node:fs`.
-- `package.json`: `"type": "module"`, `"bin": { "starwave": "dist/cli.js" }`, `"files": ["dist"]`, scripts `build`, `test` (`node --test`), `start`.
-- Every module is a pure function except `github.ts` (network + cache) and `cli.ts` (I/O). `detectWaves` is deterministic given its inputs so the fixture test is exact.
-- No comments that narrate. One `// ponytail:` comment where a known ceiling is accepted (for example the O(n²) duplicate scan).
+- Node 20 or newer. TypeScript compiled with `tsc` to `dist/`.
+- Zero runtime dependencies. The code uses global `fetch`, `node:util` `parseArgs`, `node:zlib`, `node:fs`, and `node:test`.
+- `src/waves.ts`, `src/history.ts`, and `src/render.ts` are pure. Network access lives in `src/github.ts`, file and terminal I/O in `src/cli.ts`.
+- `detectWaves` is deterministic for a given input, so the tests can assert exact results on a recorded capture.
 
 ## Data shapes (`src/types.ts`)
 
@@ -26,18 +24,20 @@ export type Repo = {
 export type Wave = {
   id: string;                // primary term, e.g. "jev"
   aliases: string[];         // other terms merged in, e.g. ["laya", "typesafe", "system-one"]
-  repos: Repo[];             // union over id + aliases, sorted by stars desc
+  repos: Repo[];             // sorted by stars desc
   repoCount: number;
   ownerCount: number;        // distinct owners
-  stars: number;             // sum
-  velocity: number;          // sum over repos of stars / max(1, ageDays)
-  firstSeen: string;         // min createdAt
-  baselineCount: number;     // repos in baseline whose terms include id (max over id+aliases)
-  burst: number;             // recentCount / (expected + 1), expected = baselineCount * recent.length / baseline.length
-  cohesion: number;          // share of repo pairs sharing a term beyond the wave's own terms, 0..1
-  score: number;             // burst * log10(stars + 10)
+  stars: number;             // sum over repos
+  velocity: number;          // sum over repos of stars / max(1, age in days)
+  velocity3d?: number;       // stars per day over the last 3 complete days, same repos (needs star history)
+  daily?: number[];          // stars per day for the last 14 complete days, oldest first (needs star history)
+  firstSeen: string;         // earliest createdAt
+  baselineCount: number;     // baseline repos carrying the wave's terms (max over id and aliases)
+  burst: number;             // repoCount / (expected + 1), expected = baselineCount * recent / baseline
+  cohesion: number;          // share of repos that share a term beyond the wave's own terms with another member
+  score: number;             // burst * log10(stars + 10), used to order term merging
   anchor: Repo;              // repos[0]
-  flags: Flag[];             // empty when the wave looks organic
+  flags: Flag[];             // empty for a clean wave
 };
 
 export type Flag = "same-day" | "few-owners" | "flat-stars" | "near-duplicate";
@@ -48,76 +48,64 @@ export type Snapshot = {
   baselineWindow: { from: string; to: string; minStars: number };
   recentCount: number;
   baselineCount: number;
-  waves: Wave[];             // organic first (no flags), then flagged, each group by velocity desc
+  waves: Wave[];             // clean waves first, then flagged, each group by velocity desc
 };
 ```
 
-The test fixture `test/fixtures/2026-09-30.json.gz` is gzip JSON with `{ capturedAt, recentWindow, baselineWindow, recent: Repo[], baseline: Repo[] }`, the capture of a default run (`--days 14 --min-stars 40 --baseline-days 60 --baseline-min-stars 150`) on 2026-09-30: 1,538 recent and 2,828 baseline repos.
+A *capture* is the raw input: `{ capturedAt, recentWindow, baselineWindow, recent: Repo[], baseline: Repo[] }`. `--save` writes one, and `--from` reads a capture or a snapshot, plain or gzipped.
 
-## Modules
+## Fetching (`src/github.ts`)
 
-`src/github.ts`
-- `resolveToken()`: `GITHUB_TOKEN` env, else `gh auth token` via `child_process.execFileSync`, else throw with a one-line fix.
-- `searchRepos(query, token, onProgress?)`: GET `https://api.github.com/search/repositories?q=...&sort=stars&order=desc&per_page=100&page=N`, headers `Accept: application/vnd.github+json`, `Authorization: Bearer`, `X-GitHub-Api-Version: 2022-11-28`, `User-Agent: starwave`. Pages until a page has fewer than 100 items or page 10. Maps items to `Repo` (`created_at` sliced to 10 chars, `description ?? ""`, `topics ?? []`). On 403/429 with `retry-after` or `x-ratelimit-remaining: 0`, sleep until `x-ratelimit-reset` (cap 70 s) and retry once. Search allows 30 requests/min: keep a simple pacing of >= 2.1 s between requests.
-- `fetchWindow(from, to, minStars, sliceDays, token, onProgress)`: splits `[from, to]` into slices of `sliceDays` and concatenates `searchRepos` results for `created:A..B stars:>=M`, deduped by fullName. Slicing exists because search caps at 1,000 results per query.
-- `loadCached(key) / saveCached(key, value)`: JSON files in `~/.cache/starwave/`, TTL 6 h, key = hash of the query parameters. `--no-cache` bypasses.
+- The token comes from `GITHUB_TOKEN`, else from `gh auth token`.
+- `fetchWindow` splits a date range into slices (3 days for the recent window, 7 for the baseline) and runs `created:A..B stars:>=M` searches, sorted by stars, 100 per page. The search API returns at most 1,000 results per query, which is why the range is sliced.
+- Search allows 30 requests per minute, so requests are paced at 2.1 s. A 403 or 429 with rate-limit headers waits for the reset (at most 70 s) and retries once.
+- Results cache in `~/.cache/starwave/` for 6 hours. `--no-cache` skips the cache.
 
-`src/waves.ts` (pure)
-- `terms(repo): Set<string>`: lowercase `name + " " + description`; tokens `/[a-z][a-z0-9+.\-]{1,}/g`, trimmed of leading and trailing `.-`; each hyphen- or dot-joined token also yields its parts (`hermes-jev-skills` gives `hermes`, `jev`, `skills` and the compound); plus each topic lowercased; drop length < 3, pure digits, and anything in `STOP`. `STOP` is a frozen list of generic words (articles, "ai", "llm", "agent", "tool", "app", "cli", "framework", "open", "source", "claude", "codex", "cursor", "chatgpt", "gpt", "openai", "anthropic", "model", "models", "mcp", "server", "python", "typescript", "javascript", "rust", "api", "sdk", "plugin", "plugins", "skill", "skills", "free", "fast", "simple", "local", "native", "web", "awesome", "curated", "list", "guide", "based", "using", "built", "powered", "support", "supports", "your", "with", "for", "and", "the", …). Start from the list in `/Users/chaoqi/Dev/trending-lab/proto/waves.py` and extend when the fixture output shows junk.
-- `detectWaves(recent, baseline, opts): Wave[]` with `opts = { minRepos = 5, minBurst = 3, mergeOverlap = 0.4, minCohesion = 0.5, today }`:
-  0. Template pass over all recent repos: a repo is *templated* when another repo from a different owner has Jaccard(terms) >= 0.6 with it (both with >= 3 terms). Templated repos are grouped on their own; everything else is the organic population. Farms that spread across many small waves used to escape per-wave flags with an n >= 10 floor; this catches them before grouping. O(n²) over ~2,500 repos, about a second.
-  1. Index the population's repos by term; count baseline repos by term (baseline counts are shared by both populations).
-  2. For each term with >= minRepos repos: burst = count / (baselineCount × recent/baseline + 1), score = burst × log10(stars + 10). Keep burst >= minBurst.
-  3. Sort terms by score desc. Greedy merge: a term joins the first existing wave where `|repos(term) ∩ repos(wave)| / min(|repos(term)|, |repos(wave)|) >= mergeOverlap`; otherwise it starts a new wave. A repo belongs to at most one wave: the first wave (in score order) that reaches it claims it. A repo joining an existing wave through a merged term must carry at least 3 of that wave's terms; two was not enough once a big wave had accumulated generic aliases ("compatible", "retry").
-  4. Per wave: `cohesion` = share of repos that share at least one term beyond the wave's own terms with another repo in the wave. Organic waves need final burst >= minBurst (the candidate count shrinks once other waves claim repos) and cohesion >= minCohesion; nine unrelated repos that all say "bit" score 0.
-  5. Flags on the wave's repos: `same-day` (n >= 10, the most common createdAt holds >= 60 %), `few-owners` (n >= 10, ownerCount / n < 0.5), `flat-stars` (n >= 20, anchor.stars / stars < 0.10). Every templated wave carries `near-duplicate`. A templated wave whose id matches a flagged organic wave merges into it (the two halves of one farm); one that collides with a clean organic id gets the suffix `-clones`.
-  6. Return clean organic waves sorted by velocity desc, then everything flagged sorted by velocity desc.
-- `ageDays(repo, today)` = max(1, days between).
+A default run makes about 60 search requests and takes 3 to 5 minutes the first time.
 
-`src/render.ts` (pure)
-- `renderTable(snapshot, { top, color }) : string`: header line with counts and windows, then one row per wave: rank, `id (+aliases…)`, repoCount, owners, stars (k-formatted), velocity per day, firstSeen, anchor fullName. Flagged waves go under a second heading "Looks coordinated" with flags listed. ANSI bold/dim only when `color`.
-- `renderMarkdown(snapshot, { top }) : string`: same content as a GitHub table, plus for each of the top 5 waves a bullet list of its top 5 repos with star counts. Used by the daily workflow to fill README between `<!-- starwave:start -->` and `<!-- starwave:end -->`.
-- `renderWave(wave) : string`: every repo in a wave, one per line: stars, age in days, fullName, description truncated to 80 chars.
+## Finding waves (`src/waves.ts`)
 
-`src/cli.ts`
-- Flags via `parseArgs`: `--days <n>` (default 14), `--min-stars <n>` (default 40), `--baseline-days <n>` (default 60), `--baseline-min-stars <n>` (default 150), `--top <n>` (default 15), `--json`, `--md`, `--show <wave-id>`, `--from <fixture-or-snapshot.json[.gz]>` (skip network; accepts the fixture shape or a saved Snapshot), `--save <path>` (write the raw `{recent, baseline}` capture), `--no-cache`, `--no-color`, `-h/--help`, `-v/--version`.
-- Progress goes to stderr (`fetched 1,300 repos (page 7/…)`), output to stdout. Exit code 1 on token failure with the fix in one line: `set GITHUB_TOKEN or run: gh auth login`.
-- Default command: fetch (or load), `detectWaves`, print table.
+1. **Terms.** Each repo becomes a set of terms: the latin tokens of its name and description, the parts of hyphen- and dot-joined tokens (`hermes-jev-skills` also gives `hermes`, `jev`, `skills`), and its topics. Tokens shorter than 3 characters, pure numbers, and words in `STOP` ("ai", "agent", "cli", "python", ...) are dropped.
+2. **Clone pass.** A repo is templated when a repo from a different owner has a term Jaccard similarity of 0.6 or more with it (both need at least 3 terms). Templated repos are grouped separately from everything else. Before this pass existed, farms of 5 to 9 copies spread across many terms and showed up as small clean waves. The pass is a pairwise scan, about one second for 2,500 repos.
+3. **Burst.** For each term carried by at least 5 repos, burst = count / (baseline count × recent/baseline + 1). Terms need a burst of 3 or more.
+4. **Merge.** Terms are sorted by score and merged greedily. A term joins the first wave whose repo set overlaps its own by 40 % or more of the smaller set. Each repo belongs to one wave. A repo that joins through a merged term must carry at least 3 of the wave's terms. With 2, a large wave that had collected generic aliases pulled in unrelated repos.
+5. **Cohesion.** A clean wave needs a final burst of 3 or more and a cohesion of 0.5 or more. Nine repos that all contain the word "bit" and nothing else in common have a cohesion of 0.
+6. **Flags.** `same-day`: 10 or more repos and 60 % or more created on one day. `few-owners`: 10 or more repos and fewer distinct owners than half the repos. `flat-stars`: 20 or more repos and the anchor holds under 10 % of the stars. Every templated wave carries `near-duplicate`. A templated wave with the same id as a flagged wave merges into it.
 
-`src/index.ts`: re-export `detectWaves`, `renderMarkdown`, `renderTable`, types, so the package is also a library.
+## Star history (`src/history.ts`)
 
-## Tests (`test/waves.test.ts`, `node --test`)
-
-Load the gzip fixture, run `detectWaves(recent, baseline, { today: "2026-09-30" })`, then assert against named repos in the capture:
-- the fixture is a default-window capture (40 / 150 star floors, > 1,000 recent and > 2,000 baseline repos).
-- top organic wave is `jev`, >= 200 repos, aliases include `laya` and `typesafe`, anchor `NandhaKishorM/laya`, contains `browser-use/jev-ultrafast`.
-- `opus` is organic with >= 15 repos and contains `yihui-dev/awesome-opus5-5-videos`.
-- exactly one flagged wave carries `apimart`, with `near-duplicate` and `same-day`, >= 150 repos, an `apimart*` anchor, and none of `browser-use/jev-ultrafast`, `KKKKhazix/AIHOT`, `ghuntley/underclass`.
-- `updated`, `discordfix`, `executor`, `auto-raid-complete-script` are not organic; no organic wave contains an `8-Ball-Pool-Autoplay`, `DiscordFix-`, or `Bunker-Script` repo; the Roblox script farm is flagged `near-duplicate`.
-- `timoncool/YuE2-Studio` and `NandhaKishorM/laya` are in no flagged wave.
-- every organic wave has cohesion >= 0.5; `bit`, `answers`, `point`, `midi` are not waves.
-- organic waves are sorted by velocity desc and none is led by a stopword.
-- every repo is in at most one wave and ids are unique.
-- `detectWaves` is deterministic; `renderMarkdown` contains `| # |` and `NandhaKishorM/laya`.
-- `terms()` strips stopwords, splits compounds, keeps topics, drops digits.
+`GET /repos/{owner}/{repo}/stargazers/history` returns weekly buckets `{ week, total, days[7] }`, Sunday first, in UTC. After `detectWaves`, the CLI fetches the history of every repo in every wave, 6 requests at a time, under the 5,000 requests per hour core limit. `dailyStars` sums the buckets into stars per day for complete days only. `velocity3d` is the mean of the last 3 days and `daily` keeps the last 14. A repo that no longer exists counts as zero. If any other request fails, that wave gets no `velocity3d`, because a partial sum would understate it. `--no-history` skips this step. A default run makes about 500 history requests in under a minute.
 
 ## Daily workflow (`.github/workflows/daily.yml`)
 
-Cron `17 6 * * *` UTC plus `workflow_dispatch`. Steps: checkout, setup-node 22, `npm ci`, `npm run build`, `node dist/cli.js --json > data/$(date -u +%F).json`, `node dist/cli.js --md --top 10 > /tmp/waves.md`, replace the README block between the markers with `/tmp/waves.md` (a 10-line `node -e` script, no extra deps), `git commit` as `github-actions[bot]` with message `waves: YYYY-MM-DD`, push. `GITHUB_TOKEN` is the built-in token. `data/` stores only the Snapshot (waves), never the raw repo lists.
+At 06:17 UTC GitHub Actions runs a default snapshot with the repository's `GITHUB_TOKEN`. The job then does five things:
 
-## Repo layout
+- It writes the snapshot to `docs/latest.json`, which GitHub Pages serves to the site.
+- It archives the snapshot as `data/YYYY-MM-DD.json.gz`, about 40 KB a day.
+- `scripts/readme.mjs` renders the table between `<!-- starwave:start -->` and `<!-- starwave:end -->` in both READMEs.
+- `scripts/svg.mjs` redraws `assets/waves.svg`.
+- It commits as `github-actions[bot]` with the message `waves: YYYY-MM-DD`.
+
+## Tests
+
+`npm test` compiles and runs `node --test`. `test/fixtures/2026-09-30.json.gz` is the capture of a default run on 2026-09-30: 1,538 recent repos and 2,828 baseline repos. The tests pin behavior to named repos in it:
+
+- The top clean wave is `jev`, with at least 200 repos, `laya` and `typesafe` among its aliases, and `NandhaKishorM/laya` as anchor.
+- `opus`, a wave 8 days old, is clean and contains `yihui-dev/awesome-opus5-5-videos`.
+- Exactly one flagged wave carries `apimart`. It has at least 150 repos and keeps `browser-use/jev-ultrafast`, `KKKKhazix/AIHOT`, and `ghuntley/underclass` out.
+- Script farms of 5 to 9 copies are not clean waves, and `timoncool/YuE2-Studio` is in no flagged wave.
+- Clean waves have a cohesion of 0.5 or more, sort by velocity, and never start with a stop word. Each repo appears in one wave at most.
+- `dailyStars` counts only complete days, sums across repos, and fills missing days with 0. The test uses the real history of `NandhaKishorM/laya`.
+
+## Layout
 
 ```
-starwave/
-  package.json  tsconfig.json  LICENSE (MIT)  .gitignore (node_modules, dist)
-  README.md  README.zh-CN.md  DESIGN.md
-  src/{types,github,waves,render,cli,index}.ts
-  test/waves.test.ts  test/fixtures/2026-09-30.json.gz
-  skills/starwave/SKILL.md # agent skill: how to run starwave and summarize the result
-  .github/workflows/{ci,daily}.yml
-  data/                   # daily snapshots, committed by the workflow
+src/{types,github,waves,history,render,cli,index}.ts
+test/{waves,history}.test.ts, test/fixtures/2026-09-30.json.gz
+skills/starwave/SKILL.md          agent skill
+.claude-plugin/, .codex-plugin/   plugin manifests
+scripts/svg.mjs                   README image from a snapshot
+scripts/readme.mjs                README table from --md output
+docs/index.html, docs/latest.json the site
+data/YYYY-MM-DD.json.gz           daily archive
 ```
-
-## v1.1 (shipped 2026-09-30, commit after 75d4f17)
-
-`GET /repos/{owner}/{repo}/stargazers/history` returns weekly buckets `{ week, total, days[7] }` (Sunday first) under the 5,000 req/h core limit. `src/history.ts` flattens them to dated counts. After `detectWaves`, the CLI enriches every wave whose anchor's history is not yet known (live run, or `--from` with a token): `velocity3d` = stars in the last 3 complete days, `spark` = the last 14 days as block characters. History responses cache under the same 6 h TTL; `--no-history` skips the enrichment entirely. Failures are per-anchor and silent beyond one stderr line, so `--from` stays usable offline.

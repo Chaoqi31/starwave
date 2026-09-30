@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>starwave: waves forming on GitHub right now</title>
+<meta name="description" content="GitHub Trending shows you the repos that are already famous. starwave shows you the waves forming right now: clusters of new repos that share a bursting term, ranked by stars per day, updated daily.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chaoqi31.github.io/starwave/">
+<meta property="og:title" content="starwave: waves forming on GitHub right now">
+<meta property="og:description" content="GitHub Trending shows you the repos that are already famous. starwave shows you the waves forming right now.">
+<meta property="og:image" content="https://chaoqi31.github.io/starwave/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#e2eff3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e2e47'/%3E%3Cpath d='M3 22c5 0 6-12 11-12s5 9 8 9' fill='none' stroke='%23e2eff3' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M22 19c3 0 4-5 7-5' fill='none' stroke='%23f472b6' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{--ink:#0e2e47;--sea:#25719b;--now:#b01673;--mute:#50636f;--quiet:#6f7f89;--shoal:#e2eff3;--rule:#c4d8e0;--paper:#fff;
+--serif:Palatino,"Palatino Linotype","Book Antiqua","URW Palladio L",P052,serif;
+--sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+--mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;color-scheme:light}
+:root:lang(zh){--serif:Palatino,"Palatino Linotype","Book Antiqua","Songti SC","Noto Serif CJK SC","Source Han Serif SC","Microsoft YaHei",serif}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--sans);font-variant-numeric:tabular-nums}
+:root:lang(zh) body{line-height:1.7}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.2em}
+a:hover{color:var(--sea)}
+:focus-visible{outline:3px solid var(--sea);outline-offset:2px}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:24px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-64px;z-index:2;background:var(--ink);color:var(--paper);padding:10px 14px}
+.skip:focus{top:12px}
+
+.top{background:var(--shoal);padding:22px 0 30px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.mark{margin:0;font:italic 400 34px/1 var(--serif)}
+.lang{display:flex;gap:4px}
+.lang button{font:14px/1 var(--sans);color:var(--mute);background:none;border:1px solid transparent;border-radius:3px;padding:7px 10px;cursor:pointer}
+.lang button:hover{color:var(--ink)}
+.lang button[aria-pressed="true"]{color:var(--ink);background:var(--paper);border-color:var(--rule)}
+.pitch{margin:60px 0 34px;max-width:21em;font:400 clamp(30px,4.4vw,50px)/1.14 var(--serif)}
+.pitch span{display:block;text-wrap:balance}
+.run{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px}
+.cmd{display:flex;max-width:100%;background:var(--paper);border:1px solid var(--ink);border-radius:4px}
+.cmd code{font:15px/1.2 var(--mono);padding:14px 16px;white-space:nowrap;overflow-x:auto}
+.cmd button{flex:none;min-width:5.6em;font:600 14px/1 var(--sans);color:var(--ink);background:none;border:0;border-left:1px solid var(--ink);border-radius:0 3px 3px 0;padding:0 16px;cursor:pointer}
+.cmd button:hover{background:var(--shoal)}
+.links{margin:0;display:flex;flex-wrap:wrap;gap:6px 22px;font-size:15px}
+.needs{margin:12px 0 0;font-size:14px;color:var(--mute)}
+.note{margin:44px 0 0;font-size:15px;max-width:60em}
+
+.sea{margin:18px 0 0}
+.sea-svg{position:relative}
+.sea-svg svg{display:block;width:100%}
+.sea-svg.go::after{content:"";position:absolute;inset:0;background:var(--shoal);transform:scaleX(0);transform-origin:100% 50%;animation:reveal 1.8s cubic-bezier(.45,.05,.25,1) .1s both}
+@keyframes reveal{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+.ridge{fill:var(--shoal)}
+.crest{fill:none;stroke:var(--ink);stroke-width:1.6;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.tail{fill:none;stroke:var(--now);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.scale rect{fill:var(--paper);stroke:var(--ink);stroke-width:1;vector-effect:non-scaling-stroke}
+.scale .odd{fill:var(--ink)}
+.sea-labels{position:absolute;inset:0}
+.sea-labels a{position:absolute;white-space:nowrap;text-decoration:none;font:italic 17px/1 var(--serif);text-shadow:0 0 2px var(--shoal),0 0 4px var(--shoal),0 0 8px var(--shoal)}
+.sea-labels a:hover{text-decoration:underline}
+.sea-dates{display:flex;justify-content:space-between;margin-top:6px;font-size:13px;color:var(--mute)}
+.sea figcaption{margin-top:8px;font-size:14px;color:var(--mute);max-width:46em}
+
+.sec{margin-top:88px}
+.sec h2{margin:0;font:400 clamp(30px,3.4vw,40px)/1.15 var(--serif)}
+.sec h2+.steps{margin-top:28px}
+.sub{margin:10px 0 30px;max-width:44em;color:var(--mute)}
+.status{color:var(--mute)}
+
+.wave{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);margin:0 0 24px;border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.wave>div{padding:28px 30px 30px}
+.wave>div:first-child{background:var(--shoal)}
+.wave h3{margin:0;font:italic 400 clamp(34px,3.6vw,46px)/1.05 var(--serif);overflow-wrap:anywhere}
+.aka{margin:8px 0 0;font-size:14px;color:var(--mute)}
+.aka i{font:italic 15px var(--serif);color:var(--ink)}
+.stats{display:flex;flex-wrap:wrap;gap:4px 18px;margin:16px 0 0;font-size:14px;color:var(--mute)}
+.stats div{display:flex;gap:5px;align-items:baseline}
+.stats dd{order:-1;margin:0;font-size:15px;font-weight:600;color:var(--ink)}
+.stats .fs dd{order:0}
+.rates{display:flex;flex-wrap:wrap;gap:12px 40px;margin:26px 0 18px}
+.rate{margin:0}
+.rate b{font:600 30px/1 var(--sans);letter-spacing:-.01em}
+.rate .u{margin-left:2px;font-size:15px;color:var(--mute)}
+.rate .l{display:block;margin-top:6px;font-size:13px;color:var(--mute)}
+.rate.now b{color:var(--now)}
+.rate.now .l::before{content:"";display:inline-block;width:8px;height:8px;margin-right:6px;background:var(--now)}
+.peak{margin:0 0 6px;font-size:12px;color:var(--mute)}
+.chart svg{display:block;width:100%;height:92px}
+.b{fill:var(--sea)}
+.b.now{fill:var(--now)}
+.axis{stroke:var(--ink);stroke-width:1;vector-effect:non-scaling-stroke}
+.dates{display:flex;justify-content:space-between;margin-top:6px;font-size:12px;color:var(--mute)}
+.wave h4{margin:0 0 2px;font:600 13px/1.4 var(--sans);color:var(--mute)}
+.repos{list-style:none;margin:0;padding:0}
+.repos li{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:14px;padding:10px 0;border-top:1px solid var(--rule)}
+.repos li:first-child{border-top:0}
+.repos a,.repos .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.repos a{text-decoration-color:var(--rule)}
+.repos a:hover{text-decoration-color:currentColor}
+.st{font-size:14px;color:var(--mute);white-space:nowrap}
+.sg{color:var(--sea)}
+.d{grid-column:1/-1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;color:var(--mute)}
+
+.flagged{border:1px dashed #93a8b2}
+.flagged>div{padding:22px 26px 24px}
+.flagged>div:first-child{background:#f3f6f7}
+.flagged h3{font-size:28px;color:var(--mute)}
+.flagged .rates{margin:18px 0 12px}
+.flagged .rate b,.flagged .rate.now b{font-size:20px;color:var(--mute)}
+.flagged .rate.now .l::before{background:#34444f}
+.flagged .b{fill:var(--quiet)}
+.flagged .b.now{fill:#34444f}
+.flagged .chart svg{height:52px}
+.flags{display:grid;grid-template-columns:max-content minmax(0,1fr);align-items:baseline;gap:10px 14px;margin:0 0 24px;font-size:14px;color:var(--mute)}
+.flags dt,.flags dd{margin:0}
+.chip{justify-self:start;padding:6px 18px 6px 9px;font:600 13px/1 var(--sans);color:var(--ink);background:#e1e8eb;border-left:2px solid var(--mute);clip-path:polygon(0 0,100% 0,calc(100% - 8px) 50%,100% 100%,0 100%)}
+
+.steps{list-style:none;margin:0;padding:0;counter-reset:step;max-width:780px}
+.steps li{counter-increment:step;display:flex;gap:20px;padding:18px 0;border-top:1px solid var(--rule)}
+.steps li::before{content:counter(step);flex:none;width:1.4em;font:400 30px/1 var(--serif);color:var(--sea)}
+.steps b{display:block;margin-bottom:2px}
+.steps p{margin:0;color:var(--mute)}
+
+.foot{margin-top:96px;padding:28px 0 32px;background:var(--shoal);font-size:14px;color:var(--mute)}
+.foot p{margin:0}
+.foot a{color:var(--ink)}
+
+@media (max-width:860px){.wave{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){
+.wrap{padding-inline:18px}
+.top{padding-top:16px}
+.mark{font-size:28px}
+.pitch{margin:40px 0 28px}
+.cmd code{padding:13px 12px;font-size:13.5px}
+.cmd button{min-width:4.6em;padding:0 12px}
+.note{margin-top:34px}
+.sea-labels a{font-size:15px}
+.sec{margin-top:64px}
+.wave>div,.flagged>div{padding:20px 18px 22px}
+.flags{grid-template-columns:minmax(0,1fr);gap:4px}
+.flags dd{margin-bottom:10px}
+.rates{gap:12px 28px}
+.rate b{font-size:26px}
+.steps li{gap:12px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#waves" data-t="skip">Skip to the waves</a>
+<header class="top">
+<div class="wrap">
+<div class="bar">
+<h1 class="mark">starwave</h1>
+<div class="lang" role="group" aria-label="Language">
+<button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button>
+<button type="button" data-lang="zh" lang="zh-CN" aria-pressed="false">中文</button>
+</div>
+</div>
+<p class="pitch"><span data-t="pitchA">GitHub Trending shows you the repos that are already famous.</span> <span data-t="pitchB">starwave shows you the waves forming right now.</span></p>
+<div class="run">
+<div class="cmd"><code id="cmd">npx github:Chaoqi31/starwave</code><button type="button" id="copy" data-t="copy">Copy</button></div>
+<p class="links"><a href="https://github.com/Chaoqi31/starwave" data-t="linkRepo">Source on GitHub</a> <a href="latest.json" data-t="linkData">Raw data: latest.json</a></p>
+</div>
+<span class="sr" id="copy-status" role="status"></span>
+<p class="needs" data-t="needs">Needs Node 20 or newer, plus GITHUB_TOKEN or a logged-in gh. The first run takes 3 to 5 minutes.</p>
+<p class="note" id="note" data-t="loadingNote">Loading today's snapshot.</p>
+<figure class="sea" id="sea" hidden>
+<div class="sea-svg"><svg id="sea-svg" preserveAspectRatio="none" role="img" aria-labelledby="sea-cap"></svg><div class="sea-labels" id="sea-labels"></div></div>
+<div class="sea-dates" id="sea-dates"></div>
+<figcaption id="sea-cap"></figcaption>
+</figure>
+</div>
+</header>
+<main>
+<section class="sec wrap" id="waves" aria-labelledby="h-waves">
+<h2 id="h-waves" data-t="wavesH">Waves forming now</h2>
+<p class="sub" id="waves-sub"></p>
+<div id="wave-list"><p class="status" data-t="loading">Loading today's waves.</p><noscript><p class="status">This list needs JavaScript. The same waves are in the <a href="https://github.com/Chaoqi31/starwave#readme">README on GitHub</a>.</p></noscript></div>
+</section>
+<section class="sec wrap" id="coordinated" aria-labelledby="h-coord">
+<h2 id="h-coord" data-t="coordH">Looks coordinated</h2>
+<p class="sub" data-t="coordIntro">These clusters grew fast too. The way they grew matches patterns that coordinated publishing leaves behind. The flags are heuristics, not verdicts. Open a few repos and judge for yourself.</p>
+<div id="flag-list"></div>
+</section>
+<section class="sec wrap" id="how" aria-labelledby="h-how">
+<h2 id="h-how" data-t="howH">How it works</h2>
+<ol class="steps">
+<li><div><b data-t="s1t">Fetch</b><p data-t="s1">Pull every repo created in the last 14 days with 40 or more stars from the GitHub search API, plus a baseline of repos from the 60 days before with 150 or more.</p></div></li>
+<li><div><b data-t="s2t">Split into terms</b><p data-t="s2">Turn each repo into terms: words from its name and description, plus its topics. Repos whose terms match another owner's repo at 60% or more are set aside as clones.</p></div></li>
+<li><div><b data-t="s3t">Find bursts</b><p data-t="s3">For each term, divide its recent repos by the number the baseline predicts. A term needs 5 or more repos and a burst of 3 or more.</p></div></li>
+<li><div><b data-t="s4t">Merge into waves</b><p data-t="s4">Merge bursting terms whose repos overlap by 40% or more. Each group is a wave, ranked by stars per day, with 14 days of star history.</p></div></li>
+<li><div><b data-t="s5t">Flag</b><p data-t="s5">Flag a wave when 60% or more of its repos were created on one day, when it has fewer owners than half its repos, when its top repo holds under 10% of the stars, or when it is built from clones.</p></div></li>
+</ol>
+</section>
+</main>
+<footer class="foot">
+<div class="wrap"><p><span data-t="foot">MIT license. Updated daily by GitHub Actions.</span> <a href="https://github.com/Chaoqi31/starwave">github.com/Chaoqi31/starwave</a></p></div>
+</footer>
+<script>
+(() => {
+"use strict";
+const NS = "http://www.w3.org/2000/svg";
+const DAY = 864e5;
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const REPO_NAME = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
+const REPO_URL = "https://github.com/Chaoqi31/starwave";
+
+const T = {
+  en: {
+    title: "starwave: waves forming on GitHub right now",
+    skip: "Skip to the waves",
+    langLabel: "Language",
+    pitchA: "GitHub Trending shows you the repos that are already famous.",
+    pitchB: "starwave shows you the waves forming right now.",
+    copy: "Copy", copied: "Copied", selected: "Selected",
+    linkRepo: "Source on GitHub",
+    linkData: "Raw data: latest.json",
+    needs: "Needs Node 20 or newer, plus GITHUB_TOKEN or a logged-in gh. The first run takes 3 to 5 minutes.",
+    loadingNote: "Loading today's snapshot.",
+    note: (rc, range, bc, days, at) => `${rc} repos created ${range}, compared against ${bc} from the ${days} days before. Updated ${at}.`,
+    at: (d, hm) => `${d}, ${hm}\u00a0UTC`,
+    seaCap: (a, b) => `Each line is one wave: stars per day from ${a} to ${b}, scaled to its own peak. Magenta marks the last 3 days.`,
+    wavesH: "Waves forming now",
+    wavesSub: (n) => `${n} ${n === 1 ? "cluster" : "clusters"} of new repos that share a bursting term, ranked by stars per day since launch.`,
+    loading: "Loading today's waves.",
+    wavesNone: "No clean waves in today's snapshot.",
+    mergedPre: "Merged with ", mergedSep: ", ",
+    mergedPost: (more) => (more ? ` and ${more} more.` : "."),
+    repos: "repos", owners: "owners", stars: "stars", firstSeen: "first seen",
+    perDay: "/day", sinceLaunch: "since launch", last3: "last 3 days",
+    peak: (v, d) => `Peak ${v} on ${d}`,
+    chartLabel: (a, b, list) => `Stars per day from ${a} to ${b}: ${list}.`,
+    listSep: ", ",
+    noHistory: "No star history for this wave.",
+    topRepos: "Top repos",
+    starWord: "stars",
+    coordH: "Looks coordinated",
+    coordIntro: "These clusters grew fast too. The way they grew matches patterns that coordinated publishing leaves behind. The flags are heuristics, not verdicts. Open a few repos and judge for yourself.",
+    coordNone: "Nothing is flagged in today's snapshot.",
+    checkRepos: "Most-starred repos",
+    flag: {
+      "same-day": (x) => `60% or more of the repos were created on one day. Here ${x.k} of ${x.n}, on ${x.d}.`,
+      "few-owners": (x) => `Fewer owners than half the repos. Here ${x.o} owners for ${x.n} repos.`,
+      "flat-stars": (x) => `The top repo holds under 10% of the stars. Here ${x.p}%.`,
+      "near-duplicate": () => "Built from clones: repos whose terms match another owner's repo almost exactly.",
+    },
+    howH: "How it works",
+    s1t: "Fetch",
+    s1: "Pull every repo created in the last 14 days with 40 or more stars from the GitHub search API, plus a baseline of repos from the 60 days before with 150 or more.",
+    s2t: "Split into terms",
+    s2: "Turn each repo into terms: words from its name and description, plus its topics. Repos whose terms match another owner's repo at 60% or more are set aside as clones.",
+    s3t: "Find bursts",
+    s3: "For each term, divide its recent repos by the number the baseline predicts. A term needs 5 or more repos and a burst of 3 or more.",
+    s4t: "Merge into waves",
+    s4: "Merge bursting terms whose repos overlap by 40% or more. Each group is a wave, ranked by stars per day, with 14 days of star history.",
+    s5t: "Flag",
+    s5: "Flag a wave when 60% or more of its repos were created on one day, when it has fewer owners than half its repos, when its top repo holds under 10% of the stars, or when it is built from clones.",
+    foot: "MIT license. Updated daily by GitHub Actions.",
+    errA: "latest.json did not load.",
+    errLink: "See today's table in the README on GitHub.",
+  },
+  zh: {
+    title: "starwave：GitHub 上正在成形的浪潮",
+    skip: "跳到浪潮列表",
+    langLabel: "语言",
+    pitchA: "GitHub Trending 给你看已经出名的仓库。",
+    pitchB: "starwave 给你看此刻正在成形的浪潮。",
+    copy: "复制", copied: "已复制", selected: "已选中",
+    linkRepo: "GitHub 源码",
+    linkData: "原始数据：latest.json",
+    needs: "需要 Node 20 或更新版本，以及 GITHUB_TOKEN 或已登录的 gh。首次运行要 3 到 5 分钟。",
+    loadingNote: "正在加载今天的快照。",
+    note: (rc, range, bc, days, at) => `${range}新建的 ${rc} 个仓库，对照此前 ${days} 天的 ${bc} 个。更新于 ${at}。`,
+    at: (d, hm) => `${d} ${hm}\u00a0UTC`,
+    seaCap: (a, b) => `每条线是一个浪潮：${a}到${b}每天新增的 star，按各自的峰值缩放。品红色是最近 3 天。`,
+    wavesH: "正在成形的浪潮",
+    wavesSub: (n) => `${n} 组新仓库，每组共享一个突增的词，按创建以来的日均 star 排序。`,
+    loading: "正在加载今天的浪潮。",
+    wavesNone: "今天的快照里没有干净的浪潮。",
+    mergedPre: "合并了 ", mergedSep: "、",
+    mergedPost: (more, total) => (more ? ` 等 ${total} 个词。` : "。"),
+    repos: "个仓库", owners: "个账号", stars: "star", firstSeen: "首次出现",
+    perDay: "/天", sinceLaunch: "创建以来", last3: "最近 3 天",
+    peak: (v, d) => `${d}达到峰值 ${v}`,
+    chartLabel: (a, b, list) => `${a}至${b}每天新增的 star：${list}。`,
+    listSep: "、",
+    noHistory: "这个浪潮没有 star 历史数据。",
+    topRepos: "star 最多的仓库",
+    starWord: "star",
+    coordH: "疑似协同",
+    coordIntro: "这些仓库簇也涨得很快，但涨法很像批量协同发布留下的痕迹。这些标记只是启发式判断，不是定论。点开几个仓库，自己判断。",
+    coordNone: "今天的快照里没有被标记的仓库簇。",
+    checkRepos: "star 最多的仓库",
+    flag: {
+      "same-day": (x) => `六成以上的仓库创建于同一天。这里是 ${x.n} 个中的 ${x.k} 个，都在${x.d}。`,
+      "few-owners": (x) => `账号数不到仓库数的一半。这里是 ${x.n} 个仓库、${x.o} 个账号。`,
+      "flat-stars": (x) => `star 最多的仓库也不到总数的 10%。这里只有 ${x.p}%。`,
+      "near-duplicate": () => "由克隆组成：仓库的词项和另一个账号的某个仓库几乎一模一样。",
+    },
+    howH: "原理",
+    s1t: "抓取",
+    s1: "用 GitHub search API 拉取最近 14 天创建、star 不少于 40 的全部仓库，再拉取此前 60 天、star 不少于 150 的仓库作为基线。",
+    s2t: "拆词",
+    s2: "把每个仓库拆成一组词：名称和描述里的单词，加上 topics。和另一个账号的仓库词项重合 60% 以上的，先当作克隆放到一边。",
+    s3t: "找突增",
+    s3: "每个词的近期仓库数，除以基线预测的数量，就是突增度。至少 5 个仓库、突增度不低于 3 的词才算数。",
+    s4t: "合并成浪潮",
+    s4: "仓库重叠 40% 以上的突增词合并成一个浪潮，按日均 star 排序，并附上 14 天的 star 历史。",
+    s5t: "打标记",
+    s5: "六成以上的仓库在同一天创建、账号数不到仓库数的一半、榜首仓库不到总 star 的 10%、由克隆组成，满足任意一条就打上标记。",
+    foot: "MIT 许可。每天由 GitHub Actions 自动更新。",
+    errA: "latest.json 没有加载成功。",
+    errLink: "去 GitHub 的 README 看今天的表格。",
+  },
+};
+
+const $ = (s) => document.querySelector(s);
+let lang = pickLang();
+let snap = null;
+let failed = false;
+
+function pickLang() {
+  const q = new URLSearchParams(location.search).get("lang");
+  if (q === "en" || q === "zh") return q;
+  let saved = null;
+  try { saved = localStorage.getItem("starwave-lang"); } catch (e) { /* storage blocked */ }
+  if (saved === "en" || saved === "zh") return saved;
+  return /^zh/i.test(navigator.language || "") ? "zh" : "en";
+}
+
+const t = (k) => T[lang][k];
+const fmt = (v) => {
+  const n = Math.round(v);
+  return n < 1e3 ? String(n) : n < 1e6 ? `${(n / 1e3).toFixed(1)}k` : `${(n / 1e6).toFixed(1)}m`;
+};
+const int = (v) => Number(v).toLocaleString("en-US");
+const utc = (s) => new Date(Date.parse(`${String(s).slice(0, 10)}T00:00:00Z`));
+const md = (d) => (lang === "zh" ? `${d.getUTCMonth() + 1}月${d.getUTCDate()}日` : `${MON[d.getUTCMonth()]}\u00a0${d.getUTCDate()}`);
+const span = (a, b) => {
+  const end = a.getUTCMonth() === b.getUTCMonth() ? (lang === "zh" ? `${b.getUTCDate()}日` : String(b.getUTCDate())) : md(b);
+  return lang === "zh" ? `${md(a)}至${end}` : `${md(a)} to ${end}`;
+};
+// daily[i] covers the i-th of the n complete UTC days before the snapshot date
+const days = (n) => {
+  const end = utc(snap.generatedAt).getTime();
+  return Array.from({ length: n }, (_, i) => new Date(end - (n - i) * DAY));
+};
+
+function el(tag, props, ...kids) {
+  const e = document.createElement(tag);
+  if (props) Object.assign(e, props);
+  for (const k of kids) if (k != null && k !== "") e.append(k);
+  return e;
+}
+function svg(tag, attrs) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+
+function render() {
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+  document.title = t("title");
+  for (const n of document.querySelectorAll("[data-t]")) n.textContent = t(n.dataset.t);
+  $(".lang").setAttribute("aria-label", t("langLabel"));
+  for (const b of document.querySelectorAll(".lang button")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+  if (!failed && snap) {
+    try {
+      renderNote();
+      renderSea();
+      renderWaves();
+      renderFlagged();
+    } catch (e) {
+      failed = true;
+    }
+  }
+  if (failed) renderError();
+}
+
+function renderError() {
+  $("#note").textContent = t("errA");
+  $("#waves-sub").textContent = "";
+  $("#wave-list").replaceChildren(el("p", { className: "status" }, `${t("errA")} `, el("a", { href: `${REPO_URL}#readme`, textContent: t("errLink") })));
+  $("#sea").hidden = true;
+  $("#coordinated").hidden = true;
+}
+
+function renderNote() {
+  const rw = snap.recentWindow;
+  const bw = snap.baselineWindow;
+  const baseDays = Math.round((utc(bw.to) - utc(bw.from)) / DAY) + 1;
+  const at = t("at")(md(utc(snap.generatedAt)), new Date(snap.generatedAt).toISOString().slice(11, 16));
+  $("#note").textContent = t("note")(int(snap.recentCount), span(utc(rw.from), utc(rw.to)), int(snap.baselineCount), baseDays, at);
+}
+
+const isClean = (w) => !(w.flags && w.flags.length);
+
+function renderSea() {
+  const clean = snap.waves.filter(isClean);
+  const rows = clean.filter((w) => Array.isArray(w.daily) && w.daily.length > 2).slice(0, 8);
+  const fig = $("#sea");
+  fig.hidden = !rows.length;
+  if (!rows.length) return;
+  const box = $("#sea-svg");
+  const labels = $("#sea-labels");
+  const W = 1000, A = 56, G = 32, TOP = 26, k = rows[0].daily.length;
+  const H = TOP + A + (rows.length - 1) * G + 22;
+  box.replaceChildren();
+  labels.replaceChildren();
+  box.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  box.style.height = `${H}px`;
+  rows.forEach((w, i) => {
+    const d = w.daily;
+    const peak = Math.max(1, ...d);
+    const base = TOP + A + i * G;
+    const p = d.map((v, j) => [((j + 0.5) * W) / d.length, base - (v / peak) * A]);
+    const last = p[p.length - 1];
+    const curve = `${bezier(p, base, 0)}L${W} ${last[1]}`;
+    const start = `L${p[0][0]} ${p[0][1]}`;
+    box.append(
+      svg("path", { d: `M0 ${base}L0 ${p[0][1]}${start}${curve}L${W} ${base}Z`, class: "ridge" }),
+      svg("path", { d: `M0 ${p[0][1]}${start}${curve}`, class: "crest" }),
+      svg("path", { d: `M${p[p.length - 3].join(" ")}${bezier(p, base, p.length - 3)}L${W} ${last[1]}`, class: "tail" }),
+    );
+    // name each wave on its summit; summits are always G apart vertically, so names never collide
+    const x = p[d.indexOf(Math.max(...d))][0] / W;
+    const a = el("a", { href: `#wave-${clean.indexOf(w) + 1}`, textContent: w.id });
+    a.style.left = `${(x * 100).toFixed(2)}%`;
+    a.style.top = `${base - A - 21}px`;
+    a.style.transform = `translateX(${x < 0.12 ? 0 : x > 0.88 ? -100 : -50}%)`;
+    labels.append(a);
+  });
+  const scale = svg("g", { class: "scale" });
+  for (let j = 0; j < k; j++) scale.append(svg("rect", { x: (j * W) / k, y: H - 8, width: W / k, height: 6, class: j % 2 ? "odd" : "" }));
+  box.append(scale);
+  const ds = days(k);
+  $("#sea-dates").replaceChildren(el("span", { textContent: md(ds[0]) }), el("span", { textContent: md(ds[k - 1]) }));
+  $("#sea-cap").textContent = t("seaCap")(md(ds[0]), md(ds[k - 1]));
+  $(".sea-svg").classList.add("go");
+}
+
+// Catmull-Rom through the points, as cubic Bezier segments; control points never dip below the baseline
+function bezier(p, base, from) {
+  let s = "";
+  for (let i = from; i < p.length - 1; i++) {
+    const a = p[i - 1] || p[i], b = p[i], c = p[i + 1], d = p[i + 2] || c;
+    const n = (v) => v.toFixed(1);
+    s += `C${n(b[0] + (c[0] - a[0]) / 6)} ${n(Math.min(base, b[1] + (c[1] - a[1]) / 6))} ${n(c[0] - (d[0] - b[0]) / 6)} ${n(Math.min(base, c[1] - (d[1] - b[1]) / 6))} ${n(c[0])} ${n(c[1])}`;
+  }
+  return s;
+}
+
+function renderWaves() {
+  const clean = snap.waves.filter(isClean);
+  $("#waves-sub").textContent = t("wavesSub")(clean.length);
+  const list = $("#wave-list");
+  list.replaceChildren(...clean.map((w, i) => card(w, i, false)));
+  if (!clean.length) list.append(el("p", { className: "status", textContent: t("wavesNone") }));
+}
+
+function renderFlagged() {
+  const flagged = snap.waves.filter((w) => !isClean(w));
+  $("#coordinated").hidden = false;
+  const list = $("#flag-list");
+  list.replaceChildren(...flagged.map((w, i) => card(w, i, true)));
+  if (!flagged.length) list.append(el("p", { className: "status", textContent: t("coordNone") }));
+}
+
+function card(w, i, flagged) {
+  const id = `${flagged ? "flag" : "wave"}-${i + 1}`;
+  const art = el("article", { className: flagged ? "wave flagged" : "wave", id });
+  art.setAttribute("aria-labelledby", `${id}-h`);
+  const main = el("div", {}, el("h3", { id: `${id}-h`, textContent: w.id }), aliases(w, flagged ? 3 : 5), stats(w), rates(w), chart(w));
+  const side = el("div", {});
+  if (flagged) side.append(flagList(w));
+  side.append(el("h4", { textContent: t(flagged ? "checkRepos" : "topRepos") }), repoList(w.repos.slice(0, flagged ? 3 : 5)));
+  art.append(main, side);
+  return art;
+}
+
+function aliases(w, count) {
+  const all = Array.isArray(w.aliases) ? w.aliases : [];
+  if (!all.length) return "";
+  const shown = all.slice(0, count);
+  const p = el("p", { className: "aka" }, t("mergedPre"));
+  shown.forEach((term, j) => p.append(j ? t("mergedSep") : "", el("i", { textContent: term })));
+  p.append(t("mergedPost")(all.length - shown.length, all.length));
+  return p;
+}
+
+function stats(w) {
+  const dl = el("dl", { className: "stats" });
+  const pair = (label, value, cls) => dl.append(el("div", { className: cls || "" }, el("dt", { textContent: label }), el("dd", { textContent: value })));
+  pair(t("repos"), int(w.repoCount));
+  pair(t("owners"), int(w.ownerCount));
+  pair(t("stars"), fmt(w.stars));
+  pair(t("firstSeen"), md(utc(w.firstSeen)), "fs");
+  return dl;
+}
+
+function rates(w) {
+  const rate = (v, label, cls) =>
+    el("p", { className: `rate${cls}` }, el("b", { textContent: fmt(v) }), el("span", { className: "u", textContent: t("perDay") }), el("span", { className: "l", textContent: label }));
+  const box = el("div", { className: "rates" }, rate(w.velocity, t("sinceLaunch"), ""));
+  if (typeof w.velocity3d === "number") box.append(rate(w.velocity3d, t("last3"), " now"));
+  return box;
+}
+
+function chart(w) {
+  const d = w.daily;
+  if (!Array.isArray(d) || !d.length) return el("p", { className: "status", textContent: t("noHistory") });
+  const n = d.length;
+  const max = Math.max(...d);
+  const ds = days(n);
+  const s = svg("svg", {
+    viewBox: `0 0 ${n * 10} 100`,
+    preserveAspectRatio: "none",
+    role: "img",
+    "aria-label": t("chartLabel")(md(ds[0]), md(ds[n - 1]), d.map(int).join(t("listSep"))),
+  });
+  d.forEach((v, j) => {
+    const h = v > 0 ? Math.max(1.5, (v / max) * 94) : 0;
+    s.append(svg("rect", { x: j * 10 + 1.2, y: 100 - h, width: 7.6, height: h, class: j >= n - 3 ? "b now" : "b" }));
+  });
+  s.append(svg("line", { x1: 0, y1: 99.5, x2: n * 10, y2: 99.5, class: "axis" }));
+  return el("div", { className: "chart" },
+    max > 0 ? el("p", { className: "peak", textContent: t("peak")(fmt(max), md(ds[d.indexOf(max)])) }) : "",
+    s,
+    el("div", { className: "dates" }, el("span", { textContent: md(ds[0]) }), el("span", { textContent: md(ds[n - 1]) })));
+}
+
+function repoList(repos) {
+  const ol = el("ol", { className: "repos" });
+  for (const r of repos) {
+    const name = String(r.fullName || "");
+    const desc = String(r.description || "").replace(/\s+/g, " ").trim();
+    const link = REPO_NAME.test(name)
+      ? el("a", { href: `https://github.com/${name}`, textContent: name })
+      : el("span", { className: "nm", textContent: name });
+    const glyph = el("span", { className: "sg", textContent: "★ " });
+    glyph.setAttribute("aria-hidden", "true");
+    const stars = el("span", { className: "st" }, glyph, fmt(r.stars), el("span", { className: "sr", textContent: ` ${t("starWord")}` }));
+    ol.append(el("li", {}, link, stars, desc ? el("span", { className: "d", textContent: desc, title: desc }) : ""));
+  }
+  return ol;
+}
+
+function flagList(w) {
+  const byDay = {};
+  for (const r of w.repos) byDay[r.createdAt] = (byDay[r.createdAt] || 0) + 1;
+  const [topDay, k] = Object.entries(byDay).sort((a, b) => b[1] - a[1])[0] || ["", 0];
+  const facts = { k, n: w.repoCount, d: topDay ? md(utc(topDay)) : "", o: w.ownerCount, p: ((w.anchor.stars / Math.max(1, w.stars)) * 100).toFixed(1) };
+  const texts = t("flag");
+  const dl = el("dl", { className: "flags" });
+  for (const f of w.flags) {
+    const say = Object.prototype.hasOwnProperty.call(texts, f) ? texts[f](facts) : "";
+    dl.append(el("dt", { className: "chip", textContent: f }), el("dd", { textContent: say }));
+  }
+  return dl;
+}
+
+$(".lang").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-lang]");
+  if (!b || b.dataset.lang === lang) return;
+  lang = b.dataset.lang;
+  try { localStorage.setItem("starwave-lang", lang); } catch (err) { /* storage blocked */ }
+  render();
+});
+
+$("#copy").addEventListener("click", async () => {
+  const code = $("#cmd");
+  const btn = $("#copy");
+  let key = "copied";
+  try {
+    await navigator.clipboard.writeText(code.textContent);
+  } catch (err) {
+    key = "selected";
+    const range = document.createRange();
+    range.selectNodeContents(code);
+    const sel = getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+  }
+  btn.textContent = t(key);
+  $("#copy-status").textContent = t(key);
+  clearTimeout(btn.timer);
+  btn.timer = setTimeout(() => {
+    btn.textContent = t("copy");
+    $("#copy-status").textContent = "";
+  }, 2000);
+});
+
+render();
+fetch("latest.json", { cache: "no-cache" })
+  .then((r) => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  })
+  .then((s) => {
+    if (!s || !Array.isArray(s.waves)) throw new Error("not a snapshot");
+    snap = s;
+    render();
+  })
+  .catch(() => {
+    failed = true;
+    render();
+  });
+})();
+</script>
+</body>
+</html>

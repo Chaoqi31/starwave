@@ -1,6 +1,13 @@
 {
   "name": "starwave",
-  "description": "Find the GitHub waves forming right now: clusters of new repos that share a bursting term, ranked by star velocity, with coordinated-looking clusters flagged. Runs npx starwave and summarizes the result.",
+  "description": "Find the GitHub waves forming right now: clusters of new repos that share a bursting term, ranked by stars per day, with clone farms flagged. The skill runs starwave and summarizes the result.",
   "version": "0.1.0",
-  "license": "MIT"
+  "author": {
+    "name": "Chaoqi",
+    "url": "https://github.com/Chaoqi31"
+  },
+  "homepage": "https://chaoqi31.github.io/starwave/",
+  "repository": "https://github.com/Chaoqi31/starwave",
+  "license": "MIT",
+  "keywords": ["github", "trending", "open-source", "research"]
 }
