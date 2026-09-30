@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="436" viewBox="0 0 1000 436" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">
-<rect width="1000" height="436" rx="10" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="476" viewBox="0 0 1000 476" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">
+<rect width="1000" height="476" rx="10" fill="#0d1117"/>
 <circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>
 <text x="500" y="22" fill="#8b949e" text-anchor="middle">npx starwave</text>
 <text x="20" y="44" fill="#8b949e">starwave 2026-09-30T12:53:57.572Z</text>
@@ -7,18 +7,20 @@
 <text x="20" y="84" fill="#8b949e">baseline  2,828 repos  2026-07-18..2026-09-15  stars&gt;=150</text>
 <text x="20" y="104" fill="#8b949e"></text>
 <text x="20" y="124" fill="#e6a23c">Waves (6 of 6)</text>
-<text x="20" y="144" fill="#6c7a89"> #  wave                            repos  owners   stars    vel/d  first       anchor</text>
-<text x="20" y="164" fill="#d7dae0"> 1 <tspan fill="#7ee787" font-weight="600">jev</tspan> (+typesafe, 39 more)          249     232  145.5k  13.2k/d  2026-09-16  NandhaKishorM/laya</text>
-<text x="20" y="184" fill="#d7dae0"> 2 <tspan fill="#7ee787" font-weight="600">opus</tspan>                               21      20    7.0k   1.4k/d  2026-09-22  JohnHeibel/PDoomVid…</text>
-<text x="20" y="204" fill="#d7dae0"> 3 <tspan fill="#7ee787" font-weight="600">films</tspan>                               7       7    2.4k    498/d  2026-09-22  feitangyuan/onetake</text>
-<text x="20" y="224" fill="#d7dae0"> 4 <tspan fill="#7ee787" font-weight="600">steamos</tspan>                             5       5     637    114/d  2026-09-23  Droid-Deck/DroidDeck</text>
-<text x="20" y="244" fill="#d7dae0"> 5 <tspan fill="#7ee787" font-weight="600">qwen-image</tspan> (+qwen-image-2.1)        5       5     626     83/d  2026-09-21  nihui/qwenimage-ncn…</text>
-<text x="20" y="264" fill="#d7dae0"> 6 <tspan fill="#7ee787" font-weight="600">roblox</tspan>                              5       5     332     56/d  2026-09-17  caomod2077/Deobfusc…</text>
+<text x="20" y="144" fill="#6c7a89"> #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor</text>
+<text x="20" y="164" fill="#d7dae0"> 1 <tspan fill="#7ee787" font-weight="600">jev</tspan> (+typesafe, 39 more)        249     232  145.5k  13.2k/d    927/d  2026-09-16  NandhaKishorM/laya</text>
+<text x="20" y="184" fill="#d7dae0"> 2 <tspan fill="#7ee787" font-weight="600">opus</tspan>                             21      20    7.0k   1.4k/d    149/d  2026-09-22  JohnHeibel/PDoomV…</text>
+<text x="20" y="204" fill="#d7dae0"> 3 <tspan fill="#7ee787" font-weight="600">films</tspan>                             7       7    2.4k    498/d    225/d  2026-09-22  feitangyuan/oneta…</text>
+<text x="20" y="224" fill="#d7dae0"> 4 <tspan fill="#7ee787" font-weight="600">steamos</tspan>                           5       5     637    114/d     89/d  2026-09-23  Droid-Deck/DroidD…</text>
+<text x="20" y="244" fill="#d7dae0"> 5 <tspan fill="#7ee787" font-weight="600">qwen-image</tspan> (+qwen-image-2.1)      5       5     626     83/d     36/d  2026-09-21  nihui/qwenimage-n…</text>
+<text x="20" y="264" fill="#d7dae0"> 6 <tspan fill="#7ee787" font-weight="600">roblox</tspan>                            5       5     332     56/d     18/d  2026-09-17  caomod2077/Deobfu…</text>
 <text x="20" y="284" fill="#8b949e"></text>
 <text x="20" y="304" fill="#e6a23c">Looks coordinated (2 of 2)</text>
-<text x="20" y="324" fill="#6c7a89"> #  wave                            repos  owners   stars    vel/d  first       anchor</text>
-<text x="20" y="344" fill="#d7dae0"> 1 <tspan fill="#7ee787" font-weight="600">apimart</tspan> (+api-docs, 105 more)     173     163   14.8k   2.2k/d  2026-09-16  apimart001a/llm-gat…</text>
+<text x="20" y="324" fill="#6c7a89"> #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor</text>
+<text x="20" y="344" fill="#d7dae0"> 1 <tspan fill="#7ee787" font-weight="600">apimart</tspan> (+106 more)             173     163   14.8k   2.2k/d     15/d  2026-09-16  apimart001a/llm-g…</text>
 <text x="20" y="364" fill="#e06c75">    near-duplicate · same-day · flat-stars</text>
-<text x="20" y="384" fill="#d7dae0"> 2 <tspan fill="#7ee787" font-weight="600">auto-raid-complete-script</tspan>          44      39    1.9k    159/d  2026-09-18  1234512345z/Arcadia…</text>
+<text x="20" y="384" fill="#d7dae0"> 2 <tspan fill="#7ee787" font-weight="600">auto-raid-complete-script</tspan>        44      39    1.9k    159/d     14/d  2026-09-18  1234512345z/Arcad…</text>
 <text x="20" y="404" fill="#e06c75">    near-duplicate · same-day · flat-stars</text>
+<text x="20" y="424" fill="#8b949e"></text>
+<text x="20" y="444" fill="#8b949e">3d/d: stars in the last 3 full days (stargazers/history)</text>
 </svg>

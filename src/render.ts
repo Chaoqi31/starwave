@@ -16,7 +16,8 @@ export function renderTable(snapshot: Snapshot, { top, color }: { top: number; c
   const dim = (s: string) => (color ? `${DIM}${s}${RESET}` : s);
   const organic = snapshot.waves.filter((w) => w.flags.length === 0);
   const flagged = snapshot.waves.filter((w) => w.flags.length > 0);
-  const header = bold(tableLine("#", "wave", "repos", "owners", "stars", "vel/d", "first", "anchor"));
+  const withHistory = snapshot.waves.some((w) => w.velocity3d !== undefined);
+  const header = bold(tableLine(HEADER_CELLS(withHistory), COLUMN_WIDTHS(withHistory), COLUMN_LEFT(withHistory)));
   const lines = [
     `${bold("starwave")} ${dim(snapshot.generatedAt)}`,
     `recent    ${windowLine(snapshot.recentCount, snapshot.recentWindow)}`,
@@ -24,14 +25,15 @@ export function renderTable(snapshot: Snapshot, { top, color }: { top: number; c
     "",
     bold(`Waves (${Math.min(top, organic.length)} of ${organic.length})`),
     header,
-    ...organic.slice(0, top).map((wave, i) => tableRow(i + 1, wave)),
+    ...organic.slice(0, top).map((wave, i) => tableRow(i + 1, wave, withHistory)),
   ];
   if (flagged.length) {
     lines.push("", bold(`Looks coordinated (${Math.min(top, flagged.length)} of ${flagged.length})`), header);
     for (const [i, wave] of flagged.slice(0, top).entries()) {
-      lines.push(tableRow(i + 1, wave), dim(`    ${wave.flags.join(" · ")}`));
+      lines.push(tableRow(i + 1, wave, withHistory), dim(`    ${wave.flags.join(" · ")}`));
     }
   }
+  if (withHistory) lines.push("", dim("3d/d: stars in the last 3 full days (stargazers/history)"));
   return `${lines.join("\n")}\n`;
 }
 
@@ -39,12 +41,17 @@ export function renderMarkdown(snapshot: Snapshot, { top }: { top: number }): st
   const organic = snapshot.waves.filter((w) => w.flags.length === 0).slice(0, top);
   const flagged = snapshot.waves.filter((w) => w.flags.length > 0).slice(0, top);
   const shown = [...organic, ...flagged];
+  const hasHistory = snapshot.waves.some((w) => w.velocity3d !== undefined);
   const lines = [
     `_recent ${windowLine(snapshot.recentCount, snapshot.recentWindow)} · ` +
       `baseline ${windowLine(snapshot.baselineCount, snapshot.baselineWindow)} · generated ${snapshot.generatedAt}_`,
     "",
-    "| # | wave | repos | owners | stars | vel/d | first seen | anchor | flags |",
-    "|--:|------|------:|-------:|------:|------:|------------|--------|-------|",
+    hasHistory
+      ? "| # | wave | repos | owners | stars | vel/d | 3d/d | first seen | anchor | flags |"
+      : "| # | wave | repos | owners | stars | vel/d | first seen | anchor | flags |",
+    hasHistory
+      ? "|--:|------|------:|-------:|------:|------:|-----:|------------|--------|-------|"
+      : "|--:|------|------:|-------:|------:|------:|------------|--------|-------|",
     ...shown.map((wave, i) => {
       const cells = [
         i + 1,
@@ -53,6 +60,7 @@ export function renderMarkdown(snapshot: Snapshot, { top }: { top: number }): st
         wave.ownerCount,
         formatCount(wave.stars),
         `${formatCount(Math.round(wave.velocity))}/d`,
+        ...(hasHistory ? [shortVelocity3d(wave)] : []),
         wave.firstSeen,
         repoLink(wave.anchor.fullName),
         wave.flags.join(", "),
@@ -80,34 +88,59 @@ export function renderWave(wave: Wave, today: string): string {
       truncate(repo.description, 80),
     ].join("  "),
   );
-  return `${lines.join("\n")}\n`;
+  const header =
+    wave.velocity3d === undefined
+      ? []
+      : [`${wave.id}  ${wave.spark ?? ""}  ${wave.velocity3d} stars in the last 3 full days`, ""];
+  return `${[...header, ...lines].join("\n")}\n`;
 }
 
-function tableRow(rank: number, wave: Wave): string {
-  return tableLine(
+function tableRow(rank: number, wave: Wave, withHistory: boolean): string {
+  const cells = [
     String(rank),
-    waveLabel(wave, 30),
+    waveLabel(wave, 28),
     String(wave.repoCount),
     String(wave.ownerCount),
     formatCount(wave.stars),
     `${formatCount(Math.round(wave.velocity))}/d`,
+    ...(withHistory ? [shortVelocity3d(wave)] : []),
     wave.firstSeen,
-    truncate(wave.anchor.fullName, 20),
-  );
+    truncate(wave.anchor.fullName, 18),
+  ];
+  return tableLine(cells, COLUMN_WIDTHS(withHistory), COLUMN_LEFT(withHistory));
 }
 
-function tableLine(...cells: [string, string, string, string, string, string, string, string]): string {
-  const [rank, wave, repos, owners, stars, velocity, first, anchor] = cells;
-  return [
-    rank.padStart(2),
-    wave.padEnd(30),
-    repos.padStart(5),
-    owners.padStart(6),
-    stars.padStart(6),
-    velocity.padStart(7),
-    first.padEnd(10),
-    anchor,
-  ].join("  ");
+const shortVelocity3d = (wave: Wave) =>
+  wave.velocity3d === undefined ? "-" : `${formatCount(Math.round(wave.velocity3d / 3))}/d`;
+
+const HEADER_CELLS = (withHistory: boolean): string[] => [
+  "#",
+  "wave",
+  "repos",
+  "owners",
+  "stars",
+  "vel/d",
+  ...(withHistory ? ["3d/d"] : []),
+  "first",
+  "anchor",
+];
+
+const COLUMN_WIDTHS = (withHistory: boolean): number[] =>
+  withHistory ? [2, 28, 5, 6, 6, 7, 7, 10, 18] : [2, 28, 5, 6, 6, 7, 10, 18];
+
+const COLUMN_LEFT = (withHistory: boolean): boolean[] =>
+  withHistory
+    ? [false, true, false, false, false, false, false, true, true]
+    : [false, true, false, false, false, false, true, true];
+
+function tableLine(cells: string[], widths: number[], left: boolean[]): string {
+  return cells
+    .map((cell, i) => {
+      const width = widths[i] as number;
+      return left[i] ? cell.padEnd(width) : cell.padStart(width);
+    })
+    .join("  ")
+    .trimEnd();
 }
 
 function waveLabel(wave: Wave, width: number): string {

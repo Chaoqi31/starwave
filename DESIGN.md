@@ -118,6 +118,6 @@ starwave/
   data/                   # daily snapshots, committed by the workflow
 ```
 
-## v1.1 (after v1 is committed and verified)
+## v1.1 (shipped 2026-09-30, commit after 75d4f17)
 
-`GET /repos/{owner}/{repo}/stargazers/history` returns weekly buckets `{ week, total, days[7] }` (Sunday first) under the 5,000 req/h core limit. Use it for the top 8 repos of each of the top waves to compute `velocity3d` (stars in the last 3 full days) and a 14-day sparkline for the anchor. Show `velocity3d` next to lifetime velocity in the table. One request per repo, cached with the same 6 h TTL.
+`GET /repos/{owner}/{repo}/stargazers/history` returns weekly buckets `{ week, total, days[7] }` (Sunday first) under the 5,000 req/h core limit. `src/history.ts` flattens them to dated counts. After `detectWaves`, the CLI enriches every wave whose anchor's history is not yet known (live run, or `--from` with a token): `velocity3d` = stars in the last 3 complete days, `spark` = the last 14 days as block characters. History responses cache under the same 6 h TTL; `--no-history` skips the enrichment entirely. Failures are per-anchor and silent beyond one stderr line, so `--from` stays usable offline.

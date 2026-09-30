@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { join } from "node:path";
+import type { StarBucket } from "./history.js";
 import type { Repo } from "./types.js";
 
 export type Progress = (message: string) => void;
@@ -80,19 +81,37 @@ export function shiftDays(date: string, days: number): string {
   return new Date(Date.parse(date) + days * DAY_MS).toISOString().slice(0, 10);
 }
 
-export function loadCached(key: string): Repo[] | undefined {
+export function loadCached<T>(key: string): T | undefined {
   const path = cachePath(key);
   try {
     if (Date.now() - statSync(path).mtimeMs > CACHE_TTL_MS) return undefined;
-    return JSON.parse(readFileSync(path, "utf8")) as Repo[];
+    return JSON.parse(readFileSync(path, "utf8")) as T;
   } catch {
     return undefined;
   }
 }
 
-export function saveCached(key: string, value: Repo[]): void {
+export function saveCached(key: string, value: unknown): void {
   mkdirSync(CACHE_DIR, { recursive: true });
   writeFileSync(cachePath(key), JSON.stringify(value));
+}
+
+export async function fetchStarHistory(fullName: string, token: string, useCache = true): Promise<StarBucket[]> {
+  const key = `history ${fullName}`;
+  const cached = useCache ? loadCached<StarBucket[]>(key) : undefined;
+  if (cached) return cached;
+  const response = await fetch(`https://api.github.com/repos/${fullName}/stargazers/history`, {
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${token}`,
+      "X-GitHub-Api-Version": "2022-11-28",
+      "User-Agent": "starwave",
+    },
+  });
+  if (!response.ok) throw new Error(`stargazers/history for ${fullName} returned ${response.status}`);
+  const buckets = (await response.json()) as StarBucket[];
+  saveCached(key, buckets);
+  return buckets;
 }
 
 async function request(url: string, token: string): Promise<Response> {

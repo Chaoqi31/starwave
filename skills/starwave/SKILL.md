@@ -17,7 +17,9 @@ npx starwave --show <id>       # every repo in one wave: stars, age in days, ful
 
 The first run fetches about 4,500 repos at 30 search requests per minute and takes 3 to 5 minutes, longer than a default 2-minute shell timeout: run it with a 10-minute timeout or in the background, then read the output file. Results are cached for 6 hours, so a second run is instant. Progress goes to stderr, output to stdout. Exit code 1 means no token: tell the user to set `GITHUB_TOKEN` or run `gh auth login`.
 
-Variants: `--days 7 --min-stars 100` for a weekly, higher-signal window; `--top 30` for more waves.
+Variants: `--days 7 --min-stars 100` for a weekly, higher-signal window; `--top 30` for more waves; `--no-history` to skip the per-wave star history call.
+
+`velocity` is the lifetime average and hides a cooling wave. `velocity3d` is what is happening now: the Jev wave on 2026-09-30 averaged 13.2k stars/day over its life but only 927/day in the last three days. When the two disagree by a lot, say so in the summary.
 
 ## Read the output
 
@@ -28,7 +30,9 @@ Variants: `--days 7 --min-stars 100` for a weekly, higher-signal window; `--top 
 | `id`, `aliases` | the primary term and the terms merged into it, for example `jev` + `laya`, `typesafe` |
 | `repoCount`, `ownerCount` | repos in the wave, distinct owners |
 | `stars` | total stars |
-| `velocity` | stars per day, summed over repos (each repo: stars / age in days) |
+| `velocity` | lifetime stars per day, summed over repos (each repo: stars / age in days) |
+| `velocity3d` | stars in the last 3 full days from the anchor's `stargazers/history`, present after a live run (absent with `--no-history`) |
+| `spark` | the anchor's last 14 days as a block sparkline, same condition |
 | `firstSeen` | creation date of the oldest repo |
 | `anchor` | the most-starred repo: `fullName`, `stars`, `createdAt`, `description` |
 | `repos[]` | every repo, sorted by stars; use it to count owners or creation dates, do not print it |

@@ -2,7 +2,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { parseArgs } from "node:util";
 import { gunzipSync, gzipSync } from "node:zlib";
-import { fetchWindow, loadCached, resolveToken, saveCached, shiftDays } from "./github.js";
+import { fetchStarHistory, fetchWindow, loadCached, resolveToken, saveCached, shiftDays } from "./github.js";
+import { sparkline, starsInLastDays } from "./history.js";
 import { renderMarkdown, renderTable, renderWave } from "./render.js";
 import type { Capture, Repo, Snapshot, Window } from "./types.js";
 import { detectWaves } from "./waves.js";
@@ -22,6 +23,7 @@ usage: starwave [options]
   --from <path>             read a capture or snapshot (.json or .json.gz) instead of GitHub
   --save <path>             write the raw capture (.json or .json.gz)
   --no-cache                ignore the 6 h cache in ~/.cache/starwave
+  --no-history              skip the per-wave star history call (3d velocity, sparkline)
   --no-color                plain output
   -h, --help                show this help
   -v, --version             show the version
@@ -46,6 +48,7 @@ function parseFlags() {
       from: { type: "string" },
       save: { type: "string" },
       "no-cache": { type: "boolean", default: false },
+      "no-history": { type: "boolean", default: false },
       "no-color": { type: "boolean", default: false },
       help: { type: "boolean", short: "h", default: false },
       version: { type: "boolean", short: "v", default: false },
@@ -65,6 +68,7 @@ async function main(): Promise<void> {
 
   const top = positiveInt(flags.top, "--top");
   const snapshot = flags.from ? loadSnapshot(flags.from) : snapshotOf(await captureFromGithub(flags));
+  if (!flags["no-history"]) await enrichWithStarHistory(snapshot, flags["no-cache"]);
 
   if (flags.show !== undefined) {
     const id = flags.show;
@@ -130,7 +134,7 @@ async function captureFromGithub(flags: Flags): Promise<Capture> {
 
 async function fetchCached(label: string, window: Window, sliceDays: number, token: string, useCache: boolean): Promise<Repo[]> {
   const key = `${window.from}..${window.to} stars>=${window.minStars}`;
-  const cached = useCache ? loadCached(key) : undefined;
+  const cached = useCache ? loadCached<Repo[]>(key) : undefined;
   if (cached) {
     progress(`${label}  ${cached.length.toLocaleString("en-US")} repos (cached)`);
     return cached;
@@ -140,6 +144,29 @@ async function fetchCached(label: string, window: Window, sliceDays: number, tok
   );
   saveCached(key, repos);
   return repos;
+}
+
+async function enrichWithStarHistory(snapshot: Snapshot, noCache: boolean): Promise<void> {
+  let token: string;
+  try {
+    token = process.env.GITHUB_TOKEN?.trim() || resolveToken();
+  } catch {
+    progress("no GitHub token, skipping star history");
+    return;
+  }
+  const today = snapshot.generatedAt.slice(0, 10);
+  const targets = snapshot.waves.filter((w) => w.velocity3d === undefined);
+  await Promise.all(
+    targets.map(async (wave) => {
+      try {
+        const history = await fetchStarHistory(wave.anchor.fullName, token, !noCache);
+        wave.velocity3d = starsInLastDays(history, today, 3);
+        wave.spark = sparkline(history, today);
+      } catch {
+        progress(`star history unavailable for ${wave.anchor.fullName}`);
+      }
+    }),
+  );
 }
 
 function positiveInt(value: string, flag: string): number {

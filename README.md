@@ -9,16 +9,16 @@ GitHub Trending shows you the same well-known repos. starwave shows you the *wav
 <!-- starwave:start -->
 _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  2026-07-18..2026-09-15  stars>=150 · generated 2026-09-30T12:53:57.572Z_
 
-| # | wave | repos | owners | stars | vel/d | first seen | anchor | flags |
-|--:|------|------:|-------:|------:|------:|------------|--------|-------|
-| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 35 more) | 249 | 232 | 145.5k | 13.2k/d | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
-| 2 | **opus** | 21 | 20 | 7.0k | 1.4k/d | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
-| 3 | **films** | 7 | 7 | 2.4k | 498/d | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
-| 4 | **steamos** | 5 | 5 | 637 | 114/d | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
-| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 626 | 83/d | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
-| 6 | **roblox** | 5 | 5 | 332 | 56/d | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
-| 7 | **apimart** (+api-docs, pay-as-you-go, ai-api-gateway, llm-api-pricing, llm-api, 101 more) | 173 | 163 | 14.8k | 2.2k/d | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
-| 8 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
+| # | wave | repos | owners | stars | vel/d | 3d/d | first seen | anchor | flags |
+|--:|------|------:|-------:|------:|------:|-----:|------------|--------|-------|
+| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 35 more) | 249 | 232 | 145.5k | 13.2k/d | 927/d | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
+| 2 | **opus** | 21 | 20 | 7.0k | 1.4k/d | 149/d | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
+| 3 | **films** | 7 | 7 | 2.4k | 498/d | 225/d | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
+| 4 | **steamos** | 5 | 5 | 637 | 114/d | 89/d | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
+| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 626 | 83/d | 36/d | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
+| 6 | **roblox** | 5 | 5 | 332 | 56/d | 18/d | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
+| 7 | **apimart** (+api-docs, pay-as-you-go, ai-api-gateway, llm-api-pricing, llm-api, 101 more) | 173 | 163 | 14.8k | 2.2k/d | 15/d | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
+| 8 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 14/d | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
 
 **jev**: 249 repos, 145.5k stars
 - [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) 29.0k★ Non-autoregressive System 1 decision engine. Typed choice, score and yes/no dec…
@@ -78,7 +78,8 @@ Needs `GITHUB_TOKEN` in the environment or a logged-in `gh` (`gh auth login`).
 4. For each term, burst = recent repos carrying it / (repos the baseline predicts + 1). A term needs at least 5 recent repos and a burst of at least 3.
 5. Merge terms whose repo sets overlap by at least 40 % into one wave, greedily. A repo belongs to one wave only, and a repo joining through a merged term must carry at least 3 of the wave's terms.
 6. Drop waves whose repos share nothing beyond the wave term (cohesion under 50 %): nine repos that all say "bit" are not an ecosystem.
-7. Flag a wave when at least 60 % of its repos were created on the same day (`same-day`), fewer than half of them have distinct owners (`few-owners`), the top repo holds under 10 % of the stars (`flat-stars`), or it is built from clones (`near-duplicate`). Clean waves are listed first, by stars per day.
+7. For every wave in the output, fetch the anchor's `stargazers/history` (one request, cached): `3d/d` is stars in the last 3 full days, and `--show` prints a 14-day sparkline. Lifetime `vel/d` hides a cooling wave; `3d/d` does not.
+8. Flag a wave when at least 60 % of its repos were created on the same day (`same-day`), fewer than half of them have distinct owners (`few-owners`), the top repo holds under 10 % of the stars (`flat-stars`), or it is built from clones (`near-duplicate`). Clean waves are listed first, by stars per day.
 
 Why it works: repos in a new ecosystem borrow each other's vocabulary, so a wave is visible in shared terms days before any single repo tops Trending.
 
@@ -93,23 +94,25 @@ recent    1,538 repos  2026-09-16..2026-09-30  stars>=40
 baseline  2,828 repos  2026-07-18..2026-09-15  stars>=150
 
 Waves (6 of 6)
- #  wave                            repos  owners   stars    vel/d  first       anchor
- 1  jev (+typesafe, 39 more)          249     232  145.5k  13.2k/d  2026-09-16  NandhaKishorM/laya
- 2  opus                               21      20    7.0k   1.4k/d  2026-09-22  JohnHeibel/PDoomVid…
- 3  films                               7       7    2.4k    498/d  2026-09-22  feitangyuan/onetake
- 4  steamos                             5       5     637    114/d  2026-09-23  Droid-Deck/DroidDeck
- 5  qwen-image (+qwen-image-2.1)        5       5     626     83/d  2026-09-21  nihui/qwenimage-ncn…
- 6  roblox                              5       5     332     56/d  2026-09-17  caomod2077/Deobfusc…
+ #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor
+ 1  jev (+typesafe, 39 more)        249     232  145.5k  13.2k/d    927/d  2026-09-16  NandhaKishorM/laya
+ 2  opus                             21      20    7.0k   1.4k/d    149/d  2026-09-22  JohnHeibel/PDoomV…
+ 3  films                             7       7    2.4k    498/d    225/d  2026-09-22  feitangyuan/oneta…
+ 4  steamos                           5       5     637    114/d     89/d  2026-09-23  Droid-Deck/DroidD…
+ 5  qwen-image (+qwen-image-2.1)      5       5     626     83/d     36/d  2026-09-21  nihui/qwenimage-n…
+ 6  roblox                            5       5     332     56/d     18/d  2026-09-17  caomod2077/Deobfu…
 
 Looks coordinated (2 of 2)
- #  wave                            repos  owners   stars    vel/d  first       anchor
- 1  apimart (+api-docs, 105 more)     173     163   14.8k   2.2k/d  2026-09-16  apimart001a/llm-gat…
+ #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor
+ 1  apimart (+106 more)             173     163   14.8k   2.2k/d     15/d  2026-09-16  apimart001a/llm-g…
     near-duplicate · same-day · flat-stars
- 2  auto-raid-complete-script          44      39    1.9k    159/d  2026-09-18  1234512345z/Arcadia…
+ 2  auto-raid-complete-script        44      39    1.9k    159/d     14/d  2026-09-18  1234512345z/Arcad…
     near-duplicate · same-day · flat-stars
+
+3d/d: stars in the last 3 full days (stargazers/history)
 ```
 
-Three things to read off that table. The **jev** wave is 249 repos and 145k stars 15 days after TypeSafe AI announced its Jev decision model, merged from 40 terms (`laya`, `typesafe`, `system-one`, `decision-model`, ...) that no single keyword search would join. The **opus** wave is 21 repos of code-rendered videos made with Claude Opus 5.5, 8 days old, 1.4k stars a day, and not on Trending. And **apimart** is 173 repos from 163 owners, 106 of them clones of each other, created on the same days, with no repo above 10 % of the stars, which is what an API-reseller SEO farm looks like; starwave lists it, flags it, and lets you check with `--show apimart`.
+Three things to read off that table. The **jev** wave is 249 repos and 145k stars 15 days after TypeSafe AI announced its Jev decision model, merged from 40 terms (`laya`, `typesafe`, `system-one`, `decision-model`, ...) that no single keyword search would join; its `3d/d` is 927, so the wave is cooling from its 6.5k-per-day peak. The **opus** wave is 21 repos of code-rendered videos made with Claude Opus 5.5, 8 days old, and not on Trending. And **apimart** is 173 repos from 163 owners, 106 of them clones of each other, created on the same days, with no repo above 10 % of the stars: 2.2k stars a day over its lifetime, 15 a day now. starwave lists it, flags it, and lets you check with `--show apimart`.
 
 ## Use it from an agent
 
@@ -150,7 +153,7 @@ console.log(renderMarkdown(snapshot, { top: 10 }));
 - Thresholds (5 repos, burst 3, overlap 40 %, Jaccard 0.6, cohesion 50 %) were tuned on one capture, 2026-09-30, which is also the test fixture.
 - The first run takes 3 to 5 minutes (about 60 search requests at the 30-per-minute limit). Repeats within 6 hours are instant.
 - Flags are heuristics, not verdicts. `npx starwave --show <id>` lists every repo in a wave so you can check them one by one.
-- No star history. Velocity is stars divided by age in days, not a curve.
+- `vel/d` is the lifetime average. `3d/d` comes from GitHub's weekly star buckets, so it updates once a day, and it is per wave anchor, not per repo.
 
 ## 中文
 

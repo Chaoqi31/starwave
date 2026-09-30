@@ -17,6 +17,8 @@ export type Wave = {
   ownerCount: number;
   stars: number;
   velocity: number;
+  velocity3d?: number;
+  spark?: string;
   firstSeen: string;
   baselineCount: number;
   burst: number;
