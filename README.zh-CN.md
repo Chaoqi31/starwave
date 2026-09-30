@@ -2,6 +2,8 @@
 
 GitHub Trending 每天显示的都是同一批知名仓库。starwave 显示的是*浪潮*：此刻正在成形的新生态，按 star 速度排序，并标出疑似刷星的集群。
 
+![2026-09-30 的 npx starwave：jev 浪潮 249 个仓库，8 天大的 opus 5.5 视频浪潮，以及两个被标记的 API 二道贩子农场](assets/waves.svg)
+
 ## 今日浪潮
 
 <!-- starwave:start -->
@@ -9,18 +11,16 @@ _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  
 
 | # | wave | repos | owners | stars | vel/d | first seen | anchor | flags |
 |--:|------|------:|-------:|------:|------:|------------|--------|-------|
-| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 35 more) | 256 | 239 | 149.0k | 14.0k/d | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
+| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 35 more) | 249 | 232 | 145.5k | 13.2k/d | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
 | 2 | **opus** | 21 | 20 | 7.0k | 1.4k/d | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
-| 3 | **pool** | 10 | 10 | 1.1k | 110/d | 2026-09-16 | [MelisaPeteRs2006/Silent-Crypto-Miner](https://github.com/MelisaPeteRs2006/Silent-Crypto-Miner) |  |
+| 3 | **films** | 7 | 7 | 2.4k | 498/d | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
 | 4 | **steamos** | 5 | 5 | 637 | 114/d | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
-| 5 | **discordfix** | 5 | 5 | 391 | 81/d | 2026-09-16 | [dajdsajdaj/DiscordFix](https://github.com/dajdsajdaj/DiscordFix) |  |
-| 6 | **films** | 7 | 7 | 2.4k | 498/d | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
-| 7 | **bitcoin** (+blockchain, ethereum, csv, btc) | 8 | 8 | 1.0k | 114/d | 2026-09-18 | [caxete/crypto-tax-calculator](https://github.com/caxete/crypto-tax-calculator) |  |
-| 8 | **updated** (+esp, helper) | 9 | 9 | 588 | 48/d | 2026-09-16 | [ThisTakou/UserAgent-list](https://github.com/ThisTakou/UserAgent-list) |  |
-| 9 | **apimart** (+pay-as-you-go, api-docs, minimum, per-image-pricing, pay, 107 more) | 178 | 168 | 15.7k | 2.4k/d | 2026-09-16 | [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) | same-day, flat-stars, near-duplicate |
-| 10 | **executor** (+solara, solara-executor-lua, solara-lua-2026, auto-raid-complete-script, executor-collection, 15 more) | 48 | 43 | 2.5k | 319/d | 2026-09-17 | [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) | same-day, near-duplicate |
+| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 626 | 83/d | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
+| 6 | **roblox** | 5 | 5 | 332 | 56/d | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
+| 7 | **apimart** (+api-docs, pay-as-you-go, ai-api-gateway, llm-api-pricing, llm-api, 101 more) | 173 | 163 | 14.8k | 2.2k/d | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
+| 8 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
 
-**jev**: 256 repos, 149.0k stars
+**jev**: 249 repos, 145.5k stars
 - [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) 29.0k★ Non-autoregressive System 1 decision engine. Typed choice, score and yes/no dec…
 - [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) 21.5k★ Fastest and cheapest web agent
 - [jaredpalmer/kev](https://github.com/jaredpalmer/kev) 8.0k★ Jev-like family of decision models built on top of Qwen3.5/3.8 you can train an…
@@ -34,12 +34,12 @@ _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  
 - [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 937★ claude-opus-5-5-demo
 - [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 651★ 43 film styles, each a reusable style prompt plus a short film made entirely in…
 
-**pool**: 10 repos, 1.1k stars
-- [MelisaPeteRs2006/Silent-Crypto-Miner](https://github.com/MelisaPeteRs2006/Silent-Crypto-Miner) 394★ Silent Crypto Miner is an advanced cryptocurrency mining builder and runtime en…
-- [ghuntley/underclass](https://github.com/ghuntley/underclass) 173★ underclass: an OpenAI-compatible pooling proxy that pins sessions to one accoun…
-- [446599/ccodex-rotate](https://github.com/446599/ccodex-rotate) 144★ Local Codex reverse proxy: rotating proxy-node pool, lazy health failover, and …
-- [BnbAgenticChain/agentic-chain](https://github.com/BnbAgenticChain/agentic-chain) 88★ Agentic Chain (AGNT): a chain for agents, built on BNB Smart Chain. Entry needs…
-- [agentscope-ai-java/interp-rpc](https://github.com/agentscope-ai-java/interp-rpc) 88★ Typed RPC over a warm pool of PEP 734 subinterpreters — real parallelism, real …
+**films**: 7 repos, 2.4k stars
+- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.0k★ Motion films that never cut to the next slide: every beat grows out of the one …
+- [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) 710★ Art and animation, written as code. Illustrations, loops, interactive web art, …
+- [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat) 262★ Procedural risograph films in single HTML files (Window Seat, Roost and more), …
+- [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) 174★ Claude Code skill kit for premium AI-assisted business videos: independent crit…
+- [tugrawork-creator/saas-motion-kit](https://github.com/tugrawork-creator/saas-motion-kit) 140★ Promo & motion videos for software products with HyperFrames + Claude Code. No …
 
 **steamos**: 5 repos, 637 stars
 - [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 281★ DroidDeck brings the SteamOS experience to Android
@@ -48,12 +48,12 @@ _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  
 - [hashtagbasit/SteamOS-ARM-Handhelds](https://github.com/hashtagbasit/SteamOS-ARM-Handhelds) 92★ Valve's SteamOS for ARM on Snapdragon handhelds. Runs on 8 Gen 3 (SM8650) and 8…
 - [saphid/frame-control](https://github.com/saphid/frame-control) 45★ Frame Control: a free, open-source app for Valve Steam Frame on macOS, Windows,…
 
-**discordfix**: 5 repos, 391 stars
-- [dajdsajdaj/DiscordFix](https://github.com/dajdsajdaj/DiscordFix) 92★ 🛠 РАБОЧИЙ DISCORD FIX & YOUTUBE BYPASS (16.09.2026)
-- [Seizetenhold47/DiscordFix-Network](https://github.com/Seizetenhold47/DiscordFix-Network) 84★ Обновлённая сборка DiscordFix для Windows с настройками подключения Discord и д…
-- [Helixdechimney62/DiscordFix-Discord](https://github.com/Helixdechimney62/DiscordFix-Discord) 83★ Обновлённая сборка DiscordFix для Windows с настройками подключения Discord и д…
-- [Shadowglidevastate/DiscordFix-YouTube](https://github.com/Shadowglidevastate/DiscordFix-YouTube) 82★ Обновлённая сборка DiscordFix для Windows с настройками подключения Discord и д…
-- [CavernMothMinaret/zapret-discord](https://github.com/CavernMothMinaret/zapret-discord) 50★ NEW FIX Как Обойти Блокировку Дискорда В России ?! Новый Дискорд Обход Для ПК !…
+**qwen-image**: 5 repos, 626 stars
+- [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) 238★ ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi…
+- [iamyoki/qwen-image-2.1-skill](https://github.com/iamyoki/qwen-image-2.1-skill) 128★ 🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and m…
+- [wildminder/awesome-qwen-image](https://github.com/wildminder/awesome-qwen-image) 110★ Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling
+- [Work-Fisher/ComfyUI-Fisher-Pose](https://github.com/Work-Fisher/ComfyUI-Fisher-Pose) 95★ ComfyUI 姿势与机位编辑器 for Qwen Image 2.1：VNCCS 真人人偶 + OpenPose 一键摆姿（内置 209 骨架）+ 自由视角…
+- [janishar/qwen-image-2.1-studio](https://github.com/janishar/qwen-image-2.1-studio) 55★ Local Qwen-Image-2.1 studio for Apple Silicon: text-to-image, multi-image editi…
 <!-- starwave:end -->
 
 ## 试一试
@@ -73,11 +73,12 @@ npx starwave --json                      # 完整的 Snapshot，供脚本和 age
 ## 原理
 
 1. 通过 GitHub search API 抓取最近 14 天创建、star >= 40 的全部仓库，以及再往前 60 天内创建、star >= 150 的仓库作为基线。查询按日期切片，以绕开每次查询 1,000 条结果的上限。
-2. 把每个仓库变成一组词项：名称和描述中的拉丁字母 token，加上 topics，再去掉停用词（"ai"、"agent"、"cli"、"mcp"、"python" 等）。
-3. 对每个词项计算突增度 = 携带该词的近期仓库数 / (基线预期数 + 1)。词项至少要出现在 5 个近期仓库中，且突增度 >= 3。
-4. 从得分最高的词项开始贪心合并：两个词项的仓库集合重叠 >= 40% 就归入同一个浪潮。得分 = 突增度 × log10(star 总数 + 10)。一个仓库只属于一个浪潮；经合并词项加入的仓库必须携带该浪潮至少 2 个词项，所以刷星农场里的一个泛用词拉不进无关仓库。
-5. 丢掉那些除了浪潮词之外互相毫无共同点的小浪潮（内聚度低于 25%）：十个都提到 "pool" 的仓库不是一个生态。
-6. 打标记：>= 60% 的仓库在同一天创建（`same-day`）；不同 owner 少于仓库数的一半（`few-owners`）；榜首仓库的 star 不到总数的 10%（`flat-stars`）；至少一半仓库的词项几乎相同（`near-duplicate`）。
+2. 把每个仓库变成一组词项：名称和描述中的拉丁字母 token（`hermes-jev-skills` 这类复合词同时拆出各部分），加上 topics，再去掉停用词（"ai"、"agent"、"cli"、"mcp"、"python" 等）。
+3. 先把模板化仓库挑出来：词项与另一个 owner 的仓库 Jaccard 相似度 >= 0.6 的仓库视为克隆，克隆单独分组。把 5 个仓库摊到 40 个词上的 SEO 农场就是这样被抓住的。
+4. 对每个词项计算突增度 = 携带该词的近期仓库数 / (基线预期数 + 1)。词项至少要出现在 5 个近期仓库中，且突增度 >= 3。
+5. 贪心合并仓库集合重叠 >= 40% 的词项为同一个浪潮。一个仓库只属于一个浪潮；经合并词项加入的仓库必须携带该浪潮至少 3 个词项。
+6. 丢掉除了浪潮词之外互相毫无共同点的浪潮（内聚度低于 50%）：九个都提到 "bit" 的仓库不是一个生态。
+7. 打标记：>= 60% 的仓库在同一天创建（`same-day`）；不同 owner 少于仓库数的一半（`few-owners`）；榜首仓库的 star 不到总数的 10%（`flat-stars`）；由克隆构成（`near-duplicate`）。干净的浪潮排在前面，按每天新增 star 排序。
 
 为什么有效：同一个新生态里的仓库会互相借用词汇，所以在任何单个仓库登上 Trending 之前的几天，浪潮就已经在共享词汇里显现。
 
@@ -91,39 +92,37 @@ starwave 2026-09-30T12:53:57.572Z
 recent    1,538 repos  2026-09-16..2026-09-30  stars>=40
 baseline  2,828 repos  2026-07-18..2026-09-15  stars>=150
 
-Waves (8 of 8)
+Waves (6 of 6)
  #  wave                            repos  owners   stars    vel/d  first       anchor
- 1  jev (+typesafe, 39 more)          256     239  149.0k  14.0k/d  2026-09-16  NandhaKishorM/laya
+ 1  jev (+typesafe, 39 more)          249     232  145.5k  13.2k/d  2026-09-16  NandhaKishorM/laya
  2  opus                               21      20    7.0k   1.4k/d  2026-09-22  JohnHeibel/PDoomVid…
- 3  pool                               10      10    1.1k    110/d  2026-09-16  MelisaPeteRs2006/Si…
+ 3  films                               7       7    2.4k    498/d  2026-09-22  feitangyuan/onetake
  4  steamos                             5       5     637    114/d  2026-09-23  Droid-Deck/DroidDeck
- 5  discordfix                          5       5     391     81/d  2026-09-16  dajdsajdaj/DiscordF…
- 6  films                               7       7    2.4k    498/d  2026-09-22  feitangyuan/onetake
- 7  bitcoin (+blockchain, 3 more)       8       8    1.0k    114/d  2026-09-18  caxete/crypto-tax-c…
- 8  updated (+esp, helper)              9       9     588     48/d  2026-09-16  ThisTakou/UserAgent…
+ 5  qwen-image (+qwen-image-2.1)        5       5     626     83/d  2026-09-21  nihui/qwenimage-ncn…
+ 6  roblox                              5       5     332     56/d  2026-09-17  caomod2077/Deobfusc…
 
 Looks coordinated (2 of 2)
  #  wave                            repos  owners   stars    vel/d  first       anchor
- 1  apimart (+112 more)               178     168   15.7k   2.4k/d  2026-09-16  zouyuxuan122/dsh-ou…
-    same-day · flat-stars · near-duplicate
- 2  executor (+solara, 19 more)        48      43    2.5k    319/d  2026-09-17  timoncool/YuE2-Stud…
-    same-day · near-duplicate
+ 1  apimart (+api-docs, 105 more)     173     163   14.8k   2.2k/d  2026-09-16  apimart001a/llm-gat…
+    near-duplicate · same-day · flat-stars
+ 2  auto-raid-complete-script          44      39    1.9k    159/d  2026-09-18  1234512345z/Arcadia…
+    near-duplicate · same-day · flat-stars
 ```
 
-这张表里能读出三件事。**jev** 浪潮在 TypeSafe AI 发布 Jev 决策模型 15 天后已有 256 个仓库、149k star，由 40 个词项（`laya`、`typesafe`、`system-one`、`decision-model` 等）合并而成，任何单个关键词搜索都拼不出来。**opus** 浪潮是 21 个用 Claude Opus 5.5 写代码渲染出来的视频仓库，8 天大，每天 1.4k star，还没上 Trending。**apimart** 是 168 个 owner 的 178 个仓库，同几天创建、描述近乎相同、没有一个仓库超过总 star 的 10%，这就是 API 二道贩子 SEO 农场的样子；starwave 照列不误，打上标记，你可以用 `--show apimart` 自己核查。
+这张表里能读出三件事。**jev** 浪潮在 TypeSafe AI 发布 Jev 决策模型 15 天后已有 249 个仓库、145k star，由 40 个词项（`laya`、`typesafe`、`system-one`、`decision-model` 等）合并而成，任何单个关键词搜索都拼不出来。**opus** 浪潮是 21 个用 Claude Opus 5.5 写代码渲染出来的视频仓库，8 天大，每天 1.4k star，没上 Trending。**apimart** 是 163 个 owner 的 173 个仓库，其中 106 个互为克隆、同几天创建、没有一个仓库超过总 star 的 10%，这就是 API 二道贩子 SEO 农场的样子；starwave 照列不误，打上标记，你可以用 `--show apimart` 自己核查。
 
 ## 在 agent 中使用
 
 `skills/starwave/SKILL.md` 是一个 Agent Skill，Claude Code、Codex 以及任何读取 `SKILL.md` 的 agent 都能安装。安装后，问 agent "这周 GitHub 上什么在爆发"，它会运行 `npx starwave --json`，读取 `waves[]`，先回复前 3 个自然浪潮（仓库数、star、每日 star、首次出现、代表仓库），再列出看起来有组织的集群并给出 `flags` 里的原因。把这句话粘贴给你的 agent：
 
 ```text
-Install the starwave skill from https://github.com/OWNER/starwave
+Install the starwave skill from https://github.com/Chaoqi31/starwave
 ```
 
 或者用 skills CLI 安装：
 
 ```sh
-npx skills add OWNER/starwave
+npx skills add Chaoqi31/starwave
 ```
 
 ## 每日数据
@@ -150,7 +149,8 @@ console.log(renderMarkdown(snapshot, { top: 10 }));
 - 词项目前只识别拉丁字母。中日韩文描述只贡献其中的拉丁 token 和 topics。
 - 标记是启发式规则，不是结论。`npx starwave --show <id>` 会列出浪潮里的每个仓库，可以逐个核查。
 - 没有 star 历史。速度 = star 数 / 存在天数，不是曲线。
-- 阈值（5 个仓库、突增度 3、重叠 40%、内聚度 25%）只在 2026-09-30 这一份抓取上调过，它也是测试夹具。
+- 阈值（5 个仓库、突增度 3、重叠 40%、Jaccard 0.6、内聚度 50%）只在 2026-09-30 这一份抓取上调过，它也是测试夹具。
+- 第一次运行需要 3 到 5 分钟（约 60 次搜索请求，限速每分钟 30 次）。6 小时内重复运行是即时的。
 
 ## English
 

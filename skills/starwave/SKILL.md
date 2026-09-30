@@ -15,13 +15,13 @@ npx starwave --md --top 10     # GitHub-flavored markdown table, ready to paste
 npx starwave --show <id>       # every repo in one wave: stars, age in days, fullName, description
 ```
 
-The first run fetches 5,000+ repos at 30 search requests per minute and takes a few minutes; results are cached for 6 hours. Progress goes to stderr, output to stdout. Exit code 1 means no token: tell the user to set `GITHUB_TOKEN` or run `gh auth login`.
+The first run fetches about 4,500 repos at 30 search requests per minute and takes 3 to 5 minutes, longer than a default 2-minute shell timeout: run it with a 10-minute timeout or in the background, then read the output file. Results are cached for 6 hours, so a second run is instant. Progress goes to stderr, output to stdout. Exit code 1 means no token: tell the user to set `GITHUB_TOKEN` or run `gh auth login`.
 
 Variants: `--days 7 --min-stars 100` for a weekly, higher-signal window; `--top 30` for more waves.
 
 ## Read the output
 
-`--json` prints a `Snapshot`: `generatedAt`, `recentWindow`, `baselineWindow`, `recentCount`, `baselineCount`, `waves[]`. Waves come organic first (`flags` empty), then flagged, each group by score descending.
+`--json` prints a `Snapshot`: `generatedAt`, `recentWindow`, `baselineWindow`, `recentCount`, `baselineCount`, `waves[]`. Waves come organic first (`flags` empty), then flagged, each group by velocity descending.
 
 | field | meaning |
 |---|---|
@@ -32,6 +32,7 @@ Variants: `--days 7 --min-stars 100` for a weekly, higher-signal window; `--top 
 | `firstSeen` | creation date of the oldest repo |
 | `anchor` | the most-starred repo: `fullName`, `stars`, `createdAt`, `description` |
 | `repos[]` | every repo, sorted by stars; use it to count owners or creation dates, do not print it |
+| `cohesion` | share of repos that share a term beyond the wave's own terms with another member, 0 to 1 |
 | `flags` | empty, or any of `same-day`, `few-owners`, `flat-stars`, `near-duplicate` |
 
 What each flag means, for the "why" in your summary:
@@ -39,7 +40,7 @@ What each flag means, for the "why" in your summary:
 - `same-day`: at least 60 % of the repos were created on one day.
 - `few-owners`: fewer than half of the repos have distinct owners.
 - `flat-stars`: the anchor holds under 10 % of the wave's stars; no repo stands out.
-- `near-duplicate`: at least half of the repos have near-identical names and descriptions.
+- `near-duplicate`: the wave is built from clones, repos whose terms match another owner's repo almost exactly.
 
 ## Write the summary
 

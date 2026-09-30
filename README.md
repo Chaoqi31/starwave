@@ -2,6 +2,8 @@
 
 GitHub Trending shows you the same well-known repos. starwave shows you the *waves*: the new ecosystems forming right now, ranked by star velocity, with astroturfed clusters flagged.
 
+![npx starwave on 2026-09-30: the jev wave at 249 repos, the opus 5.5 video wave 8 days old, and two API-reseller farms flagged](assets/waves.svg)
+
 ## Today's waves
 
 <!-- starwave:start -->
@@ -9,18 +11,16 @@ _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  
 
 | # | wave | repos | owners | stars | vel/d | first seen | anchor | flags |
 |--:|------|------:|-------:|------:|------:|------------|--------|-------|
-| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 35 more) | 256 | 239 | 149.0k | 14.0k/d | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
+| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 35 more) | 249 | 232 | 145.5k | 13.2k/d | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
 | 2 | **opus** | 21 | 20 | 7.0k | 1.4k/d | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
-| 3 | **pool** | 10 | 10 | 1.1k | 110/d | 2026-09-16 | [MelisaPeteRs2006/Silent-Crypto-Miner](https://github.com/MelisaPeteRs2006/Silent-Crypto-Miner) |  |
+| 3 | **films** | 7 | 7 | 2.4k | 498/d | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
 | 4 | **steamos** | 5 | 5 | 637 | 114/d | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
-| 5 | **discordfix** | 5 | 5 | 391 | 81/d | 2026-09-16 | [dajdsajdaj/DiscordFix](https://github.com/dajdsajdaj/DiscordFix) |  |
-| 6 | **films** | 7 | 7 | 2.4k | 498/d | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
-| 7 | **bitcoin** (+blockchain, ethereum, csv, btc) | 8 | 8 | 1.0k | 114/d | 2026-09-18 | [caxete/crypto-tax-calculator](https://github.com/caxete/crypto-tax-calculator) |  |
-| 8 | **updated** (+esp, helper) | 9 | 9 | 588 | 48/d | 2026-09-16 | [ThisTakou/UserAgent-list](https://github.com/ThisTakou/UserAgent-list) |  |
-| 9 | **apimart** (+pay-as-you-go, api-docs, minimum, per-image-pricing, pay, 107 more) | 178 | 168 | 15.7k | 2.4k/d | 2026-09-16 | [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) | same-day, flat-stars, near-duplicate |
-| 10 | **executor** (+solara, solara-executor-lua, solara-lua-2026, auto-raid-complete-script, executor-collection, 15 more) | 48 | 43 | 2.5k | 319/d | 2026-09-17 | [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) | same-day, near-duplicate |
+| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 626 | 83/d | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
+| 6 | **roblox** | 5 | 5 | 332 | 56/d | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
+| 7 | **apimart** (+api-docs, pay-as-you-go, ai-api-gateway, llm-api-pricing, llm-api, 101 more) | 173 | 163 | 14.8k | 2.2k/d | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
+| 8 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
 
-**jev**: 256 repos, 149.0k stars
+**jev**: 249 repos, 145.5k stars
 - [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) 29.0k★ Non-autoregressive System 1 decision engine. Typed choice, score and yes/no dec…
 - [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) 21.5k★ Fastest and cheapest web agent
 - [jaredpalmer/kev](https://github.com/jaredpalmer/kev) 8.0k★ Jev-like family of decision models built on top of Qwen3.5/3.8 you can train an…
@@ -34,12 +34,12 @@ _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  
 - [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 937★ claude-opus-5-5-demo
 - [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 651★ 43 film styles, each a reusable style prompt plus a short film made entirely in…
 
-**pool**: 10 repos, 1.1k stars
-- [MelisaPeteRs2006/Silent-Crypto-Miner](https://github.com/MelisaPeteRs2006/Silent-Crypto-Miner) 394★ Silent Crypto Miner is an advanced cryptocurrency mining builder and runtime en…
-- [ghuntley/underclass](https://github.com/ghuntley/underclass) 173★ underclass: an OpenAI-compatible pooling proxy that pins sessions to one accoun…
-- [446599/ccodex-rotate](https://github.com/446599/ccodex-rotate) 144★ Local Codex reverse proxy: rotating proxy-node pool, lazy health failover, and …
-- [BnbAgenticChain/agentic-chain](https://github.com/BnbAgenticChain/agentic-chain) 88★ Agentic Chain (AGNT): a chain for agents, built on BNB Smart Chain. Entry needs…
-- [agentscope-ai-java/interp-rpc](https://github.com/agentscope-ai-java/interp-rpc) 88★ Typed RPC over a warm pool of PEP 734 subinterpreters — real parallelism, real …
+**films**: 7 repos, 2.4k stars
+- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.0k★ Motion films that never cut to the next slide: every beat grows out of the one …
+- [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) 710★ Art and animation, written as code. Illustrations, loops, interactive web art, …
+- [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat) 262★ Procedural risograph films in single HTML files (Window Seat, Roost and more), …
+- [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) 174★ Claude Code skill kit for premium AI-assisted business videos: independent crit…
+- [tugrawork-creator/saas-motion-kit](https://github.com/tugrawork-creator/saas-motion-kit) 140★ Promo & motion videos for software products with HyperFrames + Claude Code. No …
 
 **steamos**: 5 repos, 637 stars
 - [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 281★ DroidDeck brings the SteamOS experience to Android
@@ -48,12 +48,12 @@ _recent 1,538 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,828 repos  
 - [hashtagbasit/SteamOS-ARM-Handhelds](https://github.com/hashtagbasit/SteamOS-ARM-Handhelds) 92★ Valve's SteamOS for ARM on Snapdragon handhelds. Runs on 8 Gen 3 (SM8650) and 8…
 - [saphid/frame-control](https://github.com/saphid/frame-control) 45★ Frame Control: a free, open-source app for Valve Steam Frame on macOS, Windows,…
 
-**discordfix**: 5 repos, 391 stars
-- [dajdsajdaj/DiscordFix](https://github.com/dajdsajdaj/DiscordFix) 92★ 🛠 РАБОЧИЙ DISCORD FIX & YOUTUBE BYPASS (16.09.2026)
-- [Seizetenhold47/DiscordFix-Network](https://github.com/Seizetenhold47/DiscordFix-Network) 84★ Обновлённая сборка DiscordFix для Windows с настройками подключения Discord и д…
-- [Helixdechimney62/DiscordFix-Discord](https://github.com/Helixdechimney62/DiscordFix-Discord) 83★ Обновлённая сборка DiscordFix для Windows с настройками подключения Discord и д…
-- [Shadowglidevastate/DiscordFix-YouTube](https://github.com/Shadowglidevastate/DiscordFix-YouTube) 82★ Обновлённая сборка DiscordFix для Windows с настройками подключения Discord и д…
-- [CavernMothMinaret/zapret-discord](https://github.com/CavernMothMinaret/zapret-discord) 50★ NEW FIX Как Обойти Блокировку Дискорда В России ?! Новый Дискорд Обход Для ПК !…
+**qwen-image**: 5 repos, 626 stars
+- [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) 238★ ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi…
+- [iamyoki/qwen-image-2.1-skill](https://github.com/iamyoki/qwen-image-2.1-skill) 128★ 🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and m…
+- [wildminder/awesome-qwen-image](https://github.com/wildminder/awesome-qwen-image) 110★ Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling
+- [Work-Fisher/ComfyUI-Fisher-Pose](https://github.com/Work-Fisher/ComfyUI-Fisher-Pose) 95★ ComfyUI 姿势与机位编辑器 for Qwen Image 2.1：VNCCS 真人人偶 + OpenPose 一键摆姿（内置 209 骨架）+ 自由视角…
+- [janishar/qwen-image-2.1-studio](https://github.com/janishar/qwen-image-2.1-studio) 55★ Local Qwen-Image-2.1 studio for Apple Silicon: text-to-image, multi-image editi…
 <!-- starwave:end -->
 
 ## Try it
@@ -73,11 +73,12 @@ Needs `GITHUB_TOKEN` in the environment or a logged-in `gh` (`gh auth login`).
 ## How it works
 
 1. Fetch every repo created in the last 14 days with at least 40 stars, plus a baseline of repos created in the 60 days before that with at least 150 stars. Both come from the GitHub search API, sliced by date to stay under its 1,000-result cap.
-2. Turn each repo into a set of terms: the latin tokens of its name and description, plus its topics, minus a stop list ("ai", "agent", "cli", "mcp", "python", ...).
-3. For each term, burst = recent repos carrying it / (repos the baseline predicts + 1). A term needs at least 5 recent repos and a burst of at least 3 to count.
-4. Merge terms whose repo sets overlap by at least 40 % into one wave, greedily, from the highest score down. Score = burst × log10(stars + 10). A repo belongs to one wave only, and a repo joining through a merged term must carry at least 2 of the wave's terms, so a spam farm's generic word cannot pull in unrelated repos.
-5. Drop small waves whose repos share nothing beyond the wave term (cohesion under 25 %): ten repos that all say "pool" are not an ecosystem.
-6. Flag a wave when at least 60 % of its repos were created on the same day (`same-day`), fewer than half of them have distinct owners (`few-owners`), the top repo holds under 10 % of the stars (`flat-stars`), or at least half of them have near-identical terms (`near-duplicate`).
+2. Turn each repo into a set of terms: the latin tokens of its name and description (compounds like `hermes-jev-skills` also yield their parts), plus its topics, minus a stop list ("ai", "agent", "cli", "mcp", "python", ...).
+3. Set aside templated repos first: a repo whose terms match another owner's repo at Jaccard 0.6 or more is a clone, and clones are grouped separately. This is what catches SEO farms that spread 5 repos across 40 words.
+4. For each term, burst = recent repos carrying it / (repos the baseline predicts + 1). A term needs at least 5 recent repos and a burst of at least 3.
+5. Merge terms whose repo sets overlap by at least 40 % into one wave, greedily. A repo belongs to one wave only, and a repo joining through a merged term must carry at least 3 of the wave's terms.
+6. Drop waves whose repos share nothing beyond the wave term (cohesion under 50 %): nine repos that all say "bit" are not an ecosystem.
+7. Flag a wave when at least 60 % of its repos were created on the same day (`same-day`), fewer than half of them have distinct owners (`few-owners`), the top repo holds under 10 % of the stars (`flat-stars`), or it is built from clones (`near-duplicate`). Clean waves are listed first, by stars per day.
 
 Why it works: repos in a new ecosystem borrow each other's vocabulary, so a wave is visible in shared terms days before any single repo tops Trending.
 
@@ -91,39 +92,37 @@ starwave 2026-09-30T12:53:57.572Z
 recent    1,538 repos  2026-09-16..2026-09-30  stars>=40
 baseline  2,828 repos  2026-07-18..2026-09-15  stars>=150
 
-Waves (8 of 8)
+Waves (6 of 6)
  #  wave                            repos  owners   stars    vel/d  first       anchor
- 1  jev (+typesafe, 39 more)          256     239  149.0k  14.0k/d  2026-09-16  NandhaKishorM/laya
+ 1  jev (+typesafe, 39 more)          249     232  145.5k  13.2k/d  2026-09-16  NandhaKishorM/laya
  2  opus                               21      20    7.0k   1.4k/d  2026-09-22  JohnHeibel/PDoomVid…
- 3  pool                               10      10    1.1k    110/d  2026-09-16  MelisaPeteRs2006/Si…
+ 3  films                               7       7    2.4k    498/d  2026-09-22  feitangyuan/onetake
  4  steamos                             5       5     637    114/d  2026-09-23  Droid-Deck/DroidDeck
- 5  discordfix                          5       5     391     81/d  2026-09-16  dajdsajdaj/DiscordF…
- 6  films                               7       7    2.4k    498/d  2026-09-22  feitangyuan/onetake
- 7  bitcoin (+blockchain, 3 more)       8       8    1.0k    114/d  2026-09-18  caxete/crypto-tax-c…
- 8  updated (+esp, helper)              9       9     588     48/d  2026-09-16  ThisTakou/UserAgent…
+ 5  qwen-image (+qwen-image-2.1)        5       5     626     83/d  2026-09-21  nihui/qwenimage-ncn…
+ 6  roblox                              5       5     332     56/d  2026-09-17  caomod2077/Deobfusc…
 
 Looks coordinated (2 of 2)
  #  wave                            repos  owners   stars    vel/d  first       anchor
- 1  apimart (+112 more)               178     168   15.7k   2.4k/d  2026-09-16  zouyuxuan122/dsh-ou…
-    same-day · flat-stars · near-duplicate
- 2  executor (+solara, 19 more)        48      43    2.5k    319/d  2026-09-17  timoncool/YuE2-Stud…
-    same-day · near-duplicate
+ 1  apimart (+api-docs, 105 more)     173     163   14.8k   2.2k/d  2026-09-16  apimart001a/llm-gat…
+    near-duplicate · same-day · flat-stars
+ 2  auto-raid-complete-script          44      39    1.9k    159/d  2026-09-18  1234512345z/Arcadia…
+    near-duplicate · same-day · flat-stars
 ```
 
-Three things to read off that table. The **jev** wave is 256 repos and 149k stars 15 days after TypeSafe AI announced its Jev decision model, merged from 40 terms (`laya`, `typesafe`, `system-one`, `decision-model`, ...) that no single keyword search would join. The **opus** wave is 21 repos of code-rendered videos made with Claude Opus 5.5, 8 days old, 1.4k stars a day, and not on Trending yet. And **apimart** is 178 repos from 168 owners, created on the same days with near-identical descriptions and no repo above 10 % of the stars, which is what an API-reseller SEO farm looks like; starwave lists it, flags it, and lets you check with `--show apimart`.
+Three things to read off that table. The **jev** wave is 249 repos and 145k stars 15 days after TypeSafe AI announced its Jev decision model, merged from 40 terms (`laya`, `typesafe`, `system-one`, `decision-model`, ...) that no single keyword search would join. The **opus** wave is 21 repos of code-rendered videos made with Claude Opus 5.5, 8 days old, 1.4k stars a day, and not on Trending. And **apimart** is 173 repos from 163 owners, 106 of them clones of each other, created on the same days, with no repo above 10 % of the stars, which is what an API-reseller SEO farm looks like; starwave lists it, flags it, and lets you check with `--show apimart`.
 
 ## Use it from an agent
 
 `skills/starwave/SKILL.md` is an Agent Skill for Claude Code, Codex, and any agent that reads `SKILL.md`. Once installed, asking the agent "what is blowing up on GitHub this week" makes it run `npx starwave --json`, read `waves[]`, and reply with the top 3 organic waves (repos, stars, stars per day, first seen, anchor) followed by the clusters that look coordinated and the flags that say why. Paste this into your agent:
 
 ```text
-Install the starwave skill from https://github.com/OWNER/starwave
+Install the starwave skill from https://github.com/Chaoqi31/starwave
 ```
 
 Or install it with the skills CLI:
 
 ```sh
-npx skills add OWNER/starwave
+npx skills add Chaoqi31/starwave
 ```
 
 ## Daily data
@@ -148,7 +147,8 @@ console.log(renderMarkdown(snapshot, { top: 10 }));
 
 - The search API returns at most 1,000 results per query. starwave slices the window by date; a slice with more than 1,000 qualifying repos is cut to its 1,000 most-starred.
 - Terms are latin-only for now. A CJK description contributes only its latin tokens and its topics.
-- Thresholds (5 repos, burst 3, overlap 40 %, cohesion 25 %) were tuned on one capture, 2026-09-30, which is also the test fixture.
+- Thresholds (5 repos, burst 3, overlap 40 %, Jaccard 0.6, cohesion 50 %) were tuned on one capture, 2026-09-30, which is also the test fixture.
+- The first run takes 3 to 5 minutes (about 60 search requests at the 30-per-minute limit). Repeats within 6 hours are instant.
 - Flags are heuristics, not verdicts. `npx starwave --show <id>` lists every repo in a wave so you can check them one by one.
 - No star history. Velocity is stars divided by age in days, not a curve.
 

@@ -16,6 +16,10 @@ export const STOP: ReadonlySet<string> = new Set(
 
 const ASCII_TOKEN = /[a-z][a-z0-9+.\-]{1,}/g;
 const DAY_MS = 86_400_000;
+const TEMPLATE_JACCARD = 0.6;
+const TEMPLATE_MIN_TERMS = 3;
+const TEMPLATE_MIN_NEIGHBORS = 1;
+const MIN_SHARED_TERMS = 3;
 
 export type DetectOptions = {
   minRepos?: number;
@@ -49,29 +53,68 @@ export function ageDays(repo: Repo, today: string): number {
 type TermSets = Map<Repo, Set<string>>;
 
 export function detectWaves(recent: Repo[], baseline: Repo[], opts: DetectOptions): Wave[] {
-  const { minRepos = 5, minBurst = 3, mergeOverlap = 0.4, minCohesion = 0.25, today } = opts;
+  const { minRepos = 5, minBurst = 3, mergeOverlap = 0.4, minCohesion = 0.5, today } = opts;
   const termSets: TermSets = new Map(recent.map((repo) => [repo, terms(repo)]));
+  const templated = templatedRepos(recent, termSets);
 
+  const baselineByTerm = new Map<string, number>();
+  for (const repo of baseline) {
+    for (const term of terms(repo)) baselineByTerm.set(term, (baselineByTerm.get(term) ?? 0) + 1);
+  }
+  const scale = recent.length / Math.max(1, baseline.length);
+  const group = (repos: Repo[]) =>
+    groupWaves(repos, termSets, baselineByTerm, scale, { minRepos, minBurst, mergeOverlap, today });
+
+  const organic = group(recent.filter((r) => !templated.has(r))).filter(
+    (w) => w.flags.length > 0 || (w.burst >= minBurst && w.cohesion >= minCohesion),
+  );
+  const clean = organic.filter((w) => w.flags.length === 0);
+  const coordinated = organic.filter((w) => w.flags.length > 0);
+  for (const farm of group(recent.filter((r) => templated.has(r)))) {
+    farm.flags.unshift("near-duplicate");
+    const twin = coordinated.findIndex((w) => w.id === farm.id || w.aliases.includes(farm.id));
+    if (twin >= 0) {
+      const w = coordinated[twin] as Wave;
+      const merged = buildWave(
+        [...new Set([w.id, ...w.aliases, farm.id, ...farm.aliases])],
+        [...w.repos, ...farm.repos],
+        termSets,
+        baselineByTerm,
+        scale,
+        today,
+      );
+      merged.flags = [...new Set([...farm.flags, ...w.flags])];
+      coordinated[twin] = merged;
+    } else {
+      if (clean.some((w) => w.id === farm.id)) farm.id = `${farm.id}-clones`;
+      coordinated.push(farm);
+    }
+  }
+
+  const byVelocity = (a: Wave, b: Wave) => b.velocity - a.velocity || (a.id < b.id ? -1 : 1);
+  return [...clean.sort(byVelocity), ...coordinated.sort(byVelocity)];
+}
+
+type GroupOptions = { minRepos: number; minBurst: number; mergeOverlap: number; today: string };
+
+function groupWaves(
+  repos: Repo[],
+  termSets: TermSets,
+  baselineByTerm: Map<string, number>,
+  scale: number,
+  { minRepos, minBurst, mergeOverlap, today }: GroupOptions,
+): Wave[] {
   const recentByTerm = new Map<string, Repo[]>();
-  for (const [repo, set] of termSets) {
-    for (const term of set) {
+  for (const repo of repos) {
+    for (const term of termSets.get(repo) ?? []) {
       const list = recentByTerm.get(term);
       if (list) list.push(repo);
       else recentByTerm.set(term, [repo]);
     }
   }
-  const baselineByTerm = new Map<string, number>();
-  for (const repo of baseline) {
-    for (const term of terms(repo)) baselineByTerm.set(term, (baselineByTerm.get(term) ?? 0) + 1);
-  }
-
-  const scale = recent.length / Math.max(1, baseline.length);
-  const burstOf = (count: number, baselineCount: number) => count / (baselineCount * scale + 1);
-  const scoreOf = (burst: number, stars: number) => burst * Math.log10(stars + 10);
-
-  const candidates = Array.from(recentByTerm, ([term, repos]) => {
-    const burst = burstOf(repos.length, baselineByTerm.get(term) ?? 0);
-    return { term, repos, burst, score: scoreOf(burst, sumStars(repos)) };
+  const candidates = Array.from(recentByTerm, ([term, members]) => {
+    const burst = members.length / ((baselineByTerm.get(term) ?? 0) * scale + 1);
+    return { term, repos: members, burst, score: burst * Math.log10(sumStars(members) + 10) };
   })
     .filter((c) => c.repos.length >= minRepos && c.burst >= minBurst)
     .sort((a, b) => b.score - a.score || (a.term < b.term ? -1 : 1));
@@ -79,12 +122,12 @@ export function detectWaves(recent: Repo[], baseline: Repo[], opts: DetectOption
   const groups: { terms: string[]; repos: Set<Repo> }[] = [];
   const claimed = new Set<Repo>();
   for (const candidate of candidates) {
-    const repos = new Set(candidate.repos);
-    const home = groups.find((g) => overlap(repos, g.repos) >= mergeOverlap);
+    const members = new Set(candidate.repos);
+    const home = groups.find((g) => overlap(members, g.repos) >= mergeOverlap);
     let free = candidate.repos.filter((r) => !claimed.has(r));
     if (home) {
       home.terms.push(candidate.term);
-      free = free.filter((r) => sharedTerms(termSets.get(r), home.terms) >= 2);
+      free = free.filter((r) => sharedTerms(termSets.get(r), home.terms) >= MIN_SHARED_TERMS);
       for (const repo of free) home.repos.add(repo);
     } else if (free.length >= minRepos) {
       groups.push({ terms: [candidate.term], repos: new Set(free) });
@@ -94,78 +137,79 @@ export function detectWaves(recent: Repo[], baseline: Repo[], opts: DetectOption
     for (const repo of free) claimed.add(repo);
   }
 
-  const waves = groups.map((group): Wave => {
-    const repos = [...group.repos].sort((a, b) => b.stars - a.stars || (a.fullName < b.fullName ? -1 : 1));
-    const anchor = repos[0] as Repo;
-    const stars = sumStars(repos);
-    const ownerCount = new Set(repos.map(ownerOf)).size;
-    const baselineCount = Math.max(...group.terms.map((t) => baselineByTerm.get(t) ?? 0));
-    const burst = burstOf(repos.length, baselineCount);
-    const cohesion = cohesionOf(repos, group.terms, termSets);
-    return {
-      id: group.terms[0] as string,
-      aliases: group.terms.slice(1),
-      repos,
-      repoCount: repos.length,
-      ownerCount,
-      stars,
-      velocity: repos.reduce((sum, r) => sum + r.stars / ageDays(r, today), 0),
-      firstSeen: repos.reduce((min, r) => (r.createdAt < min ? r.createdAt : min), anchor.createdAt),
-      baselineCount,
-      burst,
-      cohesion,
-      score: scoreOf(burst, stars),
-      anchor,
-      flags: flagsOf(repos, ownerCount, stars, termSets),
-    };
-  });
-
-  const byScore = (a: Wave, b: Wave) => b.score - a.score;
-  const kept = waves.filter((w) => w.repoCount >= 20 || w.cohesion >= minCohesion);
-  return [
-    ...kept.filter((w) => w.flags.length === 0).sort(byScore),
-    ...kept.filter((w) => w.flags.length > 0).sort(byScore),
-  ];
+  return groups.map((g) => buildWave(g.terms, [...g.repos], termSets, baselineByTerm, scale, today));
 }
 
-function cohesionOf(repos: Repo[], waveTerms: string[], termSets: TermSets): number {
-  const own = new Set(waveTerms);
-  const sets = repos.map((repo) => new Set([...(termSets.get(repo) ?? [])].filter((t) => !own.has(t))));
-  let pairs = 0;
-  let linked = 0;
-  // ponytail: O(n²) pairwise scan, waves are < 500 repos
-  for (const [i, a] of sets.entries()) {
-    for (const b of sets.slice(i + 1)) {
-      pairs++;
-      if (sharesAny(a, b)) linked++;
+function buildWave(
+  waveTerms: string[],
+  repos: Repo[],
+  termSets: TermSets,
+  baselineByTerm: Map<string, number>,
+  scale: number,
+  today: string,
+): Wave {
+  const members = [...repos].sort((a, b) => b.stars - a.stars || (a.fullName < b.fullName ? -1 : 1));
+  const anchor = members[0] as Repo;
+  const stars = sumStars(members);
+  const baselineCount = Math.max(...waveTerms.map((t) => baselineByTerm.get(t) ?? 0));
+  const burst = members.length / (baselineCount * scale + 1);
+  const ownerCount = new Set(members.map(ownerOf)).size;
+  return {
+    id: waveTerms[0] as string,
+    aliases: waveTerms.slice(1),
+    repos: members,
+    repoCount: members.length,
+    ownerCount,
+    stars,
+    velocity: members.reduce((sum, r) => sum + r.stars / ageDays(r, today), 0),
+    firstSeen: members.reduce((min, r) => (r.createdAt < min ? r.createdAt : min), anchor.createdAt),
+    baselineCount,
+    burst,
+    cohesion: cohesionOf(members, waveTerms, termSets),
+    score: burst * Math.log10(stars + 10),
+    anchor,
+    flags: flagsOf(members, ownerCount, stars),
+  };
+}
+
+function templatedRepos(repos: Repo[], termSets: TermSets): Set<Repo> {
+  const sets = repos.map((repo) => termSets.get(repo) ?? new Set<string>());
+  const neighbors = repos.map(() => 0);
+  // ponytail: O(n²) pairwise scan, ~2 s for 2,500 repos; index by term if the window grows past 10k
+  for (let i = 0; i < repos.length; i++) {
+    const a = sets[i] as Set<string>;
+    if (a.size < TEMPLATE_MIN_TERMS) continue;
+    for (let j = i + 1; j < repos.length; j++) {
+      const b = sets[j] as Set<string>;
+      if (b.size < TEMPLATE_MIN_TERMS || ownerOf(repos[i] as Repo) === ownerOf(repos[j] as Repo)) continue;
+      if (jaccard(a, b) >= TEMPLATE_JACCARD) {
+        (neighbors[i] as number)++;
+        (neighbors[j] as number)++;
+      }
     }
   }
-  return pairs === 0 ? 0 : linked / pairs;
+  return new Set(repos.filter((_, i) => (neighbors[i] as number) >= TEMPLATE_MIN_NEIGHBORS));
 }
 
-function sharesAny(a: Set<string>, b: Set<string>): boolean {
-  for (const term of a) if (b.has(term)) return true;
-  return false;
-}
-
-function flagsOf(repos: Repo[], ownerCount: number, stars: number, termSets: TermSets): Flag[] {
+function flagsOf(repos: Repo[], ownerCount: number, stars: number): Flag[] {
   const n = repos.length;
   const flags: Flag[] = [];
   if (n >= 10 && modeShare(repos.map((r) => r.createdAt)) >= 0.6) flags.push("same-day");
   if (n >= 10 && ownerCount / n < 0.5) flags.push("few-owners");
   if (n >= 20 && (repos[0] as Repo).stars / stars < 0.1) flags.push("flat-stars");
-  if (n >= 10 && duplicateShare(repos, termSets) >= 0.5) flags.push("near-duplicate");
   return flags;
 }
 
-function duplicateShare(repos: Repo[], termSets: TermSets): number {
-  const sets = repos.map((repo) => termSets.get(repo) ?? new Set<string>());
-  let duplicates = 0;
-  // ponytail: O(n²) pairwise scan, waves are < 500 repos
-  for (const [i, a] of sets.entries()) {
-    if (sets.some((b, j) => j !== i && jaccard(a, b) >= 0.7)) duplicates++;
-  }
-  return duplicates / repos.length;
+function cohesionOf(repos: Repo[], waveTerms: string[], termSets: TermSets): number {
+  const own = new Set(waveTerms);
+  const sets = repos.map((repo) => new Set([...(termSets.get(repo) ?? [])].filter((t) => !own.has(t))));
+  const linked = sets.filter((a, i) => sets.some((b, j) => j !== i && sharesAny(a, b)));
+  return repos.length === 0 ? 0 : linked.length / repos.length;
+}
+
+function sharesAny(a: Set<string>, b: Set<string>): boolean {
+  for (const term of a) if (b.has(term)) return true;
+  return false;
 }
 
 function jaccard(a: Set<string>, b: Set<string>): number {
@@ -175,8 +219,8 @@ function jaccard(a: Set<string>, b: Set<string>): number {
   return union === 0 ? 1 : shared / union;
 }
 
-function sharedTerms(set: Set<string> | undefined, terms: string[]): number {
-  return set ? terms.filter((t) => set.has(t)).length : 0;
+function sharedTerms(set: Set<string> | undefined, waveTerms: string[]): number {
+  return set ? waveTerms.filter((t) => set.has(t)).length : 0;
 }
 
 function overlap(a: Set<Repo>, b: Set<Repo>): number {

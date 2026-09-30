@@ -25,6 +25,7 @@ jobs:
           mkdir -p data
           node dist/cli.js --json > "data/$(date -u +%F).json"
           node dist/cli.js --from "data/$(date -u +%F).json" --md --top 10 > /tmp/waves.md
+          node scripts/svg.mjs "data/$(date -u +%F).json" assets/waves.svg
       - name: Update README block
         run: |
           node -e '
@@ -41,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data README.md README.zh-CN.md
+          git add data assets README.md README.zh-CN.md
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "waves: $(date -u +%F)"
             git push

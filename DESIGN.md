@@ -48,11 +48,11 @@ export type Snapshot = {
   baselineWindow: { from: string; to: string; minStars: number };
   recentCount: number;
   baselineCount: number;
-  waves: Wave[];             // organic first (no flags), then flagged, each group by score desc
+  waves: Wave[];             // organic first (no flags), then flagged, each group by velocity desc
 };
 ```
 
-The test fixture `test/fixtures/2026-09-30.json.gz` is gzip JSON with `{ capturedAt, recentWindow, baselineWindow, recent: Repo[], baseline: Repo[] }`, captured live on 2026-09-30 (2,250 recent repos created 2026-09-09..30 with >= 40 stars; 3,318 baseline repos created 2026-06-01..09-08 with >= 150 stars).
+The test fixture `test/fixtures/2026-09-30.json.gz` is gzip JSON with `{ capturedAt, recentWindow, baselineWindow, recent: Repo[], baseline: Repo[] }`, the capture of a default run (`--days 14 --min-stars 40 --baseline-days 60 --baseline-min-stars 150`) on 2026-09-30: 1,538 recent and 2,828 baseline repos.
 
 ## Modules
 
@@ -64,17 +64,14 @@ The test fixture `test/fixtures/2026-09-30.json.gz` is gzip JSON with `{ capture
 
 `src/waves.ts` (pure)
 - `terms(repo): Set<string>`: lowercase `name + " " + description`; tokens `/[a-z][a-z0-9+.\-]{1,}/g`, trimmed of leading and trailing `.-`; each hyphen- or dot-joined token also yields its parts (`hermes-jev-skills` gives `hermes`, `jev`, `skills` and the compound); plus each topic lowercased; drop length < 3, pure digits, and anything in `STOP`. `STOP` is a frozen list of generic words (articles, "ai", "llm", "agent", "tool", "app", "cli", "framework", "open", "source", "claude", "codex", "cursor", "chatgpt", "gpt", "openai", "anthropic", "model", "models", "mcp", "server", "python", "typescript", "javascript", "rust", "api", "sdk", "plugin", "plugins", "skill", "skills", "free", "fast", "simple", "local", "native", "web", "awesome", "curated", "list", "guide", "based", "using", "built", "powered", "support", "supports", "your", "with", "for", "and", "the", …). Start from the list in `/Users/chaoqi/Dev/trending-lab/proto/waves.py` and extend when the fixture output shows junk.
-- `detectWaves(recent, baseline, opts): Wave[]` with `opts = { minRepos = 5, minBurst = 3, mergeOverlap = 0.5, today }`:
-  1. Index recent repos by term; count baseline repos by term.
-  2. For each term with >= minRepos recent repos: compute burst, stars, velocity, score. Keep burst >= minBurst.
-  3. Sort terms by score desc. Greedy merge: a term joins the first existing wave where `|repos(term) ∩ repos(wave)| / min(|repos(term)|, |repos(wave)|) >= mergeOverlap` (default 0.4); otherwise it starts a new wave. A repo belongs to at most one wave: the first wave (in score order) that reaches it claims it. A repo joining an existing wave through a merged term must carry at least 2 of that wave's terms, so a spam farm's generic word ("compatible", "docs") cannot pull in unrelated repos. After merging, recompute every wave's stats on the union of repos; `baselineCount` is the max over its terms; `burst` and `score` recomputed from the union.
-  3b. `cohesion` = share of repo pairs in the wave that share at least one term beyond the wave's own terms. Waves with fewer than 20 repos and cohesion < `minCohesion` (default 0.25) are dropped: they are repos that happen to share one generic word ("bit", "point", "answers"), not an ecosystem.
-  4. Flags, computed on the wave's repos:
-     - `same-day`: repoCount >= 10 and the most common `createdAt` holds >= 60 % of repos.
-     - `few-owners`: repoCount >= 10 and ownerCount / repoCount < 0.5.
-     - `flat-stars`: repoCount >= 20 and anchor.stars / stars < 0.10.
-     - `near-duplicate`: repoCount >= 10 and >= 50 % of repos have Jaccard(terms) >= 0.7 with some other repo in the wave. `// ponytail: O(n²) pairwise scan, waves are < 500 repos`.
-  5. Return organic waves first, then flagged, each sorted by score desc.
+- `detectWaves(recent, baseline, opts): Wave[]` with `opts = { minRepos = 5, minBurst = 3, mergeOverlap = 0.4, minCohesion = 0.5, today }`:
+  0. Template pass over all recent repos: a repo is *templated* when another repo from a different owner has Jaccard(terms) >= 0.6 with it (both with >= 3 terms). Templated repos are grouped on their own; everything else is the organic population. Farms that spread across many small waves used to escape per-wave flags with an n >= 10 floor; this catches them before grouping. O(n²) over ~2,500 repos, about a second.
+  1. Index the population's repos by term; count baseline repos by term (baseline counts are shared by both populations).
+  2. For each term with >= minRepos repos: burst = count / (baselineCount × recent/baseline + 1), score = burst × log10(stars + 10). Keep burst >= minBurst.
+  3. Sort terms by score desc. Greedy merge: a term joins the first existing wave where `|repos(term) ∩ repos(wave)| / min(|repos(term)|, |repos(wave)|) >= mergeOverlap`; otherwise it starts a new wave. A repo belongs to at most one wave: the first wave (in score order) that reaches it claims it. A repo joining an existing wave through a merged term must carry at least 3 of that wave's terms; two was not enough once a big wave had accumulated generic aliases ("compatible", "retry").
+  4. Per wave: `cohesion` = share of repos that share at least one term beyond the wave's own terms with another repo in the wave. Organic waves need final burst >= minBurst (the candidate count shrinks once other waves claim repos) and cohesion >= minCohesion; nine unrelated repos that all say "bit" score 0.
+  5. Flags on the wave's repos: `same-day` (n >= 10, the most common createdAt holds >= 60 %), `few-owners` (n >= 10, ownerCount / n < 0.5), `flat-stars` (n >= 20, anchor.stars / stars < 0.10). Every templated wave carries `near-duplicate`. A templated wave whose id matches a flagged organic wave merges into it (the two halves of one farm); one that collides with a clean organic id gets the suffix `-clones`.
+  6. Return clean organic waves sorted by velocity desc, then everything flagged sorted by velocity desc.
 - `ageDays(repo, today)` = max(1, days between).
 
 `src/render.ts` (pure)
@@ -91,14 +88,18 @@ The test fixture `test/fixtures/2026-09-30.json.gz` is gzip JSON with `{ capture
 
 ## Tests (`test/waves.test.ts`, `node --test`)
 
-Load the gzip fixture with `node:zlib.gunzipSync`, run `detectWaves(recent, baseline, { today: "2026-09-30" })`, then assert:
-- the top organic wave has `id === "jev"` and `repoCount >= 150` and its aliases include `"laya"` and `"typesafe"`.
-- `anchor.fullName === "NandhaKishorM/laya"` for that wave.
-- a wave with id `"apimart"` (or whose aliases include `"apimart"`) exists and carries `same-day` or `near-duplicate` or `flat-stars`, and is not in the organic group.
-- no organic wave has `id` in the STOP list.
-- `detectWaves` is deterministic: running twice yields identical JSON.
-- `renderMarkdown` output contains a `| # |` header and the string `NandhaKishorM/laya`.
-Also a small unit test for `terms()` on a hand-written repo (strips stopwords, keeps topics, drops digits).
+Load the gzip fixture, run `detectWaves(recent, baseline, { today: "2026-09-30" })`, then assert against named repos in the capture:
+- the fixture is a default-window capture (40 / 150 star floors, > 1,000 recent and > 2,000 baseline repos).
+- top organic wave is `jev`, >= 200 repos, aliases include `laya` and `typesafe`, anchor `NandhaKishorM/laya`, contains `browser-use/jev-ultrafast`.
+- `opus` is organic with >= 15 repos and contains `yihui-dev/awesome-opus5-5-videos`.
+- exactly one flagged wave carries `apimart`, with `near-duplicate` and `same-day`, >= 150 repos, an `apimart*` anchor, and none of `browser-use/jev-ultrafast`, `KKKKhazix/AIHOT`, `ghuntley/underclass`.
+- `updated`, `discordfix`, `executor`, `auto-raid-complete-script` are not organic; no organic wave contains an `8-Ball-Pool-Autoplay`, `DiscordFix-`, or `Bunker-Script` repo; the Roblox script farm is flagged `near-duplicate`.
+- `timoncool/YuE2-Studio` and `NandhaKishorM/laya` are in no flagged wave.
+- every organic wave has cohesion >= 0.5; `bit`, `answers`, `point`, `midi` are not waves.
+- organic waves are sorted by velocity desc and none is led by a stopword.
+- every repo is in at most one wave and ids are unique.
+- `detectWaves` is deterministic; `renderMarkdown` contains `| # |` and `NandhaKishorM/laya`.
+- `terms()` strips stopwords, splits compounds, keeps topics, drops digits.
 
 ## Daily workflow (`.github/workflows/daily.yml`)
 
