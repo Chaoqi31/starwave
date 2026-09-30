@@ -31,6 +31,6 @@
 <text class="l" x="24" y="412" fill="#d7dae0" style="animation-delay:2.43s"> 2  <tspan fill="#ffa198" font-weight="700">auto-raid-complete-script</tspan>        44      39    1.9k    159/d    622/d  2026-09-18  1234512345z/Arcad…</text>
 <text class="l" x="24" y="432" fill="#f47067" style="animation-delay:2.52s">    near-duplicate · same-day · flat-stars</text>
 <text class="l" x="24" y="452" fill="#d7dae0" style="animation-delay:2.61s"></text>
-<text class="l" x="24" y="472" fill="#7d8590" style="animation-delay:2.70s">vel/d: stars per day since each repo was created · 3d/d: stars per day over the last 3 full days</text>
+<text class="l" x="24" y="472" fill="#7d8590" style="animation-delay:2.70s">vel/d: each repo's stars divided by its age in days, summed · 3d/d: stars per day over the last 3 full days</text>
 <text class="c" x="24" y="492" fill="#7ee787" style="animation-delay:3.00s">$ <tspan fill="#d7dae0">█</tspan></text>
 </svg>

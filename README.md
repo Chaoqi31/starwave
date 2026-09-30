@@ -28,9 +28,9 @@ You need Node 20 or newer and a GitHub token. A logged-in `gh` CLI works, and so
 
 These numbers come from the 12:53 UTC capture that the tests use. The image at the top and the table below update every day.
 
-- **jev: 249 repos and 145k stars in 15 days.** TypeSafe AI released its Jev decision model on September 15. starwave merged 40 terms into this wave (`laya`, `typesafe`, `system-one`, `decision-model`, and more), which no single keyword search would join. The wave's best day was September 21, with 24,568 new stars, and it is cooling: 13.2k stars a day since launch, 5.1k a day over the last 3 days.
-- **opus: 21 repos of code-rendered videos made with Claude Opus 5.5.** The oldest is 8 days old. They still gain 1.1k stars a day, and none of them was on GitHub Trending's daily or weekly list that day.
-- **Two clusters look coordinated.** All 173 `apimart` repos mention the same API reseller, and 146 of them were created on September 24. All 44 Roblox script repos were created on September 18, and 98 % of their stars from the last 14 days arrived on one day, September 27. starwave lists both under "Looks coordinated" and keeps them out of the ranking.
+- **jev: 249 repos and 145k stars in 15 days.** TypeSafe AI released its Jev decision model on September 15. starwave merged 40 terms into this wave (`laya`, `typesafe`, `system-one`, `decision-model`, and more), which no single keyword search would join. The wave's best day was September 21, with 24,568 new stars. It is cooling: its repos gained 10.3k stars a day on average over the 14 days, and 5.1k a day over the last 3.
+- **opus: 21 repos about things people made with Claude Opus 5.5, 13 of them videos rendered in code.** The oldest is 8 days old. They gained 1.1k stars a day over the last 3 days, and none of them was on GitHub Trending's daily or weekly list that day.
+- **Two clusters look coordinated.** All 173 `apimart` repos mention the same API reseller, and 146 of them were created on September 24. Four hours after the capture, 105 of the 173 returned 404. The 44 repos of the `auto-raid-complete-script` wave, all Roblox script executors, were created on September 18, and 98 % of their stars from the last 14 days arrived on one day, September 27. starwave lists both under "Looks coordinated", outside the ranking.
 
 ## Why not GitHub Trending?
 
@@ -39,8 +39,8 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 | What it ranks | single repos | groups of new repos that share a bursting term |
 | Which repos | any age | created in the last 14 days |
 | A launch with 249 satellite repos | separate entries, if any make the top 25 | one wave, with every repo |
-| Template farms | not shown | listed apart, with the measurement behind each flag |
-| Momentum | stars today, this week, or this month | stars per day since launch next to the last 3 days, and a 14-day chart |
+| Near-identical repo clusters | no such view | listed apart, with the measurement behind each flag |
+| Momentum | stars today, this week, or this month | stars per day over the last 3 days, and a 14-day chart |
 | Output | a web page | terminal, Markdown, JSON, and an agent skill |
 
 ## Today's waves
@@ -50,16 +50,23 @@ A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in 
 <!-- starwave:start -->
 _recent 1,456 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,833 repos  2026-07-18..2026-09-15  stars>=150 · generated 2026-09-30 16:22 UTC_
 
+| # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
+|--:|---|--:|--:|--:|--:|--:|---|---|---|
+| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 38 more) | 251 | 233 | 146.0k | 13.3k/d | 5.2k/d | ▁▃▄▅▆█▇▅▃▃▂▂▃▂ | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |
+| 2 | **opus** (+motion-graphics) | 22 | 21 | 7.1k | 1.4k/d | 1.1k/d | ▁▁▁▁▁▁▂▇▅▃▅█▇▄ | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |
+| 3 | **films** | 7 | 7 | 2.6k | 552/d | 351/d | ▁▁▁▁▁▁▂▂▃▃█▆▆▃ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |
+| 4 | **steamos** | 5 | 5 | 660 | 118/d | 160/d | ▁▁▁▁▁▁▁▃▂▂▂▆█▇ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
+| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 638 | 84/d | 54/d | ▁▁▁▁▁▁▆█▇█▅▃▄▇ | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |
+| 6 | **roblox** | 5 | 5 | 335 | 57/d | 52/d | ▁▁▁▁▁▁▁▂▃▄▄█▂▂ | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |
+
+**Looks coordinated**
+
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 38 more) | 251 | 233 | 146.0k | 13.3k/d | 5.2k/d | ▁▃▄▅▆█▇▅▃▃▂▂▃▂ | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
-| 2 | **opus** (+motion-graphics) | 22 | 21 | 7.1k | 1.4k/d | 1.1k/d | ▁▁▁▁▁▁▂▇▅▃▅█▇▄ | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
-| 3 | **films** | 7 | 7 | 2.6k | 552/d | 351/d | ▁▁▁▁▁▁▂▂▃▃█▆▆▃ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
-| 4 | **steamos** | 5 | 5 | 660 | 118/d | 160/d | ▁▁▁▁▁▁▁▃▂▂▂▆█▇ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
-| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 638 | 84/d | 54/d | ▁▁▁▁▁▁▆█▇█▅▃▄▇ | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
-| 6 | **roblox** | 5 | 5 | 335 | 57/d | 52/d | ▁▁▁▁▁▁▁▂▃▄▄█▂▂ | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
-| 7 | **apimart** (+ai-api-gateway, api-docs, pay-as-you-go, aggregator, llm-api, 22 more) | 68 | 61 | 6.2k | 859/d | 766/d | ▁▁▁▁▃▂▂▁▁█▅▁█▃ | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
-| 8 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 622/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
+| 1 | **apimart** (+ai-api-gateway, api-docs, pay-as-you-go, aggregator, llm-api, 22 more) | 68 | 61 | 6.2k | 859/d | 766/d | ▁▁▁▁▃▂▂▁▁█▅▁█▃ | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
+| 2 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 622/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
+
+_vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
 <details><summary><b>jev</b>: 251 repos, 146.0k stars</summary>
 
@@ -122,7 +129,7 @@ npx github:Chaoqi31/starwave --json                    # the full snapshot, for 
 npx github:Chaoqi31/starwave --md                      # a Markdown table, ready to paste
 ```
 
-The first run takes 3 to 5 minutes, because the GitHub search API allows 30 requests a minute. starwave caches results in `~/.cache/starwave` for 6 hours, so the next run returns at once. To keep a `starwave` command around, run `npm install -g github:Chaoqi31/starwave`.
+The first run takes 3 to 5 minutes, because the GitHub search API allows 30 requests a minute. starwave caches results in `~/.cache/starwave` for 6 hours, so the next run returns at once. The first `npx github:` call also downloads and builds starwave, which took 10 seconds on a fast connection and 2 minutes on a slow one. To keep a `starwave` command around, run `npm install -g github:Chaoqi31/starwave`.
 
 | Option | Default | Meaning |
 |---|---|---|

@@ -229,13 +229,13 @@ const T = {
     at: (d, hm) => `${d}, ${hm}\u00a0UTC`,
     seaCap: (a, b) => `Each line is one wave: stars per day from ${a} to ${b}, scaled to its own peak. Magenta marks the last 3 days.`,
     wavesH: "Waves forming now",
-    wavesSub: (n) => `${n} ${n === 1 ? "cluster" : "clusters"} of new repos that share a bursting term, ranked by stars per day since launch.`,
+    wavesSub: (n) => `${n} ${n === 1 ? "cluster" : "clusters"} of new repos that share a bursting term, ranked by stars per day.`,
     loading: "Loading today's waves.",
     wavesNone: "No clean waves in today's snapshot.",
     mergedPre: "Merged with ", mergedSep: ", ",
     mergedPost: (more) => (more ? ` and ${more} more.` : "."),
     repos: "repos", owners: "owners", stars: "stars", firstSeen: "first seen",
-    perDay: "/day", sinceLaunch: "since launch", last3: "last 3 days",
+    perDay: "/day", avgSince: (d) => `average since ${d}`, lifetime: "sum of repo lifetime rates", last3: "last 3 days",
     peak: (v, d) => `Peak ${v} on ${d}`,
     chartLabel: (a, b, list) => `Stars per day from ${a} to ${b}: ${list}.`,
     listSep: ", ",
@@ -282,13 +282,13 @@ const T = {
     at: (d, hm) => `${d} ${hm}\u00a0UTC`,
     seaCap: (a, b) => `每条线是一个浪潮：${a}到${b}每天新增的 star，按各自的峰值缩放。品红色是最近 3 天。`,
     wavesH: "正在成形的浪潮",
-    wavesSub: (n) => `${n} 组新仓库，每组共享一个突增的词，按创建以来的日均 star 排序。`,
+    wavesSub: (n) => `${n} 组新仓库，每组共享一个突增的词，按每天新增的 star 排序。`,
     loading: "正在加载今天的浪潮。",
     wavesNone: "今天的快照里没有干净的浪潮。",
     mergedPre: "合并了 ", mergedSep: "、",
     mergedPost: (more, total) => (more ? ` 等 ${total} 个词。` : "。"),
     repos: "个仓库", owners: "个账号", stars: "star", firstSeen: "首次出现",
-    perDay: "/天", sinceLaunch: "创建以来", last3: "最近 3 天",
+    perDay: "/天", avgSince: (d) => `${d}以来日均`, lifetime: "各仓库生命周期速度之和", last3: "最近 3 天",
     peak: (v, d) => `${d}达到峰值 ${v}`,
     chartLabel: (a, b, list) => `${a}至${b}每天新增的 star：${list}。`,
     listSep: "、",
@@ -509,9 +509,15 @@ function stats(w) {
 function rates(w) {
   const rate = (v, label, cls) =>
     el("p", { className: `rate${cls}` }, el("b", { textContent: fmt(v) }), el("span", { className: "u", textContent: t("perDay") }), el("span", { className: "l", textContent: label }));
-  const box = el("div", { className: "rates" }, rate(w.velocity, t("sinceLaunch"), ""));
-  if (typeof w.velocity3d === "number") box.append(rate(w.velocity3d, t("last3"), " now"));
-  return box;
+  const d = w.daily;
+  const ds = Array.isArray(d) && d.length ? days(d.length) : [];
+  const first = ds.findIndex((day) => day.getTime() >= utc(w.firstSeen).getTime());
+  if (first < 0 || typeof w.velocity3d !== "number") {
+    return el("div", { className: "rates" }, rate(w.velocity, t("lifetime"), ""));
+  }
+  const since = d.slice(first);
+  const avg = since.reduce((a, b) => a + b, 0) / since.length;
+  return el("div", { className: "rates" }, rate(avg, t("avgSince")(md(ds[first])), ""), rate(w.velocity3d, t("last3"), " now"));
 }
 
 function chart(w) {

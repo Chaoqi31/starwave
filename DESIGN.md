@@ -66,7 +66,7 @@ A default run makes about 60 search requests and takes 3 to 5 minutes the first 
 ## Finding waves (`src/waves.ts`)
 
 1. **Terms.** Each repo becomes a set of terms: the latin tokens of its name and description, the parts of hyphen- and dot-joined tokens (`hermes-jev-skills` also gives `hermes`, `jev`, `skills`), and its topics. Tokens shorter than 3 characters, pure numbers, and words in `STOP` ("ai", "agent", "cli", "python", ...) are dropped.
-2. **Clone pass.** A repo is templated when a repo from a different owner has a term Jaccard similarity of 0.6 or more with it (both need at least 3 terms). Templated repos are grouped separately from everything else. Before this pass existed, farms of 5 to 9 copies spread across many terms and showed up as small clean waves. The pass is a pairwise scan, about one second for 2,500 repos.
+2. **Clone pass.** A repo is templated when a repo from a different owner has a term Jaccard similarity of 0.6 or more with it (both need at least 3 terms). Templated repos are grouped separately from everything else. Before this pass existed, clusters of 5 to 9 copies spread across many terms and showed up as small clean waves. The pass is a pairwise scan, about one second for 2,500 repos.
 3. **Burst.** For each term carried by at least 5 repos, burst = count / (baseline count × recent/baseline + 1). Terms need a burst of 3 or more.
 4. **Merge.** Terms are sorted by score and merged greedily. A term joins the first wave whose repo set overlaps its own by 40 % or more of the smaller set. Each repo belongs to one wave. A repo that joins through a merged term must carry at least 3 of the wave's terms. With 2, a large wave that had collected generic aliases pulled in unrelated repos.
 5. **Cohesion.** A clean wave needs a final burst of 3 or more and a cohesion of 0.5 or more. Nine repos that all contain the word "bit" and nothing else in common have a cohesion of 0.
@@ -75,6 +75,8 @@ A default run makes about 60 search requests and takes 3 to 5 minutes the first 
 ## Star history (`src/history.ts`)
 
 `GET /repos/{owner}/{repo}/stargazers/history` returns weekly buckets `{ week, total, days[7] }`, Sunday first, in UTC. After `detectWaves`, the CLI fetches the history of every repo in every wave, 6 requests at a time, under the 5,000 requests per hour core limit. `dailyStars` sums the buckets into stars per day for complete days only. `velocity3d` is the mean of the last 3 days and `daily` keeps the last 14. A repo that no longer exists counts as zero. If any other request fails, that wave gets no `velocity3d`, because a partial sum would understate it. `--no-history` skips this step. A default run makes about 500 history requests in under a minute.
+
+`velocity` and `velocity3d` are not the same kind of number. `velocity` is a ranking score that works without history: each repo's stars divided by its age, summed. It runs above the wave's real daily total when young repos hold many stars. On 2026-09-30 jev scored 13.2k while its repos gained 10.3k a day on average over the 14 days. To judge momentum, compare `velocity3d` with the mean of `daily` since `firstSeen`, as the site does.
 
 ## Daily workflow (`.github/workflows/daily.yml`)
 
@@ -93,7 +95,7 @@ At 06:17 UTC GitHub Actions runs a default snapshot with the repository's `GITHU
 - The top clean wave is `jev`, with at least 200 repos, `laya` and `typesafe` among its aliases, and `NandhaKishorM/laya` as anchor.
 - `opus`, a wave 8 days old, is clean and contains `yihui-dev/awesome-opus5-5-videos`.
 - Exactly one flagged wave carries `apimart`. It has at least 150 repos and keeps `browser-use/jev-ultrafast`, `KKKKhazix/AIHOT`, and `ghuntley/underclass` out.
-- Script farms of 5 to 9 copies are not clean waves, and `timoncool/YuE2-Studio` is in no flagged wave.
+- Script clusters of 5 to 9 copies are not clean waves, and `timoncool/YuE2-Studio` is in no flagged wave.
 - Clean waves have a cohesion of 0.5 or more, sort by velocity, and never start with a stop word. Each repo appears in one wave at most.
 - `dailyStars` counts only complete days, sums across repos, and fills missing days with 0. The test uses the real history of `NandhaKishorM/laya`.
 

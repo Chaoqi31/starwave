@@ -28,9 +28,9 @@ npx github:Chaoqi31/starwave
 
 以下数字来自当天 12:53 UTC 的抓取，也就是测试用的那份数据。顶部的图和下面的表每天更新。
 
-- **jev：15 天 249 个仓库、14.5 万 star。** TypeSafe AI 在 9 月 15 日发布 Jev 决策模型。starwave 把 40 个词（`laya`、`typesafe`、`system-one`、`decision-model` 等）合并成这一个浪潮，这是任何单个关键词搜索都拼不出来的。单日最高是 9 月 21 日，新增 24,568 个 star，现在正在降温：发布以来平均每天 1.32 万，最近 3 天每天 5,100。
-- **opus：21 个用 Claude Opus 5.5 写代码渲染出来的视频仓库。** 最早的一个才 8 天，现在每天仍有 1,100 个 star，而当天 GitHub Trending 的日榜和周榜上一个都没有。
-- **有两个仓库簇疑似协同。** `apimart` 的 173 个仓库全部提到同一家 API 中转商，其中 146 个创建于 9 月 24 日。44 个 Roblox 脚本仓库全部创建于 9 月 18 日，最近 14 天的 star 有 98% 落在 9 月 27 日这一天。starwave 把它们放进"疑似协同"（Looks coordinated），不参与排名。
+- **jev：15 天 249 个仓库、14.5 万 star。** TypeSafe AI 在 9 月 15 日发布 Jev 决策模型。starwave 把 40 个词（`laya`、`typesafe`、`system-one`、`decision-model` 等）合并成这一个浪潮，这是任何单个关键词搜索都拼不出来的。单日最高是 9 月 21 日，新增 24,568 个 star。现在正在降温：这 14 天里平均每天新增 1.03 万，最近 3 天每天 5,100。
+- **opus：21 个仓库，都是用 Claude Opus 5.5 做出来的东西，其中 13 个是写代码渲染的视频。** 最早的一个才 8 天，最近 3 天每天新增 1,100 个 star，而当天 GitHub Trending 的日榜和周榜上一个都没有。
+- **有两个仓库簇疑似协同。** `apimart` 的 173 个仓库全部提到同一家 API 中转商，其中 146 个创建于 9 月 24 日。抓取 4 小时后，其中 105 个已经返回 404。`auto-raid-complete-script` 浪潮的 44 个仓库全是 Roblox 脚本注入器，全部创建于 9 月 18 日，最近 14 天的 star 有 98% 落在 9 月 27 日这一天。starwave 把它们放进"疑似协同"（Looks coordinated），不参与排名。
 
 ## 为什么不直接看 GitHub Trending？
 
@@ -39,8 +39,8 @@ npx github:Chaoqi31/starwave
 | 排的是什么 | 单个仓库 | 共享同一个突增词的一组新仓库 |
 | 看哪些仓库 | 不限年龄 | 最近 14 天新建的 |
 | 一次发布带出 249 个周边仓库 | 各自单列，前提是能挤进前 25 名 | 一个浪潮，列出每个仓库 |
-| 模板农场 | 不显示 | 单独列出，每个标记都写明依据 |
-| 势头 | 今日、本周或本月的 star | 发布以来的日均 star 对比最近 3 天，外加 14 天走势图 |
+| 几乎一模一样的仓库簇 | 没有这类视图 | 单独列出，每个标记都写明依据 |
+| 势头 | 今日、本周或本月的 star | 最近 3 天的日均 star，外加 14 天走势图 |
 | 输出 | 网页 | 终端表格、Markdown、JSON，以及 agent skill |
 
 ## 今日浪潮
@@ -50,16 +50,23 @@ GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日�
 <!-- starwave:start -->
 _recent 1,456 repos  2026-09-16..2026-09-30  stars>=40 · baseline 2,833 repos  2026-07-18..2026-09-15  stars>=150 · generated 2026-09-30 16:22 UTC_
 
+| # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
+|--:|---|--:|--:|--:|--:|--:|---|---|---|
+| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 38 more) | 251 | 233 | 146.0k | 13.3k/d | 5.2k/d | ▁▃▄▅▆█▇▅▃▃▂▂▃▂ | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |
+| 2 | **opus** (+motion-graphics) | 22 | 21 | 7.1k | 1.4k/d | 1.1k/d | ▁▁▁▁▁▁▂▇▅▃▅█▇▄ | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |
+| 3 | **films** | 7 | 7 | 2.6k | 552/d | 351/d | ▁▁▁▁▁▁▂▂▃▃█▆▆▃ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |
+| 4 | **steamos** | 5 | 5 | 660 | 118/d | 160/d | ▁▁▁▁▁▁▁▃▂▂▂▆█▇ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
+| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 638 | 84/d | 54/d | ▁▁▁▁▁▁▆█▇█▅▃▄▇ | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |
+| 6 | **roblox** | 5 | 5 | 335 | 57/d | 52/d | ▁▁▁▁▁▁▁▂▃▄▄█▂▂ | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |
+
+**Looks coordinated**
+
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **jev** (+typesafe, system-one, typesafe-ai, decision-model, typed, 38 more) | 251 | 233 | 146.0k | 13.3k/d | 5.2k/d | ▁▃▄▅▆█▇▅▃▃▂▂▃▂ | 2026-09-16 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |  |
-| 2 | **opus** (+motion-graphics) | 22 | 21 | 7.1k | 1.4k/d | 1.1k/d | ▁▁▁▁▁▁▂▇▅▃▅█▇▄ | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |  |
-| 3 | **films** | 7 | 7 | 2.6k | 552/d | 351/d | ▁▁▁▁▁▁▂▂▃▃█▆▆▃ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |  |
-| 4 | **steamos** | 5 | 5 | 660 | 118/d | 160/d | ▁▁▁▁▁▁▁▃▂▂▂▆█▇ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |  |
-| 5 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 638 | 84/d | 54/d | ▁▁▁▁▁▁▆█▇█▅▃▄▇ | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |  |
-| 6 | **roblox** | 5 | 5 | 335 | 57/d | 52/d | ▁▁▁▁▁▁▁▂▃▄▄█▂▂ | 2026-09-17 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |  |
-| 7 | **apimart** (+ai-api-gateway, api-docs, pay-as-you-go, aggregator, llm-api, 22 more) | 68 | 61 | 6.2k | 859/d | 766/d | ▁▁▁▁▃▂▂▁▁█▅▁█▃ | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
-| 8 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 622/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
+| 1 | **apimart** (+ai-api-gateway, api-docs, pay-as-you-go, aggregator, llm-api, 22 more) | 68 | 61 | 6.2k | 859/d | 766/d | ▁▁▁▁▃▂▂▁▁█▅▁█▃ | 2026-09-16 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) | near-duplicate, same-day, flat-stars |
+| 2 | **auto-raid-complete-script** (+executor, executor-collection, multi-executor, rbx, rbx-scripts, 13 more) | 44 | 39 | 1.9k | 159/d | 622/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-09-18 | [1234512345z/Arcadia-Update-v3.4](https://github.com/1234512345z/Arcadia-Update-v3.4) | near-duplicate, same-day, flat-stars |
+
+_vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
 <details><summary><b>jev</b>: 251 repos, 146.0k stars</summary>
 
@@ -122,7 +129,7 @@ npx github:Chaoqi31/starwave --json                    # 完整快照，给脚�
 npx github:Chaoqi31/starwave --md                      # Markdown 表格，可以直接贴
 ```
 
-第一次运行要 3 到 5 分钟，因为 GitHub 搜索 API 每分钟只允许 30 次请求。结果会在 `~/.cache/starwave` 缓存 6 小时，之后再跑是秒出。想长期保留 `starwave` 命令，运行 `npm install -g github:Chaoqi31/starwave`。
+第一次运行要 3 到 5 分钟，因为 GitHub 搜索 API 每分钟只允许 30 次请求。结果会在 `~/.cache/starwave` 缓存 6 小时，之后再跑是秒出。第一次执行 `npx github:` 还要下载并构建 starwave，实测网速快时 10 秒，网速慢时约 2 分钟。想长期保留 `starwave` 命令，运行 `npm install -g github:Chaoqi31/starwave`。
 
 | 参数 | 默认值 | 含义 |
 |---|---|---|

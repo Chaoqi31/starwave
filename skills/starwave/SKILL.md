@@ -30,7 +30,7 @@ Variants: `--days 7 --min-stars 100` for a shorter window with a higher bar, `--
 | `id`, `aliases` | the primary term and the terms merged into it, for example `jev` with `laya` and `typesafe` |
 | `repoCount`, `ownerCount` | repos in the wave, distinct owners |
 | `stars` | total stars |
-| `velocity` | stars per day since each repo was created, summed over the wave |
+| `velocity` | each repo's stars divided by its age in days, summed over the wave. A ranking score. |
 | `velocity3d` | stars per day over the last 3 complete days, summed over the same repos (absent with `--no-history`) |
 | `daily` | stars per day for the last 14 complete days, oldest first, same repos (absent with `--no-history`) |
 | `firstSeen` | creation date of the oldest repo |
@@ -39,7 +39,7 @@ Variants: `--days 7 --min-stars 100` for a shorter window with a higher bar, `--
 | `cohesion` | share of repos that share a term beyond the wave's own terms with another member, 0 to 1 |
 | `flags` | empty, or any of `same-day`, `few-owners`, `flat-stars`, `near-duplicate` |
 
-`velocity` and `velocity3d` cover the same repos, so compare them directly. On 2026-09-30 the jev wave had a `velocity` of 13.2k and a `velocity3d` of 5.1k: it was cooling. A `velocity3d` well above `velocity` means the wave is speeding up. Say which in the summary. If `daily` has one day holding most of the 14-day total, point that out.
+To tell whether a wave is speeding up or cooling, compare `velocity3d` with the average of `daily` over the days since `firstSeen`. Both are stars per day across the same repos. On 2026-09-30 the jev wave averaged 10.3k a day over its 14 days and 5.1k over the last 3, so it was cooling. Do not compare `velocity3d` with `velocity`. `velocity` adds up each repo's lifetime rate and runs higher than the wave's real daily total when young repos hold many stars. If one day holds most of the 14-day total in `daily`, point that out.
 
 What each flag measures, for the "why" in your summary:
 
@@ -50,7 +50,7 @@ What each flag measures, for the "why" in your summary:
 
 ## Write the summary
 
-1. Lead with the top 3 clean waves, one sentence each, with numbers from the JSON: `**<id>**: <repoCount> repos from <ownerCount> owners, <stars> stars, <velocity> stars/day since launch, <velocity3d>/day over the last 3 days, anchor [<fullName>](https://github.com/<fullName>).` Name one or two aliases when they explain the wave.
+1. Lead with the top 3 clean waves, one sentence each, with numbers from the JSON: `**<id>**: <repoCount> repos from <ownerCount> owners, <stars> stars, <velocity3d>/day over the last 3 days, anchor [<fullName>](https://github.com/<fullName>).` Say whether the wave is cooling or speeding up, from `daily`. Name one or two aliases when they explain the wave.
 2. Then the flagged waves under "Looks coordinated". Give the same numbers and say why from `flags`, with the count behind it ("146 of 173 repos created on 2026-09-24"). Say "looks coordinated". Never state "spam" or "bought stars" as fact. The flags are heuristics, and the user can check with `--show <id>`.
 3. Link every anchor as `https://github.com/<fullName>`. Do not invent numbers. If a field is missing, leave it out.
 4. For "tell me more about <wave>", run `--show <id>` and summarize its top repos by stars.

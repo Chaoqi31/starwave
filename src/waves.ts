@@ -70,24 +70,24 @@ export function detectWaves(recent: Repo[], baseline: Repo[], opts: DetectOption
   );
   const clean = organic.filter((w) => w.flags.length === 0);
   const coordinated = organic.filter((w) => w.flags.length > 0);
-  for (const farm of group(recent.filter((r) => templated.has(r)))) {
-    farm.flags.unshift("near-duplicate");
-    const twin = coordinated.findIndex((w) => w.id === farm.id || w.aliases.includes(farm.id));
+  for (const copies of group(recent.filter((r) => templated.has(r)))) {
+    copies.flags.unshift("near-duplicate");
+    const twin = coordinated.findIndex((w) => w.id === copies.id || w.aliases.includes(copies.id));
     if (twin >= 0) {
       const w = coordinated[twin] as Wave;
       const merged = buildWave(
-        [...new Set([w.id, ...w.aliases, farm.id, ...farm.aliases])],
-        [...w.repos, ...farm.repos],
+        [...new Set([w.id, ...w.aliases, copies.id, ...copies.aliases])],
+        [...w.repos, ...copies.repos],
         termSets,
         baselineByTerm,
         scale,
         today,
       );
-      merged.flags = [...new Set([...farm.flags, ...w.flags])];
+      merged.flags = [...new Set([...copies.flags, ...w.flags])];
       coordinated[twin] = merged;
     } else {
-      if (clean.some((w) => w.id === farm.id)) farm.id = `${farm.id}-clones`;
-      coordinated.push(farm);
+      if (clean.some((w) => w.id === copies.id)) copies.id = `${copies.id}-clones`;
+      coordinated.push(copies);
     }
   }
 

@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "starwave",
-      "description": "Find the GitHub waves forming right now: clusters of new repos that share a bursting term, ranked by stars per day, with clone farms flagged.",
+      "description": "Find the GitHub waves forming right now: clusters of new repos that share a bursting term, ranked by stars per day, with near-duplicate clusters flagged.",
       "source": "./",
       "category": "research"
     }
