@@ -48,74 +48,78 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 1,388 repos  2026-09-17..2026-10-01  stars>=40 · baseline 2,838 repos  2026-07-19..2026-09-16  stars>=150 · generated 2026-10-01 13:21 UTC_
+_recent 1,312 repos  2026-09-18..2026-10-02  stars>=40 · baseline 2,716 repos  2026-07-20..2026-09-17  stars>=150 · generated 2026-10-02 12:39 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **jev** (+system-one, decision-model, laya, typesafe-ai, typed, 32 more) | 240 | 224 | 116.6k | 10.5k/d | 4.4k/d | ▂▃▄▆██▅▄▃▃▃▃▃▂ | 2026-09-17 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) |
-| 2 | **opus** (+motion-graphics) | 22 | 21 | 7.6k | 1.3k/d | 812/d | ▁▁▁▁▁▂▇▅▃▅█▇▄▄ | 2026-09-22 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |
-| 3 | **films** | 7 | 7 | 3.1k | 569/d | 441/d | ▁▁▁▁▁▂▂▃▃▇▅▅▃█ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |
-| 4 | **apimart** (+ai-api-gateway, api-docs, pay-as-you-go, llm-api, pay) | 18 | 12 | 2.1k | 188/d | 184/d | ▁▁▁█▃▃▃▁█▅▁█▃▁ | 2026-09-17 | [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) |
-| 5 | **cheat** | 5 | 5 | 1.9k | 167/d | 59/d | ▁▁▃▆▂▂▂▂█▄▂▂▁▂ | 2026-09-19 | [pallavi-shekhar/ai-engineering-interview-questions-company-wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise) |
-| 6 | **signals** | 5 | 5 | 898 | 144/d | 131/d | ▇▂▁▁▁▁▁▁█▃▁▁█▆ | 2026-09-17 | [ng-native/ng-native](https://github.com/ng-native/ng-native) |
-| 7 | **roblox** | 5 | 5 | 361 | 77/d | 34/d | ▁▁▁▁▁▁▃▅▆▆█▃▃▆ | 2026-09-18 | [caomod2077/Deobfuscator-Luraph-V15](https://github.com/caomod2077/Deobfuscator-Luraph-V15) |
-| 8 | **qwen-image** (+qwen-image-2.1) | 5 | 5 | 663 | 77/d | 64/d | ▁▁▁▁▁▆█▇█▅▃▄▇▅ | 2026-09-21 | [nihui/qwenimage-ncnn-vulkan](https://github.com/nihui/qwenimage-ncnn-vulkan) |
+| 1 | **opus** (+motion-graphics) | 25 | 24 | 8.3k | 1.2k/d | 613/d | ▁▁▁▁▂▇▅▄▅█▇▄▄▄ | 2026-09-18 | [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) |
+| 2 | **films** | 8 | 8 | 3.6k | 556/d | 448/d | ▁▁▁▁▂▂▃▃▇▅▅▃█▅ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |
+| 3 | **classification** (+calibrated, structured-output) | 15 | 15 | 3.3k | 362/d | 273/d | ▂█▇▃▃▃▂▅▆▇▆▅▇▅ | 2026-09-18 | [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) |
+| 4 | **muse** | 8 | 8 | 1.8k | 307/d | 213/d | ▁▁▁▁▁▁▁█▅▄▃▄▄▅ | 2026-09-18 | [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) |
+| 5 | **light** | 10 | 10 | 902 | 232/d | 147/d | ▁▁▂▄▂▂▁▂▂▂▂▂█▃ | 2026-09-18 | [ZacharyZhang-NY/Ely-GPUI-Components](https://github.com/ZacharyZhang-NY/Ely-GPUI-Components) |
+| 6 | **cheat** | 5 | 5 | 1.9k | 154/d | 38/d | ▁▃▆▂▂▂▂█▄▂▂▁▂▁ | 2026-09-19 | [pallavi-shekhar/ai-engineering-interview-questions-company-wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise) |
+| 7 | **typesafe-ai** | 11 | 11 | 1.1k | 151/d | 79/d | ▁▃▄▄█▇▂▃▃▃▃▃▄▄ | 2026-09-18 | [Devin-AXIS/jev-dsh-decision](https://github.com/Devin-AXIS/jev-dsh-decision) |
+| 8 | **steamos** | 5 | 5 | 885 | 116/d | 131/d | ▁▁▁▁▁▃▂▂▂▆█▇▆▅ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
+| 9 | **recompiled** | 5 | 5 | 474 | 86/d | 63/d | ▁▁▁▁▁▁▁▁▅█▃▃▄▅ | 2026-09-21 | [sciaschi/CBFD-Recompiled](https://github.com/sciaschi/CBFD-Recompiled) |
+| 10 | **facebook** | 5 | 4 | 680 | 71/d | 31/d | ▁█▄▂▁▂▃▃▃▂▃▂▂▃ | 2026-09-19 | [joeseesun/qiaomu-download](https://github.com/joeseesun/qiaomu-download) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **apimart-clones** (+pay-as-you-go, api-docs, per-image-pricing, minimum, top-up, 21 more) | 48 | 48 | 3.8k | 540/d | 562/d | ▁▁▁▁▁▁▁▁█▅▁█▃▁ | 2026-09-24 | [azle5biyd9td956/pixverse6-pixverse-v6-api](https://github.com/azle5biyd9td956/pixverse6-pixverse-v6-api) | near-duplicate, same-day, flat-stars |
+| 1 | **pay-as-you-go** (+api-docs, per-image-pricing, minimum, top-up, apimart, 21 more) | 48 | 48 | 3.8k | 473/d | 106/d | ▁▁▁▁▁▁▁█▅▁█▃▁▁ | 2026-09-24 | [azle5biyd9td956/pixverse6-pixverse-v6-api](https://github.com/azle5biyd9td956/pixverse6-pixverse-v6-api) | near-duplicate, same-day, flat-stars |
+| 2 | **discordfix** | 5 | 5 | 336 | 39/d | 0/d | ▁▁▁▂▁▁▁█▁▁▁▁▁▁ | 2026-09-18 | [Helixdechimney62/DiscordFix-Discord](https://github.com/Helixdechimney62/DiscordFix-Discord) | near-duplicate |
+| 3 | **helper** | 6 | 6 | 261 | 19/d | 0/d | ▁▁▁▁▁▁▁▁▁█▁▁▁▁ | 2026-09-18 | [Esraa-Elgendyy/8-Ball-Pool-Autoplay-Download-v1.2](https://github.com/Esraa-Elgendyy/8-Ball-Pool-Autoplay-Download-v1.2) | near-duplicate |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>jev</b>: 240 repos, 116.6k stars</summary>
+<details><summary><b>opus</b>: 25 repos, 8.3k stars</summary>
 
-- [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) 29.6k★ Non-autoregressive System 1 decision engine. Typed choice, score and yes/no dec…
-- [jaredpalmer/kev](https://github.com/jaredpalmer/kev) 8.1k★ Jev-like family of decision models built on top of Qwen3.5/3.8 you can train an…
-- [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) 7.3k★ Claude Code plugin that replaces the compaction summary with Jev decisions: eve…
-- [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) 7.2k★ 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。
-- [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) 6.7k★ Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on …
-
-</details>
-
-<details><summary><b>opus</b>: 22 repos, 7.6k stars</summary>
-
-- [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) 1.6k★ Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)
-- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 1.2k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
-- [dgreenheck/tidewater](https://github.com/dgreenheck/tidewater) 1.0k★ Coastal town built with Opus 5.5
-- [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 952★ claude-opus-5-5-demo
-- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 741★ 43 film styles, each a reusable style prompt plus a short film made entirely in…
+- [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) 1.7k★ Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)
+- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 1.3k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
+- [dgreenheck/tidewater](https://github.com/dgreenheck/tidewater) 1.1k★ Coastal town built with Opus 5.5
+- [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 964★ claude-opus-5-5-demo
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 800★ 43 film styles, each a reusable style prompt plus a short film made entirely in…
 
 </details>
 
-<details><summary><b>films</b>: 7 repos, 3.1k stars</summary>
+<details><summary><b>films</b>: 8 repos, 3.6k stars</summary>
 
-- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.1k★ Motion films that never cut to the next slide: every beat grows out of the one …
-- [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) 754★ Claude Code skill kit for premium AI-assisted business videos: independent crit…
-- [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) 736★ Art and animation, written as code. Illustrations, loops, interactive web art, …
-- [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat) 267★ Procedural risograph films in single HTML files (Window Seat, Roost and more), …
-- [tugrawork-creator/saas-motion-kit](https://github.com/tugrawork-creator/saas-motion-kit) 144★ Promo & motion videos for software products with HyperFrames + Claude Code. No …
-
-</details>
-
-<details><summary><b>apimart</b>: 18 repos, 2.1k stars</summary>
-
-- [apimart001a/llm-gateway-comparison](https://github.com/apimart001a/llm-gateway-comparison) 153★ LLM gateway comparison: self-hosted and managed AI API gateways compared on pro…
-- [apimart002w/openrouter-alternatives](https://github.com/apimart002w/openrouter-alternatives) 152★ OpenRouter alternatives: AI API aggregator and gateway options compared on mode…
-- [apimart-API-Gateway/grok-image-api](https://github.com/apimart-API-Gateway/grok-image-api) 144★ Grok Image API (Grok Imagine 1.5, grok-imagine-1.5-apimart): model ids, per-ima…
-- [apimart-api-ai-Aggregator/seedance-2.0-api](https://github.com/apimart-api-ai-Aggregator/seedance-2.0-api) 144★ Seedance 2.0 API (seedance-2.0 / seedance-2.0-mini / seedance-2.0-fast): per-se…
-- [apimart-22w/claude-opus-5-api](https://github.com/apimart-22w/claude-opus-5-api) 140★ Claude Opus 5 API (claude-opus-5): model id, per-million-token pricing, cache w…
+- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.2k★ Motion films that never cut to the next slide: every beat grows out of the one …
+- [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) 938★ Claude Code skill kit for premium AI-assisted business videos: independent crit…
+- [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) 754★ Art and animation, written as code. Illustrations, loops, interactive web art, …
+- [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat) 271★ Procedural risograph films in single HTML files (Window Seat, Roost and more), …
+- [tugrawork-creator/saas-motion-kit](https://github.com/tugrawork-creator/saas-motion-kit) 198★ Promo & motion videos for software products with HyperFrames + Claude Code. No …
 
 </details>
 
-<details><summary><b>cheat</b>: 5 repos, 1.9k stars</summary>
+<details><summary><b>classification</b>: 15 repos, 3.3k stars</summary>
 
-- [pallavi-shekhar/ai-engineering-interview-questions-company-wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise) 1.6k★ Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions …
-- [Rylaispirit/cinematic-video-prompt-skill](https://github.com/Rylaispirit/cinematic-video-prompt-skill) 134★ AI video prompt cheat sheet & Claude Skill: cinematic camera angles, camera mov…
-- [hseoa/ironshield-analysis](https://github.com/hseoa/ironshield-analysis) 68★ Static analysis of Ironshield anti-cheat
-- [iconspecialistsquare/Aniimo-Trainer-Safe](https://github.com/iconspecialistsquare/Aniimo-Trainer-Safe) 55★ Safe and stable trainer for Aniimo. Instant Tame, Unlimited Capture Orbs, Max B…
-- [ChrysalisEnumerate/Aniimo-trainer-2026](https://github.com/ChrysalisEnumerate/Aniimo-trainer-2026) 43★ 
+- [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) 1.1k★ Run open decision models locally: pull and serve Laya, decider, NLI and GLiClas…
+- [PSRben/VisionHOPE](https://github.com/PSRben/VisionHOPE) 433★ Official PyTorch implementation of VisionHOPE: Visual Backbones as Self-Modifyi…
+- [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align) 302★ Build calibrated AI Functions from human feedback using Jev and GEPA.
+- [Heman10x-NGU/openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) 294★ Calibrated 151M Non-Autoregressive Decision Engine beating TypeSafe Jev & Laya …
+- [logan-markewich/jeff](https://github.com/logan-markewich/jeff) 282★ A self-hosted drop-in replacement for TypeSafe's jev, powered by GliFormer.
+
+</details>
+
+<details><summary><b>muse</b>: 8 repos, 1.8k stars</summary>
+
+- [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) 658★ 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费…
+- [win4r/MuseAI-Skills](https://github.com/win4r/MuseAI-Skills) 313★ muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, conn…
+- [egoist/lorca](https://github.com/egoist/lorca) 212★ Imagine Telegram but single person, with agents, and end-to-end encrypted. Alte…
+- [czg86389-hub/muse2api](https://github.com/czg86389-hub/muse2api) 206★ 把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-co…
+- [AFK-surf/Comma](https://github.com/AFK-surf/Comma) 150★ The sessionless, relentless personal agent. Open source alternative to Muse, Do…
+
+</details>
+
+<details><summary><b>light</b>: 10 repos, 902 stars</summary>
+
+- [ZacharyZhang-NY/Ely-GPUI-Components](https://github.com/ZacharyZhang-NY/Ely-GPUI-Components) 292★ A component library for GPUI, in light and dark. Every component runs live in t…
+- [lightorigins/Light-O1](https://github.com/lightorigins/Light-O1) 166★ 
+- [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) 74★ Claude Code Desktop theme for DeepSeek Harness｜ 为 DeepSeek Harness 网页 GUI 打造的 C…
+- [kinotvapp/kino-light](https://github.com/kinotvapp/kino-light) 70★ Kino: reproductor de peliculas, series y TV en vivo para celular y TV (Android …
+- [paulsnuff/BetterNightLight](https://github.com/paulsnuff/BetterNightLight) 69★ Take control of Android's native Night Light - advanced scheduling, boost phase…
 
 </details>
 <!-- starwave:end -->
