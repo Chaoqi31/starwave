@@ -48,76 +48,74 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 1,708 repos  2026-09-22..2026-10-06  stars>=40 · baseline 2,777 repos  2026-07-24..2026-09-21  stars>=150 · generated 2026-10-06 13:21 UTC_
+_recent 1,741 repos  2026-09-23..2026-10-07  stars>=40 · baseline 2,812 repos  2026-07-25..2026-09-22  stars>=150 · generated 2026-10-07 13:28 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **adobe** (+reimplementation) | 7 | 3 | 5.5k | 1.1k/d | 1.5k/d | ▁▁▁▁▁▁▁▁▁▁▂▃▅█ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) |
-| 2 | **opus** (+motion-graphics) | 28 | 27 | 11.0k | 1.1k/d | 682/d | ▂▇▅▃▅█▇▄▄▄▅▄▄▅ | 2026-09-22 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
-| 3 | **films** | 10 | 10 | 4.4k | 420/d | 178/d | ▂▂▃▃▇▆▅▃█▅▄▂▃▃ | 2026-09-22 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) |
-| 4 | **options** | 5 | 5 | 3.9k | 389/d | 732/d | ▁▁▁▁▁▁▄▃▂▂▂▄█▁ | 2026-09-22 | [Avenuezensport/efjvysuz](https://github.com/Avenuezensport/efjvysuz) |
-| 5 | **feature** | 8 | 7 | 1.3k | 310/d | 120/d | ▁▁▁▁▁▄█▅▄▄▃▃▂▇ | 2026-09-23 | [rushiranpise/Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next) |
-| 6 | **esp** | 6 | 5 | 1.2k | 301/d | 210/d | ▁▁▁▁▁▁▁▂▅▅▃▃█▆ | 2026-09-28 | [ESPARGOS/esp-sdr](https://github.com/ESPARGOS/esp-sdr) |
-| 7 | **steamos** (+steamvr) | 5 | 5 | 3.0k | 257/d | 589/d | ▁▂▁▁▁▂▃▃▂▂▃█▆▇ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
-| 8 | **quest** | 7 | 7 | 725 | 137/d | 105/d | ▂▂▃▂▂▂▃▃▄▃▂▄█▅ | 2026-09-22 | [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) |
-| 9 | **size** | 6 | 6 | 406 | 54/d | 49/d | ▁▃▂▃▂▃█▃▃▃▂█▅▃ | 2026-09-24 | [shootthesound/ComfyUI-Fizgig-H3-Still](https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still) |
+| 1 | **opus** | 24 | 23 | 9.5k | 888/d | 649/d | ▆▄▃▅█▇▅▄▄▅▄▅▅▄ | 2026-09-23 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
+| 2 | **stellar** (+soroban, prototype, settlement) | 8 | 5 | 943 | 725/d | 131/d | ▁▁▁▁▁▁▁▁▁▁▁▅█▁ | 2026-10-04 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
+| 3 | **steamos** (+steamvr) | 6 | 6 | 3.8k | 325/d | 603/d | ▂▁▁▁▂▃▂▂▂▃█▆▇█ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
+| 4 | **ps4** | 8 | 8 | 577 | 188/d | 125/d | ▁▁▁▁▁▁▁▂▁▃▃█▆▄ | 2026-09-30 | [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) |
+| 5 | **pick** | 6 | 6 | 834 | 143/d | 101/d | ▁▁▁▁▁▁▁▁▅▇█▄▅▅ | 2026-09-26 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
+| 6 | **size** (+font) | 8 | 8 | 532 | 132/d | 46/d | ▃▂▃▂▃█▃▃▃▂█▅▅▆ | 2026-09-24 | [shootthesound/ComfyUI-Fizgig-H3-Still](https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still) |
+| 7 | **argolink** (+fields, polling) | 8 | 8 | 360 | 120/d | 120/d | ▁▁▁▁▁▁▁▁▁▁▁▁██ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **providing** (+professional, optimizes, streamlines, configurations, utility, 26 more) | 83 | 83 | 12.6k | 12.5k/d | 4.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-09-26 | [CrewPotterRectify/Autodesk-Inventor](https://github.com/CrewPotterRectify/Autodesk-Inventor) | same-day, flat-stars |
-| 2 | **minimum** (+top-up, pay-as-you-go, image2, image2.5, llm-api-gateway, 126 more) | 407 | 244 | 23.0k | 2.9k/d | 5.9k/d | ▁▁▁▃▂▁▃▂▂▁▁▇██ | 2026-09-24 | [azle5biyd9td956/pixverse6-pixverse-v6-api](https://github.com/azle5biyd9td956/pixverse6-pixverse-v6-api) | near-duplicate, flat-stars |
+| 1 | **clean-room** (+reimplementation) | 10 | 1 | 21.1k | 3.2k/d | 5.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▂▂█ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
+| 2 | **minimum** (+top-up, pay-as-you-go, image2, image2.5, llm-api-gateway, 149 more) | 482 | 283 | 27.0k | 3.0k/d | 5.5k/d | ▁▁▂▂▁▂▂▂▁▁▇██▅ | 2026-09-24 | [azle5biyd9td956/pixverse6-pixverse-v6-api](https://github.com/azle5biyd9td956/pixverse6-pixverse-v6-api) | near-duplicate, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>adobe</b>: 7 repos, 5.5k stars</summary>
+<details><summary><b>opus</b>: 24 repos, 9.5k stars</summary>
 
-- [storytold/photocraft](https://github.com/storytold/photocraft) 2.7k★ An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust
-- [storytold/filmcraft](https://github.com/storytold/filmcraft) 752★ An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure…
-- [storytold/lightcraft](https://github.com/storytold/lightcraft) 557★ An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.
-- [storytold/vectorcraft](https://github.com/storytold/vectorcraft) 539★ An open-source, clean-room reimplementation of Adobe Illustrator, built in pure…
-- [storytold/printcraft](https://github.com/storytold/printcraft) 513★ An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust
-
-</details>
-
-<details><summary><b>opus</b>: 28 repos, 11.0k stars</summary>
-
-- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 2.2k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
-- [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) 1.8k★ Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)
+- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 2.5k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
 - [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 1.3k★ Claude Code skill for short films with no video model: 43 film styles, each a s…
 - [dgreenheck/tidewater](https://github.com/dgreenheck/tidewater) 1.1k★ Coastal town built with Opus 5.5
 - [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 1.0k★ claude-opus-5-5-demo
+- [athemeroy/awesome-claude-5-5-videos](https://github.com/athemeroy/awesome-claude-5-5-videos) 488★ Source-linked Claude 5.5 video workflows: Opus and Sonnet demos, separately lab…
 
 </details>
 
-<details><summary><b>films</b>: 10 repos, 4.4k stars</summary>
+<details><summary><b>stellar</b>: 8 repos, 943 stars</summary>
 
-- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.7k★ Motion films that never cut to the next slide: every beat grows out of the one …
-- [echris6/motion-video-kit](https://github.com/echris6/motion-video-kit) 1.0k★ Claude Code skill kit for premium AI-assisted business videos: independent crit…
-- [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle) 819★ Art and animation, written as code. Illustrations, loops, interactive web art, …
-- [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat) 275★ Procedural risograph films in single HTML files (Window Seat, Roost and more), …
-- [tugrawork-creator/saas-motion-kit](https://github.com/tugrawork-creator/saas-motion-kit) 212★ Promo & motion videos for software products with HyperFrames + Claude Code. No …
-
-</details>
-
-<details><summary><b>options</b>: 5 repos, 3.9k stars</summary>
-
-- [Avenuezensport/efjvysuz](https://github.com/Avenuezensport/efjvysuz) 1.9k★ Welcome to Shnek-Tools, a multi-tool with a multitude of options. All functions…
-- [firelex/jeff](https://github.com/firelex/jeff) 1.4k★ Millisecond decisions, any domain: a 0.8B open "System 1" model that picks betw…
-- [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) 412★ A small, fast decision model, or system one model, for agentic workflows. Pick …
-- [some-scurvy-dog/banjo-tooie-scurvy-dog-port](https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port) 75★ Banjo-Tooie Recompiled: a native Windows PC port with widescreen, resolution an…
-- [kofiadeyemiq/commander-mangen](https://github.com/kofiadeyemiq/commander-mangen) 72★ Generate man pages from a commander.js program, including every subcommand's op…
+- [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) 131★ Open-source Stellar and Soroban API for peer-to-peer USDC settlement, wallet au…
+- [Local-Settle/local-settle-frontend](https://github.com/Local-Settle/local-settle-frontend) 131★ Open-source peer-to-peer payments on Stellar and Soroban. Connect a wallet, tra…
+- [VelaPayments/vela-payments](https://github.com/VelaPayments/vela-payments) 131★ Open-source mobile payment prototype on Stellar, featuring NFC payment requests…
+- [VelaPayments/vela-server](https://github.com/VelaPayments/vela-server) 131★ NestJS backend for Vela’s Stellar payment prototype, with payment-request valid…
+- [zeemscript/TrustMint](https://github.com/zeemscript/TrustMint) 131★ Open-source toolkit for compliant real-world asset tokenization on Stellar.KYC …
 
 </details>
 
-<details><summary><b>feature</b>: 8 repos, 1.3k stars</summary>
+<details><summary><b>steamos</b>: 6 repos, 3.8k stars</summary>
 
-- [rushiranpise/Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next) 466★ A feature-rich Shizuku fork with improved setup, reliability, UI, and additiona…
-- [emir/AIKON](https://github.com/emir/AIKON) 336★ A 2007 Nokia can't search Google anymore, so I gave it Claude, ChatGPT, Gemini …
-- [Ratiokrunote/Movavi-Converter](https://github.com/Ratiokrunote/Movavi-Converter) 102★ Efficiently processes and converts multimedia files across various formats, eli…
-- [TarantulaKnow/Movavi-Screen-Recorder](https://github.com/TarantulaKnow/Movavi-Screen-Recorder) 100★ Captures high-quality video output with precision and efficiency, simplifying p…
-- [radium-wang/ricoh-gr4-firmware-analysis-and-feature-expansion](https://github.com/radium-wang/ricoh-gr4-firmware-analysis-and-feature-expansion) 92★ 
+- [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 3.0k★ DroidDeck brings the SteamOS experience to Android
+- [DeeJanuz/frametop](https://github.com/DeeJanuz/frametop) 245★ Multi-screen KDE Plasma desktop and universal 3D mouse for the Valve Steam Fram…
+- [hashtagbasit/SteamOS-ARM-Port](https://github.com/hashtagbasit/SteamOS-ARM-Port) 204★ Unofficial SteamOS for Snapdragon handhelds and tablets
+- [fxgl/steamac](https://github.com/fxgl/steamac) 128★ Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + …
+- [MaSieS4Fun/SteamOS-ARM-SM8550](https://github.com/MaSieS4Fun/SteamOS-ARM-SM8550) 115★ Official SteamOS ARM version, custom-adapted for SM8550 ARM devices.
+
+</details>
+
+<details><summary><b>ps4</b>: 8 repos, 577 stars</summary>
+
+- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 184★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
+- [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) 66★ Unofficial etaHEN 2.5B unified PS5 11.00-13.60 port: Toolbox, plugins and PS4/P…
+- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 63★ Native PC port of P.T. (runs from your own PS4 game files)
+- [aarvsn/Ryty](https://github.com/aarvsn/Ryty) 61★ Tool for porting PlayStation 4 & 5 executables to Windows, MacOS and Linux
+- [OptiTronOffical/OptiStore](https://github.com/OptiTronOffical/OptiStore) 57★ Sony should be comfortable not owning their PKGs - front end for browsing PS4 a…
+
+</details>
+
+<details><summary><b>pick</b>: 6 repos, 834 stars</summary>
+
+- [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) 482★ A small, fast decision model, or system one model, for agentic workflows. Pick …
+- [adityajha2005/yc-outreach](https://github.com/adityajha2005/yc-outreach) 156★ Pick a YC batch, get founders and likely emails, write personalised cold emails…
+- [irpina/elekloader](https://github.com/irpina/elekloader) 59★ A mod loader for Elektron firmware. You pick mods and supply the stock OS file …
+- [playportdev/playport](https://github.com/playportdev/playport) 48★ Playport runs Windows games, 64-bit and now 32-bit, on a stock, non-jailbroken …
+- [deox1111/ps5-library](https://github.com/deox1111/ps5-library) 46★ Game library for jailbroken PS5: pick a game, it downloads, installs and appear…
 
 </details>
 <!-- starwave:end -->
