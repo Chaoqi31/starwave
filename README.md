@@ -48,74 +48,77 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 1,741 repos  2026-09-23..2026-10-07  stars>=40 · baseline 2,812 repos  2026-07-25..2026-09-22  stars>=150 · generated 2026-10-07 13:28 UTC_
+_recent 1,908 repos  2026-09-24..2026-10-08  stars>=40 · baseline 2,858 repos  2026-07-26..2026-09-23  stars>=150 · generated 2026-10-08 13:34 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **opus** | 24 | 23 | 9.5k | 888/d | 649/d | ▆▄▃▅█▇▅▄▄▅▄▅▅▄ | 2026-09-23 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
-| 2 | **stellar** (+soroban, prototype, settlement) | 8 | 5 | 943 | 725/d | 131/d | ▁▁▁▁▁▁▁▁▁▁▁▅█▁ | 2026-10-04 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
-| 3 | **steamos** (+steamvr) | 6 | 6 | 3.8k | 325/d | 603/d | ▂▁▁▁▂▃▂▂▂▃█▆▇█ | 2026-09-23 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
-| 4 | **ps4** | 8 | 8 | 577 | 188/d | 125/d | ▁▁▁▁▁▁▁▂▁▃▃█▆▄ | 2026-09-30 | [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) |
-| 5 | **pick** | 6 | 6 | 834 | 143/d | 101/d | ▁▁▁▁▁▁▁▁▅▇█▄▅▅ | 2026-09-26 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
-| 6 | **size** (+font) | 8 | 8 | 532 | 132/d | 46/d | ▃▂▃▂▃█▃▃▃▂█▅▅▆ | 2026-09-24 | [shootthesound/ComfyUI-Fizgig-H3-Still](https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still) |
-| 7 | **argolink** (+fields, polling) | 8 | 8 | 360 | 120/d | 120/d | ▁▁▁▁▁▁▁▁▁▁▁▁██ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) |
+| 1 | **ps4** | 9 | 9 | 1.4k | 935/d | 308/d | ▁▁▁▁▁▁▁▁▁▂▃▂▂█ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 2 | **motion-graphics** | 18 | 16 | 8.7k | 844/d | 768/d | ▁▂▅█▇▄▄▄▄▄▅▅▅▇ | 2026-09-25 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
+| 3 | **carplay** | 8 | 7 | 8.1k | 627/d | 929/d | ▁▁▁▂▃▅▄▄▅▄▇▆▅█ | 2026-09-24 | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) |
+| 4 | **there** | 5 | 5 | 4.6k | 375/d | 928/d | ▁▂▁▂▁▁▂▁▂▁▃▃▆█ | 2026-09-24 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) |
+| 5 | **steamos** (+steamvr) | 5 | 5 | 4.2k | 341/d | 648/d | ▁▁▁▂▃▂▂▂▃█▅▇█▇ | 2026-09-24 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
+| 6 | **size** (+font) | 9 | 9 | 615 | 149/d | 74/d | ▂▂▂▂▆▂▂▂▂▆▄▄▅█ | 2026-09-24 | [yfyeung/PrunedCTC](https://github.com/yfyeung/PrunedCTC) |
+| 7 | **pick** | 6 | 6 | 914 | 129/d | 113/d | ▁▁▁▁▁▁▁▅▇█▄▅▅▅ | 2026-09-26 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
+| 8 | **muse.ai** | 6 | 6 | 963 | 82/d | 33/d | ▁█▅▄▄▅▃▃▃▂▃▂▂▂ | 2026-09-25 | [win4r/MuseAI-Skills](https://github.com/win4r/MuseAI-Skills) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **clean-room** (+reimplementation) | 10 | 1 | 21.1k | 3.2k/d | 5.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▂▂█ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
-| 2 | **minimum** (+top-up, pay-as-you-go, image2, image2.5, llm-api-gateway, 149 more) | 482 | 283 | 27.0k | 3.0k/d | 5.5k/d | ▁▁▂▂▁▂▂▂▁▁▇██▅ | 2026-09-24 | [azle5biyd9td956/pixverse6-pixverse-v6-api](https://github.com/azle5biyd9td956/pixverse6-pixverse-v6-api) | near-duplicate, flat-stars |
+| 1 | **reimplementation** (+clean-room) | 11 | 4 | 39.1k | 5.9k/d | 10.3k/d | ▁▁▁▁▁▁▁▁▁▁▂▂▆█ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
+| 2 | **minimum** (+top-up, pay-as-you-go, image2, image2.5, llm-api-gateway, 186 more) | 587 | 340 | 32.6k | 3.3k/d | 5.3k/d | ▁▂▂▁▂▂▂▁▁▇███▄ | 2026-09-24 | [azle5biyd9td956/pixverse6-pixverse-v6-api](https://github.com/azle5biyd9td956/pixverse6-pixverse-v6-api) | near-duplicate, flat-stars |
+| 3 | **stellar** (+soroban, settlement) | 12 | 7 | 1.6k | 1.2k/d | 478/d | ▁▁▁▁▁▁▁▁▁▁▂▃▁█ | 2026-10-04 | [Stellar-hush/hush](https://github.com/Stellar-hush/hush) | same-day |
+| 4 | **argolink** (+fields) | 11 | 11 | 482 | 121/d | 159/d | ▁▁▁▁▁▁▁▁▁▁▁▅█▂ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>opus</b>: 24 repos, 9.5k stars</summary>
+<details><summary><b>ps4</b>: 9 repos, 1.4k stars</summary>
 
-- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 2.5k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
-- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 1.3k★ Claude Code skill for short films with no video model: 43 film styles, each a s…
-- [dgreenheck/tidewater](https://github.com/dgreenheck/tidewater) 1.1k★ Coastal town built with Opus 5.5
-- [riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo) 1.0k★ claude-opus-5-5-demo
-- [athemeroy/awesome-claude-5-5-videos](https://github.com/athemeroy/awesome-claude-5-5-videos) 488★ Source-linked Claude 5.5 video workflows: Opus and Sonnet demos, separately lab…
-
-</details>
-
-<details><summary><b>stellar</b>: 8 repos, 943 stars</summary>
-
-- [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) 131★ Open-source Stellar and Soroban API for peer-to-peer USDC settlement, wallet au…
-- [Local-Settle/local-settle-frontend](https://github.com/Local-Settle/local-settle-frontend) 131★ Open-source peer-to-peer payments on Stellar and Soroban. Connect a wallet, tra…
-- [VelaPayments/vela-payments](https://github.com/VelaPayments/vela-payments) 131★ Open-source mobile payment prototype on Stellar, featuring NFC payment requests…
-- [VelaPayments/vela-server](https://github.com/VelaPayments/vela-server) 131★ NestJS backend for Vela’s Stellar payment prototype, with payment-request valid…
-- [zeemscript/TrustMint](https://github.com/zeemscript/TrustMint) 131★ Open-source toolkit for compliant real-world asset tokenization on Stellar.KYC …
+- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 774★ Native PC port of P.T. (runs from your own PS4 game files)
+- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 200★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
+- [iHaiDeeZ/DolphinPS4](https://github.com/iHaiDeeZ/DolphinPS4) 72★ Dolphin (GameCube/Wii emulator) for jailbroken PS4: Vulkan on the PS4 GPU, PSP-…
+- [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) 67★ Unofficial etaHEN 2.5B unified PS5 11.00-13.60 port: Toolbox, plugins and PS4/P…
+- [aarvsn/Ryty](https://github.com/aarvsn/Ryty) 63★ Tool for porting PlayStation 4 & 5 executables to Windows, MacOS and Linux
 
 </details>
 
-<details><summary><b>steamos</b>: 6 repos, 3.8k stars</summary>
+<details><summary><b>motion-graphics</b>: 18 repos, 8.7k stars</summary>
 
-- [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 3.0k★ DroidDeck brings the SteamOS experience to Android
-- [DeeJanuz/frametop](https://github.com/DeeJanuz/frametop) 245★ Multi-screen KDE Plasma desktop and universal 3D mouse for the Valve Steam Fram…
-- [hashtagbasit/SteamOS-ARM-Port](https://github.com/hashtagbasit/SteamOS-ARM-Port) 204★ Unofficial SteamOS for Snapdragon handhelds and tablets
-- [fxgl/steamac](https://github.com/fxgl/steamac) 128★ Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + …
-- [MaSieS4Fun/SteamOS-ARM-SM8550](https://github.com/MaSieS4Fun/SteamOS-ARM-SM8550) 115★ Official SteamOS ARM version, custom-adapted for SM8550 ARM devices.
-
-</details>
-
-<details><summary><b>ps4</b>: 8 repos, 577 stars</summary>
-
-- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 184★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
-- [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) 66★ Unofficial etaHEN 2.5B unified PS5 11.00-13.60 port: Toolbox, plugins and PS4/P…
-- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 63★ Native PC port of P.T. (runs from your own PS4 game files)
-- [aarvsn/Ryty](https://github.com/aarvsn/Ryty) 61★ Tool for porting PlayStation 4 & 5 executables to Windows, MacOS and Linux
-- [OptiTronOffical/OptiStore](https://github.com/OptiTronOffical/OptiStore) 57★ Sony should be comfortable not owning their PKGs - front end for browsing PS4 a…
+- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 3.0k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
+- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.9k★ Motion films that never cut to the next slide: every beat grows out of the one …
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 1.4k★ Claude Code skill for short films with no video model: 43 film styles, each a s…
+- [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) 499★ Motion-graphics skills for Claude Code and Codex.
+- [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) 481★ Open-source skills and toolkits that let Claude Code, Codex and other coding ag…
 
 </details>
 
-<details><summary><b>pick</b>: 6 repos, 834 stars</summary>
+<details><summary><b>carplay</b>: 8 repos, 8.1k stars</summary>
 
-- [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) 482★ A small, fast decision model, or system one model, for agentic workflows. Pick …
-- [adityajha2005/yc-outreach](https://github.com/adityajha2005/yc-outreach) 156★ Pick a YC batch, get founders and likely emails, write personalised cold emails…
-- [irpina/elekloader](https://github.com/irpina/elekloader) 59★ A mod loader for Elektron firmware. You pick mods and supply the stock OS file …
-- [playportdev/playport](https://github.com/playportdev/playport) 48★ Playport runs Windows games, 64-bit and now 32-bit, on a stock, non-jailbroken …
-- [deox1111/ps5-library](https://github.com/deox1111/ps5-library) 46★ Game library for jailbroken PS5: pick a game, it downloads, installs and appear…
+- [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) 7.1k★ Independent CarPlay receiver for compatible Android head units. Wired and wirel…
+- [yuedizhibo/MHI2Q-CarPlay-AltScreen](https://github.com/yuedizhibo/MHI2Q-CarPlay-AltScreen) 322★ 补全 Audi MHI2Q / MIB2 High AUG22 的 CarPlay AltScreen 逻辑，让 CarPlay 第二屏显示在 Virtual…
+- [youcci/playport](https://github.com/youcci/playport) 256★ Wireless CarPlay in your browser — a server-side receiver that turns any screen…
+- [Roylyl/WinPlay](https://github.com/Roylyl/WinPlay) 166★ WinPlay是一款开源Windows无线CarPlay接收软件，支持本机热点与局域网连接，让你在电脑上显示和操作iPhone的CarPlay界面。
+- [harman-f/mhi2_altscreen_carplay](https://github.com/harman-f/mhi2_altscreen_carplay) 101★ Open research for CarPlay AltScreen/Auxiliary Screen navigation in MQB Virtual …
+
+</details>
+
+<details><summary><b>there</b>: 5 repos, 4.6k stars</summary>
+
+- [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) 4.2k★ 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完…
+- [scaleapi/agentenv-framework](https://github.com/scaleapi/agentenv-framework) 197★ Creating realistic RL environments requires collaboration between researchers, …
+- [SpeakingOfBrad/BIGWORDS.PAGE](https://github.com/SpeakingOfBrad/BIGWORDS.PAGE) 103★ Full-screen text for any screen. The message lives in the URL, so there's no ba…
+- [SamGu-NRX/BaseScanning](https://github.com/SamGu-NRX/BaseScanning) 85★ Splat! There goes your battery. BaseScanning is an E2E, worry-free iOS workflow…
+- [xDAnkit/system-design-journey](https://github.com/xDAnkit/system-design-journey) 47★ System design resources and examples for beginner to expert, Season 1. This is …
+
+</details>
+
+<details><summary><b>steamos</b>: 5 repos, 4.2k stars</summary>
+
+- [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 3.4k★ DroidDeck brings the SteamOS experience to Android
+- [DeeJanuz/frametop](https://github.com/DeeJanuz/frametop) 256★ Multi-screen KDE Plasma desktop and universal 3D mouse for the Valve Steam Fram…
+- [hashtagbasit/SteamOS-ARM-Port](https://github.com/hashtagbasit/SteamOS-ARM-Port) 230★ Unofficial SteamOS for Snapdragon handhelds and tablets
+- [fxgl/steamac](https://github.com/fxgl/steamac) 215★ Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + …
+- [saphid/frame-control](https://github.com/saphid/frame-control) 83★ Frame Control: a free, open-source app for Valve Steam Frame on macOS, Windows,…
 
 </details>
 <!-- starwave:end -->
