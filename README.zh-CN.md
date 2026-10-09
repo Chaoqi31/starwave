@@ -48,77 +48,78 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 1,908 repos  2026-09-24..2026-10-08  stars>=40 · baseline 2,858 repos  2026-07-26..2026-09-23  stars>=150 · generated 2026-10-08 13:34 UTC_
+_recent 1,950 repos  2026-09-25..2026-10-09  stars>=40 · baseline 2,882 repos  2026-07-27..2026-09-24  stars>=150 · generated 2026-10-09 13:21 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **ps4** | 9 | 9 | 1.4k | 935/d | 308/d | ▁▁▁▁▁▁▁▁▁▂▃▂▂█ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
-| 2 | **motion-graphics** | 18 | 16 | 8.7k | 844/d | 768/d | ▁▂▅█▇▄▄▄▄▄▅▅▅▇ | 2026-09-25 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
-| 3 | **carplay** | 8 | 7 | 8.1k | 627/d | 929/d | ▁▁▁▂▃▅▄▄▅▄▇▆▅█ | 2026-09-24 | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) |
-| 4 | **there** | 5 | 5 | 4.6k | 375/d | 928/d | ▁▂▁▂▁▁▂▁▂▁▃▃▆█ | 2026-09-24 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) |
-| 5 | **steamos** (+steamvr) | 5 | 5 | 4.2k | 341/d | 648/d | ▁▁▁▂▃▂▂▂▃█▅▇█▇ | 2026-09-24 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) |
-| 6 | **size** (+font) | 9 | 9 | 615 | 149/d | 74/d | ▂▂▂▂▆▂▂▂▂▆▄▄▅█ | 2026-09-24 | [yfyeung/PrunedCTC](https://github.com/yfyeung/PrunedCTC) |
-| 7 | **pick** | 6 | 6 | 914 | 129/d | 113/d | ▁▁▁▁▁▁▁▅▇█▄▅▅▅ | 2026-09-26 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
-| 8 | **muse.ai** | 6 | 6 | 963 | 82/d | 33/d | ▁█▅▄▄▅▃▃▃▂▃▂▂▂ | 2026-09-25 | [win4r/MuseAI-Skills](https://github.com/win4r/MuseAI-Skills) |
+| 1 | **artex** | 8 | 8 | 3.4k | 2.4k/d | 835/d | ▁▁▁▁▁▁▁▁▁▁▁▁▂█ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
+| 2 | **mod** (+claude-code-mod, trainer, hack) | 30 | 30 | 10.1k | 1.3k/d | 992/d | ▁▁▁▂▂█▆▇▆█▇█▆▆ | 2026-09-25 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) |
+| 3 | **soroban** (+stellar, settlement) | 16 | 8 | 2.1k | 1.3k/d | 584/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▇ | 2026-09-26 | [StellarHyperion/stellarhyperion-contracts](https://github.com/StellarHyperion/stellarhyperion-contracts) |
+| 4 | **motion-graphics** | 19 | 17 | 9.5k | 893/d | 800/d | ▂▅█▇▄▄▄▄▄▅▅▅▇▆ | 2026-09-25 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
+| 5 | **ps4** | 9 | 9 | 1.8k | 692/d | 431/d | ▁▁▁▁▁▁▁▁▂▃▂▂█▆ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 6 | **homebrew** (+jailbroken, ps5) | 16 | 15 | 1.6k | 242/d | 190/d | ▁▁▂▁▁▁▂▂▅██▆▅▄ | 2026-09-25 | [saawant12/orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) |
+| 7 | **esp** | 6 | 5 | 1.4k | 220/d | 100/d | ▁▁▁▁▂▅▅▃▃█▅▃▃▄ | 2026-09-28 | [ESPARGOS/esp-sdr](https://github.com/ESPARGOS/esp-sdr) |
+| 8 | **pick** | 6 | 6 | 950 | 128/d | 112/d | ▁▁▁▁▁▁▅▆█▃▅▆▅▄ | 2026-09-29 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
+| 9 | **size** | 7 | 7 | 552 | 106/d | 80/d | ▂▁▂▄▂▂▃▂▆▃▃▅█▅ | 2026-09-25 | [yfyeung/PrunedCTC](https://github.com/yfyeung/PrunedCTC) |
+| 10 | **steamvr** | 5 | 5 | 602 | 63/d | 31/d | ▁▂█▂▂▃▃▅▇▇▅▃▃▃ | 2026-09-25 | [DeeJanuz/frametop](https://github.com/DeeJanuz/frametop) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **reimplementation** (+clean-room) | 11 | 4 | 39.1k | 5.9k/d | 10.3k/d | ▁▁▁▁▁▁▁▁▁▁▂▂▆█ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
-| 2 | **minimum** (+top-up, pay-as-you-go, image2, image2.5, llm-api-gateway, 186 more) | 587 | 340 | 32.6k | 3.3k/d | 5.3k/d | ▁▂▂▁▂▂▂▁▁▇███▄ | 2026-09-24 | [azle5biyd9td956/pixverse6-pixverse-v6-api](https://github.com/azle5biyd9td956/pixverse6-pixverse-v6-api) | near-duplicate, flat-stars |
-| 3 | **stellar** (+soroban, settlement) | 12 | 7 | 1.6k | 1.2k/d | 478/d | ▁▁▁▁▁▁▁▁▁▁▂▃▁█ | 2026-10-04 | [Stellar-hush/hush](https://github.com/Stellar-hush/hush) | same-day |
-| 4 | **argolink** (+fields) | 11 | 11 | 482 | 121/d | 159/d | ▁▁▁▁▁▁▁▁▁▁▁▅█▂ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day |
+| 1 | **reimplementation** (+clean-room) | 11 | 4 | 57.9k | 7.5k/d | 16.1k/d | ▁▁▁▁▁▁▁▁▁▁▂▅▇█ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
+| 2 | **minimum** (+top-up, image2, image2.5, pay-as-you-go, usd, 177 more) | 578 | 314 | 30.6k | 2.9k/d | 3.6k/d | ▁▁▁▁▁▂▁▁▇███▅▂ | 2026-09-28 | [apimartnsksu/llm-api-relay-cheap-cn](https://github.com/apimartnsksu/llm-api-relay-cheap-cn) | near-duplicate, flat-stars |
+| 3 | **argolink** (+fields, async) | 12 | 12 | 532 | 106/d | 116/d | ▁▁▁▁▁▁▁▁▁▁▅█▃▂ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>ps4</b>: 9 repos, 1.4k stars</summary>
+<details><summary><b>artex</b>: 8 repos, 3.4k stars</summary>
 
-- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 774★ Native PC port of P.T. (runs from your own PS4 game files)
-- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 200★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
-- [iHaiDeeZ/DolphinPS4](https://github.com/iHaiDeeZ/DolphinPS4) 72★ Dolphin (GameCube/Wii emulator) for jailbroken PS4: Vulkan on the PS4 GPU, PSP-…
-- [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) 67★ Unofficial etaHEN 2.5B unified PS5 11.00-13.60 port: Toolbox, plugins and PS4/P…
-- [aarvsn/Ryty](https://github.com/aarvsn/Ryty) 63★ Tool for porting PlayStation 4 & 5 executables to Windows, MacOS and Linux
-
-</details>
-
-<details><summary><b>motion-graphics</b>: 18 repos, 8.7k stars</summary>
-
-- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 3.0k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
-- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 1.9k★ Motion films that never cut to the next slide: every beat grows out of the one …
-- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 1.4k★ Claude Code skill for short films with no video model: 43 film styles, each a s…
-- [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) 499★ Motion-graphics skills for Claude Code and Codex.
-- [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) 481★ Open-source skills and toolkits that let Claude Code, Codex and other coding ag…
+- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 1.9k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
+- [jiwoochris/artex-ko](https://github.com/jiwoochris/artex-ko) 830★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)
+- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 254★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
+- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 205★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
+- [sharenjun/ARTEX-main](https://github.com/sharenjun/ARTEX-main) 78★ 可以提交issue和优化思路，会维护
 
 </details>
 
-<details><summary><b>carplay</b>: 8 repos, 8.1k stars</summary>
+<details><summary><b>mod</b>: 30 repos, 10.1k stars</summary>
 
-- [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) 7.1k★ Independent CarPlay receiver for compatible Android head units. Wired and wirel…
-- [yuedizhibo/MHI2Q-CarPlay-AltScreen](https://github.com/yuedizhibo/MHI2Q-CarPlay-AltScreen) 322★ 补全 Audi MHI2Q / MIB2 High AUG22 的 CarPlay AltScreen 逻辑，让 CarPlay 第二屏显示在 Virtual…
-- [youcci/playport](https://github.com/youcci/playport) 256★ Wireless CarPlay in your browser — a server-side receiver that turns any screen…
-- [Roylyl/WinPlay](https://github.com/Roylyl/WinPlay) 166★ WinPlay是一款开源Windows无线CarPlay接收软件，支持本机热点与局域网连接，让你在电脑上显示和操作iPhone的CarPlay界面。
-- [harman-f/mhi2_altscreen_carplay](https://github.com/harman-f/mhi2_altscreen_carplay) 101★ Open research for CarPlay AltScreen/Auxiliary Screen navigation in MQB Virtual …
-
-</details>
-
-<details><summary><b>there</b>: 5 repos, 4.6k stars</summary>
-
-- [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) 4.2k★ 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完…
-- [scaleapi/agentenv-framework](https://github.com/scaleapi/agentenv-framework) 197★ Creating realistic RL environments requires collaboration between researchers, …
-- [SpeakingOfBrad/BIGWORDS.PAGE](https://github.com/SpeakingOfBrad/BIGWORDS.PAGE) 103★ Full-screen text for any screen. The message lives in the URL, so there's no ba…
-- [SamGu-NRX/BaseScanning](https://github.com/SamGu-NRX/BaseScanning) 85★ Splat! There goes your battery. BaseScanning is an E2E, worry-free iOS workflow…
-- [xDAnkit/system-design-journey](https://github.com/xDAnkit/system-design-journey) 47★ System design resources and examples for beginner to expert, Season 1. This is …
+- [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) 5.9k★ Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mo…
+- [chasmlol/SkyCraft](https://github.com/chasmlol/SkyCraft) 1.1k★ Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and com…
+- [openOMSI-org/openOMSI](https://github.com/openOMSI-org/openOMSI) 509★ OMSI 2 recreated from scratch in Rust, compatible with every map and mod (requi…
+- [noahdunnagan/mcopt](https://github.com/noahdunnagan/mcopt) 416★ mcopt, a Minecraft mod: a native Metal renderer for Minecraft: Java Edition on …
+- [trevaintdead/ai-game-modding-guides](https://github.com/trevaintdead/ai-game-modding-guides) 396★ Guides for building game mods with AI coding agents: passthrough mods, Rust rew…
 
 </details>
 
-<details><summary><b>steamos</b>: 5 repos, 4.2k stars</summary>
+<details><summary><b>soroban</b>: 16 repos, 2.1k stars</summary>
 
-- [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) 3.4k★ DroidDeck brings the SteamOS experience to Android
-- [DeeJanuz/frametop](https://github.com/DeeJanuz/frametop) 256★ Multi-screen KDE Plasma desktop and universal 3D mouse for the Valve Steam Fram…
-- [hashtagbasit/SteamOS-ARM-Port](https://github.com/hashtagbasit/SteamOS-ARM-Port) 230★ Unofficial SteamOS for Snapdragon handhelds and tablets
-- [fxgl/steamac](https://github.com/fxgl/steamac) 215★ Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + …
-- [saphid/frame-control](https://github.com/saphid/frame-control) 83★ Frame Control: a free, open-source app for Valve Steam Frame on macOS, Windows,…
+- [StellarHyperion/stellarhyperion-contracts](https://github.com/StellarHyperion/stellarhyperion-contracts) 149★ Cross-chain router contracts for Stellar and EVM networks, with CCTP, Axelar, a…
+- [StellarHyperion/stellarhyperion-backend](https://github.com/StellarHyperion/stellarhyperion-backend) 148★ Backend infrastructure for indexing, monitoring, and managing Hyperion cross-ch…
+- [StellarHyperion/stellarhyperion-frontend](https://github.com/StellarHyperion/stellarhyperion-frontend) 148★ Web interface for Hyperion, enabling cross-chain routing, live quotes, wallet c…
+- [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) 132★ Open-source Stellar and Soroban API for peer-to-peer USDC settlement, wallet au…
+- [Local-Settle/local-settle-frontend](https://github.com/Local-Settle/local-settle-frontend) 132★ Open-source peer-to-peer payments on Stellar and Soroban. Connect a wallet, tra…
+
+</details>
+
+<details><summary><b>motion-graphics</b>: 19 repos, 9.5k stars</summary>
+
+- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 3.3k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
+- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 2.0k★ Motion films that never cut to the next slide: every beat grows out of the one …
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 1.5k★ Claude Code skill for short films with no video model: 43 film styles, each a s…
+- [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) 534★ Motion-graphics skills for Claude Code and Codex.
+- [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) 495★ Open-source skills and toolkits that let Claude Code, Codex and other coding ag…
+
+</details>
+
+<details><summary><b>ps4</b>: 9 repos, 1.8k stars</summary>
+
+- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.1k★ Native PC port of P.T. (runs from your own PS4 game files)
+- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 211★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
+- [iHaiDeeZ/DolphinPS4](https://github.com/iHaiDeeZ/DolphinPS4) 84★ Dolphin (GameCube/Wii emulator) for jailbroken PS4: Vulkan on the PS4 GPU, PSP-…
+- [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) 68★ Unofficial etaHEN 2.5B unified PS5 11.00-13.60 port: Toolbox, plugins and PS4/P…
+- [Yharnam-Hunters/Paleblood](https://github.com/Yharnam-Hunters/Paleblood) 68★ A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game'…
 
 </details>
 <!-- starwave:end -->
