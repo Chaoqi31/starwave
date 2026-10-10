@@ -48,52 +48,53 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 1,950 repos  2026-09-25..2026-10-09  stars>=40 · baseline 2,882 repos  2026-07-27..2026-09-24  stars>=150 · generated 2026-10-09 13:21 UTC_
+_recent 2,148 repos  2026-09-26..2026-10-10  stars>=40 · baseline 2,900 repos  2026-07-28..2026-09-25  stars>=150 · generated 2026-10-10 12:35 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **artex** | 8 | 8 | 3.4k | 2.4k/d | 835/d | ▁▁▁▁▁▁▁▁▁▁▁▁▂█ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
-| 2 | **mod** (+claude-code-mod, trainer, hack) | 30 | 30 | 10.1k | 1.3k/d | 992/d | ▁▁▁▂▂█▆▇▆█▇█▆▆ | 2026-09-25 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) |
-| 3 | **soroban** (+stellar, settlement) | 16 | 8 | 2.1k | 1.3k/d | 584/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▇ | 2026-09-26 | [StellarHyperion/stellarhyperion-contracts](https://github.com/StellarHyperion/stellarhyperion-contracts) |
-| 4 | **motion-graphics** | 19 | 17 | 9.5k | 893/d | 800/d | ▂▅█▇▄▄▄▄▄▅▅▅▇▆ | 2026-09-25 | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
-| 5 | **ps4** | 9 | 9 | 1.8k | 692/d | 431/d | ▁▁▁▁▁▁▁▁▂▃▂▂█▆ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
-| 6 | **homebrew** (+jailbroken, ps5) | 16 | 15 | 1.6k | 242/d | 190/d | ▁▁▂▁▁▁▂▂▅██▆▅▄ | 2026-09-25 | [saawant12/orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) |
-| 7 | **esp** | 6 | 5 | 1.4k | 220/d | 100/d | ▁▁▁▁▂▅▅▃▃█▅▃▃▄ | 2026-09-28 | [ESPARGOS/esp-sdr](https://github.com/ESPARGOS/esp-sdr) |
-| 8 | **pick** | 6 | 6 | 950 | 128/d | 112/d | ▁▁▁▁▁▁▅▆█▃▅▆▅▄ | 2026-09-29 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
-| 9 | **size** | 7 | 7 | 552 | 106/d | 80/d | ▂▁▂▄▂▂▃▂▆▃▃▅█▅ | 2026-09-25 | [yfyeung/PrunedCTC](https://github.com/yfyeung/PrunedCTC) |
-| 10 | **steamvr** | 5 | 5 | 602 | 63/d | 31/d | ▁▂█▂▂▃▃▅▇▇▅▃▃▃ | 2026-09-25 | [DeeJanuz/frametop](https://github.com/DeeJanuz/frametop) |
+| 1 | **artex** | 7 | 7 | 4.8k | 2.0k/d | 1.4k/d | ▁▁▁▁▁▁▁▁▁▁▁▂█▇ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
+| 2 | **revolutionize** (+cutting, vfx) | 9 | 9 | 1.3k | 1.3k/d | 437/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-09 | [Haircloboutique/Cubase](https://github.com/Haircloboutique/Cubase) |
+| 3 | **soroban** (+stellar, smart-contracts, defi, settlement) | 18 | 9 | 2.4k | 1.2k/d | 803/d | ▁▁▁▁▁▁▁▁▁▁▁█▇▆ | 2026-09-26 | [StellarHyperion/stellarhyperion-contracts](https://github.com/StellarHyperion/stellarhyperion-contracts) |
+| 4 | **hack** | 14 | 14 | 1.3k | 1.0k/d | 395/d | ▁▁▁▁▁▁▁▁▁▁▁▁▃█ | 2026-10-03 | [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) |
+| 5 | **ps4** | 9 | 9 | 2.0k | 537/d | 481/d | ▁▁▁▁▁▁▁▂▃▂▂█▆▃ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 6 | **recompiled** | 9 | 8 | 1.1k | 208/d | 83/d | ▃▆▅▃▅▆▃▅▅▇▆▄▄█ | 2026-09-26 | [chrissotraidis/bluewake](https://github.com/chrissotraidis/bluewake) |
+| 7 | **pick** | 7 | 7 | 1.0k | 119/d | 79/d | ▁▁▁▁▁▅▇█▄▅▆▅▄▂ | 2026-09-26 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
+| 8 | **proton** | 5 | 5 | 896 | 104/d | 126/d | ▃▂▂▃▃▃▃▂▂▂▄▅█▄ | 2026-09-26 | [fxgl/steamac](https://github.com/fxgl/steamac) |
+| 9 | **size** | 6 | 6 | 493 | 85/d | 70/d | ▁▁▂▁▂▂▂▆▂▃▄█▅▃ | 2026-09-27 | [yfyeung/PrunedCTC](https://github.com/yfyeung/PrunedCTC) |
+| 10 | **tensorfold** | 5 | 4 | 807 | 82/d | 62/d | ▁▁▁▆▃█▃▃▃▂▂▃▄▃ | 2026-09-28 | [MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold](https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **reimplementation** (+clean-room) | 11 | 4 | 57.9k | 7.5k/d | 16.1k/d | ▁▁▁▁▁▁▁▁▁▁▂▅▇█ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
-| 2 | **minimum** (+top-up, image2, image2.5, pay-as-you-go, usd, 177 more) | 578 | 314 | 30.6k | 2.9k/d | 3.6k/d | ▁▁▁▁▁▂▁▁▇███▅▂ | 2026-09-28 | [apimartnsksu/llm-api-relay-cheap-cn](https://github.com/apimartnsksu/llm-api-relay-cheap-cn) | near-duplicate, flat-stars |
-| 3 | **argolink** (+fields, async) | 12 | 12 | 532 | 106/d | 116/d | ▁▁▁▁▁▁▁▁▁▁▅█▃▂ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day |
+| 1 | **providing** (+configurations, streamlines, optimizes, professional, utility, 25 more) | 86 | 86 | 15.6k | 15.4k/d | 5.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-09-26 | [KindStatesman/KMS-Pico](https://github.com/KindStatesman/KMS-Pico) | same-day, flat-stars |
+| 2 | **reimplementation** (+clean-room) | 12 | 5 | 73.4k | 8.5k/d | 17.7k/d | ▁▁▁▁▁▁▁▁▁▂▅▇█▇ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
+| 3 | **minimum** (+top-up, image2, image2.5, pay-as-you-go, usd, 181 more) | 668 | 371 | 35.2k | 3.2k/d | 3.1k/d | ▁▁▁▁▂▁▁▇███▆▃▄ | 2026-09-28 | [apimartnsksu/llm-api-relay-cheap-cn](https://github.com/apimartnsksu/llm-api-relay-cheap-cn) | near-duplicate, flat-stars |
+| 4 | **argolink** (+polling, argolink-focused, fields, async) | 17 | 17 | 742 | 131/d | 90/d | ▁▁▁▁▁▁▁▁▁▅█▃▃▅ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>artex</b>: 8 repos, 3.4k stars</summary>
+<details><summary><b>artex</b>: 7 repos, 4.8k stars</summary>
 
-- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 1.9k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
-- [jiwoochris/artex-ko](https://github.com/jiwoochris/artex-ko) 830★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)
-- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 254★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
-- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 205★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
-- [sharenjun/ARTEX-main](https://github.com/sharenjun/ARTEX-main) 78★ 可以提交issue和优化思路，会维护
-
-</details>
-
-<details><summary><b>mod</b>: 30 repos, 10.1k stars</summary>
-
-- [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) 5.9k★ Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mo…
-- [chasmlol/SkyCraft](https://github.com/chasmlol/SkyCraft) 1.1k★ Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and com…
-- [openOMSI-org/openOMSI](https://github.com/openOMSI-org/openOMSI) 509★ OMSI 2 recreated from scratch in Rust, compatible with every map and mod (requi…
-- [noahdunnagan/mcopt](https://github.com/noahdunnagan/mcopt) 416★ mcopt, a Minecraft mod: a native Metal renderer for Minecraft: Java Edition on …
-- [trevaintdead/ai-game-modding-guides](https://github.com/trevaintdead/ai-game-modding-guides) 396★ Guides for building game mods with AI coding agents: passthrough mods, Rust rew…
+- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 2.7k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
+- [jiwoochris/artex-ko](https://github.com/jiwoochris/artex-ko) 912★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)
+- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 515★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
+- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 335★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
+- [sharenjun/ARTEX-main](https://github.com/sharenjun/ARTEX-main) 105★ 可以提交issue和优化思路，会维护
 
 </details>
 
-<details><summary><b>soroban</b>: 16 repos, 2.1k stars</summary>
+<details><summary><b>revolutionize</b>: 9 repos, 1.3k stars</summary>
+
+- [Haircloboutique/Cubase](https://github.com/Haircloboutique/Cubase) 300★ Revolutionize your music production with this robust digital audio workstation …
+- [Charactervefilter/Reason-14](https://github.com/Charactervefilter/Reason-14) 200★ Revolutionize your workflow with 'Reason 14', a bespoke desktop utility designe…
+- [ChunkPoolChain/BorisFX](https://github.com/ChunkPoolChain/BorisFX) 198★ Revolutionize your video editing workflow with the robust Borisfx plugin soluti…
+- [Demonsemarvel/Auslogics](https://github.com/Demonsemarvel/Auslogics) 116★ Revolutionize your audio production with Auslogics - an innovative digital audi…
+- [BowyerSqueeze/Avid-Media-Composer](https://github.com/BowyerSqueeze/Avid-Media-Composer) 103★ Revolutionize professional video and audio post-production workflows by utilizi…
+
+</details>
+
+<details><summary><b>soroban</b>: 18 repos, 2.4k stars</summary>
 
 - [StellarHyperion/stellarhyperion-contracts](https://github.com/StellarHyperion/stellarhyperion-contracts) 149★ Cross-chain router contracts for Stellar and EVM networks, with CCTP, Axelar, a…
 - [StellarHyperion/stellarhyperion-backend](https://github.com/StellarHyperion/stellarhyperion-backend) 148★ Backend infrastructure for indexing, monitoring, and managing Hyperion cross-ch…
@@ -103,23 +104,23 @@ _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per da
 
 </details>
 
-<details><summary><b>motion-graphics</b>: 19 repos, 9.5k stars</summary>
+<details><summary><b>hack</b>: 14 repos, 1.3k stars</summary>
 
-- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) 3.3k★ A growing collection of viral videos made with Claude Opus 5.5 and the prompts …
-- [feitangyuan/onetake](https://github.com/feitangyuan/onetake) 2.0k★ Motion films that never cut to the next slide: every beat grows out of the one …
-- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) 1.5k★ Claude Code skill for short films with no video model: 43 film styles, each a s…
-- [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) 534★ Motion-graphics skills for Claude Code and Codex.
-- [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) 495★ Open-source skills and toolkits that let Claude Code, Codex and other coding ag…
+- [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) 309★ Solidworks Cad meticulously configures professional desktop software utilities …
+- [deepkiwiraid/Canva-Pro](https://github.com/deepkiwiraid/Canva-Pro) 301★ Integrates seamlessly with professional desktop software utilities to provide a…
+- [floorwrenmold/IDM](https://github.com/floorwrenmold/IDM) 98★ Idm is a professional desktop software utility configuration that enables users…
+- [Janina21/Crypto-Checker](https://github.com/Janina21/Crypto-Checker) 83★ Python-based crypto wallet analysis tool with multi-threaded address and seed p…
+- [majestymagpiepattern/Modern-FPS-Booster-2026-Win](https://github.com/majestymagpiepattern/Modern-FPS-Booster-2026-Win) 74★ FPS Tweaks is a collection of settings and optimizations designed to improve ga…
 
 </details>
 
-<details><summary><b>ps4</b>: 9 repos, 1.8k stars</summary>
+<details><summary><b>ps4</b>: 9 repos, 2.0k stars</summary>
 
-- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.1k★ Native PC port of P.T. (runs from your own PS4 game files)
-- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 211★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
-- [iHaiDeeZ/DolphinPS4](https://github.com/iHaiDeeZ/DolphinPS4) 84★ Dolphin (GameCube/Wii emulator) for jailbroken PS4: Vulkan on the PS4 GPU, PSP-…
-- [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) 68★ Unofficial etaHEN 2.5B unified PS5 11.00-13.60 port: Toolbox, plugins and PS4/P…
-- [Yharnam-Hunters/Paleblood](https://github.com/Yharnam-Hunters/Paleblood) 68★ A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game'…
+- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.3k★ Native PC port of P.T. (runs from your own PS4 game files)
+- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 221★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
+- [iHaiDeeZ/DolphinPS4](https://github.com/iHaiDeeZ/DolphinPS4) 93★ Dolphin (GameCube/Wii emulator) for jailbroken PS4: Vulkan on the PS4 GPU, PSP-…
+- [Yharnam-Hunters/Paleblood](https://github.com/Yharnam-Hunters/Paleblood) 75★ A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game'…
+- [IFreemz/shadPS4-Bloodborne-DLSS-FSR](https://github.com/IFreemz/shadPS4-Bloodborne-DLSS-FSR) 73★ NVIDIA DLSS Super Resolution and AMD FSR 3.1 / FSR 4 for Bloodborne on shadPS4 …
 
 </details>
 <!-- starwave:end -->
