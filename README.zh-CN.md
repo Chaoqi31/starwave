@@ -48,39 +48,59 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 2,148 repos  2026-09-26..2026-10-10  stars>=40 · baseline 2,900 repos  2026-07-28..2026-09-25  stars>=150 · generated 2026-10-10 12:35 UTC_
+_recent 2,280 repos  2026-09-27..2026-10-11  stars>=40 · baseline 2,914 repos  2026-07-29..2026-09-26  stars>=150 · generated 2026-10-11 12:54 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **artex** | 7 | 7 | 4.8k | 2.0k/d | 1.4k/d | ▁▁▁▁▁▁▁▁▁▁▁▂█▇ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
-| 2 | **revolutionize** (+cutting, vfx) | 9 | 9 | 1.3k | 1.3k/d | 437/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-09 | [Haircloboutique/Cubase](https://github.com/Haircloboutique/Cubase) |
-| 3 | **soroban** (+stellar, smart-contracts, defi, settlement) | 18 | 9 | 2.4k | 1.2k/d | 803/d | ▁▁▁▁▁▁▁▁▁▁▁█▇▆ | 2026-09-26 | [StellarHyperion/stellarhyperion-contracts](https://github.com/StellarHyperion/stellarhyperion-contracts) |
-| 4 | **hack** | 14 | 14 | 1.3k | 1.0k/d | 395/d | ▁▁▁▁▁▁▁▁▁▁▁▁▃█ | 2026-10-03 | [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) |
-| 5 | **ps4** | 9 | 9 | 2.0k | 537/d | 481/d | ▁▁▁▁▁▁▁▂▃▂▂█▆▃ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
-| 6 | **recompiled** | 9 | 8 | 1.1k | 208/d | 83/d | ▃▆▅▃▅▆▃▅▅▇▆▄▄█ | 2026-09-26 | [chrissotraidis/bluewake](https://github.com/chrissotraidis/bluewake) |
-| 7 | **pick** | 7 | 7 | 1.0k | 119/d | 79/d | ▁▁▁▁▁▅▇█▄▅▆▅▄▂ | 2026-09-26 | [strands-labs/strands-decider](https://github.com/strands-labs/strands-decider) |
-| 8 | **proton** | 5 | 5 | 896 | 104/d | 126/d | ▃▂▂▃▃▃▃▂▂▂▄▅█▄ | 2026-09-26 | [fxgl/steamac](https://github.com/fxgl/steamac) |
-| 9 | **size** | 6 | 6 | 493 | 85/d | 70/d | ▁▁▂▁▂▂▂▆▂▃▄█▅▃ | 2026-09-27 | [yfyeung/PrunedCTC](https://github.com/yfyeung/PrunedCTC) |
-| 10 | **tensorfold** | 5 | 4 | 807 | 82/d | 62/d | ▁▁▁▆▃█▃▃▃▂▂▃▄▃ | 2026-09-28 | [MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold](https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold) |
+| 1 | **artex** | 8 | 8 | 5.7k | 1.6k/d | 1.7k/d | ▁▁▁▁▁▁▁▁▁▁▂█▇▄ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
+| 2 | **hack** (+esp, aimbot) | 18 | 18 | 1.5k | 699/d | 419/d | ▁▁▁▁▁▁▁▁▂▂▁▃█▂ | 2026-09-30 | [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) |
+| 3 | **soroban** (+stellar, smart-contracts, settlement) | 15 | 8 | 2.0k | 681/d | 350/d | ▁▁▁▁▁▁▁▁▁▁█▄▆▁ | 2026-10-06 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
+| 4 | **revolutionize** (+cutting, vfx) | 9 | 9 | 1.3k | 656/d | 437/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-09 | [Haircloboutique/Cubase](https://github.com/Haircloboutique/Cubase) |
+| 5 | **font** | 6 | 6 | 1.2k | 453/d | 105/d | ▁▁▁▁▁▁▁▂▂▂█▂▂▄ | 2026-10-01 | [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) |
+| 6 | **ps4** | 9 | 9 | 2.1k | 446/d | 293/d | ▁▁▁▁▁▁▂▃▂▂█▆▃▃ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 7 | **downloads** | 8 | 7 | 1.2k | 235/d | 112/d | ▂▂▁▂▂▂▆▅█▆▄▅▅▇ | 2026-09-27 | [saawant12/orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) |
+| 8 | **decompiled** | 6 | 6 | 774 | 184/d | 147/d | ▂▁▁▂▂▂▁▁▁▂▃▃▅█ | 2026-09-27 | [SubmitGame/awesome-decomp-games](https://github.com/SubmitGame/awesome-decomp-games) |
+| 9 | **folder** | 5 | 5 | 784 | 152/d | 54/d | ▁▁▂▁▁▁▁█▃▂▂▂▁▄ | 2026-09-27 | [allenv0/SCM](https://github.com/allenv0/SCM) |
+| 10 | **tensorfold** | 6 | 4 | 890 | 84/d | 67/d | ▁▁▆▃█▃▃▃▂▂▃▄▃▄ | 2026-09-28 | [MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold](https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **providing** (+configurations, streamlines, optimizes, professional, utility, 25 more) | 86 | 86 | 15.6k | 15.4k/d | 5.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-09-26 | [KindStatesman/KMS-Pico](https://github.com/KindStatesman/KMS-Pico) | same-day, flat-stars |
-| 2 | **reimplementation** (+clean-room) | 12 | 5 | 73.4k | 8.5k/d | 17.7k/d | ▁▁▁▁▁▁▁▁▁▂▅▇█▇ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
-| 3 | **minimum** (+top-up, image2, image2.5, pay-as-you-go, usd, 181 more) | 668 | 371 | 35.2k | 3.2k/d | 3.1k/d | ▁▁▁▁▂▁▁▇███▆▃▄ | 2026-09-28 | [apimartnsksu/llm-api-relay-cheap-cn](https://github.com/apimartnsksu/llm-api-relay-cheap-cn) | near-duplicate, flat-stars |
-| 4 | **argolink** (+polling, argolink-focused, fields, async) | 17 | 17 | 742 | 131/d | 90/d | ▁▁▁▁▁▁▁▁▁▅█▃▃▅ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day |
+| 1 | **reimplementation** (+adobe, clean-room) | 12 | 5 | 86.8k | 9.1k/d | 16.6k/d | ▁▁▁▁▁▁▁▁▂▅▇█▇▆ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
+| 2 | **providing** (+configurations, streamlines, optimizes, professional, utility, 23 more) | 84 | 84 | 15.4k | 7.6k/d | 5.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-09-28 | [KindStatesman/KMS-Pico](https://github.com/KindStatesman/KMS-Pico) | same-day, flat-stars |
+| 3 | **minimum** (+top-up, image2, image2.5, pay-as-you-go, usd, 190 more) | 778 | 442 | 40.8k | 3.5k/d | 3.4k/d | ▁▁▁▂▁▁▇███▆▃▅▅ | 2026-09-28 | [apimartnsksu/llm-api-relay-cheap-cn](https://github.com/apimartnsksu/llm-api-relay-cheap-cn) | near-duplicate, flat-stars |
+| 4 | **argolink** (+argolink-focused, error, polling, fields) | 20 | 20 | 875 | 133/d | 116/d | ▁▁▁▁▁▁▁▁▅█▃▃▅▄ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>artex</b>: 7 repos, 4.8k stars</summary>
+<details><summary><b>artex</b>: 8 repos, 5.7k stars</summary>
 
-- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 2.7k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
-- [jiwoochris/artex-ko](https://github.com/jiwoochris/artex-ko) 912★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)
-- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 515★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
-- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 335★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
-- [sharenjun/ARTEX-main](https://github.com/sharenjun/ARTEX-main) 105★ 可以提交issue和优化思路，会维护
+- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 3.1k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
+- [jiwoochris/artex-ko](https://github.com/jiwoochris/artex-ko) 1.1k★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)
+- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 659★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
+- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 418★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
+- [RuoJi6/ARTEX](https://github.com/RuoJi6/ARTEX) 118★ Autumn-27/ARTEX 二开
+
+</details>
+
+<details><summary><b>hack</b>: 18 repos, 1.5k stars</summary>
+
+- [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) 310★ Solidworks Cad meticulously configures professional desktop software utilities …
+- [deepkiwiraid/Canva-Pro](https://github.com/deepkiwiraid/Canva-Pro) 301★ Integrates seamlessly with professional desktop software utilities to provide a…
+- [floorwrenmold/IDM](https://github.com/floorwrenmold/IDM) 98★ Idm is a professional desktop software utility configuration that enables users…
+- [Janina21/Crypto-Checker](https://github.com/Janina21/Crypto-Checker) 83★ Python-based crypto wallet analysis tool with multi-threaded address and seed p…
+- [majestymagpiepattern/Modern-FPS-Booster-2026-Win](https://github.com/majestymagpiepattern/Modern-FPS-Booster-2026-Win) 74★ FPS Tweaks is a collection of settings and optimizations designed to improve ga…
+
+</details>
+
+<details><summary><b>soroban</b>: 15 repos, 2.0k stars</summary>
+
+- [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) 132★ Open-source Stellar and Soroban API for peer-to-peer USDC settlement, wallet au…
+- [Local-Settle/local-settle-frontend](https://github.com/Local-Settle/local-settle-frontend) 132★ Open-source peer-to-peer payments on Stellar and Soroban. Connect a wallet, tra…
+- [Stellar-Kolo/kolo-frontend](https://github.com/Stellar-Kolo/kolo-frontend) 132★ Kolo's Stellar community savings web app: Next.js member and admin dashboards, …
+- [Stellar-hush/hush](https://github.com/Stellar-hush/hush) 132★ Open-source working beta for private email on Stellar: encrypted messages, send…
+- [Stellar-Clear/clearledger](https://github.com/Stellar-Clear/clearledger) 131★ Invoice finance infrastructure on Stellar: Soroban contracts, a Next.js app, Ty…
 
 </details>
 
@@ -94,33 +114,13 @@ _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per da
 
 </details>
 
-<details><summary><b>soroban</b>: 18 repos, 2.4k stars</summary>
+<details><summary><b>font</b>: 6 repos, 1.2k stars</summary>
 
-- [StellarHyperion/stellarhyperion-contracts](https://github.com/StellarHyperion/stellarhyperion-contracts) 149★ Cross-chain router contracts for Stellar and EVM networks, with CCTP, Axelar, a…
-- [StellarHyperion/stellarhyperion-backend](https://github.com/StellarHyperion/stellarhyperion-backend) 148★ Backend infrastructure for indexing, monitoring, and managing Hyperion cross-ch…
-- [StellarHyperion/stellarhyperion-frontend](https://github.com/StellarHyperion/stellarhyperion-frontend) 148★ Web interface for Hyperion, enabling cross-chain routing, live quotes, wallet c…
-- [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) 132★ Open-source Stellar and Soroban API for peer-to-peer USDC settlement, wallet au…
-- [Local-Settle/local-settle-frontend](https://github.com/Local-Settle/local-settle-frontend) 132★ Open-source peer-to-peer payments on Stellar and Soroban. Connect a wallet, tra…
-
-</details>
-
-<details><summary><b>hack</b>: 14 repos, 1.3k stars</summary>
-
-- [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) 309★ Solidworks Cad meticulously configures professional desktop software utilities …
-- [deepkiwiraid/Canva-Pro](https://github.com/deepkiwiraid/Canva-Pro) 301★ Integrates seamlessly with professional desktop software utilities to provide a…
-- [floorwrenmold/IDM](https://github.com/floorwrenmold/IDM) 98★ Idm is a professional desktop software utility configuration that enables users…
-- [Janina21/Crypto-Checker](https://github.com/Janina21/Crypto-Checker) 83★ Python-based crypto wallet analysis tool with multi-threaded address and seed p…
-- [majestymagpiepattern/Modern-FPS-Booster-2026-Win](https://github.com/majestymagpiepattern/Modern-FPS-Booster-2026-Win) 74★ FPS Tweaks is a collection of settings and optimizations designed to improve ga…
-
-</details>
-
-<details><summary><b>ps4</b>: 9 repos, 2.0k stars</summary>
-
-- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.3k★ Native PC port of P.T. (runs from your own PS4 game files)
-- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 221★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
-- [iHaiDeeZ/DolphinPS4](https://github.com/iHaiDeeZ/DolphinPS4) 93★ Dolphin (GameCube/Wii emulator) for jailbroken PS4: Vulkan on the PS4 GPU, PSP-…
-- [Yharnam-Hunters/Paleblood](https://github.com/Yharnam-Hunters/Paleblood) 75★ A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game'…
-- [IFreemz/shadPS4-Bloodborne-DLSS-FSR](https://github.com/IFreemz/shadPS4-Bloodborne-DLSS-FSR) 73★ NVIDIA DLSS Super Resolution and AMD FSR 3.1 / FSR 4 for Bloodborne on shadPS4 …
+- [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) 597★ Photo-based reconstruction of classic Commodore 64 keycap lettering, with deskt…
+- [npwitk/Macintosh-Skeletal-Filled](https://github.com/npwitk/Macintosh-Skeletal-Filled) 207★ helllllllllloooo font! Turns out it's called Macintosh Skeleton
+- [fatihaydost/brand-identity-skill](https://github.com/fatihaydost/brand-identity-skill) 131★ A Claude Code skill that designs a brand identity as one system: logo, typograp…
+- [joeseesun/qiaomu-cover-fonts](https://github.com/joeseesun/qiaomu-cover-fonts) 109★ 乔木封面设计的默认开源字库：中文与英文 OFL 字体，子集化并附授权 · Default open-licence font library for Qiao…
+- [mcer12/PixelFonts](https://github.com/mcer12/PixelFonts) 108★ Pixel perfect AdafruitGFX & u8g2 fonts for the tiniest displays
 
 </details>
 <!-- starwave:end -->
