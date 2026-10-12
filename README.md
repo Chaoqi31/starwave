@@ -48,49 +48,39 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 2,280 repos  2026-09-27..2026-10-11  stars>=40 · baseline 2,914 repos  2026-07-29..2026-09-26  stars>=150 · generated 2026-10-11 12:54 UTC_
+_recent 2,307 repos  2026-09-28..2026-10-12  stars>=40 · baseline 2,941 repos  2026-07-30..2026-09-27  stars>=150 · generated 2026-10-12 15:31 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **artex** | 8 | 8 | 5.7k | 1.6k/d | 1.7k/d | ▁▁▁▁▁▁▁▁▁▁▂█▇▄ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
-| 2 | **hack** (+esp, aimbot) | 18 | 18 | 1.5k | 699/d | 419/d | ▁▁▁▁▁▁▁▁▂▂▁▃█▂ | 2026-09-30 | [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) |
-| 3 | **soroban** (+stellar, smart-contracts, settlement) | 15 | 8 | 2.0k | 681/d | 350/d | ▁▁▁▁▁▁▁▁▁▁█▄▆▁ | 2026-10-06 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
-| 4 | **revolutionize** (+cutting, vfx) | 9 | 9 | 1.3k | 656/d | 437/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-09 | [Haircloboutique/Cubase](https://github.com/Haircloboutique/Cubase) |
-| 5 | **font** | 6 | 6 | 1.2k | 453/d | 105/d | ▁▁▁▁▁▁▁▂▂▂█▂▂▄ | 2026-10-01 | [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) |
-| 6 | **ps4** | 9 | 9 | 2.1k | 446/d | 293/d | ▁▁▁▁▁▁▂▃▂▂█▆▃▃ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
-| 7 | **downloads** | 8 | 7 | 1.2k | 235/d | 112/d | ▂▂▁▂▂▂▆▅█▆▄▅▅▇ | 2026-09-27 | [saawant12/orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) |
-| 8 | **decompiled** | 6 | 6 | 774 | 184/d | 147/d | ▂▁▁▂▂▂▁▁▁▂▃▃▅█ | 2026-09-27 | [SubmitGame/awesome-decomp-games](https://github.com/SubmitGame/awesome-decomp-games) |
-| 9 | **folder** | 5 | 5 | 784 | 152/d | 54/d | ▁▁▂▁▁▁▁█▃▂▂▂▁▄ | 2026-09-27 | [allenv0/SCM](https://github.com/allenv0/SCM) |
-| 10 | **tensorfold** | 6 | 4 | 890 | 84/d | 67/d | ▁▁▆▃█▃▃▃▂▂▃▄▃▄ | 2026-09-28 | [MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold](https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold) |
+| 1 | **artex** | 6 | 6 | 6.3k | 1.3k/d | 1.2k/d | ▁▁▁▁▁▁▁▁▁▂█▇▄▄ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
+| 2 | **soroban** (+stellar, smart-contracts) | 15 | 8 | 2.0k | 495/d | 219/d | ▁▁▁▁▁▁▁▁▁█▄▆▁▁ | 2026-10-06 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
+| 3 | **font** | 6 | 6 | 1.6k | 418/d | 240/d | ▁▁▁▁▁▁▂▂▂█▂▂▄▇ | 2026-10-01 | [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) |
+| 4 | **mcd** (+mcdonalds) | 7 | 7 | 720 | 410/d | 158/d | ▁▁▁▁▁▁▁▁▁▁▁▅▆█ | 2026-10-09 | [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) |
+| 5 | **ps4** | 9 | 9 | 2.3k | 393/d | 177/d | ▁▁▁▁▁▂▃▂▂█▆▃▃▂ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 6 | **messages** | 7 | 7 | 1.7k | 362/d | 364/d | ▁▁▁▁▁▁▁▁▁▂▂▁▅█ | 2026-09-29 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
+| 7 | **sdr** | 9 | 8 | 1.6k | 269/d | 55/d | ▁▄▆▇▄▅██▆▅▇▃▃▃ | 2026-09-28 | [ESPARGOS/esp-sdr](https://github.com/ESPARGOS/esp-sdr) |
+| 8 | **waker** (+nintendo-switch) | 5 | 4 | 1.5k | 124/d | 96/d | ▂▁██▆▆▄▄▇▆▆▅▅▅ | 2026-09-28 | [elliotttate/Wind-Waker-Recomp](https://github.com/elliotttate/Wind-Waker-Recomp) |
+| 9 | **manipulation** (+humanoid) | 11 | 11 | 802 | 110/d | 85/d | ▁▃▂▁▁▁▃▄▆▅▅█▃▅ | 2026-09-28 | [zqc3117/Spotter](https://github.com/zqc3117/Spotter) |
+| 10 | **tensorfold** | 6 | 4 | 950 | 82/d | 57/d | ▁▆▃█▃▃▃▂▂▃▄▃▄▃ | 2026-09-28 | [MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold](https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **reimplementation** (+adobe, clean-room) | 12 | 5 | 86.8k | 9.1k/d | 16.6k/d | ▁▁▁▁▁▁▁▁▂▅▇█▇▆ | 2026-09-30 | [storytold/photocraft](https://github.com/storytold/photocraft) | few-owners |
-| 2 | **providing** (+configurations, streamlines, optimizes, professional, utility, 23 more) | 84 | 84 | 15.4k | 7.6k/d | 5.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-09-28 | [KindStatesman/KMS-Pico](https://github.com/KindStatesman/KMS-Pico) | same-day, flat-stars |
-| 3 | **minimum** (+top-up, image2, image2.5, pay-as-you-go, usd, 190 more) | 778 | 442 | 40.8k | 3.5k/d | 3.4k/d | ▁▁▁▂▁▁▇███▆▃▅▅ | 2026-09-28 | [apimartnsksu/llm-api-relay-cheap-cn](https://github.com/apimartnsksu/llm-api-relay-cheap-cn) | near-duplicate, flat-stars |
-| 4 | **argolink** (+argolink-focused, error, polling, fields) | 20 | 20 | 875 | 133/d | 116/d | ▁▁▁▁▁▁▁▁▅█▃▃▅▄ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day, flat-stars |
+| 1 | **minimum** (+top-up, image2, image2.5, pay-as-you-go, usd, 184 more) | 776 | 449 | 40.9k | 3.2k/d | 2.9k/d | ▁▁▂▁▁▇▇██▆▃▅▆▂ | 2026-09-28 | [apimartnsksu/llm-api-relay-cheap-cn](https://github.com/apimartnsksu/llm-api-relay-cheap-cn) | near-duplicate, flat-stars |
+| 2 | **providing** (+configurations, streamlines, optimizes, utility, professional, 7 more) | 44 | 44 | 4.3k | 1.4k/d | 1.4k/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-09-28 | [Ninjaclaplunder36/AnyDesk](https://github.com/Ninjaclaplunder36/AnyDesk) | same-day, flat-stars |
+| 3 | **hack** (+respocket, esp, aimbot, yet, cheat, 41 more) | 50 | 50 | 2.6k | 968/d | 355/d | ▁▁▁▁▁▁▂▂▂▂▅▅▂█ | 2026-09-28 | [OctopusSlicer/l1s](https://github.com/OctopusSlicer/l1s) | near-duplicate, flat-stars |
+| 4 | **argolink** (+argolink-focused, polling, fields) | 21 | 21 | 919 | 122/d | 116/d | ▁▁▁▁▁▁▁▅█▃▃▅▅▂ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>artex</b>: 8 repos, 5.7k stars</summary>
+<details><summary><b>artex</b>: 6 repos, 6.3k stars</summary>
 
-- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 3.1k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
-- [jiwoochris/artex-ko](https://github.com/jiwoochris/artex-ko) 1.1k★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)
-- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 659★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
-- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 418★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
-- [RuoJi6/ARTEX](https://github.com/RuoJi6/ARTEX) 118★ Autumn-27/ARTEX 二开
-
-</details>
-
-<details><summary><b>hack</b>: 18 repos, 1.5k stars</summary>
-
-- [attowarriorbond/SolidWorks-CAD](https://github.com/attowarriorbond/SolidWorks-CAD) 310★ Solidworks Cad meticulously configures professional desktop software utilities …
-- [deepkiwiraid/Canva-Pro](https://github.com/deepkiwiraid/Canva-Pro) 301★ Integrates seamlessly with professional desktop software utilities to provide a…
-- [floorwrenmold/IDM](https://github.com/floorwrenmold/IDM) 98★ Idm is a professional desktop software utility configuration that enables users…
-- [Janina21/Crypto-Checker](https://github.com/Janina21/Crypto-Checker) 83★ Python-based crypto wallet analysis tool with multi-threaded address and seed p…
-- [majestymagpiepattern/Modern-FPS-Booster-2026-Win](https://github.com/majestymagpiepattern/Modern-FPS-Booster-2026-Win) 74★ FPS Tweaks is a collection of settings and optimizations designed to improve ga…
+- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 3.5k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
+- [jiwoochris/artex-ko](https://github.com/jiwoochris/artex-ko) 1.4k★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)
+- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 722★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
+- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 446★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
+- [bdg9412/artex-ko-plus](https://github.com/bdg9412/artex-ko-plus) 161★ ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)
 
 </details>
 
@@ -104,23 +94,33 @@ _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per da
 
 </details>
 
-<details><summary><b>revolutionize</b>: 9 repos, 1.3k stars</summary>
+<details><summary><b>font</b>: 6 repos, 1.6k stars</summary>
 
-- [Haircloboutique/Cubase](https://github.com/Haircloboutique/Cubase) 300★ Revolutionize your music production with this robust digital audio workstation …
-- [Charactervefilter/Reason-14](https://github.com/Charactervefilter/Reason-14) 200★ Revolutionize your workflow with 'Reason 14', a bespoke desktop utility designe…
-- [ChunkPoolChain/BorisFX](https://github.com/ChunkPoolChain/BorisFX) 198★ Revolutionize your video editing workflow with the robust Borisfx plugin soluti…
-- [Demonsemarvel/Auslogics](https://github.com/Demonsemarvel/Auslogics) 116★ Revolutionize your audio production with Auslogics - an innovative digital audi…
-- [BowyerSqueeze/Avid-Media-Composer](https://github.com/BowyerSqueeze/Avid-Media-Composer) 103★ Revolutionize professional video and audio post-production workflows by utilizi…
+- [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) 607★ Photo-based reconstruction of classic Commodore 64 keycap lettering, with deskt…
+- [npwitk/Macintosh-Skeletal-Filled](https://github.com/npwitk/Macintosh-Skeletal-Filled) 468★ helllllllllloooo font! Turns out it's called Macintosh Skeleton
+- [mcer12/PixelFonts](https://github.com/mcer12/PixelFonts) 183★ Pixel perfect AdafruitGFX & u8g2 fonts for the tiniest displays
+- [fatihaydost/brand-identity-skill](https://github.com/fatihaydost/brand-identity-skill) 140★ A Claude Code skill that designs a brand identity as one system: logo, typograp…
+- [joeseesun/qiaomu-cover-fonts](https://github.com/joeseesun/qiaomu-cover-fonts) 112★ 乔木封面设计的默认开源字库：中文与英文 OFL 字体，子集化并附授权 · Default open-licence font library for Qiao…
 
 </details>
 
-<details><summary><b>font</b>: 6 repos, 1.2k stars</summary>
+<details><summary><b>mcd</b>: 7 repos, 720 stars</summary>
 
-- [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) 597★ Photo-based reconstruction of classic Commodore 64 keycap lettering, with deskt…
-- [npwitk/Macintosh-Skeletal-Filled](https://github.com/npwitk/Macintosh-Skeletal-Filled) 207★ helllllllllloooo font! Turns out it's called Macintosh Skeleton
-- [fatihaydost/brand-identity-skill](https://github.com/fatihaydost/brand-identity-skill) 131★ A Claude Code skill that designs a brand identity as one system: logo, typograp…
-- [joeseesun/qiaomu-cover-fonts](https://github.com/joeseesun/qiaomu-cover-fonts) 109★ 乔木封面设计的默认开源字库：中文与英文 OFL 字体，子集化并附授权 · Default open-licence font library for Qiao…
-- [mcer12/PixelFonts](https://github.com/mcer12/PixelFonts) 108★ Pixel perfect AdafruitGFX & u8g2 fonts for the tiniest displays
+- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 216★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
+- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 142★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
+- [yzg1226/mcd-party-officer](https://github.com/yzg1226/mcd-party-officer) 128★ 🍟 麦当劳门店派对成团调度 Skill — 把派对从「策划」推进到「办得成」：成团概率雷达 / 包场vs拼团 / 择日黄历 / 儿童营养指数 / 招募卡与邀…
+- [zhutoumeme/mcd-git](https://github.com/zhutoumeme/mcd-git) 74★ 用 git 命令点麦当劳：add 放购物车，rebase 凑最省，push 确认后才下单；card 生成 1024 吃麦贡献图（3D 汉堡天际线 / 年度小票…
+- [Zafer-Liu/mcd-event-radar](https://github.com/Zafer-Liu/mcd-event-radar) 71★ 麦当劳 MCP Agent Skill：查「附近有什么麦麦活动」，生成卡通活动地图——门店位置取自官方经纬度，只展示已核实可预约场次 🍟
+
+</details>
+
+<details><summary><b>ps4</b>: 9 repos, 2.3k stars</summary>
+
+- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.5k★ Native PC port of P.T. (runs from your own PS4 game files)
+- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 239★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
+- [iHaiDeeZ/DolphinPS4](https://github.com/iHaiDeeZ/DolphinPS4) 109★ Dolphin (GameCube/Wii emulator) for jailbroken PS4: Vulkan on the PS4 GPU, PSP-…
+- [IFreemz/shadPS4-Bloodborne-DLSS-FSR](https://github.com/IFreemz/shadPS4-Bloodborne-DLSS-FSR) 91★ NVIDIA DLSS Super Resolution and AMD FSR 3.1 / FSR 4 for Bloodborne on shadPS4 …
+- [Yharnam-Hunters/Paleblood](https://github.com/Yharnam-Hunters/Paleblood) 84★ A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game'…
 
 </details>
 <!-- starwave:end -->
