@@ -48,78 +48,79 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 1,837 repos  2026-09-30..2026-10-14  stars>=40 · baseline 3,000 repos  2026-08-01..2026-09-29  stars>=150 · generated 2026-10-14 11:57 UTC_
+_recent 1,908 repos  2026-10-01..2026-10-15  stars>=40 · baseline 3,009 repos  2026-08-02..2026-09-30  stars>=150 · generated 2026-10-15 11:33 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **clean-room** | 7 | 2 | 27.5k | 4.0k/d | 5.5k/d | ▁▁▁▁▁▁▁▂▄▅▄█▇▆ | 2026-10-07 | [storytold/wordcraft](https://github.com/storytold/wordcraft) |
-| 2 | **isometric** | 8 | 8 | 12.0k | 1.8k/d | 3.0k/d | ▁▁▁▁▂▁▁▂▂▁▂█▇▅ | 2026-10-01 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) |
-| 3 | **artex** (+korean) | 6 | 6 | 7.1k | 1.0k/d | 605/d | ▁▁▁▁▁▁▁▂█▇▄▄▃▃ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
-| 4 | **mcd** (+mcdonalds) | 12 | 12 | 1.5k | 504/d | 401/d | ▁▁▁▁▁▁▁▁▁▃▃▄█▆ | 2026-10-09 | [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) |
-| 5 | **finder** | 6 | 6 | 1.0k | 494/d | 225/d | ▁▁▁▁▁▁▁▁▂▃▃▃▂█ | 2026-10-01 | [nikgrbn/finder-menu](https://github.com/nikgrbn/finder-menu) |
-| 6 | **ps4** (+bloodborne) | 11 | 11 | 2.7k | 463/d | 211/d | ▁▁▁▂▃▂▁█▆▃▂▃▃▄ | 2026-09-30 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
-| 7 | **messages** | 7 | 7 | 2.6k | 373/d | 617/d | ▁▁▁▁▁▁▁▂▂▁▅█▇▇ | 2026-10-01 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
-| 8 | **soroban** (+stellar, smart-contracts, testnet, sentinel) | 15 | 8 | 2.0k | 325/d | 0/d | ▁▁▁▁▁▁▁█▄▆▁▁▁▁ | 2026-10-06 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
-| 9 | **font** | 6 | 6 | 1.7k | 263/d | 206/d | ▁▁▁▁▂▂▂█▂▂▄▇▂▂ | 2026-10-01 | [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) |
-| 10 | **claude-code-mod** (+claude-code-mods) | 9 | 9 | 1.7k | 242/d | 326/d | ▁▁▁▂▂▁▁▁▂▂▂▃▂█ | 2026-10-02 | [YeonwooSung/my-claude-code-mods](https://github.com/YeonwooSung/my-claude-code-mods) |
+| 1 | **clean-room** | 7 | 2 | 30.3k | 3.8k/d | 4.3k/d | ▁▁▁▁▁▁▂▄▅▄█▇▆▄ | 2026-10-07 | [storytold/wordcraft](https://github.com/storytold/wordcraft) |
+| 2 | **isometric** | 9 | 8 | 15.1k | 2.0k/d | 2.6k/d | ▁▁▁▂▁▁▂▂▁▂█▇▅▆ | 2026-10-01 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) |
+| 3 | **artex** (+korean) | 7 | 7 | 7.5k | 987/d | 434/d | ▁▁▁▁▁▁▂█▇▄▄▃▃▂ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
+| 4 | **rea** | 7 | 7 | 1.2k | 801/d | 300/d | ▁▁▁▁▁▁▁▁▁▁▁▂▃█ | 2026-10-11 | [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) |
+| 5 | **ps4** (+bloodborne, shadps4) | 12 | 12 | 3.4k | 619/d | 407/d | ▁▁▂▃▂▁█▆▃▂▂▃▅▇ | 2026-10-02 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 6 | **portfolio** | 7 | 6 | 3.8k | 423/d | 333/d | ▁▁▁▁▁▁▄▅█▅▄▆▄▁ | 2026-10-02 | [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance) |
+| 7 | **download** (+belong, authors) | 23 | 23 | 4.2k | 384/d | 809/d | ▁▁▁▁▂▂▁▂▁▁▂▂▂█ | 2026-10-01 | [saawant12/orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) |
+| 8 | **finder** (+zip) | 6 | 6 | 1.1k | 368/d | 209/d | ▁▁▁▁▁▁▁▂▃▃▃▂█▃ | 2026-10-01 | [nikgrbn/finder-menu](https://github.com/nikgrbn/finder-menu) |
+| 9 | **messages** | 7 | 7 | 3.0k | 368/d | 561/d | ▁▁▁▁▁▁▂▂▁▅█▇▇▆ | 2026-10-01 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
+| 10 | **soroban** (+stellar, smart-contracts, sentinel) | 16 | 9 | 2.1k | 287/d | 40/d | ▁▁▁▁▁▁█▄▆▁▁▁▁▂ | 2026-10-01 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **apimart-en** (+image2, image2.5, llm-api-gateway, minimum, pay-as-you-go, 38 more) | 334 | 252 | 15.9k | 1.3k/d | 2.6k/d | ▁▁▁▁▁▁▁▂▅▇█▇▇█ | 2026-10-02 | [apimartcsivz33s/video-api-pricing-guide](https://github.com/apimartcsivz33s/video-api-pricing-guide) | near-duplicate, same-day, flat-stars |
-| 2 | **discord-fix** (+discord-proxy, discord-unblock, discordfix, fix-discord, fixdiscord, 6 more) | 5 | 5 | 349 | 349/d | 116/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-13 | [Handcuffgladominate/zapret-discord](https://github.com/Handcuffgladominate/zapret-discord) | near-duplicate |
-| 3 | **argolink** (+argolink-focused, polling, fields) | 28 | 28 | 1.2k | 129/d | 111/d | ▁▁▁▁▁▅█▃▃▅▅▅▄▂ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | flat-stars |
+| 1 | **apimart-en** (+image2, image2.5, llm-api-gateway, minimum, pay-as-you-go, 41 more) | 359 | 272 | 17.0k | 1.3k/d | 2.2k/d | ▁▁▁▁▁▁▂▅▇▇▆▆█▃ | 2026-10-02 | [apimartcsivz33s/video-api-pricing-guide](https://github.com/apimartcsivz33s/video-api-pricing-guide) | near-duplicate, same-day, flat-stars |
+| 2 | **mcdonalds** (+mcd) | 10 | 10 | 1.5k | 348/d | 341/d | ▁▁▁▁▁▁▁▁▃▃▃▇█▄ | 2026-10-09 | [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) | same-day |
+| 3 | **hack** (+aimbot, esp, cheats, hacks, recoil, 3 more) | 20 | 20 | 1.3k | 225/d | 137/d | ▁▁▂▁▂▂▂▆▅▃▆▂▂█ | 2026-10-01 | [identityrankpierce/yrgpgkud](https://github.com/identityrankpierce/yrgpgkud) | flat-stars |
+| 4 | **argolink** (+argolink-focused, polling, fields, handling) | 31 | 31 | 1.3k | 130/d | 94/d | ▁▁▁▁▅█▃▃▅▅▅▄▂▄ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>clean-room</b>: 7 repos, 27.5k stars</summary>
+<details><summary><b>clean-room</b>: 7 repos, 30.3k stars</summary>
 
-- [storytold/wordcraft](https://github.com/storytold/wordcraft) 11.9k★ An open-source, clean-room reimplementation of Microsoft Word in pure Rust
-- [storytold/gridcraft](https://github.com/storytold/gridcraft) 4.6k★ GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pu…
-- [storytold/cadcraft](https://github.com/storytold/cadcraft) 4.5k★ CADCraft: computer-aided design and drafting — an open-source, clean-room AutoC…
-- [storytold/deckcraft](https://github.com/storytold/deckcraft) 3.1k★ Presentations and slide shows: an open-source, clean-room reimplementation of M…
-- [storytold/soundcraft](https://github.com/storytold/soundcraft) 2.7k★ An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust
+- [storytold/wordcraft](https://github.com/storytold/wordcraft) 12.8k★ An open-source, clean-room reimplementation of Microsoft Word in pure Rust
+- [storytold/gridcraft](https://github.com/storytold/gridcraft) 5.0k★ GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pu…
+- [storytold/cadcraft](https://github.com/storytold/cadcraft) 5.0k★ CADCraft: computer-aided design and drafting — an open-source, clean-room AutoC…
+- [storytold/deckcraft](https://github.com/storytold/deckcraft) 3.3k★ Presentations and slide shows: an open-source, clean-room reimplementation of M…
+- [storytold/soundcraft](https://github.com/storytold/soundcraft) 2.9k★ An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust
 
 </details>
 
-<details><summary><b>isometric</b>: 8 repos, 12.0k stars</summary>
+<details><summary><b>isometric</b>: 9 repos, 15.1k stars</summary>
 
-- [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) 9.1k★ An agent skill for creating detailed, interactive isometric illustrations of re…
+- [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) 11.9k★ An agent skill for creating detailed, interactive isometric illustrations of re…
 - [lucasmarkes/hairline](https://github.com/lucasmarkes/hairline) 2.0k★ Six isometric line figures that answer the pointer. For React and for anything …
-- [Aryanutkarsh/SeeCode](https://github.com/Aryanutkarsh/SeeCode) 472★ Animated, explorable diagrams for Claude and other coding agents, from a short …
-- [MrBongoC/ai-iso-skill](https://github.com/MrBongoC/ai-iso-skill) 181★ Claude skill that draws interactive isometric figures in a single HTML file
-- [Khalidabdi1/factory](https://github.com/Khalidabdi1/factory) 131★ A live isometric world in the browser: a seaside town, a new city, a farming vi…
+- [Aryanutkarsh/SeeCode](https://github.com/Aryanutkarsh/SeeCode) 480★ Animated, explorable diagrams for Claude and other coding agents, from a short …
+- [MrBongoC/ai-iso-skill](https://github.com/MrBongoC/ai-iso-skill) 183★ Claude skill that draws interactive isometric figures in a single HTML file
+- [Garinmckayl/anima](https://github.com/Garinmckayl/anima) 140★ Anima: a Claude Code skill that turns a biology idea into an interactive, sourc…
 
 </details>
 
-<details><summary><b>artex</b>: 6 repos, 7.1k stars</summary>
+<details><summary><b>artex</b>: 7 repos, 7.5k stars</summary>
 
-- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 4.0k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
+- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 4.2k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
 - [jiwoochris/artex-global](https://github.com/jiwoochris/artex-global) 1.5k★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)
-- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 760★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
-- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 569★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
-- [bdg9412/artex-ko-plus](https://github.com/bdg9412/artex-ko-plus) 182★ ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)
+- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 768★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
+- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 596★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
+- [bdg9412/artex-ko-plus](https://github.com/bdg9412/artex-ko-plus) 185★ ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)
 
 </details>
 
-<details><summary><b>mcd</b>: 12 repos, 1.5k stars</summary>
+<details><summary><b>rea</b>: 7 repos, 1.2k stars</summary>
 
-- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 303★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
-- [yzg1226/mcd-party-officer](https://github.com/yzg1226/mcd-party-officer) 235★ 🍟 麦当劳门店派对成团调度 Skill — 把派对从「策划」推进到「办得成」：成团概率雷达 / 包场vs拼团 / 择日黄历 / 儿童营养指数 / 招募卡与邀…
-- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 175★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
-- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 162★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
-- [WilderNoTrack/mcd-calorie-butler](https://github.com/WilderNoTrack/mcd-calorie-butler) 149★ 麦麦热量管家：减脂不是少吃你爱的，是先换掉不值这口热量的。基于麦当劳 MCP 的味热比点餐 Skill。
+- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 536★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向…
+- [Zfinix/eleven](https://github.com/Zfinix/eleven) 251★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
+- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 249★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
+- [songshikang0111/awesome-REA-cases](https://github.com/songshikang0111/awesome-REA-cases) 56★ REA / AI 逆向案例合集：每天 6 次定时追踪公开案例，自动筛选、去重并更新。
+- [rea-githu/REA](https://github.com/rea-githu/REA) 51★ REA Reverse Engineer Anything 6.3.0 is the local MCP zip: rea github, github re…
 
 </details>
 
-<details><summary><b>finder</b>: 6 repos, 1.0k stars</summary>
+<details><summary><b>ps4</b>: 12 repos, 3.4k stars</summary>
 
-- [nikgrbn/finder-menu](https://github.com/nikgrbn/finder-menu) 412★ Right-click menu for macOS Finder: New File, Open Terminal Here, Copy Path, Go …
-- [egotoadcitadel/palette-from-image-ai](https://github.com/egotoadcitadel/palette-from-image-ai) 303★ AI coloring palette-from-image generator for designers and pixel artists — pull…
-- [mstcvk/MacRAR](https://github.com/mstcvk/MacRAR) 89★ WinRAR-style archive manager for macOS: native AppKit app around RARLAB rar/unr…
-- [deeeeone/gitdrive](https://github.com/deeeeone/gitdrive) 78★ Turn GitHub into an iCloud-style drive for macOS. Native Finder integration, fi…
-- [gentpan/LiteZip](https://github.com/gentpan/LiteZip) 69★ 免费开源的原生 macOS 压缩与解压工具。支持 ZIP / 7Z 压缩解压、RAR 解压、加密分卷、目录预览和 Finder 右键操作，文件完全在本机处理。
+- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.7k★ Native PC port of P.T. (runs from your own PS4 game files)
+- [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) 486★ Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own…
+- [GetLostIn/CTR-NitroFueled-PC](https://github.com/GetLostIn/CTR-NitroFueled-PC) 304★ Crash Team Racing: Nitro-Fueled (PS4) running natively on Windows 10/11. Window…
+- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 255★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
+- [Classmg22/BBSC](https://github.com/Classmg22/BBSC) 110★ Bloodborne Seamless Co-op: a shadPS4 mod that keeps co-op alive through deaths,…
 
 </details>
 <!-- starwave:end -->
