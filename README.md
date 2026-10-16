@@ -48,79 +48,78 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 1,908 repos  2026-10-01..2026-10-15  stars>=40 · baseline 3,009 repos  2026-08-02..2026-09-30  stars>=150 · generated 2026-10-15 11:33 UTC_
+_recent 1,980 repos  2026-10-02..2026-10-16  stars>=40 · baseline 3,037 repos  2026-08-03..2026-10-01  stars>=150 · generated 2026-10-16 11:28 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **clean-room** | 7 | 2 | 30.3k | 3.8k/d | 4.3k/d | ▁▁▁▁▁▁▂▄▅▄█▇▆▄ | 2026-10-07 | [storytold/wordcraft](https://github.com/storytold/wordcraft) |
-| 2 | **isometric** | 9 | 8 | 15.1k | 2.0k/d | 2.6k/d | ▁▁▁▂▁▁▂▂▁▂█▇▅▆ | 2026-10-01 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) |
-| 3 | **artex** (+korean) | 7 | 7 | 7.5k | 987/d | 434/d | ▁▁▁▁▁▁▂█▇▄▄▃▃▂ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
-| 4 | **rea** | 7 | 7 | 1.2k | 801/d | 300/d | ▁▁▁▁▁▁▁▁▁▁▁▂▃█ | 2026-10-11 | [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) |
-| 5 | **ps4** (+bloodborne, shadps4) | 12 | 12 | 3.4k | 619/d | 407/d | ▁▁▂▃▂▁█▆▃▂▂▃▅▇ | 2026-10-02 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
-| 6 | **portfolio** | 7 | 6 | 3.8k | 423/d | 333/d | ▁▁▁▁▁▁▄▅█▅▄▆▄▁ | 2026-10-02 | [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance) |
-| 7 | **download** (+belong, authors) | 23 | 23 | 4.2k | 384/d | 809/d | ▁▁▁▁▂▂▁▂▁▁▂▂▂█ | 2026-10-01 | [saawant12/orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) |
-| 8 | **finder** (+zip) | 6 | 6 | 1.1k | 368/d | 209/d | ▁▁▁▁▁▁▁▂▃▃▃▂█▃ | 2026-10-01 | [nikgrbn/finder-menu](https://github.com/nikgrbn/finder-menu) |
-| 9 | **messages** | 7 | 7 | 3.0k | 368/d | 561/d | ▁▁▁▁▁▁▂▂▁▅█▇▇▆ | 2026-10-01 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
-| 10 | **soroban** (+stellar, smart-contracts, sentinel) | 16 | 9 | 2.1k | 287/d | 40/d | ▁▁▁▁▁▁█▄▆▁▁▁▁▂ | 2026-10-01 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
+| 1 | **reimplementation** (+clean-room) | 10 | 6 | 22.0k | 2.5k/d | 2.3k/d | ▁▁▁▁▁▂▃▄▄█▇▆▄▃ | 2026-10-02 | [storytold/wordcraft](https://github.com/storytold/wordcraft) |
+| 2 | **artex** (+korean) | 10 | 10 | 9.3k | 1.1k/d | 589/d | ▁▁▁▁▁▂█▇▄▄▅▄▂▂ | 2026-10-02 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) |
+| 3 | **rea** | 8 | 8 | 2.1k | 809/d | 602/d | ▁▁▁▁▁▁▁▁▁▁▂▂▅█ | 2026-10-07 | [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) |
+| 4 | **ps4** (+dump, shadps4, native-port, bloodborne) | 17 | 15 | 4.5k | 792/d | 646/d | ▁▁▂▂▂▇▅▃▂▂▃▄▇█ | 2026-10-02 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 5 | **portfolio** | 8 | 7 | 4.4k | 446/d | 254/d | ▁▁▁▁▁▄▅█▅▄▆▄▁▄ | 2026-10-02 | [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance) |
+| 6 | **messages** | 6 | 6 | 2.6k | 319/d | 266/d | ▁▁▁▁▁▂▂▁▅█▇▅▄▃ | 2026-10-06 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
+| 7 | **finder** | 6 | 6 | 1.1k | 255/d | 194/d | ▁▁▁▁▁▁▃▂▃▃▂█▃▁ | 2026-10-06 | [nikgrbn/finder-menu](https://github.com/nikgrbn/finder-menu) |
+| 8 | **font** | 7 | 7 | 1.7k | 248/d | 103/d | ▁▁▁▂▂█▂▂▃▆▂▂▃▃ | 2026-10-04 | [szabadkai/c64-keyboard-font](https://github.com/szabadkai/c64-keyboard-font) |
+| 9 | **soroban** (+stellar, sentinel, smart-contracts) | 15 | 8 | 2.0k | 243/d | 0/d | ▁▁▁▁▁█▄▆▁▁▁▁▁▁ | 2026-10-06 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) |
+| 10 | **claude-code-mod** (+claude-code-mods) | 10 | 10 | 2.2k | 237/d | 376/d | ▁▂▂▁▁▁▂▂▂▃▂█▄▂ | 2026-10-02 | [YeonwooSung/my-claude-code-mods](https://github.com/YeonwooSung/my-claude-code-mods) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **apimart-en** (+image2, image2.5, llm-api-gateway, minimum, pay-as-you-go, 41 more) | 359 | 272 | 17.0k | 1.3k/d | 2.2k/d | ▁▁▁▁▁▁▂▅▇▇▆▆█▃ | 2026-10-02 | [apimartcsivz33s/video-api-pricing-guide](https://github.com/apimartcsivz33s/video-api-pricing-guide) | near-duplicate, same-day, flat-stars |
-| 2 | **mcdonalds** (+mcd) | 10 | 10 | 1.5k | 348/d | 341/d | ▁▁▁▁▁▁▁▁▃▃▃▇█▄ | 2026-10-09 | [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) | same-day |
-| 3 | **hack** (+aimbot, esp, cheats, hacks, recoil, 3 more) | 20 | 20 | 1.3k | 225/d | 137/d | ▁▁▂▁▂▂▂▆▅▃▆▂▂█ | 2026-10-01 | [identityrankpierce/yrgpgkud](https://github.com/identityrankpierce/yrgpgkud) | flat-stars |
-| 4 | **argolink** (+argolink-focused, polling, fields, handling) | 31 | 31 | 1.3k | 130/d | 94/d | ▁▁▁▁▅█▃▃▅▅▅▄▂▄ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day, flat-stars |
+| 1 | **apimart-en** (+image2, image2.5, llm-api-gateway, minimum, pay-as-you-go, 42 more) | 412 | 309 | 19.6k | 1.4k/d | 2.3k/d | ▁▁▁▁▁▂▅▇▇▆▆█▆▄ | 2026-10-02 | [apimartcsivz33s/video-api-pricing-guide](https://github.com/apimartcsivz33s/video-api-pricing-guide) | near-duplicate, same-day, flat-stars |
+| 2 | **mcdonalds** (+mcd) | 12 | 12 | 1.9k | 332/d | 344/d | ▁▁▁▁▁▁▁▃▃▃▇█▄▆ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) | same-day |
+| 3 | **argolink** (+argolink-focused, polling, focused, fields, handling) | 34 | 34 | 1.5k | 132/d | 105/d | ▁▁▁▅█▃▃▅▅▅▄▂▆▃ | 2026-10-04 | [eliasbrookner7/seedance-2-5-api-provider](https://github.com/eliasbrookner7/seedance-2-5-api-provider) | same-day, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>clean-room</b>: 7 repos, 30.3k stars</summary>
+<details><summary><b>reimplementation</b>: 10 repos, 22.0k stars</summary>
 
-- [storytold/wordcraft](https://github.com/storytold/wordcraft) 12.8k★ An open-source, clean-room reimplementation of Microsoft Word in pure Rust
-- [storytold/gridcraft](https://github.com/storytold/gridcraft) 5.0k★ GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pu…
-- [storytold/cadcraft](https://github.com/storytold/cadcraft) 5.0k★ CADCraft: computer-aided design and drafting — an open-source, clean-room AutoC…
-- [storytold/deckcraft](https://github.com/storytold/deckcraft) 3.3k★ Presentations and slide shows: an open-source, clean-room reimplementation of M…
-- [storytold/soundcraft](https://github.com/storytold/soundcraft) 2.9k★ An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust
-
-</details>
-
-<details><summary><b>isometric</b>: 9 repos, 15.1k stars</summary>
-
-- [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) 11.9k★ An agent skill for creating detailed, interactive isometric illustrations of re…
-- [lucasmarkes/hairline](https://github.com/lucasmarkes/hairline) 2.0k★ Six isometric line figures that answer the pointer. For React and for anything …
-- [Aryanutkarsh/SeeCode](https://github.com/Aryanutkarsh/SeeCode) 480★ Animated, explorable diagrams for Claude and other coding agents, from a short …
-- [MrBongoC/ai-iso-skill](https://github.com/MrBongoC/ai-iso-skill) 183★ Claude skill that draws interactive isometric figures in a single HTML file
-- [Garinmckayl/anima](https://github.com/Garinmckayl/anima) 140★ Anima: a Claude Code skill that turns a biology idea into an interactive, sourc…
+- [storytold/wordcraft](https://github.com/storytold/wordcraft) 13.4k★ An open-source, clean-room reimplementation of Microsoft Word in pure Rust
+- [storytold/deckcraft](https://github.com/storytold/deckcraft) 3.5k★ Presentations and slide shows: an open-source, clean-room reimplementation of M…
+- [storytold/soundcraft](https://github.com/storytold/soundcraft) 3.0k★ An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust
+- [storytold/figcraft](https://github.com/storytold/figcraft) 1.5k★ FigCraft: interface design and prototyping; an open-source, clean-room reimplem…
+- [slaterain/nv-rs](https://github.com/slaterain/nv-rs) 145★ Experimental Fallout: New Vegas engine reimplementation in Rust and Bevy. Requi…
 
 </details>
 
-<details><summary><b>artex</b>: 7 repos, 7.5k stars</summary>
+<details><summary><b>artex</b>: 10 repos, 9.3k stars</summary>
 
-- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 4.2k★ AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目
-- [jiwoochris/artex-global](https://github.com/jiwoochris/artex-global) 1.5k★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)
-- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 768★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
-- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 596★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
-- [bdg9412/artex-ko-plus](https://github.com/bdg9412/artex-ko-plus) 185★ ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)
-
-</details>
-
-<details><summary><b>rea</b>: 7 repos, 1.2k stars</summary>
-
-- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 536★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向…
-- [Zfinix/eleven](https://github.com/Zfinix/eleven) 251★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
-- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 249★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
-- [songshikang0111/awesome-REA-cases](https://github.com/songshikang0111/awesome-REA-cases) 56★ REA / AI 逆向案例合集：每天 6 次定时追踪公开案例，自动筛选、去重并更新。
-- [rea-githu/REA](https://github.com/rea-githu/REA) 51★ REA Reverse Engineer Anything 6.3.0 is the local MCP zip: rea github, github re…
+- [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) 4.4k★ AI 自主渗透测试系统
+- [jiwoochris/artex-global](https://github.com/jiwoochris/artex-global) 1.6k★ ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)
+- [trhhubsd/ARTEX](https://github.com/trhhubsd/ARTEX) 1.2k★ ARTEX，AI 自主渗透测试系统。百度 agent+ 攻防挑战赛冠军项目。
+- [Hinln/ARTEX](https://github.com/Hinln/ARTEX) 777★ ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。
+- [cskwork/scopeweaver](https://github.com/cskwork/scopeweaver) 628★ ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 …
 
 </details>
 
-<details><summary><b>ps4</b>: 12 repos, 3.4k stars</summary>
+<details><summary><b>rea</b>: 8 repos, 2.1k stars</summary>
 
-- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.7k★ Native PC port of P.T. (runs from your own PS4 game files)
-- [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) 486★ Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own…
-- [GetLostIn/CTR-NitroFueled-PC](https://github.com/GetLostIn/CTR-NitroFueled-PC) 304★ Crash Team Racing: Nitro-Fueled (PS4) running natively on Windows 10/11. Window…
-- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 255★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
-- [Classmg22/BBSC](https://github.com/Classmg22/BBSC) 110★ Bloodborne Seamless Co-op: a shadPS4 mod that keeps co-op alive through deaths,…
+- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 897★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
+- [Zfinix/eleven](https://github.com/Zfinix/eleven) 559★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
+- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 353★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
+- [songshikang0111/awesome-REA-cases](https://github.com/songshikang0111/awesome-REA-cases) 68★ A curated collection of REA and AI-assisted reverse engineering cases, projects…
+- [N0zoM1z0/dx-ball](https://github.com/N0zoM1z0/dx-ball) 59★ Reconstructing DX-Ball 1.07 with REA, backed by original-x86 differential tests…
+
+</details>
+
+<details><summary><b>ps4</b>: 17 repos, 4.5k stars</summary>
+
+- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 1.8k★ Native PC port of P.T. (runs from your own PS4 game files)
+- [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) 711★ Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own…
+- [GetLostIn/CTR-NitroFueled-PC](https://github.com/GetLostIn/CTR-NitroFueled-PC) 356★ Crash Team Racing: Nitro-Fueled (PS4) running natively on Windows 10/11. Window…
+- [HayatoG/iss_pc](https://github.com/HayatoG/iss_pc) 304★ Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in dev…
+- [bigmak94/AstroQuest](https://github.com/bigmak94/AstroQuest) 257★ ASTRO BOT Rescue Mission (PS4, PlayStation VR) in virtual reality on Meta Quest…
+
+</details>
+
+<details><summary><b>portfolio</b>: 8 repos, 4.4k stars</summary>
+
+- [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance) 3.9k★ Open-source personal finance app with an AI financial advisor: track your net w…
+- [Sushmitadasari/Portfolio_series](https://github.com/Sushmitadasari/Portfolio_series) 116★ 
+- [Itz-Anya/Haimiya-Mio](https://github.com/Itz-Anya/Haimiya-Mio) 77★ My Portfolio v2 version
+- [HeCC928/Var_Risk_Agent](https://github.com/HeCC928/Var_Risk_Agent) 50★ DeepSeek-powered portfolio risk research agent for Shanghai A-shares and U.S. e…
+- [nocTia-O9/3d-card-game-showcase](https://github.com/nocTia-O9/3d-card-game-showcase) 49★ Unity / C# 3D 卡牌游戏：核心脚本、回合战斗、地图生成与 UI Toolkit
 
 </details>
 <!-- starwave:end -->
