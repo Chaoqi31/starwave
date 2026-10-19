@@ -145,10 +145,18 @@ npx github:Chaoqi31/starwave --md                      # Markdown 表格，可�
 | `--top <n>` | 15 | 每个分区打印多少个浪潮 |
 | `--show <id>` | | 列出某个浪潮的全部仓库 |
 | `--json`、`--md` | | 输出 JSON 或 Markdown，而不是表格 |
-| `--from <file>` | | 读取保存过的抓取结果或快照（`.json` 或 `.json.gz`），不请求 GitHub |
+| `--from <file>` | | 读取保存过的抓取结果或快照（`.json` 或 `.json.gz`），跳过仓库搜索；缺失的 star 历史仍可能通过 GitHub 获取 |
 | `--save <file>` | | 保存原始抓取结果 |
 | `--no-history` | | 跳过 star 历史（约 500 次请求） |
 | `--no-cache`、`--no-color` | | 忽略缓存、纯文本输出 |
+
+要在不使用 GitHub token、不请求 API 的情况下重放保存的数据，请同时使用 `--from` 和 `--no-history`：
+
+```bash
+npx github:Chaoqi31/starwave --from data/2026-09-30.json.gz --no-history --md
+```
+
+`--from` 会跳过仓库搜索。默认情况下，如果有可用的 token，starwave 仍会为没有 `daily` 数据的浪潮补抓 star 历史。`--no-history` 会跳过这一步，并保留快照中已有的历史数据。原始抓取结果不包含 star 历史，所以离线输出没有最近 3 天的日均增量和 14 天走势图。
 
 ## 在 agent 里用
 

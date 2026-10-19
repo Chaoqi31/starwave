@@ -145,10 +145,18 @@ The first run takes 3 to 5 minutes, because the GitHub search API allows 30 requ
 | `--top <n>` | 15 | waves to print per section |
 | `--show <id>` | | list every repo in one wave |
 | `--json`, `--md` | | print JSON or Markdown instead of the table |
-| `--from <file>` | | read a saved capture or snapshot (`.json` or `.json.gz`) instead of calling GitHub |
+| `--from <file>` | | read a saved capture or snapshot (`.json` or `.json.gz`) instead of searching GitHub; missing star history may still be fetched |
 | `--save <file>` | | write the raw capture |
 | `--no-history` | | skip star history (about 500 requests) |
 | `--no-cache`, `--no-color` | | ignore the cache, plain output |
+
+To replay saved data without a GitHub token or API requests, combine `--from` with `--no-history`:
+
+```bash
+npx github:Chaoqi31/starwave --from data/2026-09-30.json.gz --no-history --md
+```
+
+`--from` skips repository searches. By default, if a token is available, starwave still fetches missing star history for waves without `daily`. `--no-history` skips that enrichment and preserves any history already stored in the snapshot. A raw capture contains no star history, so its offline output has no 3-day rate or 14-day chart.
 
 ## Use it from your agent
 
