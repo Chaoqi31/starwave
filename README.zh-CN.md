@@ -48,79 +48,80 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 1,702 repos  2026-10-05..2026-10-19  stars>=40 · baseline 3,100 repos  2026-08-06..2026-10-04  stars>=150 · generated 2026-10-19 13:22 UTC_
+_recent 1,747 repos  2026-10-06..2026-10-20  stars>=40 · baseline 3,127 repos  2026-08-07..2026-10-05  stars>=150 · generated 2026-10-20 11:42 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **ad-free** | 7 | 7 | 4.2k | 2.1k/d | 1.0k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▃█ | 2026-10-06 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
-| 2 | **features** (+unlocked) | 22 | 22 | 2.4k | 1.6k/d | 590/d | ▁▁▁▁▁▁▁▁▂▁▁▁▇█ | 2026-10-07 | [southroadball/Hwid-Spoofer](https://github.com/southroadball/Hwid-Spoofer) |
-| 3 | **rea** (+ghidra) | 13 | 13 | 4.1k | 994/d | 638/d | ▁▁▁▁▁▁▁▂▂▅█▄▇▅ | 2026-10-07 | [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) |
-| 4 | **ps4** (+bloodborne) | 17 | 16 | 5.1k | 684/d | 500/d | ▁▁█▆▃▂▂▄▅█▇▆▆▇ | 2026-10-05 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
-| 5 | **mcd** (+mcdonalds, budget, coupon, mcdonald) | 28 | 28 | 4.7k | 665/d | 649/d | ▁▁▁▁▂▂▃▅▄▃▆▄▆█ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) |
-| 6 | **messages** | 9 | 9 | 3.5k | 521/d | 228/d | ▁▁▂▂▁▅█▇▅▄▃▂▄▄ | 2026-10-06 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
-| 7 | **fps** (+optimizer, widescreen, zip) | 12 | 11 | 945 | 501/d | 188/d | ▁▁▁▁▁▁▁▂▂▂▂▂▂█ | 2026-10-06 | [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) |
-| 8 | **portfolio** | 8 | 7 | 4.5k | 375/d | 130/d | ▁▁▄▅█▅▄▆▄▁▄▃▁▂ | 2026-10-06 | [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance) |
-| 9 | **artex** | 8 | 8 | 3.1k | 323/d | 128/d | ▁▁▁▃▅▄▃█▆▂▃▂▂▃ | 2026-10-08 | [trhhubsd/ARTEX](https://github.com/trhhubsd/ARTEX) |
-| 10 | **co-op** | 5 | 5 | 1.1k | 308/d | 264/d | ▁▁▁▁▃▃▁▁▁▁▁▃▆█ | 2026-10-09 | [cranebeaker/coop-anything](https://github.com/cranebeaker/coop-anything) |
+| 1 | **debloat** | 5 | 5 | 9.2k | 3.3k/d | 2.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▂▄█ | 2026-10-17 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
+| 2 | **rea** (+ghidra) | 15 | 15 | 6.0k | 1.4k/d | 817/d | ▁▁▁▁▁▂▃▃▅█▅▇▆▆ | 2026-10-07 | [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) |
+| 3 | **ad-free** | 7 | 7 | 2.1k | 1.3k/d | 482/d | ▁▁▁▁▁▁▁▁▁▁▁▁▃█ | 2026-10-06 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) |
+| 4 | **fps** (+lag, fighter, booster, optimizer, widescreen, 1 more) | 19 | 18 | 5.7k | 1.3k/d | 590/d | ▁▁▁▁▁▁▆▄█▆▃▃▅▆ | 2026-10-06 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
+| 5 | **mcd** (+mcdonalds, mcdonalds-mcp, coupon, budget, mcdonald, 1 more) | 32 | 32 | 5.5k | 676/d | 772/d | ▁▁▁▂▂▃▅▅▃▆▄▆█▇ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) |
+| 6 | **messages** | 9 | 9 | 3.7k | 428/d | 272/d | ▁▂▂▁▅█▇▅▄▃▂▄▄▄ | 2026-10-06 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
+| 7 | **portfolio** | 8 | 7 | 4.5k | 346/d | 59/d | ▁▄▅█▅▄▆▄▁▄▃▁▂▁ | 2026-10-06 | [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance) |
+| 8 | **co-op** | 6 | 6 | 1.3k | 287/d | 322/d | ▁▁▁▃▃▁▁▁▁▁▃▅█▅ | 2026-10-09 | [cranebeaker/coop-anything](https://github.com/cranebeaker/coop-anything) |
+| 9 | **obs** | 5 | 5 | 513 | 226/d | 83/d | ▁▁▁▂▁▁▁▁▃▂▃▃▁█ | 2026-10-08 | [loyraydi/meow_hud](https://github.com/loyraydi/meow_hud) |
+| 10 | **podcast** | 5 | 5 | 829 | 180/d | 79/d | ▁▆▂▃▂▂▁▂█▇▆▂▆▆ | 2026-10-07 | [assafkip/claudemy](https://github.com/assafkip/claudemy) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **activated** (+pre-activated, ready-to-run, crack, setup, download, 9 more) | 52 | 52 | 6.7k | 4.9k/d | 2.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▇ | 2026-10-17 | [Maroonplocord/Movavi-Converter](https://github.com/Maroonplocord/Movavi-Converter) | near-duplicate, same-day, flat-stars |
-| 2 | **clean-room** (+microsoft, room, engineered) | 11 | 5 | 36.5k | 3.1k/d | 1.4k/d | ▁▁▂▄▄▄█▇▆▄▃▃▂▂ | 2026-10-07 | [storytold/wordcraft](https://github.com/storytold/wordcraft) | few-owners |
-| 3 | **stellar** (+soroban, sentinel, smart-contracts, prototype, contracts) | 19 | 9 | 2.5k | 217/d | 0/d | ▃▁█▃▅▁▁▁▁▁▁▁▁▁ | 2026-10-05 | [Local-Settle/local-settle-backend](https://github.com/Local-Settle/local-settle-backend) | few-owners |
-| 4 | **argolink** (+argolink-focused, focused, responses) | 22 | 22 | 959 | 69/d | 0/d | ▁▁▁▃▇▇█▆▃█▄▁▁▁ | 2026-10-05 | [leopoldstclair5/seedance-2-5-shortdrama-studio](https://github.com/leopoldstclair5/seedance-2-5-shortdrama-studio) | same-day, flat-stars |
+| 1 | **activated** (+pre-activated, ready-to-run, crack, setup, download, 11 more) | 62 | 62 | 8.3k | 3.4k/d | 2.8k/d | ▁▁▁▁▁▁▁▁▁▁▁█▆▁ | 2026-10-08 | [Maroonplocord/Movavi-Converter](https://github.com/Maroonplocord/Movavi-Converter) | near-duplicate, same-day, flat-stars |
+| 2 | **clean-room** (+microsoft, engineered, room) | 11 | 5 | 37.5k | 2.9k/d | 1.2k/d | ▁▂▄▄▄█▇▆▄▃▃▂▂▂ | 2026-10-07 | [storytold/wordcraft](https://github.com/storytold/wordcraft) | few-owners |
+| 3 | **hack** (+cheats, hacks, rpocket, hwid) | 14 | 14 | 1.7k | 1.2k/d | 421/d | ▁▁▂▁▁▁▁▁▁▁▁▁▅█ | 2026-10-06 | [arc-tool/.github](https://github.com/arc-tool/.github) | same-day |
+| 4 | **stellar** (+soroban, sentinel, smart-contracts) | 15 | 7 | 1.9k | 160/d | 0/d | ▁█▄▆▁▁▁▁▁▁▁▁▁▁ | 2026-10-06 | [Stellar-Kolo/kolo-frontend](https://github.com/Stellar-Kolo/kolo-frontend) | few-owners |
+| 5 | **resp** (+hack) | 5 | 5 | 300 | 150/d | 43/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-18 | [AstralAirAnchorage78/Resp-Minecraft-AIO-Soft](https://github.com/AstralAirAnchorage78/Resp-Minecraft-AIO-Soft) | near-duplicate |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>ad-free</b>: 7 repos, 4.2k stars</summary>
+<details><summary><b>debloat</b>: 5 repos, 9.2k stars</summary>
 
-- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 3.6k★ Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-- [Ansub/tv-detox](https://github.com/Ansub/tv-detox) 247★ Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free hom…
-- [kota-zo/myspoti](https://github.com/kota-zo/myspoti) 119★ Native Android client for Spotify, built with Jetpack Compose
-- [graent/grclean](https://github.com/graent/grclean) 80★ A lightweight, safe and ad-free PC cleaner. Junk cleanup, chat-app deep cleanin…
-- [deciocrytek/Skipii](https://github.com/deciocrytek/Skipii) 72★ Ad-free YouTube player for Android (Material 3 Expressive)
-
-</details>
-
-<details><summary><b>features</b>: 22 repos, 2.4k stars</summary>
-
-- [southroadball/Hwid-Spoofer](https://github.com/southroadball/Hwid-Spoofer) 252★ Complete standalone setup for Hwid Spoofer Free, a professional desktop utility…
-- [RiggerVitalize/Uttorent](https://github.com/RiggerVitalize/Uttorent) 250★ Complete standalone setup for Uttorent 1.4, featuring all essential utilities a…
-- [StoneSniperStrip/Discord-Server-Cloner](https://github.com/StoneSniperStrip/Discord-Server-Cloner) 250★ Discord Server Cloner 2025: Full working installer with all features enabled. R…
-- [WaEnhancerX/WaEnhancerX](https://github.com/WaEnhancerX/WaEnhancerX) 175★ WaEnhancer X - An advanced, open-source LSPosed module for WhatsApp. Features U…
-- [stadiummidgeguide41/for-everyone](https://github.com/stadiummidgeguide41/for-everyone) 115★ After Effects: Full working installer with secure digital asset deployment pipe…
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 8.7k★ Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
+- [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) 257★ Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-sty…
+- [mclhm8182/tvhome-zh](https://github.com/mclhm8182/tvhome-zh) 120★ Apple TV-style launcher for Android TV — ready-to-install APK, no build needed.…
+- [VictorTran1023/tcl-tv-adb-proxy](https://github.com/VictorTran1023/tcl-tv-adb-proxy) 64★ TCL 电视调试与优化手册：ADB 授权 · 侧载 · 代理 · 去广告 · 低负载 · HUD · 回归测试
+- [kulwantnagi/android-tv-makeover](https://github.com/kulwantnagi/android-tv-makeover) 58★ Debloat an Android TV, replace its home screen with a clean Apple TV style laun…
 
 </details>
 
-<details><summary><b>rea</b>: 13 repos, 4.1k stars</summary>
+<details><summary><b>rea</b>: 15 repos, 6.0k stars</summary>
 
-- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.2k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
-- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 847★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
-- [Zfinix/eleven](https://github.com/Zfinix/eleven) 778★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
-- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 460★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
-- [songshikang0111/awesome-REA-cases](https://github.com/songshikang0111/awesome-REA-cases) 281★ A curated collection of REA and AI-assisted reverse engineering cases, projects…
-
-</details>
-
-<details><summary><b>ps4</b>: 17 repos, 5.1k stars</summary>
-
-- [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) 2.0k★ Native PC port of P.T. (runs from your own PS4 game files)
-- [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) 1.1k★ Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own…
-- [GetLostIn/CTR-NitroFueled-PC](https://github.com/GetLostIn/CTR-NitroFueled-PC) 511★ Crash Team Racing: Nitro-Fueled (PS4) running natively on Windows 10/11. Window…
-- [OverkillLabs3/driveclub-recomp](https://github.com/OverkillLabs3/driveclub-recomp) 329★ DriveClub (PS4, version 1.28) running natively on Windows
-- [CLSAMG22/BBSC](https://github.com/CLSAMG22/BBSC) 156★ Bloodborne Seamless Co-op: a shadPS4 mod that keeps co-op alive through deaths,…
+- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.3k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
+- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 1.1k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
+- [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) 959★ Curated reverse-engineering tools and learning resources for binaries, apps, fi…
+- [Zfinix/eleven](https://github.com/Zfinix/eleven) 805★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
+- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 499★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
 
 </details>
 
-<details><summary><b>mcd</b>: 28 repos, 4.7k stars</summary>
+<details><summary><b>ad-free</b>: 7 repos, 2.1k stars</summary>
 
-- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 660★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
-- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 558★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
-- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 555★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
-- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 389★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
-- [lvzuojing/mcd-wrapped](https://github.com/lvzuojing/mcd-wrapped) 329★ M-CODE WRAPPED · 麦当劳数据全景报告 + 个人年报 + 方言播报
+- [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) 886★ A fast, ad-free home screen for Google TV. Open source, built with Claude Code.…
+- [Ansub/tv-detox](https://github.com/Ansub/tv-detox) 738★ Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free hom…
+- [kota-zo/myspoti](https://github.com/kota-zo/myspoti) 139★ Native Android client for Spotify, built with Jetpack Compose
+- [graent/grclean](https://github.com/graent/grclean) 91★ A lightweight, safe and ad-free PC cleaner. Junk cleanup, chat-app deep cleanin…
+- [deciocrytek/Skipii](https://github.com/deciocrytek/Skipii) 74★ Ad-free YouTube player for Android (Material 3 Expressive)
+
+</details>
+
+<details><summary><b>fps</b>: 19 repos, 5.7k stars</summary>
+
+- [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) 4.1k★ Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the…
+- [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) 258★ Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns…
+- [EpicRealmTitle/call-of-duty-modern-warfare-4-fps-optimizer](https://github.com/EpicRealmTitle/call-of-duty-modern-warfare-4-fps-optimizer) 126★ Lightweight desktop tool for Call of Duty: Modern Warfare 4. Smart FPS optimiza…
+- [markklab1903d9/CS2-FPS-Optimizer-Performance-Boost-Lag-Fix-Tool-2026](https://github.com/markklab1903d9/CS2-FPS-Optimizer-Performance-Boost-Lag-Fix-Tool-2026) 125★ Powerful CS2 FPS optimizer that boosts frame rate, reduces lag and optimizes sy…
+- [Digitalvetrough/Forza-Horizon-6-FPS-Optimizer-2026](https://github.com/Digitalvetrough/Forza-Horizon-6-FPS-Optimizer-2026) 106★ Lightweight desktop tool for Forza Horizon 6. Smart FPS optimization, performan…
+
+</details>
+
+<details><summary><b>mcd</b>: 32 repos, 5.5k stars</summary>
+
+- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 745★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
+- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 662★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
+- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 600★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
+- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 549★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
+- [lvzuojing/mcd-wrapped](https://github.com/lvzuojing/mcd-wrapped) 392★ M-CODE WRAPPED · 麦当劳数据全景报告 + 个人年报 + 方言播报
 
 </details>
 <!-- starwave:end -->

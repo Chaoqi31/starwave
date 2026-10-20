@@ -1,40 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="604" viewBox="0 0 1000 604" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" role="img" aria-label="starwave terminal output for 2026-10-19">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="644" viewBox="0 0 1000 644" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" role="img" aria-label="starwave terminal output for 2026-10-20">
 <style>
 .l { animation: in .35s ease-out both }
-.c { animation: in .2s ease-out both, blink 1.1s steps(1) 3.36s infinite }
+.c { animation: in .2s ease-out both, blink 1.1s steps(1) 3.54s infinite }
 @keyframes in { from { opacity: 0 } to { opacity: 1 } }
 @keyframes blink { 50% { opacity: 0 } }
 @media (prefers-reduced-motion: reduce) { .l, .c { animation: none } }
 </style>
-<rect width="1000" height="604" rx="12" fill="#0d1117"/>
-<rect x="0.5" y="0.5" width="999" height="603" rx="12" fill="none" stroke="#30363d"/>
+<rect width="1000" height="644" rx="12" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="999" height="643" rx="12" fill="none" stroke="#30363d"/>
 <circle cx="24" cy="20" r="6" fill="#ff5f56"/><circle cx="44" cy="20" r="6" fill="#ffbd2e"/><circle cx="64" cy="20" r="6" fill="#27c93f"/>
 <text x="500" y="24" fill="#7d8590" text-anchor="middle">starwave</text>
 <text class="l" x="24" y="52" fill="#d7dae0" style="animation-delay:0.00s"><tspan fill="#7ee787">$</tspan> npx github:Chaoqi31/starwave</text>
-<text class="l" x="24" y="72" fill="#d7dae0" style="animation-delay:0.90s"><tspan font-weight="700">starwave</tspan><tspan fill="#7d8590"> 2026-10-19 13:22 UTC</tspan></text>
-<text class="l" x="24" y="92" fill="#7d8590" style="animation-delay:0.99s">recent    1,702 repos  2026-10-05..2026-10-19  stars&gt;=40</text>
-<text class="l" x="24" y="112" fill="#7d8590" style="animation-delay:1.08s">baseline  3,100 repos  2026-08-06..2026-10-04  stars&gt;=150</text>
+<text class="l" x="24" y="72" fill="#d7dae0" style="animation-delay:0.90s"><tspan font-weight="700">starwave</tspan><tspan fill="#7d8590"> 2026-10-20 11:42 UTC</tspan></text>
+<text class="l" x="24" y="92" fill="#7d8590" style="animation-delay:0.99s">recent    1,747 repos  2026-10-06..2026-10-20  stars&gt;=40</text>
+<text class="l" x="24" y="112" fill="#7d8590" style="animation-delay:1.08s">baseline  3,127 repos  2026-08-07..2026-10-05  stars&gt;=150</text>
 <text class="l" x="24" y="132" fill="#d7dae0" style="animation-delay:1.17s"></text>
-<text class="l" x="24" y="152" fill="#e3b341" style="animation-delay:1.26s">Waves (6 of 20)</text>
+<text class="l" x="24" y="152" fill="#e3b341" style="animation-delay:1.26s">Waves (6 of 13)</text>
 <text class="l" x="24" y="172" fill="#7d8590" style="animation-delay:1.35s"> #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor</text>
-<text class="l" x="24" y="192" fill="#d7dae0" style="animation-delay:1.44s"> 1  <tspan fill="#7ee787" font-weight="700">ad-free</tspan>                           7       7    4.2k   2.1k/d   1.0k/d  2026-10-06  Gathin23/cleanyou…</text>
-<text class="l" x="24" y="212" fill="#d7dae0" style="animation-delay:1.53s"> 2  <tspan fill="#7ee787" font-weight="700">features</tspan> (+unlocked)             22      22    2.4k   1.6k/d    590/d  2026-10-07  southroadball/Hwi…</text>
-<text class="l" x="24" y="232" fill="#d7dae0" style="animation-delay:1.62s"> 3  <tspan fill="#7ee787" font-weight="700">rea</tspan> (+ghidra)                    13      13    4.1k    994/d    638/d  2026-10-07  Caho1/open-claude…</text>
-<text class="l" x="24" y="252" fill="#d7dae0" style="animation-delay:1.71s"> 4  <tspan fill="#7ee787" font-weight="700">ps4</tspan> (+bloodborne)                17      16    5.1k    684/d    500/d  2026-10-05  LoreanXavier/pt-pc</text>
-<text class="l" x="24" y="272" fill="#d7dae0" style="animation-delay:1.80s"> 5  <tspan fill="#7ee787" font-weight="700">mcd</tspan> (+mcdonalds, 3 more)         28      28    4.7k    665/d    649/d  2026-10-09  hujjun/mcd-saver-…</text>
-<text class="l" x="24" y="292" fill="#d7dae0" style="animation-delay:1.89s"> 6  <tspan fill="#7ee787" font-weight="700">messages</tspan>                          9       9    3.5k    521/d    228/d  2026-10-06  Fei2411/DeepSeek-…</text>
+<text class="l" x="24" y="192" fill="#d7dae0" style="animation-delay:1.44s"> 1  <tspan fill="#7ee787" font-weight="700">debloat</tspan>                           5       5    9.2k   3.3k/d   2.5k/d  2026-10-17  Gathin23/cleanyou…</text>
+<text class="l" x="24" y="212" fill="#d7dae0" style="animation-delay:1.53s"> 2  <tspan fill="#7ee787" font-weight="700">rea</tspan> (+ghidra)                    15      15    6.0k   1.4k/d    817/d  2026-10-07  Caho1/open-claude…</text>
+<text class="l" x="24" y="232" fill="#d7dae0" style="animation-delay:1.62s"> 3  <tspan fill="#7ee787" font-weight="700">ad-free</tspan>                           7       7    2.1k   1.3k/d    482/d  2026-10-06  simbasjungles/fre…</text>
+<text class="l" x="24" y="252" fill="#d7dae0" style="animation-delay:1.71s"> 4  <tspan fill="#7ee787" font-weight="700">fps</tspan> (+lag, fighter, 4 more)      19      18    5.7k   1.3k/d    590/d  2026-10-06  jhaizhou-ops/d2r-…</text>
+<text class="l" x="24" y="272" fill="#d7dae0" style="animation-delay:1.80s"> 5  <tspan fill="#7ee787" font-weight="700">mcd</tspan> (+mcdonalds, 5 more)         32      32    5.5k    676/d    772/d  2026-10-09  hujjun/mcd-saver-…</text>
+<text class="l" x="24" y="292" fill="#d7dae0" style="animation-delay:1.89s"> 6  <tspan fill="#7ee787" font-weight="700">messages</tspan>                          9       9    3.7k    428/d    272/d  2026-10-06  Fei2411/DeepSeek-…</text>
 <text class="l" x="24" y="312" fill="#d7dae0" style="animation-delay:1.98s"></text>
-<text class="l" x="24" y="332" fill="#e3b341" style="animation-delay:2.07s">Looks coordinated (4 of 4)</text>
+<text class="l" x="24" y="332" fill="#e3b341" style="animation-delay:2.07s">Looks coordinated (5 of 5)</text>
 <text class="l" x="24" y="352" fill="#7d8590" style="animation-delay:2.16s"> #  wave                          repos  owners   stars    vel/d     3d/d  first       anchor</text>
-<text class="l" x="24" y="372" fill="#d7dae0" style="animation-delay:2.25s"> 1  <tspan fill="#ffa198" font-weight="700">activated</tspan> (+14 more)             52      52    6.7k   4.9k/d   2.2k/d  2026-10-17  Maroonplocord/Mov…</text>
+<text class="l" x="24" y="372" fill="#d7dae0" style="animation-delay:2.25s"> 1  <tspan fill="#ffa198" font-weight="700">activated</tspan> (+16 more)             62      62    8.3k   3.4k/d   2.8k/d  2026-10-08  Maroonplocord/Mov…</text>
 <text class="l" x="24" y="392" fill="#f47067" style="animation-delay:2.34s">    near-duplicate · same-day · flat-stars</text>
-<text class="l" x="24" y="412" fill="#d7dae0" style="animation-delay:2.43s"> 2  <tspan fill="#ffa198" font-weight="700">clean-room</tspan> (+3 more)             11       5   36.5k   3.1k/d   1.4k/d  2026-10-07  storytold/wordcra…</text>
+<text class="l" x="24" y="412" fill="#d7dae0" style="animation-delay:2.43s"> 2  <tspan fill="#ffa198" font-weight="700">clean-room</tspan> (+3 more)             11       5   37.5k   2.9k/d   1.2k/d  2026-10-07  storytold/wordcra…</text>
 <text class="l" x="24" y="432" fill="#f47067" style="animation-delay:2.52s">    few-owners</text>
-<text class="l" x="24" y="452" fill="#d7dae0" style="animation-delay:2.61s"> 3  <tspan fill="#ffa198" font-weight="700">stellar</tspan> (+soroban, 4 more)       19       9    2.5k    217/d      0/d  2026-10-05  Local-Settle/loca…</text>
-<text class="l" x="24" y="472" fill="#f47067" style="animation-delay:2.70s">    few-owners</text>
-<text class="l" x="24" y="492" fill="#d7dae0" style="animation-delay:2.79s"> 4  <tspan fill="#ffa198" font-weight="700">argolink</tspan> (+3 more)               22      22     959     69/d      0/d  2026-10-05  leopoldstclair5/s…</text>
-<text class="l" x="24" y="512" fill="#f47067" style="animation-delay:2.88s">    same-day · flat-stars</text>
-<text class="l" x="24" y="532" fill="#d7dae0" style="animation-delay:2.97s"></text>
-<text class="l" x="24" y="552" fill="#7d8590" style="animation-delay:3.06s">vel/d: each repo's stars divided by its age in days, summed · 3d/d: stars per day over the last 3 full days</text>
-<text class="c" x="24" y="572" fill="#7ee787" style="animation-delay:3.36s">$ <tspan fill="#d7dae0">█</tspan></text>
+<text class="l" x="24" y="452" fill="#d7dae0" style="animation-delay:2.61s"> 3  <tspan fill="#ffa198" font-weight="700">hack</tspan> (+cheats, 3 more)           14      14    1.7k   1.2k/d    421/d  2026-10-06  arc-tool/.github</text>
+<text class="l" x="24" y="472" fill="#f47067" style="animation-delay:2.70s">    same-day</text>
+<text class="l" x="24" y="492" fill="#d7dae0" style="animation-delay:2.79s"> 4  <tspan fill="#ffa198" font-weight="700">stellar</tspan> (+soroban, 2 more)       15       7    1.9k    160/d      0/d  2026-10-06  Stellar-Kolo/kolo…</text>
+<text class="l" x="24" y="512" fill="#f47067" style="animation-delay:2.88s">    few-owners</text>
+<text class="l" x="24" y="532" fill="#d7dae0" style="animation-delay:2.97s"> 5  <tspan fill="#ffa198" font-weight="700">resp</tspan> (+hack)                      5       5     300    150/d     43/d  2026-10-18  AstralAirAnchorag…</text>
+<text class="l" x="24" y="552" fill="#f47067" style="animation-delay:3.06s">    near-duplicate</text>
+<text class="l" x="24" y="572" fill="#d7dae0" style="animation-delay:3.15s"></text>
+<text class="l" x="24" y="592" fill="#7d8590" style="animation-delay:3.24s">vel/d: each repo's stars divided by its age in days, summed · 3d/d: stars per day over the last 3 full days</text>
+<text class="c" x="24" y="612" fill="#7ee787" style="animation-delay:3.54s">$ <tspan fill="#d7dae0">█</tspan></text>
 </svg>
