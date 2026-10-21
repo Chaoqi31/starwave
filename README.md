@@ -48,80 +48,78 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 1,747 repos  2026-10-06..2026-10-20  stars>=40 · baseline 3,127 repos  2026-08-07..2026-10-05  stars>=150 · generated 2026-10-20 11:42 UTC_
+_recent 1,768 repos  2026-10-07..2026-10-21  stars>=40 · baseline 3,136 repos  2026-08-08..2026-10-06  stars>=150 · generated 2026-10-21 11:53 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **debloat** | 5 | 5 | 9.2k | 3.3k/d | 2.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▂▄█ | 2026-10-17 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
-| 2 | **rea** (+ghidra) | 15 | 15 | 6.0k | 1.4k/d | 817/d | ▁▁▁▁▁▂▃▃▅█▅▇▆▆ | 2026-10-07 | [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) |
-| 3 | **ad-free** | 7 | 7 | 2.1k | 1.3k/d | 482/d | ▁▁▁▁▁▁▁▁▁▁▁▁▃█ | 2026-10-06 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) |
-| 4 | **fps** (+lag, fighter, booster, optimizer, widescreen, 1 more) | 19 | 18 | 5.7k | 1.3k/d | 590/d | ▁▁▁▁▁▁▆▄█▆▃▃▅▆ | 2026-10-06 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
-| 5 | **mcd** (+mcdonalds, mcdonalds-mcp, coupon, budget, mcdonald, 1 more) | 32 | 32 | 5.5k | 676/d | 772/d | ▁▁▁▂▂▃▅▅▃▆▄▆█▇ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) |
-| 6 | **messages** | 9 | 9 | 3.7k | 428/d | 272/d | ▁▂▂▁▅█▇▅▄▃▂▄▄▄ | 2026-10-06 | [Fei2411/DeepSeek-Bot](https://github.com/Fei2411/DeepSeek-Bot) |
-| 7 | **portfolio** | 8 | 7 | 4.5k | 346/d | 59/d | ▁▄▅█▅▄▆▄▁▄▃▁▂▁ | 2026-10-06 | [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance) |
-| 8 | **co-op** | 6 | 6 | 1.3k | 287/d | 322/d | ▁▁▁▃▃▁▁▁▁▁▃▅█▅ | 2026-10-09 | [cranebeaker/coop-anything](https://github.com/cranebeaker/coop-anything) |
-| 9 | **obs** | 5 | 5 | 513 | 226/d | 83/d | ▁▁▁▂▁▁▁▁▃▂▃▃▁█ | 2026-10-08 | [loyraydi/meow_hud](https://github.com/loyraydi/meow_hud) |
-| 10 | **podcast** | 5 | 5 | 829 | 180/d | 79/d | ▁▆▂▃▂▂▁▂█▇▆▂▆▆ | 2026-10-07 | [assafkip/claudemy](https://github.com/assafkip/claudemy) |
+| 1 | **google-tv** (+android-tv, tv-style, debloat) | 9 | 9 | 18.6k | 5.4k/d | 5.4k/d | ▁▁▁▁▁▁▁▁▁▁▁▃▅█ | 2026-10-17 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
+| 2 | **rea** (+ghidra, protocols) | 17 | 17 | 7.2k | 1.5k/d | 979/d | ▁▁▁▁▂▂▂▄▆▄▆▅▅█ | 2026-10-07 | [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) |
+| 3 | **fps** (+booster, lag, widescreen, zip, statically) | 19 | 18 | 5.9k | 1.0k/d | 580/d | ▁▁▁▁▁▆▄█▆▃▃▅▆▃ | 2026-10-08 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
+| 4 | **mcd** (+mcdonalds, budget, mcdonald, mcdonalds-mcp, coupon, 1 more) | 39 | 39 | 6.8k | 829/d | 932/d | ▁▁▂▂▃▅▄▃▆▄▅█▇█ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) |
+| 5 | **natively** | 14 | 14 | 5.5k | 746/d | 712/d | ▁▁▁▁▂▂▂▄█▆▆▆▇▅ | 2026-10-07 | [Supermedo/uncharted_pc](https://github.com/Supermedo/uncharted_pc) |
+| 6 | **ps4** | 21 | 17 | 5.9k | 682/d | 526/d | █▆▃▂▂▄▅▇▇▆▇▇▇▆ | 2026-10-07 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) |
+| 7 | **installation** | 15 | 15 | 1.8k | 490/d | 263/d | ▁▁▁▂▂▂▂▂▁▂█▇▃▃ | 2026-10-07 | [PaintManager/Quicken-Deluxe](https://github.com/PaintManager/Quicken-Deluxe) |
+| 8 | **ad-free** | 6 | 6 | 1.5k | 442/d | 425/d | ▁▁▁▁▁▁▂▁▁▂▂▄█▇ | 2026-10-07 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
+| 9 | **changer** (+cs2) | 8 | 8 | 627 | 393/d | 196/d | ▁▁▂▁▁▁▁▁▁▁▁▂▄█ | 2026-10-09 | [changer-tool/.github](https://github.com/changer-tool/.github) |
+| 10 | **risk** | 12 | 12 | 1.3k | 364/d | 252/d | ▃▁▁▂▂▃▆▂▁▁▂▇█▅ | 2026-10-07 | [Domainsun/awesome-chinese-secondhand-slang](https://github.com/Domainsun/awesome-chinese-secondhand-slang) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **activated** (+pre-activated, ready-to-run, crack, setup, download, 11 more) | 62 | 62 | 8.3k | 3.4k/d | 2.8k/d | ▁▁▁▁▁▁▁▁▁▁▁█▆▁ | 2026-10-08 | [Maroonplocord/Movavi-Converter](https://github.com/Maroonplocord/Movavi-Converter) | near-duplicate, same-day, flat-stars |
-| 2 | **clean-room** (+microsoft, engineered, room) | 11 | 5 | 37.5k | 2.9k/d | 1.2k/d | ▁▂▄▄▄█▇▆▄▃▃▂▂▂ | 2026-10-07 | [storytold/wordcraft](https://github.com/storytold/wordcraft) | few-owners |
-| 3 | **hack** (+cheats, hacks, rpocket, hwid) | 14 | 14 | 1.7k | 1.2k/d | 421/d | ▁▁▂▁▁▁▁▁▁▁▁▁▅█ | 2026-10-06 | [arc-tool/.github](https://github.com/arc-tool/.github) | same-day |
-| 4 | **stellar** (+soroban, sentinel, smart-contracts) | 15 | 7 | 1.9k | 160/d | 0/d | ▁█▄▆▁▁▁▁▁▁▁▁▁▁ | 2026-10-06 | [Stellar-Kolo/kolo-frontend](https://github.com/Stellar-Kolo/kolo-frontend) | few-owners |
-| 5 | **resp** (+hack) | 5 | 5 | 300 | 150/d | 43/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-18 | [AstralAirAnchorage78/Resp-Minecraft-AIO-Soft](https://github.com/AstralAirAnchorage78/Resp-Minecraft-AIO-Soft) | near-duplicate |
+| 1 | **clean-room** (+microsoft, engineered, room, artcraft) | 11 | 5 | 38.5k | 2.8k/d | 1.1k/d | ▂▄▄▄█▇▆▄▃▃▂▂▂▂ | 2026-10-07 | [storytold/wordcraft](https://github.com/storytold/wordcraft) | few-owners |
+| 2 | **activated** (+pre-activated, ready-to-run, crack, setup, download, 9 more) | 55 | 55 | 7.2k | 2.1k/d | 1.0k/d | ▁▁▁▁▁▁▁▁▁▁█▆▁▁ | 2026-10-08 | [Maroonplocord/Movavi-Converter](https://github.com/Maroonplocord/Movavi-Converter) | near-duplicate, same-day, flat-stars |
+| 3 | **stellar** (+soroban, sentinel) | 14 | 6 | 1.8k | 139/d | 0/d | █▅▇▁▁▁▁▁▁▁▁▁▁▁ | 2026-10-07 | [Stellar-Kolo/kolo-frontend](https://github.com/Stellar-Kolo/kolo-frontend) | few-owners |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>debloat</b>: 5 repos, 9.2k stars</summary>
+<details><summary><b>google-tv</b>: 9 repos, 18.6k stars</summary>
 
-- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 8.7k★ Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-- [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) 257★ Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-sty…
-- [mclhm8182/tvhome-zh](https://github.com/mclhm8182/tvhome-zh) 120★ Apple TV-style launcher for Android TV — ready-to-install APK, no build needed.…
-- [VictorTran1023/tcl-tv-adb-proxy](https://github.com/VictorTran1023/tcl-tv-adb-proxy) 64★ TCL 电视调试与优化手册：ADB 授权 · 侧载 · 代理 · 去广告 · 低负载 · HUD · 回归测试
-- [kulwantnagi/android-tv-makeover](https://github.com/kulwantnagi/android-tv-makeover) 58★ Debloat an Android TV, replace its home screen with a clean Apple TV style laun…
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 15.6k★ Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
+- [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) 2.3k★ A fast, ad-free home screen for Google TV. Open source, built with Claude Code.…
+- [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) 336★ Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-sty…
+- [mclhm8182/tvhome-zh](https://github.com/mclhm8182/tvhome-zh) 165★ Apple TV-style launcher for Android TV — ready-to-install APK, no build needed.…
+- [0xProbabillity/luma-tv](https://github.com/0xProbabillity/luma-tv) 58★ A calm, tvOS-inspired home screen for Android TV and Google TV. No ads, no trac…
 
 </details>
 
-<details><summary><b>rea</b>: 15 repos, 6.0k stars</summary>
+<details><summary><b>rea</b>: 17 repos, 7.2k stars</summary>
 
 - [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.3k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
-- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 1.1k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
-- [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) 959★ Curated reverse-engineering tools and learning resources for binaries, apps, fi…
-- [Zfinix/eleven](https://github.com/Zfinix/eleven) 805★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
-- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 499★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
+- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 1.2k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
+- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 1.2k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
+- [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) 1.0k★ Curated reverse-engineering tools and learning resources for binaries, apps, fi…
+- [Zfinix/eleven](https://github.com/Zfinix/eleven) 816★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
 
 </details>
 
-<details><summary><b>ad-free</b>: 7 repos, 2.1k stars</summary>
+<details><summary><b>fps</b>: 19 repos, 5.9k stars</summary>
 
-- [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) 886★ A fast, ad-free home screen for Google TV. Open source, built with Claude Code.…
-- [Ansub/tv-detox](https://github.com/Ansub/tv-detox) 738★ Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free hom…
-- [kota-zo/myspoti](https://github.com/kota-zo/myspoti) 139★ Native Android client for Spotify, built with Jetpack Compose
-- [graent/grclean](https://github.com/graent/grclean) 91★ A lightweight, safe and ad-free PC cleaner. Junk cleanup, chat-app deep cleanin…
-- [deciocrytek/Skipii](https://github.com/deciocrytek/Skipii) 74★ Ad-free YouTube player for Android (Material 3 Expressive)
-
-</details>
-
-<details><summary><b>fps</b>: 19 repos, 5.7k stars</summary>
-
-- [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) 4.1k★ Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the…
-- [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) 258★ Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns…
+- [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) 4.3k★ Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the…
+- [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) 343★ Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns…
 - [EpicRealmTitle/call-of-duty-modern-warfare-4-fps-optimizer](https://github.com/EpicRealmTitle/call-of-duty-modern-warfare-4-fps-optimizer) 126★ Lightweight desktop tool for Call of Duty: Modern Warfare 4. Smart FPS optimiza…
 - [markklab1903d9/CS2-FPS-Optimizer-Performance-Boost-Lag-Fix-Tool-2026](https://github.com/markklab1903d9/CS2-FPS-Optimizer-Performance-Boost-Lag-Fix-Tool-2026) 125★ Powerful CS2 FPS optimizer that boosts frame rate, reduces lag and optimizes sy…
 - [Digitalvetrough/Forza-Horizon-6-FPS-Optimizer-2026](https://github.com/Digitalvetrough/Forza-Horizon-6-FPS-Optimizer-2026) 106★ Lightweight desktop tool for Forza Horizon 6. Smart FPS optimization, performan…
 
 </details>
 
-<details><summary><b>mcd</b>: 32 repos, 5.5k stars</summary>
+<details><summary><b>mcd</b>: 39 repos, 6.8k stars</summary>
 
-- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 745★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
-- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 662★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
-- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 600★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
-- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 549★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
-- [lvzuojing/mcd-wrapped](https://github.com/lvzuojing/mcd-wrapped) 392★ M-CODE WRAPPED · 麦当劳数据全景报告 + 个人年报 + 方言播报
+- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 838★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
+- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 753★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
+- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 728★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
+- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 701★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
+- [lvzuojing/mcd-wrapped](https://github.com/lvzuojing/mcd-wrapped) 485★ M-CODE WRAPPED · 麦当劳数据全景报告 + 个人年报 + 方言播报
+
+</details>
+
+<details><summary><b>natively</b>: 14 repos, 5.5k stars</summary>
+
+- [Supermedo/uncharted_pc](https://github.com/Supermedo/uncharted_pc) 1.8k★ Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMe…
+- [seedds/nxnative](https://github.com/seedds/nxnative) 1.0k★ Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an…
+- [Awakenchan/LanternEngine](https://github.com/Awakenchan/LanternEngine) 729★ Lantern Engine: run your own copy of Bloodborne on Windows. A launcher and engi…
+- [longbridge/nsh](https://github.com/longbridge/nsh) 507★ NSH runs modules written in TSX — natively on iOS, Android, macOS, Windows, Lin…
+- [kevinerikjs/gta5-ios-port](https://github.com/kevinerikjs/gta5-ios-port) 482★ GTA V natively on iPhone: build it yourself from your own game files. Fan proje…
 
 </details>
 <!-- starwave:end -->
