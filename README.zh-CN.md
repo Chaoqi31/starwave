@@ -48,78 +48,78 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 1,775 repos  2026-10-08..2026-10-22  stars>=40 · baseline 3,157 repos  2026-08-09..2026-10-07  stars>=150 · generated 2026-10-22 11:57 UTC_
+_recent 1,835 repos  2026-10-09..2026-10-23  stars>=40 · baseline 3,182 repos  2026-08-10..2026-10-08  stars>=150 · generated 2026-10-23 11:43 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **xiaomi** | 7 | 7 | 3.7k | 1.6k/d | 950/d | ▁▁▁▁▁▁▁▁▁▁▂▁▇█ | 2026-10-12 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) |
-| 2 | **rea** (+ghidra, protocols) | 15 | 15 | 7.7k | 1.3k/d | 946/d | ▁▁▁▂▂▂▄▆▄▆▅▅█▄ | 2026-10-09 | [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) |
-| 3 | **mcd** (+mcdonalds, mcdonald, mcdonalds-mcp, food, nutrition, 2 more) | 46 | 46 | 7.7k | 953/d | 950/d | ▁▂▂▃▅▄▃▅▄▅▇▆█▇ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) |
-| 4 | **fps** (+booster, fighter, lag, optimizer) | 20 | 19 | 6.4k | 852/d | 457/d | ▁▁▁▁▆▄█▆▃▃▄▅▃▂ | 2026-10-08 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
-| 5 | **purge** (+dsh-purge) | 7 | 7 | 2.6k | 742/d | 767/d | ▁▁▁▁▁▁▁▁▁▁▁▂▆█ | 2026-10-13 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) |
-| 6 | **changer** (+cs2) | 9 | 9 | 1.1k | 498/d | 332/d | ▁▁▁▁▁▁▁▁▁▁▁▃▅█ | 2026-10-09 | [cs-tool-s/.github](https://github.com/cs-tool-s/.github) |
-| 7 | **ps4** (+jailbroken) | 18 | 14 | 3.8k | 468/d | 375/d | ▁▁▁▁▃▅█▆▆▇██▆▅ | 2026-10-11 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) |
-| 8 | **ad-free** | 7 | 7 | 1.8k | 448/d | 457/d | ▁▁▁▁▁▂▁▁▂▁▄██▆ | 2026-10-12 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
-| 9 | **installation** | 15 | 15 | 2.0k | 382/d | 184/d | ▁▂▂▂▂▂▂▂▁█▇▃▂▅ | 2026-10-08 | [QAQLeonard/a7c2-fl23-research](https://github.com/QAQLeonard/a7c2-fl23-research) |
-| 10 | **artex** | 8 | 8 | 3.8k | 298/d | 241/d | ▃▅▄▃█▆▂▃▂▂▃▃▄▃ | 2026-10-08 | [trhhubsd/ARTEX](https://github.com/trhhubsd/ARTEX) |
+| 1 | **rea** (+ghidra, protocols) | 15 | 15 | 8.2k | 1.2k/d | 836/d | ▁▁▂▂▂▄▆▄▆▅▅█▄▃ | 2026-10-09 | [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) |
+| 2 | **natively** | 15 | 15 | 11.4k | 1.1k/d | 870/d | ▁▁▁▅▃▇█▅▄▅▅▄▄▆ | 2026-10-09 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
+| 3 | **aimbot** (+wallhack, cs2, external-esp, cheat, skeleton, 2 more) | 12 | 12 | 1.4k | 1.1k/d | 230/d | ▁▁▁▁▁▁▁▁▁▂▂▁▁█ | 2026-10-09 | [david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026](https://github.com/david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026) |
+| 4 | **mcd** (+mcdonalds, food, budget, mcdonalds-mcp, nutrition, 5 more) | 56 | 56 | 9.1k | 925/d | 977/d | ▂▂▃▅▄▃▅▄▅▇▇██▆ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) |
+| 5 | **purge** | 7 | 7 | 3.2k | 584/d | 992/d | ▁▁▁▁▁▁▁▁▁▁▂▆█▅ | 2026-10-13 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) |
+| 6 | **professional** | 9 | 9 | 1.6k | 555/d | 169/d | ▁▁▁▁▁▁▁▁█▅▄▂▂▇ | 2026-10-12 | [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) |
+| 7 | **defi** | 5 | 5 | 851 | 548/d | 173/d | ▁▁▃▁▃▁▁▁▁▁▁▁▁█ | 2026-10-11 | [cxmza/windle](https://github.com/cxmza/windle) |
+| 8 | **fps** (+booster, fighter, rates, lag, optimizer, 2 more) | 18 | 17 | 1.9k | 461/d | 158/d | ▁▁▁▂▂▂▁▁▃▆█▂▂▄ | 2026-10-10 | [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) |
+| 9 | **ps4** (+jailbroken) | 18 | 14 | 4.0k | 432/d | 280/d | ▁▁▁▃▅█▆▆▇██▆▅▄ | 2026-10-11 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) |
+| 10 | **ad-free** | 7 | 7 | 2.1k | 398/d | 371/d | ▁▁▁▁▂▁▁▂▁▄██▆▅ | 2026-10-12 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **google-tv** (+android-tv, debloat, tv-style, tv-vibehack, vibehack) | 11 | 10 | 26.1k | 5.8k/d | 7.4k/d | ▁▁▁▁▁▁▁▁▁▁▃▅█▇ | 2026-10-17 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | same-day |
-| 2 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve) | 11 | 11 | 4.3k | 4.2k/d | 1.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-20 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
-| 3 | **activated** (+pre-activated, ready-to-run, crack, setup, download, 8 more) | 55 | 55 | 7.1k | 1.6k/d | 141/d | ▁▁▁▁▁▁▁▁▁█▇▁▁▂ | 2026-10-08 | [Nestsarecall/Ozone-12-Advanced](https://github.com/Nestsarecall/Ozone-12-Advanced) | near-duplicate, same-day, flat-stars |
+| 1 | **google-tv** (+debloat, android-tv, tv-style, cleanyourtv, tv-vibehack, 1 more) | 10 | 9 | 30.9k | 5.5k/d | 7.3k/d | ▁▁▁▁▁▁▁▁▁▃▅█▇▅ | 2026-10-17 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | same-day |
+| 2 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, session.upload, 2 more) | 24 | 23 | 7.0k | 3.6k/d | 2.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▅ | 2026-10-15 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
+| 3 | **activated** (+pre-activated, ready-to-run, download, crack, setup, 8 more) | 56 | 56 | 7.3k | 1.4k/d | 169/d | ▁▁▁▁▁▁▁▁█▇▁▁▂▁ | 2026-10-17 | [Nestsarecall/Ozone-12-Advanced](https://github.com/Nestsarecall/Ozone-12-Advanced) | near-duplicate, same-day, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>xiaomi</b>: 7 repos, 3.7k stars</summary>
+<details><summary><b>rea</b>: 15 repos, 8.2k stars</summary>
 
-- [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) 2.8k★ 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for …
-- [PiggyBackBayonet/MiAuto](https://github.com/PiggyBackBayonet/MiAuto) 428★ 小米 / OPPO / vivo 等 ICCOA CarLink 手机投上车机：无线连接，无需转接盒、无需 root。Car-side ICCOA CarLi…
-- [op7418/guizang-tv](https://github.com/op7418/guizang-tv) 179★ 归藏电视：适配国内小米电视的简洁 Android 桌面，大字列表、壁纸轮播与 HDMI 直达。
-- [Desertreflow/Imei-Repair](https://github.com/Desertreflow/Imei-Repair) 98★ Imei Repair Free 2025: Full working installer for a comprehensive solution to m…
-- [VictorTran1023/android-tv-toolkit](https://github.com/VictorTran1023/android-tv-toolkit) 79★ 品牌无关的 Android TV 调试与调优工具箱：ADB 授权、分品牌侧载、去广告、状态 HUD、回归测试 \| Brand-agnostic Android…
-
-</details>
-
-<details><summary><b>rea</b>: 15 repos, 7.7k stars</summary>
-
-- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 1.4k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
-- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 1.3k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
-- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.3k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
+- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 1.6k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
+- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 1.5k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
+- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.4k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
 - [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) 1.1k★ Curated reverse-engineering tools and learning resources for binaries, apps, fi…
-- [Zfinix/eleven](https://github.com/Zfinix/eleven) 827★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
+- [Zfinix/eleven](https://github.com/Zfinix/eleven) 833★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
 
 </details>
 
-<details><summary><b>mcd</b>: 46 repos, 7.7k stars</summary>
+<details><summary><b>natively</b>: 15 repos, 11.4k stars</summary>
 
-- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 945★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
-- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 825★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
-- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 825★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
-- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 811★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
-- [lvzuojing/mcd-wrapped](https://github.com/lvzuojing/mcd-wrapped) 491★ M-CODE WRAPPED · 麦当劳数据全景报告 + 个人年报 + 方言播报
-
-</details>
-
-<details><summary><b>fps</b>: 20 repos, 6.4k stars</summary>
-
-- [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) 4.4k★ Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the…
-- [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) 385★ Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns…
-- [Dyotson/ForzaHorizon1-ReImagined](https://github.com/Dyotson/ForzaHorizon1-ReImagined) 257★ Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon expe…
-- [divergesoulpersist/IOBIT-Driver-Booster](https://github.com/divergesoulpersist/IOBIT-Driver-Booster) 147★ Iobit Driver Booster 2025, a full working installer with all updates and driver…
-- [EpicRealmTitle/call-of-duty-modern-warfare-4-fps-optimizer](https://github.com/EpicRealmTitle/call-of-duty-modern-warfare-4-fps-optimizer) 126★ Lightweight desktop tool for Call of Duty: Modern Warfare 4. Smart FPS optimiza…
+- [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) 4.5k★ Open-source compatibility layer for Diablo II: Resurrected with the Reign of th…
+- [seedds/nxnative](https://github.com/seedds/nxnative) 2.2k★ Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an…
+- [Supermedo/uncharted_pc](https://github.com/Supermedo/uncharted_pc) 1.9k★ Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMe…
+- [Awakenchan/LanternEngine](https://github.com/Awakenchan/LanternEngine) 879★ Lantern Engine: run your own copy of Bloodborne on Windows. A launcher and engi…
+- [longbridge/nsh](https://github.com/longbridge/nsh) 587★ NSH runs modules written in TSX — natively on iOS, Android, macOS, Windows, Lin…
 
 </details>
 
-<details><summary><b>purge</b>: 7 repos, 2.6k stars</summary>
+<details><summary><b>aimbot</b>: 12 repos, 1.4k stars</summary>
 
-- [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) 1.5k★ DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/…
-- [WoYun520/dsh-purge](https://github.com/WoYun520/dsh-purge) 381★ DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。…
-- [JeffKeeping/dsh-purge-plus](https://github.com/JeffKeeping/dsh-purge-plus) 282★ dsh-purge 的非官方分支（fork）：适配 DeepSeek Harness 0.2.1-rc.2、破甲内核 v3、设置页 UI 重做 / unoff…
-- [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) 276★ pi extension: /purge swaps pi's built-in assistant persona for your own prompt …
-- [evilevil/dsh-purge-021rc2](https://github.com/evilevil/dsh-purge-021rc2) 103★ dsh-purge 社区适配版：上游已停更，这里让它继续跑在 DeepSeek Harness 0.2.1-rc.2 上（基于 1.1.72）
+- [david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026](https://github.com/david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026) 301★ High-performance Roblox aimbot with adaptive smooth tracking and precise auto a…
+- [wpfigfszroxn/pubg-external-esp](https://github.com/wpfigfszroxn/pubg-external-esp) 247★ PUBG external ESP/aimbot: player skeleton ESP, item glow, no-recoil, radar — re…
+- [nicksilva1989q2/Valorant-Aimbot-Smooth-Tracking-Auto-Aim-System-2026](https://github.com/nicksilva1989q2/Valorant-Aimbot-Smooth-Tracking-Auto-Aim-System-2026) 145★ High-performance Valorant aimbot with adaptive smooth tracking and precise auto…
+- [piqganehprlv/ff-external-esp](https://github.com/piqganehprlv/ff-external-esp) 120★ FreeFire external ESP cheat: player boxes, skeleton ESP, distance readout, item…
+- [ulymxumfqtdi/dbd-external-esp](https://github.com/ulymxumfqtdi/dbd-external-esp) 116★ DBD external ESP: survivor aura, killer wallhack, skillcheck aimbot, injector f…
+
+</details>
+
+<details><summary><b>mcd</b>: 56 repos, 9.1k stars</summary>
+
+- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 1.1k★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
+- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 953★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
+- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 934★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
+- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 923★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
+- [AAA-EE/mcd-budget-planner](https://github.com/AAA-EE/mcd-budget-planner) 519★ 
+
+</details>
+
+<details><summary><b>purge</b>: 7 repos, 3.2k stars</summary>
+
+- [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) 1.9k★ DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/…
+- [WoYun520/dsh-purge](https://github.com/WoYun520/dsh-purge) 417★ DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。…
+- [JeffKeeping/dsh-purge-plus](https://github.com/JeffKeeping/dsh-purge-plus) 371★ dsh-purge 的非官方分支（fork）：适配 DeepSeek Harness 0.2.1-rc.2、破甲内核 v3、设置页 UI 重做 / unoff…
+- [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) 292★ pi extension: /purge swaps pi's built-in assistant persona for your own prompt …
+- [evilevil/dsh-purge-021rc2](https://github.com/evilevil/dsh-purge-021rc2) 129★ dsh-purge 社区适配版：上游已停更，这里让它继续跑在 DeepSeek Harness 0.2.1-rc.2 上（基于 1.1.72）
 
 </details>
 <!-- starwave:end -->
