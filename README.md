@@ -48,78 +48,77 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 1,835 repos  2026-10-09..2026-10-23  stars>=40 · baseline 3,182 repos  2026-08-10..2026-10-08  stars>=150 · generated 2026-10-23 11:43 UTC_
+_recent 1,835 repos  2026-10-10..2026-10-24  stars>=40 · baseline 3,217 repos  2026-08-11..2026-10-09  stars>=150 · generated 2026-10-24 11:05 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **rea** (+ghidra, protocols) | 15 | 15 | 8.2k | 1.2k/d | 836/d | ▁▁▂▂▂▄▆▄▆▅▅█▄▃ | 2026-10-09 | [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) |
-| 2 | **natively** | 15 | 15 | 11.4k | 1.1k/d | 870/d | ▁▁▁▅▃▇█▅▄▅▅▄▄▆ | 2026-10-09 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
-| 3 | **aimbot** (+wallhack, cs2, external-esp, cheat, skeleton, 2 more) | 12 | 12 | 1.4k | 1.1k/d | 230/d | ▁▁▁▁▁▁▁▁▁▂▂▁▁█ | 2026-10-09 | [david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026](https://github.com/david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026) |
-| 4 | **mcd** (+mcdonalds, food, budget, mcdonalds-mcp, nutrition, 5 more) | 56 | 56 | 9.1k | 925/d | 977/d | ▂▂▃▅▄▃▅▄▅▇▇██▆ | 2026-10-09 | [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) |
-| 5 | **purge** | 7 | 7 | 3.2k | 584/d | 992/d | ▁▁▁▁▁▁▁▁▁▁▂▆█▅ | 2026-10-13 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) |
-| 6 | **professional** | 9 | 9 | 1.6k | 555/d | 169/d | ▁▁▁▁▁▁▁▁█▅▄▂▂▇ | 2026-10-12 | [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) |
-| 7 | **defi** | 5 | 5 | 851 | 548/d | 173/d | ▁▁▃▁▃▁▁▁▁▁▁▁▁█ | 2026-10-11 | [cxmza/windle](https://github.com/cxmza/windle) |
-| 8 | **fps** (+booster, fighter, rates, lag, optimizer, 2 more) | 18 | 17 | 1.9k | 461/d | 158/d | ▁▁▁▂▂▂▁▁▃▆█▂▂▄ | 2026-10-10 | [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) |
-| 9 | **ps4** (+jailbroken) | 18 | 14 | 4.0k | 432/d | 280/d | ▁▁▁▃▅█▆▆▇██▆▅▄ | 2026-10-11 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) |
-| 10 | **ad-free** | 7 | 7 | 2.1k | 398/d | 371/d | ▁▁▁▁▂▁▁▂▁▄██▆▅ | 2026-10-12 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
+| 1 | **tvs** | 11 | 11 | 5.1k | 1.3k/d | 1.1k/d | ▁▁▁▁▁▁▁▁▁▁▇█▆▅ | 2026-10-10 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) |
+| 2 | **rea** (+ghidra) | 16 | 16 | 8.0k | 1.1k/d | 678/d | ▁▁▂▂▄▇▄▅▄▅█▄▃▆ | 2026-10-10 | [aicodeking/leanrea](https://github.com/aicodeking/leanrea) |
+| 3 | **mcd** (+mcdonalds, nutrition, food) | 48 | 48 | 5.8k | 784/d | 684/d | ▂▃▃▃▂▃▂▃▃▃▅▄▄█ | 2026-10-10 | [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) |
+| 4 | **fps** (+fighter, booster, rates, lag, fps-booster-no-lag, 2 more) | 21 | 19 | 6.7k | 758/d | 252/d | ▁▁▆▄█▆▃▃▄▅▂▂▃▂ | 2026-10-10 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
+| 5 | **professional** | 12 | 12 | 3.2k | 626/d | 442/d | ▁▁▁▁▁▁▁█▅▃▁▃▆▆ | 2026-10-12 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) |
+| 6 | **purge** | 9 | 9 | 3.6k | 603/d | 853/d | ▁▁▁▁▁▁▁▁▁▂▆█▅▃ | 2026-10-13 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) |
+| 7 | **zip** | 5 | 5 | 1.7k | 486/d | 416/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-10 | [xevrion/hatchzip](https://github.com/xevrion/hatchzip) |
+| 8 | **aimbot** (+external-esp) | 8 | 8 | 1.1k | 451/d | 285/d | ▁▁▁▁▁▁▁▁▃▃▁▁█▅ | 2026-10-10 | [david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026](https://github.com/david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026) |
+| 9 | **ps4** | 18 | 14 | 4.2k | 416/d | 229/d | ▁▁▃▅█▆▅▆▇▇▆▄▄▄ | 2026-10-11 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) |
+| 10 | **ad-free** | 8 | 8 | 2.3k | 382/d | 281/d | ▁▁▁▂▁▁▂▁▄██▅▅▄ | 2026-10-12 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **google-tv** (+debloat, android-tv, tv-style, cleanyourtv, tv-vibehack, 1 more) | 10 | 9 | 30.9k | 5.5k/d | 7.3k/d | ▁▁▁▁▁▁▁▁▁▃▅█▇▅ | 2026-10-17 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | same-day |
-| 2 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, session.upload, 2 more) | 24 | 23 | 7.0k | 3.6k/d | 2.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▅ | 2026-10-15 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
-| 3 | **activated** (+pre-activated, ready-to-run, download, crack, setup, 8 more) | 56 | 56 | 7.3k | 1.4k/d | 169/d | ▁▁▁▁▁▁▁▁█▇▁▁▂▁ | 2026-10-17 | [Nestsarecall/Ozone-12-Advanced](https://github.com/Nestsarecall/Ozone-12-Advanced) | near-duplicate, same-day, flat-stars |
+| 1 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, session.upload, 2 more) | 27 | 26 | 8.4k | 2.8k/d | 2.6k/d | ▁▁▁▁▁▁▁▁▁▁▁█▅▄ | 2026-10-15 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
+| 2 | **activated** (+pre-activated, ready-to-run, download, setup, crack, 11 more) | 62 | 62 | 7.8k | 1.4k/d | 219/d | ▁▁▁▁▁▁▁█▇▁▁▂▁▁ | 2026-10-17 | [Nestsarecall/Ozone-12-Advanced](https://github.com/Nestsarecall/Ozone-12-Advanced) | near-duplicate, same-day, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>rea</b>: 15 repos, 8.2k stars</summary>
+<details><summary><b>tvs</b>: 11 repos, 5.1k stars</summary>
 
-- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 1.6k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
-- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 1.5k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
-- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.4k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
-- [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) 1.1k★ Curated reverse-engineering tools and learning resources for binaries, apps, fi…
-- [Zfinix/eleven](https://github.com/Zfinix/eleven) 833★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
+- [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) 4.1k★ 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for …
+- [OmkarK97/webos-vibehack](https://github.com/OmkarK97/webos-vibehack) 270★ Apple TV-style home screen for LG webOS TVs, a port of tv-vibehack
+- [gabrielgreco1/TVmenubar-MacOS](https://github.com/gabrielgreco1/TVmenubar-MacOS) 130★ Native macOS menu bar remotes for LG webOS and Roku OS TVs
+- [rudra-avatar/Hearth](https://github.com/rudra-avatar/Hearth) 101★ Hearth: a fast, calm home screen for LG WebOS TVs
+- [berteotti/custom-tv](https://github.com/berteotti/custom-tv) 83★ A calm custom Home screen for Samsung Tizen TVs: weather, weather-matched lands…
 
 </details>
 
-<details><summary><b>natively</b>: 15 repos, 11.4k stars</summary>
+<details><summary><b>rea</b>: 16 repos, 8.0k stars</summary>
+
+- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 1.9k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
+- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 1.9k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
+- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.4k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
+- [Zfinix/eleven](https://github.com/Zfinix/eleven) 850★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
+- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 565★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
+
+</details>
+
+<details><summary><b>mcd</b>: 48 repos, 5.8k stars</summary>
+
+- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 1.2k★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
+- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 998★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
+- [makabaka0328/mcd-compass](https://github.com/makabaka0328/mcd-compass) 172★ 
+- [LewisLeeYu-AIR/mcd-mood-palette](https://github.com/LewisLeeYu-AIR/mcd-mood-palette) 151★ 麦麦心情调色盘 — 基于麦当劳 MCP 的情绪×营养推荐与下单 Skill（程序员创意开发大赛参赛项目）
+- [WilderNoTrack/mcd-calorie-butler](https://github.com/WilderNoTrack/mcd-calorie-butler) 150★ 麦麦热量管家：减脂不是少吃你爱的，是先换掉不值这口热量的。基于麦当劳 MCP 的味热比点餐 Skill。
+
+</details>
+
+<details><summary><b>fps</b>: 21 repos, 6.7k stars</summary>
 
 - [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) 4.5k★ Open-source compatibility layer for Diablo II: Resurrected with the Reign of th…
-- [seedds/nxnative](https://github.com/seedds/nxnative) 2.2k★ Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an…
-- [Supermedo/uncharted_pc](https://github.com/Supermedo/uncharted_pc) 1.9k★ Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMe…
-- [Awakenchan/LanternEngine](https://github.com/Awakenchan/LanternEngine) 879★ Lantern Engine: run your own copy of Bloodborne on Windows. A launcher and engi…
-- [longbridge/nsh](https://github.com/longbridge/nsh) 587★ NSH runs modules written in TSX — natively on iOS, Android, macOS, Windows, Lin…
+- [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) 406★ Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns…
+- [Dyotson/ForzaHorizon1-ReImagined](https://github.com/Dyotson/ForzaHorizon1-ReImagined) 287★ Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon expe…
+- [divergesoulpersist/IOBIT-Driver-Booster](https://github.com/divergesoulpersist/IOBIT-Driver-Booster) 147★ Iobit Driver Booster 2025, a full working installer with all updates and driver…
+- [SmokeProduction/DLSS5-Unlocker](https://github.com/SmokeProduction/DLSS5-Unlocker) 127★ Unlock and manage DLSS 5 on any NVIDIA or AMD graphics card. The ultimate one-c…
 
 </details>
 
-<details><summary><b>aimbot</b>: 12 repos, 1.4k stars</summary>
+<details><summary><b>professional</b>: 12 repos, 3.2k stars</summary>
 
-- [david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026](https://github.com/david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026) 301★ High-performance Roblox aimbot with adaptive smooth tracking and precise auto a…
-- [wpfigfszroxn/pubg-external-esp](https://github.com/wpfigfszroxn/pubg-external-esp) 247★ PUBG external ESP/aimbot: player skeleton ESP, item glow, no-recoil, radar — re…
-- [nicksilva1989q2/Valorant-Aimbot-Smooth-Tracking-Auto-Aim-System-2026](https://github.com/nicksilva1989q2/Valorant-Aimbot-Smooth-Tracking-Auto-Aim-System-2026) 145★ High-performance Valorant aimbot with adaptive smooth tracking and precise auto…
-- [piqganehprlv/ff-external-esp](https://github.com/piqganehprlv/ff-external-esp) 120★ FreeFire external ESP cheat: player boxes, skeleton ESP, distance readout, item…
-- [ulymxumfqtdi/dbd-external-esp](https://github.com/ulymxumfqtdi/dbd-external-esp) 116★ DBD external ESP: survivor aura, killer wallhack, skillcheck aimbot, injector f…
-
-</details>
-
-<details><summary><b>mcd</b>: 56 repos, 9.1k stars</summary>
-
-- [hujjun/mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist) 1.1k★ 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省…
-- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 953★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
-- [Ayzzz123/mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist) 934★ 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
-- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 923★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
-- [AAA-EE/mcd-budget-planner](https://github.com/AAA-EE/mcd-budget-planner) 519★ 
-
-</details>
-
-<details><summary><b>purge</b>: 7 repos, 3.2k stars</summary>
-
-- [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) 1.9k★ DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/…
-- [WoYun520/dsh-purge](https://github.com/WoYun520/dsh-purge) 417★ DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。…
-- [JeffKeeping/dsh-purge-plus](https://github.com/JeffKeeping/dsh-purge-plus) 371★ dsh-purge 的非官方分支（fork）：适配 DeepSeek Harness 0.2.1-rc.2、破甲内核 v3、设置页 UI 重做 / unoff…
-- [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) 292★ pi extension: /purge swaps pi's built-in assistant persona for your own prompt …
-- [evilevil/dsh-purge-021rc2](https://github.com/evilevil/dsh-purge-021rc2) 129★ dsh-purge 社区适配版：上游已停更，这里让它继续跑在 DeepSeek Harness 0.2.1-rc.2 上（基于 1.1.72）
+- [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) 1.1k★ Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professio…
+- [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) 460★ Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemi…
+- [rossark0/rossark-motion-skill](https://github.com/rossark0/rossark-motion-skill) 412★ Turn any SVG into a professional 60 fps animation. A Claude Code skill that bri…
+- [OverlordPrize/Power-Director](https://github.com/OverlordPrize/Power-Director) 252★ Power Director 14.5, a robust professional-grade video editing software, is now…
+- [PureShoutRemedy/StartAll-Back](https://github.com/PureShoutRemedy/StartAll-Back) 252★ Startall Back 3.1.7 complete standalone installation build for professional des…
 
 </details>
 <!-- starwave:end -->
