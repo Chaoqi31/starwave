@@ -48,77 +48,82 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 1,890 repos  2026-10-11..2026-10-25  stars>=40 · baseline 3,256 repos  2026-08-12..2026-10-10  stars>=150 · generated 2026-10-25 11:35 UTC_
+_recent 2,076 repos  2026-10-12..2026-10-26  stars>=40 · baseline 3,264 repos  2026-08-13..2026-10-11  stars>=150 · generated 2026-10-26 13:08 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **mcd** (+nutrition, meal, mcdonalds, mcd-mcp) | 57 | 57 | 8.7k | 2.3k/d | 1.5k/d | ▁▂▂▁▁▂▂▂▂▂▂▂▄█ | 2026-10-11 | [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) |
-| 2 | **rea** | 17 | 17 | 9.1k | 1.1k/d | 825/d | ▁▂▂▄▆▄▅▄▅█▄▃▆▇ | 2026-10-11 | [aicodeking/leanrea](https://github.com/aicodeking/leanrea) |
-| 3 | **professional** | 14 | 14 | 7.2k | 1.1k/d | 1.4k/d | ▁▁▁▁▁▁▃▂▂▁▂▂▂█ | 2026-10-12 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) |
-| 4 | **debloat** | 9 | 9 | 2.9k | 808/d | 373/d | ▁▁▁▁▁▁▁▃█▇▅▄▅▇ | 2026-10-18 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) |
-| 5 | **fps** (+booster, rates, gamepad, lag, fps-booster-no-lag, 1 more) | 21 | 21 | 6.8k | 765/d | 252/d | ▁▇▄█▆▃▃▅▅▃▂▃▂▂ | 2026-10-11 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) |
-| 6 | **purge** | 8 | 8 | 3.8k | 496/d | 489/d | ▁▁▁▁▁▁▁▁▂▆█▅▃▂ | 2026-10-13 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) |
-| 7 | **defi** (+sniper) | 7 | 7 | 946 | 465/d | 257/d | ▄▁▁▁▁▁▁▁▁▁▁▆█▃ | 2026-10-11 | [cxmza/windle](https://github.com/cxmza/windle) |
-| 8 | **risk** | 12 | 12 | 2.8k | 443/d | 402/d | ▁▂▄▁▁▁▂▅▄▃▄█▅▇ | 2026-10-11 | [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) |
-| 9 | **dump** | 10 | 10 | 4.6k | 429/d | 612/d | ▁▂▂▄▄▄▃▃▃▃▃█▆▃ | 2026-10-11 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) |
-| 10 | **enhanced** | 9 | 9 | 1.1k | 332/d | 148/d | ▁▁▁▁▁▁▁█▂▁▂▂▅▆ | 2026-10-13 | [MixedShrimpVanquish/Ads-Blocker](https://github.com/MixedShrimpVanquish/Ads-Blocker) |
+| 1 | **google-tv** (+android-tv, debloat, tv-style, tcl, cleanyourtv, 5 more) | 19 | 18 | 46.4k | 5.5k/d | 4.5k/d | ▁▁▁▁▁▁▃▆█▇▅▄▅▅ | 2026-10-12 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
+| 2 | **mcd** (+nutrition, meal, mcdonalds, mcd-mcp) | 53 | 53 | 8.4k | 1.8k/d | 1.9k/d | ▁▁▁▁▂▂▂▂▂▂▂▄██ | 2026-10-12 | [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) |
+| 3 | **professional** | 13 | 13 | 11.1k | 1.4k/d | 2.6k/d | ▁▁▁▁▁▂▂▁▁▁▂▂▆█ | 2026-10-12 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) |
+| 4 | **rea** (+ghidra) | 15 | 15 | 9.4k | 1.1k/d | 952/d | ▁▂▄▆▃▅▄▅█▄▃▆▇▆ | 2026-10-12 | [aicodeking/leanrea](https://github.com/aicodeking/leanrea) |
+| 5 | **ultrawide** | 5 | 5 | 6.1k | 672/d | 338/d | ▁▁▁▂▁▂█▇▇▇▄▄▃▃ | 2026-10-12 | [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) |
+| 6 | **hack** (+aimbot, cheats, wallhack, cheat, valorant, 3 more) | 21 | 21 | 2.2k | 534/d | 271/d | ▁▂▂▁▁▁█▆▃▄██▇▇ | 2026-10-12 | [ArenaMotorman/Canva-Pro](https://github.com/ArenaMotorman/Canva-Pro) |
+| 7 | **esp** (+external-esp, offsets) | 12 | 12 | 1.5k | 405/d | 332/d | ▁▁▁▁▁▂▃▁▁▁▅█▅▃ | 2026-10-12 | [agharsallah/esp-labs-web](https://github.com/agharsallah/esp-labs-web) |
+| 8 | **ad-free** | 11 | 11 | 2.8k | 362/d | 225/d | ▁▂▁▁▂▁▄██▆▅▄▄▄ | 2026-10-12 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
+| 9 | **supermimic** (+reproduction) | 5 | 5 | 1.1k | 327/d | 174/d | ▁▁▁▁▁▁▁▁▁▄█▅▃▅ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
+| 10 | **pc-port** (+native-port, ps4, game-port, shadps4, nativo, 3 more) | 21 | 18 | 3.5k | 321/d | 237/d | ▁▁▂▇▅▇█▅▄▅▄▄▅▅ | 2026-10-12 | [HayatoG/iss_pc](https://github.com/HayatoG/iss_pc) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, poc, cve, 2 more) | 30 | 28 | 9.3k | 2.4k/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁█▅▄▂ | 2026-10-15 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
-| 2 | **activated** (+pre-activated, ready-to-run, download, setup, crack, 10 more) | 64 | 63 | 8.9k | 1.4k/d | 84/d | ▁▁▁▁▁▁█▇▁▁▂▁▁▁ | 2026-10-17 | [Shardgrureduce/Wondshare-Recoverit](https://github.com/Shardgrureduce/Wondshare-Recoverit) | near-duplicate, same-day, flat-stars |
+| 1 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, session.upload, 3 more) | 30 | 28 | 9.5k | 1.9k/d | 887/d | ▁▁▁▁▁▁▁▁▁█▅▄▂▂ | 2026-10-15 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
+| 2 | **activated** (+pre-activated, ready-to-run, download, setup, crack, 10 more) | 61 | 61 | 9.0k | 1.2k/d | 480/d | ▁▁▁▁▁█▇▁▁▂▁▁▁▄ | 2026-10-17 | [Shardgrureduce/Wondshare-Recoverit](https://github.com/Shardgrureduce/Wondshare-Recoverit) | near-duplicate, same-day, flat-stars |
+| 3 | **resocket** (+fps-booster-no-lag, booster, lag, fps, fps-booster-software, 12 more) | 24 | 24 | 2.1k | 492/d | 230/d | ▁▁▁▁▁▁▄█▁▂▁█▁▄ | 2026-10-18 | [divergesoulpersist/IOBIT-Driver-Booster](https://github.com/divergesoulpersist/IOBIT-Driver-Booster) | same-day |
+| 4 | **rpocket** (+lua) | 21 | 21 | 1.2k | 385/d | 161/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-10-23 | [Cinderubasp/InterviewCopilot-rpocket-team](https://github.com/Cinderubasp/InterviewCopilot-rpocket-team) | same-day, flat-stars |
+| 5 | **aion** (+aion-2, mmorpg, aion2, overlay, game-overlay, 4 more) | 13 | 13 | 736 | 358/d | 239/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-22 | [Ikramullah-2011/daeva-lens](https://github.com/Ikramullah-2011/daeva-lens) | same-day |
+| 6 | **resp** (+boost, game-booster-free) | 13 | 13 | 1.3k | 286/d | 154/d | ▁▁▁▁▂▂▂▄▂▂▃█▂▂ | 2026-10-16 | [kividbio/kividb](https://github.com/kividbio/kividb) | same-day |
+| 7 | **windows-10-clones** | 5 | 5 | 274 | 35/d | 52/d | ▁▁▁▁▁▁▁▁▁▁▁▃██ | 2026-10-12 | [ipavlin98/traydex](https://github.com/ipavlin98/traydex) | near-duplicate |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>mcd</b>: 57 repos, 8.7k stars</summary>
+<details><summary><b>google-tv</b>: 19 repos, 46.4k stars</summary>
 
-- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 1.5k★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
-- [Sam-Hui-dot/mcd-budget-meal](https://github.com/Sam-Hui-dot/mcd-budget-meal) 1.4k★ 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
-- [zengshuangzi/mcd-money-saver](https://github.com/zengshuangzi/mcd-money-saver) 240★ 基于麦当劳MCP的智能省钱助手
-- [adexbn/walk-kcal](https://github.com/adexbn/walk-kcal) 206★ 你今天还能吃多少卡，取决于你愿意走多远 —— 用步行距离换卡路里额度的吃饭决策。麦当劳官方营养值 × 周边餐厅，算你这顿还吃得下什么。
-- [lklbar666/mcd-saver-checkup](https://github.com/lklbar666/mcd-saver-checkup) 201★ 麦当劳省钱体检：不看你想吃什么，先看你已经亏在哪。基于麦当劳中国 MCP 的差价审计 Skill——枚举所有买法，用 calculate-price 逐个复算…
-
-</details>
-
-<details><summary><b>rea</b>: 17 repos, 9.1k stars</summary>
-
-- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 2.4k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
-- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 2.3k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
-- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.4k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
-- [Zfinix/eleven](https://github.com/Zfinix/eleven) 870★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
-- [bbylw/rea-cn](https://github.com/bbylw/rea-cn) 584★ REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 37.7k★ Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
+- [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) 4.7k★ A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One butt…
+- [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) 1.6k★ Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every…
+- [udhaykumarbala/cleanyourtv-app](https://github.com/udhaykumarbala/cleanyourtv-app) 683★ A community-built phone app for Clean Your TV: clean up an Android TV from your…
+- [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) 487★ Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-sty…
 
 </details>
 
-<details><summary><b>professional</b>: 14 repos, 7.2k stars</summary>
+<details><summary><b>mcd</b>: 53 repos, 8.4k stars</summary>
 
-- [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) 4.5k★ Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professio…
-- [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) 488★ Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemi…
-- [rossark0/rossark-motion-skill](https://github.com/rossark0/rossark-motion-skill) 480★ Turn any SVG into a professional 60 fps animation. A Claude Code skill that bri…
+- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 1.6k★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
+- [zengshuangzi/mcd-money-saver](https://github.com/zengshuangzi/mcd-money-saver) 345★ 基于麦当劳MCP的智能省钱助手
+- [abckkf321/-mcd-fair-split](https://github.com/abckkf321/-mcd-fair-split) 242★ 
+- [makabaka0328/mcd-compass](https://github.com/makabaka0328/mcd-compass) 226★ 
+- [jouaaaaaa/mcd-self-butler](https://github.com/jouaaaaaa/mcd-self-butler) 218★ 麦当劳自助管家 McButler — 基于麦当劳 MCP 的点单参谋：每日推荐 / 套餐健康体检 / 门店全成本比价 / 团餐智能配餐 / 麦险分信用评级 /…
+
+</details>
+
+<details><summary><b>professional</b>: 13 repos, 11.1k stars</summary>
+
+- [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) 8.5k★ Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professio…
+- [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) 519★ Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemi…
+- [rossark0/rossark-motion-skill](https://github.com/rossark0/rossark-motion-skill) 500★ Turn any SVG into a professional 60 fps animation. A Claude Code skill that bri…
 - [PureShoutRemedy/StartAll-Back](https://github.com/PureShoutRemedy/StartAll-Back) 350★ Startall Back 3.1.7 complete standalone installation build for professional des…
 - [OverlordPrize/Power-Director](https://github.com/OverlordPrize/Power-Director) 252★ Power Director 14.5, a robust professional-grade video editing software, is now…
 
 </details>
 
-<details><summary><b>debloat</b>: 9 repos, 2.9k stars</summary>
+<details><summary><b>rea</b>: 15 repos, 9.4k stars</summary>
 
-- [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) 1.5k★ Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every…
-- [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) 378★ 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
-- [jss8649/quiet-tizen](https://github.com/jss8649/quiet-tizen) 346★ Native Quiet Home launcher, reversible cleanup tools, and an agent-readable gui…
-- [kulwantnagi/android-tv-makeover](https://github.com/kulwantnagi/android-tv-makeover) 167★ Debloat an Android TV, replace its home screen with a clean Apple TV style laun…
-- [lasharor/cleanyourtv-WebOS](https://github.com/lasharor/cleanyourtv-WebOS) 141★ A clean home screen for rooted LG webOS TVs, with an optional debloat of LG's a…
+- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 2.8k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
+- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 2.6k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
+- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.4k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
+- [Zfinix/eleven](https://github.com/Zfinix/eleven) 882★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
+- [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) 424★ Awesome Reverse Engineering Anything: tools, projects, case studies and researc…
 
 </details>
 
-<details><summary><b>fps</b>: 21 repos, 6.8k stars</summary>
+<details><summary><b>ultrawide</b>: 5 repos, 6.1k stars</summary>
 
-- [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) 4.6k★ Open-source compatibility layer for Diablo II: Resurrected with the Reign of th…
-- [LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix) 419★ Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns…
-- [divergesoulpersist/IOBIT-Driver-Booster](https://github.com/divergesoulpersist/IOBIT-Driver-Booster) 247★ Iobit Driver Booster 2025, a full working installer with all updates and driver…
-- [prismmizukageconquer/Windows-Optimizer](https://github.com/prismmizukageconquer/Windows-Optimizer) 197★ Windows Optimizer 2025: Full working installer with advanced system tweaks and …
-- [SmokeProduction/DLSS5-Unlocker](https://github.com/SmokeProduction/DLSS5-Unlocker) 164★ Unlock and manage DLSS 5 on any NVIDIA or AMD graphics card. The ultimate one-c…
+- [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) 5.7k★ Play your own Tears of the Kingdom and Breath of the Wild natively on Apple sil…
+- [OpenPort-Labs/Galaxy-Android](https://github.com/OpenPort-Labs/Galaxy-Android) 272★ Native 100% ARM64 Android port of the 2007 cosmic gravity platformer with pure …
+- [saulob/crackdown-xbox360-recompiled](https://github.com/saulob/crackdown-xbox360-recompiled) 66★ Crackdown native PC port via static recompilation, with high frame rates, 4K re…
+- [MatyMeatBoy/ReKHCoM](https://github.com/MatyMeatBoy/ReKHCoM) 64★ Kingdom Hearts: Chain of Memories for PC and browser (Web Alpha). Widescreen an…
+- [josiahg2502-glitch/OogiesRevengeRecompiled](https://github.com/josiahg2502-glitch/OogiesRevengeRecompiled) 42★ Statically recompiled PC port of The Nightmare Before Christmas: Oogie's Reveng…
 
 </details>
 <!-- starwave:end -->
