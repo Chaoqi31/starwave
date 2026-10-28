@@ -48,82 +48,83 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 2,076 repos  2026-10-12..2026-10-26  stars>=40 · baseline 3,264 repos  2026-08-13..2026-10-11  stars>=150 · generated 2026-10-26 13:08 UTC_
+_recent 2,111 repos  2026-10-14..2026-10-28  stars>=40 · baseline 3,291 repos  2026-08-15..2026-10-13  stars>=150 · generated 2026-10-28 13:00 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **google-tv** (+android-tv, debloat, tv-style, tcl, cleanyourtv, 5 more) | 19 | 18 | 46.4k | 5.5k/d | 4.5k/d | ▁▁▁▁▁▁▃▆█▇▅▄▅▅ | 2026-10-12 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
-| 2 | **mcd** (+nutrition, meal, mcdonalds, mcd-mcp) | 53 | 53 | 8.4k | 1.8k/d | 1.9k/d | ▁▁▁▁▂▂▂▂▂▂▂▄██ | 2026-10-12 | [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) |
-| 3 | **professional** | 13 | 13 | 11.1k | 1.4k/d | 2.6k/d | ▁▁▁▁▁▂▂▁▁▁▂▂▆█ | 2026-10-12 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) |
-| 4 | **rea** (+ghidra) | 15 | 15 | 9.4k | 1.1k/d | 952/d | ▁▂▄▆▃▅▄▅█▄▃▆▇▆ | 2026-10-12 | [aicodeking/leanrea](https://github.com/aicodeking/leanrea) |
-| 5 | **ultrawide** | 5 | 5 | 6.1k | 672/d | 338/d | ▁▁▁▂▁▂█▇▇▇▄▄▃▃ | 2026-10-12 | [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) |
-| 6 | **hack** (+aimbot, cheats, wallhack, cheat, valorant, 3 more) | 21 | 21 | 2.2k | 534/d | 271/d | ▁▂▂▁▁▁█▆▃▄██▇▇ | 2026-10-12 | [ArenaMotorman/Canva-Pro](https://github.com/ArenaMotorman/Canva-Pro) |
-| 7 | **esp** (+external-esp, offsets) | 12 | 12 | 1.5k | 405/d | 332/d | ▁▁▁▁▁▂▃▁▁▁▅█▅▃ | 2026-10-12 | [agharsallah/esp-labs-web](https://github.com/agharsallah/esp-labs-web) |
-| 8 | **ad-free** | 11 | 11 | 2.8k | 362/d | 225/d | ▁▂▁▁▂▁▄██▆▅▄▄▄ | 2026-10-12 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
-| 9 | **supermimic** (+reproduction) | 5 | 5 | 1.1k | 327/d | 174/d | ▁▁▁▁▁▁▁▁▁▄█▅▃▅ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
-| 10 | **pc-port** (+native-port, ps4, game-port, shadps4, nativo, 3 more) | 21 | 18 | 3.5k | 321/d | 237/d | ▁▁▂▇▅▇█▅▄▅▄▄▅▅ | 2026-10-12 | [HayatoG/iss_pc](https://github.com/HayatoG/iss_pc) |
+| 1 | **debloat** (+smart-tv) | 12 | 12 | 7.6k | 1.4k/d | 1.4k/d | ▁▁▁▁▂▄▃▂▂▂▃▆██ | 2026-10-18 | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) |
+| 2 | **tvs** (+lg-tv) | 12 | 12 | 8.7k | 1.1k/d | 1.0k/d | ▁▁▁▁▁▁▇█▆▅▄▆▆▅ | 2026-10-14 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) |
+| 3 | **mcd** (+nutrition, meal) | 43 | 43 | 7.2k | 1.0k/d | 763/d | ▁▁▂▂▂▂▂▂▂▄██▁▁ | 2026-10-14 | [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) |
+| 4 | **utility** | 16 | 16 | 1.9k | 516/d | 186/d | ▁▁▁█▅▃▂▂▁▁▂▆▁▃ | 2026-10-17 | [PureShoutRemedy/StartAll-Back](https://github.com/PureShoutRemedy/StartAll-Back) |
+| 5 | **ad-free** | 10 | 10 | 3.0k | 410/d | 220/d | ▁▁▂▁▄█▇▅▄▄▄▄▄▄ | 2026-10-14 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
+| 6 | **supermimic** (+reproduction) | 6 | 6 | 1.6k | 351/d | 229/d | ▁▁▁▁▁▁▁▄█▅▃▅▆▄ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
+| 7 | **moss** | 9 | 9 | 2.7k | 245/d | 152/d | ▁▁▇▆██▅▆▇▆▅▄▅▄ | 2026-10-16 | [OpenMOSS/MOSS-Image](https://github.com/OpenMOSS/MOSS-Image) |
+| 8 | **sniper** | 7 | 7 | 957 | 217/d | 113/d | ▁▁▁▁▁▁▁▁▅▇█▂█▂ | 2026-10-23 | [wcoxptzhhdbo/solana-sniper-bot](https://github.com/wcoxptzhhdbo/solana-sniper-bot) |
+| 9 | **astrbot** | 6 | 5 | 717 | 178/d | 144/d | ▁▁▁▁▂▂▂▂▂▂▂▃█▇ | 2026-10-14 | [JunWan666/astrbot-for-android](https://github.com/JunWan666/astrbot-for-android) |
+| 10 | **yandex** | 6 | 6 | 917 | 167/d | 201/d | ▁▁▁▁▁▁▁▁▃▂▅▄█▅ | 2026-10-21 | [Marker284/yandex-station-extended](https://github.com/Marker284/yandex-station-extended) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, session.upload, 3 more) | 30 | 28 | 9.5k | 1.9k/d | 887/d | ▁▁▁▁▁▁▁▁▁█▅▄▂▂ | 2026-10-15 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
-| 2 | **activated** (+pre-activated, ready-to-run, download, setup, crack, 10 more) | 61 | 61 | 9.0k | 1.2k/d | 480/d | ▁▁▁▁▁█▇▁▁▂▁▁▁▄ | 2026-10-17 | [Shardgrureduce/Wondshare-Recoverit](https://github.com/Shardgrureduce/Wondshare-Recoverit) | near-duplicate, same-day, flat-stars |
-| 3 | **resocket** (+fps-booster-no-lag, booster, lag, fps, fps-booster-software, 12 more) | 24 | 24 | 2.1k | 492/d | 230/d | ▁▁▁▁▁▁▄█▁▂▁█▁▄ | 2026-10-18 | [divergesoulpersist/IOBIT-Driver-Booster](https://github.com/divergesoulpersist/IOBIT-Driver-Booster) | same-day |
-| 4 | **rpocket** (+lua) | 21 | 21 | 1.2k | 385/d | 161/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-10-23 | [Cinderubasp/InterviewCopilot-rpocket-team](https://github.com/Cinderubasp/InterviewCopilot-rpocket-team) | same-day, flat-stars |
-| 5 | **aion** (+aion-2, mmorpg, aion2, overlay, game-overlay, 4 more) | 13 | 13 | 736 | 358/d | 239/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-22 | [Ikramullah-2011/daeva-lens](https://github.com/Ikramullah-2011/daeva-lens) | same-day |
-| 6 | **resp** (+boost, game-booster-free) | 13 | 13 | 1.3k | 286/d | 154/d | ▁▁▁▁▂▂▂▄▂▂▃█▂▂ | 2026-10-16 | [kividbio/kividb](https://github.com/kividbio/kividb) | same-day |
-| 7 | **windows-10-clones** | 5 | 5 | 274 | 35/d | 52/d | ▁▁▁▁▁▁▁▁▁▁▁▃██ | 2026-10-12 | [ipavlin98/traydex](https://github.com/ipavlin98/traydex) | near-duplicate |
+| 1 | **activated** (+ready-to-run, pre-activated, setup, download, crack, 10 more) | 63 | 62 | 9.9k | 1.4k/d | 647/d | ▁▁▁█▇▁▁▂▁▁▁▃▂▁ | 2026-10-17 | [Shardgrureduce/Wondshare-Recoverit](https://github.com/Shardgrureduce/Wondshare-Recoverit) | near-duplicate, same-day, flat-stars |
+| 2 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, php, 5 more) | 30 | 27 | 9.4k | 1.4k/d | 264/d | ▁▁▁▁▁▁▁█▅▄▂▂▂▁ | 2026-10-20 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
+| 3 | **resp** (+booster, fps-booster-no-lag, lag, optimizer, game-booster-free, 9 more) | 21 | 21 | 2.6k | 325/d | 357/d | ▁▁▁▁▃▆▂▂▂▅▁▄█▂ | 2026-10-16 | [kividbio/kividb](https://github.com/kividbio/kividb) | same-day |
+| 4 | **abliterated-models** (+uncensored-ai, uncensored-ai-model, abliterated, anthropic-compatible) | 5 | 5 | 898 | 322/d | 148/d | ▁▁▁▁▁▁▁▁▆▁▆▄█▁ | 2026-10-22 | [routerhubSI/uncensored-ai-api](https://github.com/routerhubSI/uncensored-ai-api) | near-duplicate |
+| 5 | **auto-scaling** (+scaling, centralized, utilizes, real-time, enables, 2 more) | 26 | 9 | 3.0k | 273/d | 971/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-17 | [bagusprts/OutlineWeld](https://github.com/bagusprts/OutlineWeld) | same-day, few-owners, flat-stars |
+| 6 | **rpocket** (+game-booster, windows-optimization-tool, counter-strike) | 22 | 22 | 1.2k | 234/d | 235/d | ▁▁▁▁▁▁▁▁▁▆▁▁█▁ | 2026-10-23 | [Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package](https://github.com/Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package) | same-day, flat-stars |
+| 7 | **aion** (+aion-2, aion2, mmorpg, overlay, game-overlay, 6 more) | 13 | 13 | 754 | 189/d | 251/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-10-24 | [Ikramullah-2011/daeva-lens](https://github.com/Ikramullah-2011/daeva-lens) | same-day |
+| 8 | **resocket** (+system-tweaks, fps-tweak, fps-booster-exe) | 14 | 14 | 743 | 149/d | 150/d | ▁▁▁▁▁▁▁▁▁▆▁▁█▁ | 2026-10-23 | [Axesand12310/ddr-resocket-multichannel-dma](https://github.com/Axesand12310/ddr-resocket-multichannel-dma) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>google-tv</b>: 19 repos, 46.4k stars</summary>
+<details><summary><b>debloat</b>: 12 repos, 7.6k stars</summary>
 
-- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 37.7k★ Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-- [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) 4.7k★ A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One butt…
-- [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) 1.6k★ Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every…
-- [udhaykumarbala/cleanyourtv-app](https://github.com/udhaykumarbala/cleanyourtv-app) 683★ A community-built phone app for Clean Your TV: clean up an Android TV from your…
-- [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) 487★ Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-sty…
+- [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) 4.1k★ 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
+- [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) 1.7k★ Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every…
+- [jss8649/quiet-tizen](https://github.com/jss8649/quiet-tizen) 417★ Native Quiet Home launcher, reversible cleanup tools, and an agent-readable gui…
+- [man15h/tellyscope](https://github.com/man15h/tellyscope) 396★ Debloat your Android TV, install apps, browse and transfer files on it, all fro…
+- [lasharor/cleanyourtv-WebOS](https://github.com/lasharor/cleanyourtv-WebOS) 277★ A clean home screen for rooted LG webOS TVs, with an optional debloat of LG's a…
 
 </details>
 
-<details><summary><b>mcd</b>: 53 repos, 8.4k stars</summary>
+<details><summary><b>tvs</b>: 12 repos, 8.7k stars</summary>
+
+- [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) 7.3k★ 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for …
+- [OmkarK97/webos-vibehack](https://github.com/OmkarK97/webos-vibehack) 328★ Apple TV-style home screen for LG webOS TVs, a port of tv-vibehack
+- [rudra-avatar/Hearth](https://github.com/rudra-avatar/Hearth) 256★ Hearth: a fast, calm home screen for LG WebOS TVs
+- [ecklf/lg-luma](https://github.com/ecklf/lg-luma) 213★ A native launcher for rooted LG webOS TVs
+- [victaphu/glass-home-samsung-tv](https://github.com/victaphu/glass-home-samsung-tv) 181★ A minimal home screen for Samsung Tizen TVs: rotating nature photos, a glass do…
+
+</details>
+
+<details><summary><b>mcd</b>: 43 repos, 7.2k stars</summary>
 
 - [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 1.6k★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
-- [zengshuangzi/mcd-money-saver](https://github.com/zengshuangzi/mcd-money-saver) 345★ 基于麦当劳MCP的智能省钱助手
-- [abckkf321/-mcd-fair-split](https://github.com/abckkf321/-mcd-fair-split) 242★ 
-- [makabaka0328/mcd-compass](https://github.com/makabaka0328/mcd-compass) 226★ 
-- [jouaaaaaa/mcd-self-butler](https://github.com/jouaaaaaa/mcd-self-butler) 218★ 麦当劳自助管家 McButler — 基于麦当劳 MCP 的点单参谋：每日推荐 / 套餐健康体检 / 门店全成本比价 / 团餐智能配餐 / 麦险分信用评级 /…
+- [zengshuangzi/mcd-money-saver](https://github.com/zengshuangzi/mcd-money-saver) 420★ 基于麦当劳MCP的智能省钱助手
+- [abckkf321/-mcd-fair-split](https://github.com/abckkf321/-mcd-fair-split) 245★ 
+- [makabaka0328/mcd-compass](https://github.com/makabaka0328/mcd-compass) 224★ 
+- [jouaaaaaa/mcd-self-butler](https://github.com/jouaaaaaa/mcd-self-butler) 217★ 麦当劳自助管家 McButler — 基于麦当劳 MCP 的点单参谋：每日推荐 / 套餐健康体检 / 门店全成本比价 / 团餐智能配餐 / 麦险分信用评级 /…
 
 </details>
 
-<details><summary><b>professional</b>: 13 repos, 11.1k stars</summary>
+<details><summary><b>utility</b>: 16 repos, 1.9k stars</summary>
 
-- [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) 8.5k★ Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professio…
-- [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) 519★ Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemi…
-- [rossark0/rossark-motion-skill](https://github.com/rossark0/rossark-motion-skill) 500★ Turn any SVG into a professional 60 fps animation. A Claude Code skill that bri…
 - [PureShoutRemedy/StartAll-Back](https://github.com/PureShoutRemedy/StartAll-Back) 350★ Startall Back 3.1.7 complete standalone installation build for professional des…
-- [OverlordPrize/Power-Director](https://github.com/OverlordPrize/Power-Director) 252★ Power Director 14.5, a robust professional-grade video editing software, is now…
+- [southroadball/Hwid-Spoofer](https://github.com/southroadball/Hwid-Spoofer) 252★ Complete standalone setup for Hwid Spoofer Free, a professional desktop utility…
+- [Manan-Santoki/OpenShelf](https://github.com/Manan-Santoki/OpenShelf) 158★ Free, open-source Mac utility: start dragging any file, tap a key, and drop it …
+- [GrandeurPikeman/Roblox-MM2-Utility-2026](https://github.com/GrandeurPikeman/Roblox-MM2-Utility-2026) 144★ Lightweight desktop utility for Roblox Murder Mystery 2. Convenient helpers, qu…
+- [TownFletcherEstimate/Minecraft-PvP-Helper-2026](https://github.com/TownFletcherEstimate/Minecraft-PvP-Helper-2026) 106★ Lightweight utility for Minecraft. Convenient PvP helpers, quality-of-life feat…
 
 </details>
 
-<details><summary><b>rea</b>: 15 repos, 9.4k stars</summary>
+<details><summary><b>ad-free</b>: 10 repos, 3.0k stars</summary>
 
-- [aicodeking/leanrea](https://github.com/aicodeking/leanrea) 2.8k★ One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, …
-- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 2.6k★ REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out…
-- [Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui) 1.4k★ 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分…
-- [Zfinix/eleven](https://github.com/Zfinix/eleven) 882★ Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent rea…
-- [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) 424★ Awesome Reverse Engineering Anything: tools, projects, case studies and researc…
-
-</details>
-
-<details><summary><b>ultrawide</b>: 5 repos, 6.1k stars</summary>
-
-- [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) 5.7k★ Play your own Tears of the Kingdom and Breath of the Wild natively on Apple sil…
-- [OpenPort-Labs/Galaxy-Android](https://github.com/OpenPort-Labs/Galaxy-Android) 272★ Native 100% ARM64 Android port of the 2007 cosmic gravity platformer with pure …
-- [saulob/crackdown-xbox360-recompiled](https://github.com/saulob/crackdown-xbox360-recompiled) 66★ Crackdown native PC port via static recompilation, with high frame rates, 4K re…
-- [MatyMeatBoy/ReKHCoM](https://github.com/MatyMeatBoy/ReKHCoM) 64★ Kingdom Hearts: Chain of Memories for PC and browser (Web Alpha). Widescreen an…
-- [josiahg2502-glitch/OogiesRevengeRecompiled](https://github.com/josiahg2502-glitch/OogiesRevengeRecompiled) 42★ Statically recompiled PC port of The Nightmare Before Christmas: Oogie's Reveng…
+- [Ansub/tv-detox](https://github.com/Ansub/tv-detox) 1.7k★ Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free hom…
+- [kota-zo/myspoti](https://github.com/kota-zo/myspoti) 555★ Native Android client for Spotify, built with Jetpack Compose
+- [aradhyas8/Plume_Launcher](https://github.com/aradhyas8/Plume_Launcher) 256★ 🪶 A lightweight, ad-free launcher for Android TV and Google TV. 0.4 MB, no tra…
+- [addozhang/leancast](https://github.com/addozhang/leancast) 105★ Ad-free DLNA / UPnP cast receiver for Android TV · 极简无广告投屏接收器
+- [Jarvis322/matinee](https://github.com/Jarvis322/matinee) 82★ A calm, ad-free home screen for Google TV and Android TV
 
 </details>
 <!-- starwave:end -->
