@@ -48,83 +48,85 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 2,111 repos  2026-10-14..2026-10-28  stars>=40 · baseline 3,291 repos  2026-08-15..2026-10-13  stars>=150 · generated 2026-10-28 13:00 UTC_
+_recent 2,211 repos  2026-10-16..2026-10-30  stars>=40 · baseline 3,349 repos  2026-08-17..2026-10-15  stars>=150 · generated 2026-10-30 12:59 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **debloat** (+smart-tv) | 12 | 12 | 7.6k | 1.4k/d | 1.4k/d | ▁▁▁▁▂▄▃▂▂▂▃▆██ | 2026-10-18 | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) |
-| 2 | **tvs** (+lg-tv) | 12 | 12 | 8.7k | 1.1k/d | 1.0k/d | ▁▁▁▁▁▁▇█▆▅▄▆▆▅ | 2026-10-14 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) |
-| 3 | **mcd** (+nutrition, meal) | 43 | 43 | 7.2k | 1.0k/d | 763/d | ▁▁▂▂▂▂▂▂▂▄██▁▁ | 2026-10-14 | [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) |
-| 4 | **utility** | 16 | 16 | 1.9k | 516/d | 186/d | ▁▁▁█▅▃▂▂▁▁▂▆▁▃ | 2026-10-17 | [PureShoutRemedy/StartAll-Back](https://github.com/PureShoutRemedy/StartAll-Back) |
-| 5 | **ad-free** | 10 | 10 | 3.0k | 410/d | 220/d | ▁▁▂▁▄█▇▅▄▄▄▄▄▄ | 2026-10-14 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
-| 6 | **supermimic** (+reproduction) | 6 | 6 | 1.6k | 351/d | 229/d | ▁▁▁▁▁▁▁▄█▅▃▅▆▄ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
-| 7 | **moss** | 9 | 9 | 2.7k | 245/d | 152/d | ▁▁▇▆██▅▆▇▆▅▄▅▄ | 2026-10-16 | [OpenMOSS/MOSS-Image](https://github.com/OpenMOSS/MOSS-Image) |
-| 8 | **sniper** | 7 | 7 | 957 | 217/d | 113/d | ▁▁▁▁▁▁▁▁▅▇█▂█▂ | 2026-10-23 | [wcoxptzhhdbo/solana-sniper-bot](https://github.com/wcoxptzhhdbo/solana-sniper-bot) |
-| 9 | **astrbot** | 6 | 5 | 717 | 178/d | 144/d | ▁▁▁▁▂▂▂▂▂▂▂▃█▇ | 2026-10-14 | [JunWan666/astrbot-for-android](https://github.com/JunWan666/astrbot-for-android) |
-| 10 | **yandex** | 6 | 6 | 917 | 167/d | 201/d | ▁▁▁▁▁▁▁▁▃▂▅▄█▅ | 2026-10-21 | [Marker284/yandex-station-extended](https://github.com/Marker284/yandex-station-extended) |
+| 1 | **android-tv** (+google-tv, debloat, fire-tv, tv-style, home-screen, 8 more) | 30 | 29 | 57.9k | 4.7k/d | 2.5k/d | ▁▁▃▆█▇▅▄▅▅▄▃▃▃ | 2026-10-16 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
+| 2 | **kingdom** (+tears, totk) | 6 | 6 | 8.3k | 1.6k/d | 568/d | ▁▁███▇▄▄▃▄▄▃▃█ | 2026-10-17 | [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) |
+| 3 | **tvs** (+webos, tizen, lg-tv) | 15 | 15 | 10.2k | 1.0k/d | 610/d | ▁▁▁▁▇█▆▅▄▆▆▅▃▃ | 2026-10-17 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) |
+| 4 | **purge** (+inject) | 10 | 9 | 6.1k | 609/d | 407/d | ▁▂▁▂██▄▂▂▄▅▄▄▂ | 2026-10-16 | [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) |
+| 5 | **supermimic** (+reproduction) | 9 | 9 | 2.0k | 357/d | 197/d | ▁▁▁▁▁▄█▅▃▅▇▅▄▅ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
+| 6 | **health** | 8 | 8 | 951 | 354/d | 33/d | ▁▂▃▂▁▄▅▂▃█▁▁▄▁ | 2026-10-16 | [mike-vops93s1/Valorant-ESP-Advanced-Player-Visual-Overlay-2026](https://github.com/mike-vops93s1/Valorant-ESP-Advanced-Player-Visual-Overlay-2026) |
+| 7 | **ad-free** | 9 | 9 | 2.8k | 306/d | 153/d | ▁▁▄██▅▄▃▄▃▃▄▃▃ | 2026-10-18 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) |
+| 8 | **moss** (+moss-image) | 12 | 12 | 3.1k | 295/d | 146/d | ▇▆██▅▆▇▆▅▄▆▄▄▅ | 2026-10-16 | [OpenMOSS/MOSS-Image](https://github.com/OpenMOSS/MOSS-Image) |
+| 9 | **secure** | 6 | 6 | 1.0k | 266/d | 104/d | ▁▁▂▄▄▁▂▃▄▃▃█▄▅ | 2026-10-17 | [eliasbiondo/antirion](https://github.com/eliasbiondo/antirion) |
+| 10 | **yandex** | 7 | 7 | 1.3k | 176/d | 181/d | ▁▁▁▁▁▁▃▂▅▃█▅▇▃ | 2026-10-21 | [Marker284/yandex-station-extended](https://github.com/Marker284/yandex-station-extended) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **activated** (+ready-to-run, pre-activated, setup, download, crack, 10 more) | 63 | 62 | 9.9k | 1.4k/d | 647/d | ▁▁▁█▇▁▁▂▁▁▁▃▂▁ | 2026-10-17 | [Shardgrureduce/Wondshare-Recoverit](https://github.com/Shardgrureduce/Wondshare-Recoverit) | near-duplicate, same-day, flat-stars |
-| 2 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, php, 5 more) | 30 | 27 | 9.4k | 1.4k/d | 264/d | ▁▁▁▁▁▁▁█▅▄▂▂▂▁ | 2026-10-20 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
-| 3 | **resp** (+booster, fps-booster-no-lag, lag, optimizer, game-booster-free, 9 more) | 21 | 21 | 2.6k | 325/d | 357/d | ▁▁▁▁▃▆▂▂▂▅▁▄█▂ | 2026-10-16 | [kividbio/kividb](https://github.com/kividbio/kividb) | same-day |
-| 4 | **abliterated-models** (+uncensored-ai, uncensored-ai-model, abliterated, anthropic-compatible) | 5 | 5 | 898 | 322/d | 148/d | ▁▁▁▁▁▁▁▁▆▁▆▄█▁ | 2026-10-22 | [routerhubSI/uncensored-ai-api](https://github.com/routerhubSI/uncensored-ai-api) | near-duplicate |
-| 5 | **auto-scaling** (+scaling, centralized, utilizes, real-time, enables, 2 more) | 26 | 9 | 3.0k | 273/d | 971/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-17 | [bagusprts/OutlineWeld](https://github.com/bagusprts/OutlineWeld) | same-day, few-owners, flat-stars |
-| 6 | **rpocket** (+game-booster, windows-optimization-tool, counter-strike) | 22 | 22 | 1.2k | 234/d | 235/d | ▁▁▁▁▁▁▁▁▁▆▁▁█▁ | 2026-10-23 | [Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package](https://github.com/Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package) | same-day, flat-stars |
-| 7 | **aion** (+aion-2, aion2, mmorpg, overlay, game-overlay, 6 more) | 13 | 13 | 754 | 189/d | 251/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-10-24 | [Ikramullah-2011/daeva-lens](https://github.com/Ikramullah-2011/daeva-lens) | same-day |
-| 8 | **resocket** (+system-tweaks, fps-tweak, fps-booster-exe) | 14 | 14 | 743 | 149/d | 150/d | ▁▁▁▁▁▁▁▁▁▆▁▁█▁ | 2026-10-23 | [Axesand12310/ddr-resocket-multichannel-dma](https://github.com/Axesand12310/ddr-resocket-multichannel-dma) | same-day |
+| 1 | **activated** (+pre-activated, ready-to-run, setup, immediate, crack, 30 more) | 134 | 134 | 15.0k | 10.8k/d | 208/d | ▁██▁▁▂▁▁▁▁▂▁▃▂ | 2026-10-17 | [OriginOstrichSignify/Photo-Commander](https://github.com/OriginOstrichSignify/Photo-Commander) | near-duplicate, flat-stars, same-day |
+| 2 | **troubleshooting** (+game-guide, pc-gaming, steam-games, game-specific, graphics-settings, 27 more) | 46 | 46 | 2.2k | 1.9k/d | 640/d | ▁▁▁▁▁▁▁▁▁▂▁▁▁█ | 2026-10-22 | [NeonToShadow/fps-boost-2026-windows-gaming-optimizer-resp](https://github.com/NeonToShadow/fps-boost-2026-windows-gaming-optimizer-resp) | same-day, flat-stars |
+| 3 | **utility** | 27 | 27 | 2.3k | 1.2k/d | 192/d | ▁▁▆▄▂▂▂▂▅▇▂▅▄█ | 2026-10-18 | [Manan-Santoki/OpenShelf](https://github.com/Manan-Santoki/OpenShelf) | flat-stars |
+| 4 | **php2shell** (+cve-2026-109618, cve-2026-109619, rce, cve, poc, 4 more) | 31 | 28 | 9.6k | 1.1k/d | 121/d | ▁▁▁▁▁█▅▄▂▂▂▁▁▁ | 2026-10-20 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
+| 5 | **lag** (+fps-booster-no-lag, rpocket, booster, fps-booster-software, fps-tweak, 14 more) | 19 | 19 | 1.3k | 303/d | 155/d | ▁▁▄▁▁▁▁▂▁▂▆▁▁█ | 2026-10-18 | [nickn-eng1989k7/Fortnite-FPS-Booster-Frame-Rate-Latency-Tuning-for-Windows](https://github.com/nickn-eng1989k7/Fortnite-FPS-Booster-Frame-Rate-Latency-Tuning-for-Windows) | near-duplicate |
+| 6 | **aion** (+aion-2, aion2, mmorpg, timer, overlay, 5 more) | 14 | 14 | 859 | 227/d | 1/d | ▁▁▁▁▁▁▁▁▁█▁▁▁▁ | 2026-10-24 | [SupervisorScrew/AION-2-Cheat](https://github.com/SupervisorScrew/AION-2-Cheat) | same-day |
+| 7 | **auto-scaling** (+scaling, centralized, utilizes, enables, within) | 24 | 9 | 2.8k | 214/d | 897/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-10-17 | [bagusprts/OutlineWeld](https://github.com/bagusprts/OutlineWeld) | same-day, few-owners, flat-stars |
+| 8 | **abliterated-models** (+uncensored-ai, uncensored-ai-model, abliterated, anthropic-compatible) | 5 | 5 | 893 | 172/d | 2/d | ▁▁▁▁▁▁▆▁▆▄█▁▁▁ | 2026-10-22 | [routerhubSI/uncensored-ai-api](https://github.com/routerhubSI/uncensored-ai-api) | near-duplicate |
+| 9 | **rpocket** (+esp, item) | 11 | 11 | 655 | 141/d | 117/d | ▁▁▁▁▁▁▁▂▁▁▆▁▁█ | 2026-10-23 | [OnCzar/Delivery-rpocket-Job](https://github.com/OnCzar/Delivery-rpocket-Job) | same-day |
+| 10 | **resp** | 8 | 8 | 498 | 95/d | 84/d | ▁▁▁▁▁▁▁▃▁▁▆▁▁█ | 2026-10-23 | [Wildange85773l/windows-fine-tuner-resp](https://github.com/Wildange85773l/windows-fine-tuner-resp) | near-duplicate |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>debloat</b>: 12 repos, 7.6k stars</summary>
+<details><summary><b>android-tv</b>: 30 repos, 57.9k stars</summary>
 
-- [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) 4.1k★ 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
-- [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) 1.7k★ Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every…
-- [jss8649/quiet-tizen](https://github.com/jss8649/quiet-tizen) 417★ Native Quiet Home launcher, reversible cleanup tools, and an agent-readable gui…
-- [man15h/tellyscope](https://github.com/man15h/tellyscope) 396★ Debloat your Android TV, install apps, browse and transfer files on it, all fro…
-- [lasharor/cleanyourtv-WebOS](https://github.com/lasharor/cleanyourtv-WebOS) 277★ A clean home screen for rooted LG webOS TVs, with an optional debloat of LG's a…
-
-</details>
-
-<details><summary><b>tvs</b>: 12 repos, 8.7k stars</summary>
-
-- [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) 7.3k★ 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for …
-- [OmkarK97/webos-vibehack](https://github.com/OmkarK97/webos-vibehack) 328★ Apple TV-style home screen for LG webOS TVs, a port of tv-vibehack
-- [rudra-avatar/Hearth](https://github.com/rudra-avatar/Hearth) 256★ Hearth: a fast, calm home screen for LG WebOS TVs
-- [ecklf/lg-luma](https://github.com/ecklf/lg-luma) 213★ A native launcher for rooted LG webOS TVs
-- [victaphu/glass-home-samsung-tv](https://github.com/victaphu/glass-home-samsung-tv) 181★ A minimal home screen for Samsung Tizen TVs: rotating nature photos, a glass do…
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 46.1k★ Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
+- [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) 5.4k★ A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One butt…
+- [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) 1.8k★ Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every…
+- [udhaykumarbala/cleanyourtv-app](https://github.com/udhaykumarbala/cleanyourtv-app) 1.1k★ A community-built phone app for Clean Your TV: clean up an Android TV from your…
+- [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) 678★ Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-sty…
 
 </details>
 
-<details><summary><b>mcd</b>: 43 repos, 7.2k stars</summary>
+<details><summary><b>kingdom</b>: 6 repos, 8.3k stars</summary>
 
-- [zcbacxc/mcd-party-planner](https://github.com/zcbacxc/mcd-party-planner) 1.6k★ 麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill
-- [zengshuangzi/mcd-money-saver](https://github.com/zengshuangzi/mcd-money-saver) 420★ 基于麦当劳MCP的智能省钱助手
-- [abckkf321/-mcd-fair-split](https://github.com/abckkf321/-mcd-fair-split) 245★ 
-- [makabaka0328/mcd-compass](https://github.com/makabaka0328/mcd-compass) 224★ 
-- [jouaaaaaa/mcd-self-butler](https://github.com/jouaaaaaa/mcd-self-butler) 217★ 麦当劳自助管家 McButler — 基于麦当劳 MCP 的点单参谋：每日推荐 / 套餐健康体检 / 门店全成本比价 / 团餐智能配餐 / 麦险分信用评级 /…
-
-</details>
-
-<details><summary><b>utility</b>: 16 repos, 1.9k stars</summary>
-
-- [PureShoutRemedy/StartAll-Back](https://github.com/PureShoutRemedy/StartAll-Back) 350★ Startall Back 3.1.7 complete standalone installation build for professional des…
-- [southroadball/Hwid-Spoofer](https://github.com/southroadball/Hwid-Spoofer) 252★ Complete standalone setup for Hwid Spoofer Free, a professional desktop utility…
-- [Manan-Santoki/OpenShelf](https://github.com/Manan-Santoki/OpenShelf) 158★ Free, open-source Mac utility: start dragging any file, tap a key, and drop it …
-- [GrandeurPikeman/Roblox-MM2-Utility-2026](https://github.com/GrandeurPikeman/Roblox-MM2-Utility-2026) 144★ Lightweight desktop utility for Roblox Murder Mystery 2. Convenient helpers, qu…
-- [TownFletcherEstimate/Minecraft-PvP-Helper-2026](https://github.com/TownFletcherEstimate/Minecraft-PvP-Helper-2026) 106★ Lightweight utility for Minecraft. Convenient PvP helpers, quality-of-life feat…
+- [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) 6.5k★ Play your own Tears of the Kingdom and Breath of the Wild natively on Apple sil…
+- [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) 996★ Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Win…
+- [kuraeow/ultratears](https://github.com/kuraeow/ultratears) 440★ Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recom…
+- [OJZen/totk-mobile](https://github.com/OJZen/totk-mobile) 191★ Experimental native Tears of the Kingdom port for macOS and iOS.
+- [Muhammad1259-sigma/totk-recomp](https://github.com/Muhammad1259-sigma/totk-recomp) 85★ Static recompilation of Zelda: Tears of the Kingdom 1.0.0 to Linux / Steam Deck…
 
 </details>
 
-<details><summary><b>ad-free</b>: 10 repos, 3.0k stars</summary>
+<details><summary><b>tvs</b>: 15 repos, 10.2k stars</summary>
 
-- [Ansub/tv-detox](https://github.com/Ansub/tv-detox) 1.7k★ Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free hom…
-- [kota-zo/myspoti](https://github.com/kota-zo/myspoti) 555★ Native Android client for Spotify, built with Jetpack Compose
-- [aradhyas8/Plume_Launcher](https://github.com/aradhyas8/Plume_Launcher) 256★ 🪶 A lightweight, ad-free launcher for Android TV and Google TV. 0.4 MB, no tra…
-- [addozhang/leancast](https://github.com/addozhang/leancast) 105★ Ad-free DLNA / UPnP cast receiver for Android TV · 极简无广告投屏接收器
-- [Jarvis322/matinee](https://github.com/Jarvis322/matinee) 82★ A calm, ad-free home screen for Google TV and Android TV
+- [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) 8.0k★ 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for …
+- [OmkarK97/webos-vibehack](https://github.com/OmkarK97/webos-vibehack) 336★ Apple TV-style home screen for LG webOS TVs, a port of tv-vibehack
+- [lasharor/cleanyourtv-WebOS](https://github.com/lasharor/cleanyourtv-WebOS) 327★ A clean home screen for rooted LG webOS TVs, with an optional debloat of LG's a…
+- [rudra-avatar/Hearth](https://github.com/rudra-avatar/Hearth) 271★ Hearth: a fast, calm home screen for LG WebOS TVs
+- [danielthejoker18/FreeMyTvWebOS](https://github.com/danielthejoker18/FreeMyTvWebOS) 268★ Fast, ad-free 60fps home screen for LG webOS TVs: frosted glass app shelf, live…
+
+</details>
+
+<details><summary><b>purge</b>: 10 repos, 6.1k stars</summary>
+
+- [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) 3.5k★ dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / Y…
+- [ZiChuanLan/agent-purge](https://github.com/ZiChuanLan/agent-purge) 904★ One persona, many coding agents. Replace or inject system prompts across codex,…
+- [ZiChuanLan/pi-purge](https://github.com/ZiChuanLan/pi-purge) 659★ pi extension: /purge swaps pi's built-in assistant persona for your own prompt …
+- [WoYun520/dsh-purge](https://github.com/WoYun520/dsh-purge) 477★ DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。…
+- [evilevil/dsh-purge-021rc2](https://github.com/evilevil/dsh-purge-021rc2) 186★ dsh-purge 社区适配版：上游已停更，这里让它继续跑在 DeepSeek Harness 0.2.1-rc.2 上（基于 1.1.72）
+
+</details>
+
+<details><summary><b>supermimic</b>: 9 repos, 2.0k stars</summary>
+
+- [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) 745★ vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training
+- [miao-org/awesome-supermimic](https://github.com/miao-org/awesome-supermimic) 384★ A curated collection of SuperMimic implementations, extensions, demos, and reso…
+- [CuboiLeo/SuperMimic-Reproduced](https://github.com/CuboiLeo/SuperMimic-Reproduced) 332★ Reproduction of SuperMimic (arXiv:2610.28480): learned differentiable world mod…
+- [Motphys/Uni-SuperMimic](https://github.com/Motphys/Uni-SuperMimic) 212★ SuperMimic-UniLab: An Independent reproduction of SuperMimic on UniLab for whol…
+- [CumulusAlpha/Dex-Supermimic](https://github.com/CumulusAlpha/Dex-Supermimic) 90★ This is a reproduction of SuperMimic for dexterous hand manipulation tasks.
 
 </details>
 <!-- starwave:end -->
