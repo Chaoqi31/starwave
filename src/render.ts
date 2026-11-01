@@ -76,7 +76,11 @@ export function renderMarkdown(snapshot: Snapshot, { top }: { top: number }): st
   for (const wave of [...organic, ...flagged].slice(0, 5)) {
     lines.push("", `<details><summary><b>${wave.id}</b>: ${wave.repoCount} repos, ${formatCount(wave.stars)} stars</summary>`, "");
     for (const repo of wave.repos.slice(0, 5)) {
-      const description = truncate(repo.description, 80).replace(/\|/g, "\\|");
+      const description = truncate(repo.description, 80)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\|/g, "\\|");
       lines.push(`- ${repoLink(repo.fullName)} ${formatCount(repo.stars)}★ ${description}`);
     }
     lines.push("", "</details>");
