@@ -48,83 +48,85 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 2,330 repos  2026-10-19..2026-11-02  stars>=40 · baseline 3,451 repos  2026-08-20..2026-10-18  stars>=150 · generated 2026-11-02 15:59 UTC_
+_recent 2,242 repos  2026-10-20..2026-11-03  stars>=40 · baseline 3,494 repos  2026-08-21..2026-10-19  stars>=150 · generated 2026-11-03 14:20 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **totk** (+kingdom, tears) | 8 | 8 | 5.0k | 1.2k/d | 1.0k/d | ▁▁▁▁▁▁▂▂▂▁▆█▇▇ | 2026-10-19 | [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) |
-| 2 | **tvs** | 15 | 15 | 11.0k | 875/d | 397/d | ▁▇█▆▅▄▆▆▅▃▃▃▃▃ | 2026-10-19 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) |
-| 3 | **regularly** | 7 | 7 | 1.4k | 647/d | 300/d | █▁▁▁▁▁▁▁▄▁▁███ | 2026-10-19 | [TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026](https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026) |
-| 4 | **uncensored-ai** | 6 | 4 | 1.4k | 627/d | 194/d | ▁▁▁▃▁▄▃▁▁▁▃▁▁█ | 2026-10-22 | [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) |
-| 5 | **stick** | 6 | 6 | 1.8k | 610/d | 498/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▅ | 2026-10-19 | [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) |
-| 6 | **png** | 9 | 9 | 1.5k | 546/d | 227/d | ▁▁▁▁▂▁▁▃▂▃▄▂▂█ | 2026-10-19 | [heydeer/pngdeer](https://github.com/heydeer/pngdeer) |
-| 7 | **supermimic** (+reproduction) | 9 | 9 | 2.2k | 239/d | 78/d | ▁▁▄█▅▃▆▇▅▄▅▃▂▃ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
-| 8 | **trainer** (+hotkeys) | 8 | 8 | 533 | 228/d | 5/d | ▁▁▁▁▁▁█▃▁▁▃▁▁▁ | 2026-10-24 | [CarmelTkc/phantom-blade-zero-enhancement-suite](https://github.com/CarmelTkc/phantom-blade-zero-enhancement-suite) |
-| 9 | **portrait** (+pose-reference) | 7 | 7 | 546 | 215/d | 106/d | ▁▁▁▁▁▁▁▂▃▂▅▆▅█ | 2026-10-22 | [yt1988/who-are-you](https://github.com/yt1988/who-are-you) |
-| 10 | **sidebar** | 6 | 6 | 1.3k | 190/d | 46/d | ▁█▅▄▁▂▂▂▂▂▁▂▁▂ | 2026-10-19 | [dominikmartn/harp](https://github.com/dominikmartn/harp) |
+| 1 | **uncensored-ai** (+abliterated) | 6 | 4 | 1.4k | 571/d | 221/d | ▁▁▃▁▄▃▁▁▁▃▁▁█▂ | 2026-10-22 | [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) |
+| 2 | **stick** | 6 | 6 | 2.0k | 500/d | 572/d | ▁▁▁▁▁▁▁▁▁▁▁█▅▃ | 2026-10-22 | [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) |
+| 3 | **nxnative** | 6 | 6 | 3.8k | 459/d | 305/d | ▂▂▂▃▂▃▃▇█▅▅▄▄▆ | 2026-10-20 | [LNPANDY/NX2Apple](https://github.com/LNPANDY/NX2Apple) |
+| 4 | **png** | 9 | 9 | 1.5k | 403/d | 232/d | ▁▁▁▁▁▁▃▂▃▄▂▂█▂ | 2026-10-21 | [heydeer/pngdeer](https://github.com/heydeer/pngdeer) |
+| 5 | **supermimic** (+mjlab, reproduction, body) | 11 | 11 | 2.4k | 324/d | 113/d | ▁▄█▅▃▅▇▆▄▅▃▂▃▅ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
+| 6 | **statically** | 12 | 11 | 1.5k | 236/d | 138/d | ▁▂▂▃█▆▃▇▃▃▄▆▄▆ | 2026-10-21 | [ryderclanky/BotW-Native](https://github.com/ryderclanky/BotW-Native) |
+| 7 | **cs2** (+aegis) | 6 | 6 | 776 | 229/d | 208/d | ▁▁▁▁▁▁▁▁▁▁▂█▁▂ | 2026-10-30 | [oilcorporatebarn/aegis-skinfees](https://github.com/oilcorporatebarn/aegis-skinfees) |
+| 8 | **sidebar** | 6 | 6 | 1.3k | 206/d | 84/d | █▅▃▁▁▂▂▂▂▁▂▁▃▄ | 2026-10-20 | [dominikmartn/harp](https://github.com/dominikmartn/harp) |
+| 9 | **portrait** (+pose-reference) | 7 | 7 | 675 | 187/d | 129/d | ▁▁▁▁▁▁▂▂▂▄▅▄▇█ | 2026-10-22 | [yt1988/who-are-you](https://github.com/yt1988/who-are-you) |
+| 10 | **yandex** | 8 | 8 | 1.5k | 132/d | 40/d | ▁▁▃▂▄▄█▅▇▃▂▂▂▂ | 2026-10-21 | [Marker284/yandex-station-extended](https://github.com/Marker284/yandex-station-extended) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **windows-app** (+software-engineering, activated, utility, ready-to-run, pre-activated, 30 more) | 234 | 234 | 28.6k | 27.5k/d | 576/d | ▁▁▁▁▁▁▂▂▁▁▂█▁▆ | 2026-10-20 | [marbleorbweb94/ninjatrader-bot](https://github.com/marbleorbweb94/ninjatrader-bot) | near-duplicate, flat-stars, same-day |
-| 2 | **php2shell** (+cve-2026-109618, cve-2026-109619, cve, rce, php, 4 more) | 33 | 30 | 9.8k | 839/d | 87/d | ▁▁█▅▄▂▂▂▁▁▁▁▁▁ | 2026-10-20 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
-| 3 | **troubleshooting** (+game-guide, pc-gaming, steam-games, game-specific, graphics-settings, 26 more) | 47 | 47 | 2.4k | 678/d | 35/d | ▁▁▁▁▁▁▂▁▁▁█▁▁▁ | 2026-10-23 | [ilikechocopies/sideload-jiostb](https://github.com/ilikechocopies/sideload-jiostb) | same-day, flat-stars |
-| 4 | **abliterated-models** (+uncensored-ai, uncensored-ai-model, abliterated) | 6 | 5 | 1.1k | 172/d | 46/d | ▁▁▁▆▁▇▄█▁▁▁▁▁▄ | 2026-10-22 | [routerhubSI/uncensored-ai-api](https://github.com/routerhubSI/uncensored-ai-api) | near-duplicate |
-| 5 | **aion** (+aion-2, mmorpg, aion2, overlay, dps-meter, 2 more) | 13 | 13 | 740 | 82/d | 6/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▁ | 2026-10-24 | [ORICHO08/aion2-combat-overlay](https://github.com/ORICHO08/aion2-combat-overlay) | same-day |
-| 6 | **lag** (+fps-booster-no-lag, rpocket, fps-booster-software, fps-tweak, frame-rate-boost, 9 more) | 10 | 10 | 589 | 70/d | 20/d | ▁▁▁▁▃▁▁█▁▁▇▁▃▁ | 2026-10-23 | [Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package](https://github.com/Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package) | near-duplicate |
-| 7 | **enshrouded** (+game-companion) | 10 | 10 | 580 | 64/d | 0/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▁ | 2026-10-24 | [Abdelhadidr/enshrouded-interactive-map-desktop](https://github.com/Abdelhadidr/enshrouded-interactive-map-desktop) | same-day |
-| 8 | **resp** | 8 | 8 | 466 | 55/d | 16/d | ▁▁▁▁▃▁▁█▁▁▇▁▃▁ | 2026-10-23 | [Wildange85773l/windows-fine-tuner-resp](https://github.com/Wildange85773l/windows-fine-tuner-resp) | near-duplicate |
+| 1 | **windows-app** (+utility, software-engineering, activated, ready-to-run, scripts, 33 more) | 167 | 167 | 24.6k | 23.0k/d | 4.4k/d | ▁▁▁▁▁▁▁▁▁▁▂▁▁█ | 2026-10-20 | [Codeonshovel/microsoft-365](https://github.com/Codeonshovel/microsoft-365) | near-duplicate, flat-stars, same-day |
+| 2 | **single-player** (+wallhack, cheat, helpers, changer, esp, 2 more) | 26 | 26 | 1.4k | 1.2k/d | 429/d | ▁▁▁▁▁▁▁▁▁▁▁▁▂█ | 2026-10-26 | [BadgeStudentShovel/valorant-skin-changer](https://github.com/BadgeStudentShovel/valorant-skin-changer) | near-duplicate, same-day, flat-stars |
+| 3 | **php2shell** (+cve-2026-109618, cve-2026-109619, cve, rce, php, 3 more) | 34 | 31 | 9.9k | 778/d | 65/d | ▁█▅▄▂▂▂▁▁▁▁▁▁▁ | 2026-10-20 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
+| 4 | **troubleshooting** (+game-guide, pc-gaming, steam-games, game-specific, graphics-settings, 28 more) | 48 | 48 | 2.5k | 584/d | 70/d | ▁▁▁▁▁▂▁▁▁█▁▁▁▁ | 2026-10-22 | [ilikechocopies/sideload-jiostb](https://github.com/ilikechocopies/sideload-jiostb) | same-day, flat-stars |
+| 5 | **abliterated-models** (+uncensored-ai, uncensored-ai-model, abliterated) | 6 | 5 | 1.1k | 160/d | 68/d | ▁▁▆▁▇▄█▁▁▁▁▁▄▃ | 2026-10-22 | [routerhubSI/uncensored-ai-api](https://github.com/routerhubSI/uncensored-ai-api) | near-duplicate |
+| 6 | **coregold** (+usdt, vcc, visa, mastercard) | 17 | 15 | 798 | 139/d | 78/d | ▁▁▁▁▁▁▁▁▇▇▇▃█▁ | 2026-10-28 | [eyuputku57-ops/-CoreGold---Global-Virtual-Card-Platform-for-Media-Buying-AI-SaaS-Cross-Border-Payments](https://github.com/eyuputku57-ops/-CoreGold---Global-Virtual-Card-Platform-for-Media-Buying-AI-SaaS-Cross-Border-Payments) | same-day |
+| 7 | **aion** (+aion-2, mmorpg, aion2, dps-meter, dps, 4 more) | 13 | 13 | 743 | 74/d | 5/d | ▁▁▁▁▁█▁▁▁▁▁▁▁▁ | 2026-10-24 | [ORICHO08/aion2-combat-overlay](https://github.com/ORICHO08/aion2-combat-overlay) | same-day |
+| 8 | **fps-booster-no-lag** (+rpocket, fps-booster-software, fps-tweak, lag, frame-rate-boost, 8 more) | 10 | 10 | 589 | 62/d | 20/d | ▁▁▁▃▁▁█▁▁▇▁▃▁▁ | 2026-10-23 | [Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package](https://github.com/Raptorvanaheim/Low-rpocket-End-Fps-Tweaks-Package) | near-duplicate |
+| 9 | **enshrouded** (+game-companion) | 10 | 10 | 580 | 58/d | 0/d | ▁▁▁▁▁█▁▁▁▁▁▁▁▁ | 2026-10-24 | [Abdelhadidr/enshrouded-interactive-map-desktop](https://github.com/Abdelhadidr/enshrouded-interactive-map-desktop) | same-day |
+| 10 | **resp** | 8 | 8 | 466 | 49/d | 16/d | ▁▁▁▃▁▁█▁▁▇▁▃▁▁ | 2026-10-23 | [Wildange85773l/windows-fine-tuner-resp](https://github.com/Wildange85773l/windows-fine-tuner-resp) | near-duplicate |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>totk</b>: 8 repos, 5.0k stars</summary>
-
-- [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) 3.8k★ Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Win…
-- [kuraeow/ultratears](https://github.com/kuraeow/ultratears) 612★ Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recom…
-- [OJZen/totk-mobile](https://github.com/OJZen/totk-mobile) 201★ Experimental native Tears of the Kingdom port for macOS and iOS.
-- [daniel-madrid-07/weeping-of-the-empire](https://github.com/daniel-madrid-07/weeping-of-the-empire) 174★ Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulka…
-- [Muhammad1259-sigma/totk-recomp](https://github.com/Muhammad1259-sigma/totk-recomp) 106★ Static recompilation of Zelda: Tears of the Kingdom 1.0.0 to Linux / Steam Deck…
-
-</details>
-
-<details><summary><b>tvs</b>: 15 repos, 11.0k stars</summary>
-
-- [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) 9.0k★ 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for …
-- [lasharor/cleanyourtv-WebOS](https://github.com/lasharor/cleanyourtv-WebOS) 389★ A clean home screen for rooted LG webOS TVs, with an optional debloat of LG's a…
-- [OmkarK97/webos-vibehack](https://github.com/OmkarK97/webos-vibehack) 345★ Apple TV-style home screen for LG webOS TVs, a port of tv-vibehack
-- [ecklf/lg-luma](https://github.com/ecklf/lg-luma) 287★ A native launcher for rooted LG webOS TVs
-- [danielthejoker18/FreeMyTvWebOS](https://github.com/danielthejoker18/FreeMyTvWebOS) 286★ Fast, ad-free 60fps home screen for LG webOS TVs: frosted glass app shelf, live…
-
-</details>
-
-<details><summary><b>regularly</b>: 7 repos, 1.4k stars</summary>
-
-- [TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026](https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026) 300★ Powerful Roblox Account Manager for easy multi-account control. Switch accounts…
-- [davidlopez-x05x8/minecraft-aim-assist](https://github.com/davidlopez-x05x8/minecraft-aim-assist) 300★ Minecraft Aim Assist 2026 — Smooth aiming assistance for 1.21.4 Fabric. Adaptiv…
-- [redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026](https://github.com/redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026) 300★ Advanced Bunny Hop script with smooth auto-bhop and movement assistance. Fully …
-- [GrandeurPikeman/Roblox-MM2-Utility-2026](https://github.com/GrandeurPikeman/Roblox-MM2-Utility-2026) 144★ Lightweight desktop utility for Roblox Murder Mystery 2. Convenient helpers, qu…
-- [Digitalvetrough/Forza-Horizon-6-FPS-Optimizer-2026](https://github.com/Digitalvetrough/Forza-Horizon-6-FPS-Optimizer-2026) 106★ Lightweight desktop tool for Forza Horizon 6. Smart FPS optimization, performan…
-
-</details>
-
 <details><summary><b>uncensored-ai</b>: 6 repos, 1.4k stars</summary>
 
-- [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) 541★ GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbrea…
-- [wideeyededi/uncensored-nsfw-ai-video-api](https://github.com/wideeyededi/uncensored-nsfw-ai-video-api) 415★ Uncensored NSFW AI video API — Seedance Spicy & Wan NSFW docs for 18+ text-to-v…
-- [7API/glm-5.3-abliterated](https://github.com/7API/glm-5.3-abliterated) 171★ GLM 5.3 Abliterated or Uncensored AI model — 35 jailbreak prompts, model guide …
+- [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) 545★ GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbrea…
+- [wideeyededi/uncensored-nsfw-ai-video-api](https://github.com/wideeyededi/uncensored-nsfw-ai-video-api) 417★ Uncensored NSFW AI video API — Seedance Spicy & Wan NSFW docs for 18+ text-to-v…
+- [7API/glm-5.3-abliterated](https://github.com/7API/glm-5.3-abliterated) 172★ GLM 5.3 Abliterated or Uncensored AI model — 35 jailbreak prompts, model guide …
 - [routerhubSI/openrouter-alternative](https://github.com/routerhubSI/openrouter-alternative) 136★ OpenRouter alternative for uncensored AI LLM access — independent RouterHub giv…
-- [UncensoredLabs/uncensored-ai-api](https://github.com/UncensoredLabs/uncensored-ai-api) 90★ Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python …
+- [UncensoredLabs/uncensored-ai-api](https://github.com/UncensoredLabs/uncensored-ai-api) 95★ Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python …
 
 </details>
 
-<details><summary><b>stick</b>: 6 repos, 1.8k stars</summary>
+<details><summary><b>stick</b>: 6 repos, 2.0k stars</summary>
 
-- [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) 1.3k★ Install Linux next to Windows without a USB stick
-- [nilbuild/tinyhand](https://github.com/nilbuild/tinyhand) 128★ A tiny hand on a stick that points at things on your Mac screen.
-- [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills) 110★ Six Claude Code skills that make animations for reels, no footage needed: 3D ca…
-- [AbhishekKaisar/glassos-tv](https://github.com/AbhishekKaisar/glassos-tv) 95★ A calm, glassy home screen for Android TV, Google TV and Fire TV, inspired by t…
+- [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) 1.4k★ Install Linux next to Windows without a USB stick
+- [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills) 194★ Six Claude Code skills that make animations for reels, no footage needed: 3D ca…
+- [nilbuild/tinyhand](https://github.com/nilbuild/tinyhand) 143★ A tiny hand on a stick that points at things on your Mac screen.
+- [AbhishekKaisar/glassos-tv](https://github.com/AbhishekKaisar/glassos-tv) 96★ A calm, glassy home screen for Android TV, Google TV and Fire TV, inspired by t…
 - [cascodigital/skippy-tv](https://github.com/cascodigital/skippy-tv) 55★ Sci-fi starship-bridge home screen for Android TV (tested on NVIDIA Shield 1st …
+
+</details>
+
+<details><summary><b>nxnative</b>: 6 repos, 3.8k stars</summary>
+
+- [LNPANDY/NX2Apple](https://github.com/LNPANDY/NX2Apple) 3.2k★ Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. \|…
+- [Xc1Ym/LumaNX](https://github.com/Xc1Ym/LumaNX) 250★ 璃游 LumaNX：nxnative 第三方 GUI，图形化构建 Switch 游戏，支持 macOS 运行与 iOS / iPadOS IPA 导出。A m…
+- [xFractals/pokopia-native](https://github.com/xFractals/pokopia-native) 144★ Build Pokémon Pokopia (Switch 2) into a native Mac app and iPhone app from your…
+- [varyform/nx-native-wrapper](https://github.com/varyform/nx-native-wrapper) 91★ NX Play: a Mac app to build, play, install and manage Switch games with nxnativ…
+- [jamescastells/nxnative-gui](https://github.com/jamescastells/nxnative-gui) 69★ A macOS app for nxnative.
+
+</details>
+
+<details><summary><b>png</b>: 9 repos, 1.5k stars</summary>
+
+- [heydeer/pngdeer](https://github.com/heydeer/pngdeer) 431★ Smaller images, same picture. Compress PNGs to PNG or WebP with automatic quali…
+- [nikita-s-x2001x7/photo-converter](https://github.com/nikita-s-x2001x7/photo-converter) 300★ Photo Converter Pro 2026 – Fast and powerful image converter for Windows. Conve…
+- [SparrowPortray/horizon-free-capes](https://github.com/SparrowPortray/horizon-free-capes) 245★ Every cape, wing, hat, pet and emote in Drip is free: 24 capes, your own PNG or…
+- [charolettebradford1361985svo-bit/stable-sprite-animation](https://github.com/charolettebradford1361985svo-bit/stable-sprite-animation) 111★ Reference-preserving sprite animation skill for AI agents: intact-limb walks, s…
+- [guilhermealvestech/carrossel-skill](https://github.com/guilhermealvestech/carrossel-skill) 108★ Skill para Claude Code e Codex: carrosséis com a cara da sua marca, do roteiro …
+
+</details>
+
+<details><summary><b>supermimic</b>: 11 repos, 2.4k stars</summary>
+
+- [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) 797★ vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training
+- [miao-org/awesome-supermimic](https://github.com/miao-org/awesome-supermimic) 459★ A curated collection of SuperMimic implementations, extensions, demos, and reso…
+- [CuboiLeo/SuperMimic-Reproduced](https://github.com/CuboiLeo/SuperMimic-Reproduced) 382★ Reproduction of SuperMimic (arXiv:2610.28480): learned differentiable world mod…
+- [Motphys/Uni-SuperMimic](https://github.com/Motphys/Uni-SuperMimic) 233★ SuperMimic-UniLab: An Independent reproduction of SuperMimic on UniLab for whol…
+- [Huy-Quang-Dao/instantTrack](https://github.com/Huy-Quang-Dao/instantTrack) 123★ Whole-body motion tracking for the Unitree G1 in about 7 minutes on one GPU, 4.…
 
 </details>
 <!-- starwave:end -->
