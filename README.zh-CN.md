@@ -48,85 +48,85 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 2,256 repos  2026-10-21..2026-11-04  stars>=40 · baseline 3,523 repos  2026-08-22..2026-10-20  stars>=150 · generated 2026-11-04 14:36 UTC_
+_recent 2,349 repos  2026-10-22..2026-11-05  stars>=40 · baseline 3,574 repos  2026-08-23..2026-10-21  stars>=150 · generated 2026-11-05 14:44 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **leveling** | 5 | 5 | 538 | 504/d | 48/d | ▁▁▁▁▁▁▁▁▁▁▁▂▂█ | 2026-11-01 | [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) |
-| 2 | **uncensored-ai** (+abliterated) | 6 | 4 | 1.9k | 487/d | 243/d | ▁▃▁▄▃▁▁▁▃▁▁█▂▂ | 2026-10-22 | [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) |
-| 3 | **regularly** | 5 | 5 | 1.2k | 481/d | 100/d | ▁▁▁▁▁▁▄▁▁███▁▁ | 2026-10-27 | [TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026](https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026) |
-| 4 | **stick** | 6 | 6 | 2.2k | 463/d | 349/d | ▁▁▁▁▁▁▁▁▁▁█▅▃▃ | 2026-10-22 | [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) |
-| 5 | **printed** | 6 | 6 | 2.1k | 344/d | 90/d | ▁▁▁▁▁▁▁▁█▂▄▁▁▂ | 2026-10-22 | [aschmelyun/print-my-profile-pic](https://github.com/aschmelyun/print-my-profile-pic) |
-| 6 | **supermimic** (+mjlab, reproduction, body) | 11 | 11 | 2.6k | 287/d | 155/d | ▄█▅▃▅▇▆▄▅▃▂▃▅▄ | 2026-10-21 | [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) |
-| 7 | **living** | 8 | 8 | 1.7k | 247/d | 175/d | ▁▁▁▂▅▄▃▂▃█▅▅▅▄ | 2026-10-23 | [alchaincyf/huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker) |
-| 8 | **png** | 9 | 9 | 1.3k | 211/d | 135/d | ▁▁▁▂▂▇▄▆█▃▄█▄▄ | 2026-10-21 | [heydeer/slimdeer](https://github.com/heydeer/slimdeer) |
-| 9 | **minecraft-mods** | 5 | 5 | 871 | 192/d | 131/d | ▁▁▁▁▁▁▁▁▁▄██▂▁ | 2026-10-28 | [UpperSupervisor/horizon-modpack-compatibility](https://github.com/UpperSupervisor/horizon-modpack-compatibility) |
-| 10 | **portrait** (+pose-reference) | 7 | 7 | 757 | 158/d | 136/d | ▁▁▁▁▁▂▂▂▄▅▄▇█▅ | 2026-10-22 | [yt1988/who-are-you](https://github.com/yt1988/who-are-you) |
+| 1 | **leveling** | 5 | 5 | 804 | 748/d | 260/d | ▁▁▁▁▁▁▁▁▁▁▁▁▂█ | 2026-11-01 | [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) |
+| 2 | **uncensored-ai** (+abliterated-models, abliterated) | 8 | 6 | 2.4k | 557/d | 250/d | ▃▁▄▃▂▁▁▃▁▁▇▂▂█ | 2026-10-22 | [UncensoredLabs/uncensored-ai-api](https://github.com/UncensoredLabs/uncensored-ai-api) |
+| 3 | **minecraft-mods** | 6 | 6 | 1.2k | 453/d | 33/d | ▁▁▁▁▁▁▁▁▄██▂▁▂ | 2026-10-28 | [Wallbycontact/java-mod-rust-port-tool](https://github.com/Wallbycontact/java-mod-rust-port-tool) |
+| 4 | **bsc** | 5 | 5 | 860 | 452/d | 82/d | ▁▁▁▂▃▂▂▃▄▄▂▁▁█ | 2026-10-25 | [jacke-pp/ai-wallet-binance](https://github.com/jacke-pp/ai-wallet-binance) |
+| 5 | **stick** | 6 | 6 | 2.3k | 392/d | 201/d | ▁▁▁▁▁▁▁▁▁█▅▃▃▂ | 2026-10-22 | [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) |
+| 6 | **printed** | 6 | 6 | 2.2k | 292/d | 95/d | ▁▁▁▁▁▁▁█▂▄▁▁▂▂ | 2026-10-22 | [aschmelyun/print-my-profile-pic](https://github.com/aschmelyun/print-my-profile-pic) |
+| 7 | **cve** | 20 | 19 | 2.4k | 255/d | 80/d | ▇▆█▄▃▂▃▃▂▃▂▂▂▄ | 2026-10-22 | [assetnote/php2shell-scanner](https://github.com/assetnote/php2shell-scanner) |
+| 8 | **cs2** (+steam-market, profit, aegis) | 6 | 6 | 924 | 222/d | 63/d | ▁▁▁▁▁▁▁▁▂█▁▂▁▂ | 2026-10-30 | [WilonityGames/WilonityLoader](https://github.com/WilonityGames/WilonityLoader) |
+| 9 | **living** | 8 | 8 | 1.7k | 221/d | 131/d | ▁▁▁▅▄▃▂▂█▅▅▅▄▃ | 2026-10-23 | [alchaincyf/huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker) |
+| 10 | **supermimic** (+body, mjlab) | 10 | 10 | 1.5k | 183/d | 132/d | ▃▃▂▅█▆▅▆▃▂▃▆▆▄ | 2026-10-22 | [miao-org/awesome-supermimic](https://github.com/miao-org/awesome-supermimic) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **windows-app** (+activated, utility, software-engineering, pre-activated, ready-to-run, 30 more) | 213 | 213 | 26.9k | 18.6k/d | 5.0k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▂ | 2026-10-22 | [CircumferenceBanker/autodesk-inventor](https://github.com/CircumferenceBanker/autodesk-inventor) | near-duplicate, flat-stars |
-| 2 | **wallhack** (+single-player, cheat, esp, educational, hack) | 27 | 27 | 1.4k | 838/d | 332/d | ▁▁▁▁▁▁▁▁▁▁▁▂█▁ | 2026-11-01 | [BadgeStudentShovel/valorant-skin-changer](https://github.com/BadgeStudentShovel/valorant-skin-changer) | near-duplicate, same-day, flat-stars |
-| 3 | **php2shell** (+cve-2026-109618, cve-2026-109619, cve, rce, session.upload, 3 more) | 33 | 30 | 9.8k | 716/d | 44/d | █▆▄▃▂▂▁▁▁▁▁▁▁▁ | 2026-10-21 | [ikow/php2shell-poc](https://github.com/ikow/php2shell-poc) | same-day |
-| 4 | **troubleshooting** (+game-guide, pc-gaming, steam-games, game-specific, graphics-settings, 28 more) | 47 | 47 | 2.5k | 506/d | 72/d | ▁▁▁▁▂▁▁▁█▁▁▁▁▁ | 2026-10-22 | [ilikechocopies/sideload-jiostb](https://github.com/ilikechocopies/sideload-jiostb) | same-day |
-| 5 | **helpers** (+quality-of-life, overlays) | 7 | 7 | 375 | 220/d | 95/d | ▁▁▁▁▁▁▁▁▁▁▁▃█▁ | 2026-11-01 | [CliffHammerMake15/gta-5-mod-menu](https://github.com/CliffHammerMake15/gta-5-mod-menu) | near-duplicate |
-| 6 | **coregold** (+usdt, vcc, visa, mastercard, global) | 23 | 20 | 1.1k | 171/d | 135/d | ▁▁▁▁▁▁▁▅▇▇▃█▁▅ | 2026-10-28 | [gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console](https://github.com/gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console) | flat-stars |
-| 7 | **abliterated-models** (+uncensored-ai, uncensored-ai-model, abliterated) | 6 | 5 | 1.1k | 127/d | 79/d | ▁▆▁▇▄█▁▁▁▁▁▄▃▂ | 2026-10-22 | [routerhubSI/uncensored-ai-api](https://github.com/routerhubSI/uncensored-ai-api) | near-duplicate |
-| 8 | **ai-image-generation** (+ai-prompts, grouped, apimart) | 12 | 2 | 956 | 109/d | 151/d | ▁▁▁▁▂▅▁▁▄▃▄▃█▅ | 2026-10-21 | [wquguru/shisei](https://github.com/wquguru/shisei) | same-day, few-owners |
-| 9 | **aion** (+aion-2, aion2, mmorpg, dps-meter, dps, 3 more) | 13 | 13 | 743 | 68/d | 4/d | ▁▁▁▁█▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [ORICHO08/aion2-combat-overlay](https://github.com/ORICHO08/aion2-combat-overlay) | same-day |
-| 10 | **enshrouded** (+game-companion) | 10 | 10 | 580 | 53/d | 0/d | ▁▁▁▁█▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [Abdelhadidr/enshrouded-interactive-map-desktop](https://github.com/Abdelhadidr/enshrouded-interactive-map-desktop) | same-day |
+| 1 | **windows-app** (+utility, software-engineering, activated, scripts, setup, 52 more) | 259 | 259 | 45.5k | 34.8k/d | 11.8k/d | ▁▁▁▁▁▁▁▁▁▁▁▅▂█ | 2026-10-22 | [DawnShaperFrost90/slideshow-video-maker](https://github.com/DawnShaperFrost90/slideshow-video-maker) | near-duplicate, flat-stars, same-day |
+| 2 | **rpocket** (+desert) | 31 | 31 | 1.2k | 1.2k/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [RiventronLucky53535/crypto-rpocket-accumulation-scanner](https://github.com/RiventronLucky53535/crypto-rpocket-accumulation-scanner) | same-day, flat-stars |
+| 3 | **resocket** (+progression) | 16 | 16 | 640 | 640/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | same-day |
+| 4 | **troubleshooting** (+game-guide, pc-gaming, steam-games, game-specific, graphics-settings, 29 more) | 47 | 47 | 2.6k | 549/d | 100/d | ▁▁▁▂▁▁▁█▁▁▁▁▁▁ | 2026-10-22 | [ilikechocopies/sideload-jiostb](https://github.com/ilikechocopies/sideload-jiostb) | same-day |
+| 5 | **resp** | 10 | 10 | 400 | 400/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [AcrossTopazcache8602/abogado-resp-chile-skill](https://github.com/AcrossTopazcache8602/abogado-resp-chile-skill) | same-day |
+| 6 | **respocket** (+yet, aio) | 10 | 10 | 400 | 400/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [Branscript/Apex-Legends-respocket-FPS-Boost](https://github.com/Branscript/Apex-Legends-respocket-FPS-Boost) | same-day |
+| 7 | **coregold** (+usdt, vcc, visa, mastercard, global) | 30 | 26 | 1.6k | 221/d | 193/d | ▁▁▁▁▁▁▄▅▆▃▇▁▅█ | 2026-10-28 | [gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console](https://github.com/gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console) | flat-stars |
+| 8 | **aion** (+aion-2, mmorpg, aion2, dps-meter, dps, 4 more) | 13 | 13 | 741 | 62/d | 2/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [ORICHO08/aion2-combat-overlay](https://github.com/ORICHO08/aion2-combat-overlay) | same-day |
+| 9 | **trading-strategy-simulation** (+strategy) | 10 | 10 | 573 | 49/d | 2/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-10-23 | [KhulekanisiyandaMchunu/llm-trading-arena](https://github.com/KhulekanisiyandaMchunu/llm-trading-arena) | same-day |
+| 10 | **enshrouded** (+game-companion) | 10 | 10 | 580 | 48/d | 0/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [Abdelhadidr/enshrouded-interactive-map-desktop](https://github.com/Abdelhadidr/enshrouded-interactive-map-desktop) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>leveling</b>: 5 repos, 538 stars</summary>
+<details><summary><b>leveling</b>: 5 repos, 804 stars</summary>
 
-- [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) 197★ Answer four questions and see which WoW Forever class fits how you play. Free W…
-- [EmpressRectifier/wow-forever-builds-sixty](https://github.com/EmpressRectifier/wow-forever-builds-sixty) 114★ Replay any WoW Forever talent build level by level from 1 to 60. Free Windows a…
-- [helixmaintenancesaw/wow-forever-builds-respec](https://github.com/helixmaintenancesaw/wow-forever-builds-respec) 96★ Compare two WoW Forever builds and get an exact respec plan. Free Windows app.
-- [Obsidiantatrap/wow-forever-builds-waymark](https://github.com/Obsidiantatrap/wow-forever-builds-waymark) 80★ A step-by-step WoW Forever leveling route with an in-game overlay. Free Windows…
-- [ItzMeShadow999/BadgeMaxxer](https://github.com/ItzMeShadow999/BadgeMaxxer) 51★ Discord badge leveling tool, fabricates game time, game variety and Go Live str…
-
-</details>
-
-<details><summary><b>uncensored-ai</b>: 6 repos, 1.9k stars</summary>
-
-- [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) 552★ GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbrea…
-- [UncensoredLabs/uncensored-ai-api](https://github.com/UncensoredLabs/uncensored-ai-api) 544★ Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python …
-- [wideeyededi/uncensored-nsfw-ai-video-api](https://github.com/wideeyededi/uncensored-nsfw-ai-video-api) 421★ Uncensored NSFW AI video API — Seedance Spicy & Wan NSFW docs for 18+ text-to-v…
-- [7API/glm-5.3-abliterated](https://github.com/7API/glm-5.3-abliterated) 173★ GLM 5.3 Abliterated or Uncensored AI model — 35 jailbreak prompts, model guide …
-- [routerhubSI/openrouter-alternative](https://github.com/routerhubSI/openrouter-alternative) 138★ OpenRouter alternative for uncensored AI LLM access — independent RouterHub giv…
+- [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) 286★ Answer four questions and see which WoW Forever class fits how you play. Free W…
+- [EmpressRectifier/wow-forever-builds-sixty](https://github.com/EmpressRectifier/wow-forever-builds-sixty) 162★ Replay any WoW Forever talent build level by level from 1 to 60. Free Windows a…
+- [helixmaintenancesaw/wow-forever-builds-respec](https://github.com/helixmaintenancesaw/wow-forever-builds-respec) 147★ Compare two WoW Forever builds and get an exact respec plan. Free Windows app.
+- [Obsidiantatrap/wow-forever-builds-waymark](https://github.com/Obsidiantatrap/wow-forever-builds-waymark) 134★ A step-by-step WoW Forever leveling route with an in-game overlay. Free Windows…
+- [ItzMeShadow999/BadgeMaxxer](https://github.com/ItzMeShadow999/BadgeMaxxer) 75★ Discord badge leveling tool, fabricates game time, game variety and Go Live str…
 
 </details>
 
-<details><summary><b>regularly</b>: 5 repos, 1.2k stars</summary>
+<details><summary><b>uncensored-ai</b>: 8 repos, 2.4k stars</summary>
 
-- [TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026](https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026) 300★ Powerful Roblox Account Manager for easy multi-account control. Switch accounts…
-- [davidlopez-x05x8/minecraft-aim-assist](https://github.com/davidlopez-x05x8/minecraft-aim-assist) 300★ Minecraft Aim Assist 2026 — Smooth aiming assistance for 1.21.4 Fabric. Adaptiv…
-- [redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026](https://github.com/redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026) 300★ Advanced Bunny Hop script with smooth auto-bhop and movement assistance. Fully …
-- [ChannelDivinerCast/VSCode-Extension-Helper](https://github.com/ChannelDivinerCast/VSCode-Extension-Helper) 163★ Lightweight desktop tool for Visual Studio Code users. Smart extension manageme…
-- [GrandeurPikeman/Roblox-MM2-Utility-2026](https://github.com/GrandeurPikeman/Roblox-MM2-Utility-2026) 144★ Lightweight desktop utility for Roblox Murder Mystery 2. Convenient helpers, qu…
+- [UncensoredLabs/uncensored-ai-api](https://github.com/UncensoredLabs/uncensored-ai-api) 800★ Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python …
+- [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) 556★ GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbrea…
+- [wideeyededi/uncensored-nsfw-ai-video-api](https://github.com/wideeyededi/uncensored-nsfw-ai-video-api) 422★ Uncensored NSFW API for AI video generation — Seedance Spicy & Wan NSFW docs: 1…
+- [7API/glm-5.3-abliterated](https://github.com/7API/glm-5.3-abliterated) 165★ GLM 5.3 Abliterated or Uncensored AI model — 35 jailbreak prompts, model guide …
+- [routerhubSI/openrouter-alternative](https://github.com/routerhubSI/openrouter-alternative) 137★ OpenRouter alternative for uncensored AI LLM access — independent RouterHub giv…
 
 </details>
 
-<details><summary><b>stick</b>: 6 repos, 2.2k stars</summary>
+<details><summary><b>minecraft-mods</b>: 6 repos, 1.2k stars</summary>
+
+- [Wallbycontact/java-mod-rust-port-tool](https://github.com/Wallbycontact/java-mod-rust-port-tool) 299★ Feed it a Fabric or NeoForge mod jar and Smelt writes the Rust side for Horizon…
+- [UpperSupervisor/horizon-modpack-compatibility](https://github.com/UpperSupervisor/horizon-modpack-compatibility) 213★ Drop your mods folder, a Prism or MultiMC instance or an .mrpack on Hopper and …
+- [Ceilingpiintensify/horizon-mod-checker](https://github.com/Ceilingpiintensify/horizon-mod-checker) 204★ Is my mod on Horizon? Type a name or drop your whole pack and every mod gets on…
+- [Straitbrashadow/minecraft-ai-mod-builder](https://github.com/Straitbrashadow/minecraft-ai-mod-builder) 198★ Vibe-build in Minecraft. Describe a build in your terminal, see it as a bluepri…
+- [DolphinStronghold9/ai-minecraft-modmaker](https://github.com/DolphinStronghold9/ai-minecraft-modmaker) 173★ Describe a mod or a structure and this terminal agent builds it in Minecraft: g…
+
+</details>
+
+<details><summary><b>bsc</b>: 5 repos, 860 stars</summary>
+
+- [jacke-pp/ai-wallet-binance](https://github.com/jacke-pp/ai-wallet-binance) 308★ 让任何 AI 用你自己的币安 AI 钱包交易：秒买秒卖、狙击 Agent 专属发射台（Four、Flap、GANG）、AI 专属 Mint、本机交易页面。币安…
+- [WyrmSpongeHaul/quant-trading-bot](https://github.com/WyrmSpongeHaul/quant-trading-bot) 300★ Quant Trading Bot 2026 - Full working installer with advanced trading algorithm…
+- [nancyc0813-maker/agentid-sniper](https://github.com/nancyc0813-maker/agentid-sniper) 149★ Local monitor + auto-mint + take-profit for Binance .ai Agent ID exclusive mint…
+- [hamnurger0501/binance-agentic-sniper](https://github.com/hamnurger0501/binance-agentic-sniper) 57★ BSC launchpad sniper (Gang V3 / Fair / CA / Flap Agent-ID) using Binance Agenti…
+- [setyamickala/bsc-contract-audit-skill](https://github.com/setyamickala/bsc-contract-audit-skill) 46★ 
+
+</details>
+
+<details><summary><b>stick</b>: 6 repos, 2.3k stars</summary>
 
 - [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) 1.5k★ Install Linux next to Windows without a USB stick
-- [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills) 359★ Six Claude Code skills that make animations for reels, no footage needed: 3D ca…
-- [nilbuild/tinyhand](https://github.com/nilbuild/tinyhand) 155★ A tiny hand on a stick that points at things on your Mac screen.
-- [AbhishekKaisar/glassos-tv](https://github.com/AbhishekKaisar/glassos-tv) 99★ A calm, glassy home screen for Android TV, Google TV and Fire TV, inspired by t…
+- [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills) 395★ Six Claude Code skills that make animations for reels, no footage needed: 3D ca…
+- [nilbuild/tinyhand](https://github.com/nilbuild/tinyhand) 161★ A tiny hand on a stick that points at things on your Mac screen.
+- [AbhishekKaisar/glassos-tv](https://github.com/AbhishekKaisar/glassos-tv) 105★ A calm, glassy home screen for Android TV, Google TV and Fire TV, inspired by t…
 - [cascodigital/skippy-tv](https://github.com/cascodigital/skippy-tv) 55★ Sci-fi starship-bridge home screen for Android TV (tested on NVIDIA Shield 1st …
-
-</details>
-
-<details><summary><b>printed</b>: 6 repos, 2.1k stars</summary>
-
-- [aschmelyun/print-my-profile-pic](https://github.com/aschmelyun/print-my-profile-pic) 1.8k★ Say cheese! Star this repo and your profile picture gets printed out on a recei…
-- [MultiX0/ip-nas](https://github.com/MultiX0/ip-nas) 79★ Raspberry Pi 5 home NAS: CasaOS apps, Nur Hub and the Nur app (local AI, Fish A…
-- [nathanmarlor/flightscope-public](https://github.com/nathanmarlor/flightscope-public) 72★ Handheld Raspberry Pi flight tracker for a young plane-spotter: live map, plane…
-- [yzytz17/1.5-joint-module](https://github.com/yzytz17/1.5-joint-module) 69★ Ultra-low-cost robotic joint: a $1.5 FOC board inside a 1503 gimbal motor, plus…
-- [anshk1234/MEDUCID](https://github.com/anshk1234/MEDUCID) 52★ MEDUCID is a web application that takes medical laboratory reports , presents t…
 
 </details>
 <!-- starwave:end -->
