@@ -48,61 +48,49 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 2,349 repos  2026-10-22..2026-11-05  stars>=40 · baseline 3,574 repos  2026-08-23..2026-10-21  stars>=150 · generated 2026-11-05 14:44 UTC_
+_recent 2,232 repos  2026-10-23..2026-11-06  stars>=40 · baseline 3,614 repos  2026-08-24..2026-10-22  stars>=150 · generated 2026-11-06 14:19 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **leveling** | 5 | 5 | 804 | 748/d | 260/d | ▁▁▁▁▁▁▁▁▁▁▁▁▂█ | 2026-11-01 | [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) |
-| 2 | **uncensored-ai** (+abliterated-models, abliterated) | 8 | 6 | 2.4k | 557/d | 250/d | ▃▁▄▃▂▁▁▃▁▁▇▂▂█ | 2026-10-22 | [UncensoredLabs/uncensored-ai-api](https://github.com/UncensoredLabs/uncensored-ai-api) |
-| 3 | **minecraft-mods** | 6 | 6 | 1.2k | 453/d | 33/d | ▁▁▁▁▁▁▁▁▄██▂▁▂ | 2026-10-28 | [Wallbycontact/java-mod-rust-port-tool](https://github.com/Wallbycontact/java-mod-rust-port-tool) |
-| 4 | **bsc** | 5 | 5 | 860 | 452/d | 82/d | ▁▁▁▂▃▂▂▃▄▄▂▁▁█ | 2026-10-25 | [jacke-pp/ai-wallet-binance](https://github.com/jacke-pp/ai-wallet-binance) |
-| 5 | **stick** | 6 | 6 | 2.3k | 392/d | 201/d | ▁▁▁▁▁▁▁▁▁█▅▃▃▂ | 2026-10-22 | [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) |
-| 6 | **printed** | 6 | 6 | 2.2k | 292/d | 95/d | ▁▁▁▁▁▁▁█▂▄▁▁▂▂ | 2026-10-22 | [aschmelyun/print-my-profile-pic](https://github.com/aschmelyun/print-my-profile-pic) |
-| 7 | **cve** | 20 | 19 | 2.4k | 255/d | 80/d | ▇▆█▄▃▂▃▃▂▃▂▂▂▄ | 2026-10-22 | [assetnote/php2shell-scanner](https://github.com/assetnote/php2shell-scanner) |
-| 8 | **cs2** (+steam-market, profit, aegis) | 6 | 6 | 924 | 222/d | 63/d | ▁▁▁▁▁▁▁▁▂█▁▂▁▂ | 2026-10-30 | [WilonityGames/WilonityLoader](https://github.com/WilonityGames/WilonityLoader) |
-| 9 | **living** | 8 | 8 | 1.7k | 221/d | 131/d | ▁▁▁▅▄▃▂▂█▅▅▅▄▃ | 2026-10-23 | [alchaincyf/huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker) |
-| 10 | **supermimic** (+body, mjlab) | 10 | 10 | 1.5k | 183/d | 132/d | ▃▃▂▅█▆▅▆▃▂▃▆▆▄ | 2026-10-22 | [miao-org/awesome-supermimic](https://github.com/miao-org/awesome-supermimic) |
+| 1 | **regularly** | 8 | 8 | 1.9k | 823/d | 292/d | ▁▁▁▁▃▁▁▅▅▅▁▁█▇ | 2026-10-27 | [Nebularotunnel/Token-Sniper](https://github.com/Nebularotunnel/Token-Sniper) |
+| 2 | **minecraft-mods** | 6 | 6 | 1.3k | 550/d | 144/d | ▁▁▁▁▁▁▁▄▇█▂▁▂█ | 2026-10-28 | [Wallbycontact/java-mod-rust-port-tool](https://github.com/Wallbycontact/java-mod-rust-port-tool) |
+| 3 | **download** (+full-installer, windows-software, complete-version, walkthrough, windows-11) | 28 | 28 | 3.3k | 540/d | 493/d | ▁▁▂▂▂▂▄▂▃▂▄▃█▃ | 2026-10-23 | [parallelpan/hongguo-downloader](https://github.com/parallelpan/hongguo-downloader) |
+| 4 | **blockchain** | 8 | 8 | 1.1k | 520/d | 261/d | ▁▁▁▁▁▁▁▁▄▁▄▅▆█ | 2026-10-30 | [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) |
+| 5 | **leveling** | 5 | 5 | 817 | 382/d | 261/d | ▁▁▁▁▁▁▁▁▁▁▁▂█▁ | 2026-11-01 | [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) |
+| 6 | **save** | 11 | 11 | 1.2k | 328/d | 112/d | ▃▁▃▂▂▂▃▆▄▇▄▃▃█ | 2026-10-23 | [phishdestroy/TgWitness](https://github.com/phishdestroy/TgWitness) |
+| 7 | **resp** | 8 | 8 | 320 | 320/d | 107/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-05 | [AcrossTopazcache8602/abogado-resp-chile-skill](https://github.com/AcrossTopazcache8602/abogado-resp-chile-skill) |
+| 8 | **eglantine** | 5 | 5 | 571 | 299/d | 148/d | ▁▁▁▁▁▁▁▁▁▁▂▂▅█ | 2026-11-01 | [sylvieistaken/selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine) |
+| 9 | **respocket** | 7 | 7 | 280 | 280/d | 93/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-05 | [Branscript/Apex-Legends-respocket-FPS-Boost](https://github.com/Branscript/Apex-Legends-respocket-FPS-Boost) |
+| 10 | **flight** | 7 | 7 | 1.3k | 273/d | 270/d | ▁▂▁▁▁▁▁▁▁▆▂▅█▃ | 2026-10-23 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **windows-app** (+utility, software-engineering, activated, scripts, setup, 52 more) | 259 | 259 | 45.5k | 34.8k/d | 11.8k/d | ▁▁▁▁▁▁▁▁▁▁▁▅▂█ | 2026-10-22 | [DawnShaperFrost90/slideshow-video-maker](https://github.com/DawnShaperFrost90/slideshow-video-maker) | near-duplicate, flat-stars, same-day |
-| 2 | **rpocket** (+desert) | 31 | 31 | 1.2k | 1.2k/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [RiventronLucky53535/crypto-rpocket-accumulation-scanner](https://github.com/RiventronLucky53535/crypto-rpocket-accumulation-scanner) | same-day, flat-stars |
-| 3 | **resocket** (+progression) | 16 | 16 | 640 | 640/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | same-day |
-| 4 | **troubleshooting** (+game-guide, pc-gaming, steam-games, game-specific, graphics-settings, 29 more) | 47 | 47 | 2.6k | 549/d | 100/d | ▁▁▁▂▁▁▁█▁▁▁▁▁▁ | 2026-10-22 | [ilikechocopies/sideload-jiostb](https://github.com/ilikechocopies/sideload-jiostb) | same-day |
-| 5 | **resp** | 10 | 10 | 400 | 400/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [AcrossTopazcache8602/abogado-resp-chile-skill](https://github.com/AcrossTopazcache8602/abogado-resp-chile-skill) | same-day |
-| 6 | **respocket** (+yet, aio) | 10 | 10 | 400 | 400/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-05 | [Branscript/Apex-Legends-respocket-FPS-Boost](https://github.com/Branscript/Apex-Legends-respocket-FPS-Boost) | same-day |
-| 7 | **coregold** (+usdt, vcc, visa, mastercard, global) | 30 | 26 | 1.6k | 221/d | 193/d | ▁▁▁▁▁▁▄▅▆▃▇▁▅█ | 2026-10-28 | [gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console](https://github.com/gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console) | flat-stars |
-| 8 | **aion** (+aion-2, mmorpg, aion2, dps-meter, dps, 4 more) | 13 | 13 | 741 | 62/d | 2/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [ORICHO08/aion2-combat-overlay](https://github.com/ORICHO08/aion2-combat-overlay) | same-day |
-| 9 | **trading-strategy-simulation** (+strategy) | 10 | 10 | 573 | 49/d | 2/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-10-23 | [KhulekanisiyandaMchunu/llm-trading-arena](https://github.com/KhulekanisiyandaMchunu/llm-trading-arena) | same-day |
-| 10 | **enshrouded** (+game-companion) | 10 | 10 | 580 | 48/d | 0/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [Abdelhadidr/enshrouded-interactive-map-desktop](https://github.com/Abdelhadidr/enshrouded-interactive-map-desktop) | same-day |
+| 1 | **configured** (+pre-configured, utility, software-engineering, scripts, ensuring, 33 more) | 133 | 133 | 15.3k | 12.0k/d | 849/d | ▁▁▁▁▁▁▁▃▁▂█▃▃▆ | 2026-10-30 | [TropicalCount/cubase](https://github.com/TropicalCount/cubase) | near-duplicate, flat-stars, same-day |
+| 2 | **windows-app** (+ready-to-run, activated, pre-activated, immediate, phone-tool, 4 more) | 41 | 41 | 5.0k | 1.9k/d | 147/d | ▁▁▁▁▁▁▁▂▁▂█▂▁▁ | 2026-10-24 | [marbleorbweb94/ninjatrader-bot](https://github.com/marbleorbweb94/ninjatrader-bot) | flat-stars |
+| 3 | **ai-image-generation** (+apimart, gpt-image) | 14 | 2 | 1.7k | 1.3k/d | 393/d | ▁▁▁▁▁▁▂▁▁▁▂▁▁█ | 2026-10-29 | [wquguru/shisei](https://github.com/wquguru/shisei) | same-day, few-owners |
+| 4 | **rpocket** (+desert) | 30 | 30 | 1.2k | 1.2k/d | 400/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-05 | [RiventronLucky53535/crypto-rpocket-accumulation-scanner](https://github.com/RiventronLucky53535/crypto-rpocket-accumulation-scanner) | same-day, flat-stars |
+| 5 | **resocket** | 15 | 15 | 600 | 600/d | 200/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-05 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | same-day |
+| 6 | **coregold** (+vcc, usdt, visa, mastercard) | 42 | 37 | 2.4k | 321/d | 403/d | ▁▁▁▁▁▃▄▅▃▇▁▅█▇ | 2026-10-28 | [gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console](https://github.com/gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console) | flat-stars |
+| 7 | **aion** (+aion-2, mmorpg, aion2, dps-meter, dps, 5 more) | 14 | 14 | 805 | 62/d | 0/d | ▁▁█▁▁▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [ORICHO08/aion2-combat-overlay](https://github.com/ORICHO08/aion2-combat-overlay) | same-day |
+| 8 | **trading-strategy-simulation** | 10 | 10 | 579 | 46/d | 4/d | ▁▁█▁▁▁▁▁▁▁▁▁▁▁ | 2026-10-23 | [KhulekanisiyandaMchunu/llm-trading-arena](https://github.com/KhulekanisiyandaMchunu/llm-trading-arena) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>leveling</b>: 5 repos, 804 stars</summary>
+<details><summary><b>regularly</b>: 8 repos, 1.9k stars</summary>
 
-- [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) 286★ Answer four questions and see which WoW Forever class fits how you play. Free W…
-- [EmpressRectifier/wow-forever-builds-sixty](https://github.com/EmpressRectifier/wow-forever-builds-sixty) 162★ Replay any WoW Forever talent build level by level from 1 to 60. Free Windows a…
-- [helixmaintenancesaw/wow-forever-builds-respec](https://github.com/helixmaintenancesaw/wow-forever-builds-respec) 147★ Compare two WoW Forever builds and get an exact respec plan. Free Windows app.
-- [Obsidiantatrap/wow-forever-builds-waymark](https://github.com/Obsidiantatrap/wow-forever-builds-waymark) 134★ A step-by-step WoW Forever leveling route with an in-game overlay. Free Windows…
-- [ItzMeShadow999/BadgeMaxxer](https://github.com/ItzMeShadow999/BadgeMaxxer) 75★ Discord badge leveling tool, fabricates game time, game variety and Go Live str…
-
-</details>
-
-<details><summary><b>uncensored-ai</b>: 8 repos, 2.4k stars</summary>
-
-- [UncensoredLabs/uncensored-ai-api](https://github.com/UncensoredLabs/uncensored-ai-api) 800★ Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python …
-- [routerhubSI/glm-5.3-abliterated](https://github.com/routerhubSI/glm-5.3-abliterated) 556★ GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbrea…
-- [wideeyededi/uncensored-nsfw-ai-video-api](https://github.com/wideeyededi/uncensored-nsfw-ai-video-api) 422★ Uncensored NSFW API for AI video generation — Seedance Spicy & Wan NSFW docs: 1…
-- [7API/glm-5.3-abliterated](https://github.com/7API/glm-5.3-abliterated) 165★ GLM 5.3 Abliterated or Uncensored AI model — 35 jailbreak prompts, model guide …
-- [routerhubSI/openrouter-alternative](https://github.com/routerhubSI/openrouter-alternative) 137★ OpenRouter alternative for uncensored AI LLM access — independent RouterHub giv…
+- [Nebularotunnel/Token-Sniper](https://github.com/Nebularotunnel/Token-Sniper) 391★ Advanced desktop analyzer for DEX activity. Monitors new liquidity pair creatio…
+- [TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026](https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026) 300★ Powerful Roblox Account Manager for easy multi-account control. Switch accounts…
+- [davidlopez-x05x8/minecraft-aim-assist](https://github.com/davidlopez-x05x8/minecraft-aim-assist) 300★ Minecraft Aim Assist 2026 — Smooth aiming assistance for 1.21.4 Fabric. Adaptiv…
+- [redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026](https://github.com/redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026) 300★ Advanced Bunny Hop script with smooth auto-bhop and movement assistance. Fully …
+- [StraitBailiff/Voice-Changer-2026](https://github.com/StraitBailiff/Voice-Changer-2026) 235★ Lightweight desktop application for real-time voice changing. Multiple voice ef…
 
 </details>
 
-<details><summary><b>minecraft-mods</b>: 6 repos, 1.2k stars</summary>
+<details><summary><b>minecraft-mods</b>: 6 repos, 1.3k stars</summary>
 
-- [Wallbycontact/java-mod-rust-port-tool](https://github.com/Wallbycontact/java-mod-rust-port-tool) 299★ Feed it a Fabric or NeoForge mod jar and Smelt writes the Rust side for Horizon…
+- [Wallbycontact/java-mod-rust-port-tool](https://github.com/Wallbycontact/java-mod-rust-port-tool) 420★ Feed it a Fabric or NeoForge mod jar and Smelt writes the Rust side for Horizon…
 - [UpperSupervisor/horizon-modpack-compatibility](https://github.com/UpperSupervisor/horizon-modpack-compatibility) 213★ Drop your mods folder, a Prism or MultiMC instance or an .mrpack on Hopper and …
 - [Ceilingpiintensify/horizon-mod-checker](https://github.com/Ceilingpiintensify/horizon-mod-checker) 204★ Is my mod on Horizon? Type a name or drop your whole pack and every mod gets on…
 - [Straitbrashadow/minecraft-ai-mod-builder](https://github.com/Straitbrashadow/minecraft-ai-mod-builder) 198★ Vibe-build in Minecraft. Describe a build in your terminal, see it as a bluepri…
@@ -110,23 +98,33 @@ _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per da
 
 </details>
 
-<details><summary><b>bsc</b>: 5 repos, 860 stars</summary>
+<details><summary><b>download</b>: 28 repos, 3.3k stars</summary>
 
-- [jacke-pp/ai-wallet-binance](https://github.com/jacke-pp/ai-wallet-binance) 308★ 让任何 AI 用你自己的币安 AI 钱包交易：秒买秒卖、狙击 Agent 专属发射台（Four、Flap、GANG）、AI 专属 Mint、本机交易页面。币安…
-- [WyrmSpongeHaul/quant-trading-bot](https://github.com/WyrmSpongeHaul/quant-trading-bot) 300★ Quant Trading Bot 2026 - Full working installer with advanced trading algorithm…
-- [nancyc0813-maker/agentid-sniper](https://github.com/nancyc0813-maker/agentid-sniper) 149★ Local monitor + auto-mint + take-profit for Binance .ai Agent ID exclusive mint…
-- [hamnurger0501/binance-agentic-sniper](https://github.com/hamnurger0501/binance-agentic-sniper) 57★ BSC launchpad sniper (Gang V3 / Fair / CA / Flap Agent-ID) using Binance Agenti…
-- [setyamickala/bsc-contract-audit-skill](https://github.com/setyamickala/bsc-contract-audit-skill) 46★ 
+- [parallelpan/hongguo-downloader](https://github.com/parallelpan/hongguo-downloader) 478★ 红果短剧下载工具：红果短剧 / 红果免费短剧 全集下载、批量下载与整剧打包 ZIP，粘贴分享链接即云端处理、按集取件，免安装网页版。Hongguo downl…
+- [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) 306★ misterdownloadmanager: The ultimate open-source, clean-room download manager wr…
+- [Balanov/baiagent-free](https://github.com/Balanov/baiagent-free) 223★ Static download page for the free BAIagent Director Windows application.
+- [GeneralZyonix/morphe-download-helper](https://github.com/GeneralZyonix/morphe-download-helper) 203★ Unofficial APK download helper for Morphe Manager: APKMirror, APKPure, Uptodown…
+- [Ahmadkhattak1/awesome-downloader](https://github.com/Ahmadkhattak1/awesome-downloader) 192★ Open-source Windows download manager with browser video integration
 
 </details>
 
-<details><summary><b>stick</b>: 6 repos, 2.3k stars</summary>
+<details><summary><b>blockchain</b>: 8 repos, 1.1k stars</summary>
 
-- [Arjun-Ingole/hop](https://github.com/Arjun-Ingole/hop) 1.5k★ Install Linux next to Windows without a USB stick
-- [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills) 395★ Six Claude Code skills that make animations for reels, no footage needed: 3D ca…
-- [nilbuild/tinyhand](https://github.com/nilbuild/tinyhand) 161★ A tiny hand on a stick that points at things on your Mac screen.
-- [AbhishekKaisar/glassos-tv](https://github.com/AbhishekKaisar/glassos-tv) 105★ A calm, glassy home screen for Android TV, Google TV and Fire TV, inspired by t…
-- [cascodigital/skippy-tv](https://github.com/cascodigital/skippy-tv) 55★ Sci-fi starship-bridge home screen for Android TV (tested on NVIDIA Shield 1st …
+- [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) 405★ Paste a wallet or a transaction hash and follow stolen crypto to the exchange t…
+- [Signcluengine/onchain-money-trail-analyzer](https://github.com/Signcluengine/onchain-money-trail-analyzer) 171★ Follow stolen crypto hop by hop across Bitcoin, Ethereum, TRON, BNB Chain and S…
+- [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 163★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
+- [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) 114★ Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize di…
+- [git-wallet/gitwallet](https://github.com/git-wallet/gitwallet) 61★ GitWallet — non-custodial multi-chain crypto wallet for Android. 14 blockchains…
+
+</details>
+
+<details><summary><b>leveling</b>: 5 repos, 817 stars</summary>
+
+- [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) 286★ Answer four questions and see which WoW Forever class fits how you play. Free W…
+- [EmpressRectifier/wow-forever-builds-sixty](https://github.com/EmpressRectifier/wow-forever-builds-sixty) 162★ Replay any WoW Forever talent build level by level from 1 to 60. Free Windows a…
+- [helixmaintenancesaw/wow-forever-builds-respec](https://github.com/helixmaintenancesaw/wow-forever-builds-respec) 147★ Compare two WoW Forever builds and get an exact respec plan. Free Windows app.
+- [Obsidiantatrap/wow-forever-builds-waymark](https://github.com/Obsidiantatrap/wow-forever-builds-waymark) 134★ A step-by-step WoW Forever leveling route with an in-game overlay. Free Windows…
+- [ItzMeShadow999/BadgeMaxxer](https://github.com/ItzMeShadow999/BadgeMaxxer) 88★ Discord badge leveling tool, fabricates game time, game variety and Go Live str…
 
 </details>
 <!-- starwave:end -->
