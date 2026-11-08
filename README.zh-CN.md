@@ -48,84 +48,81 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 2,359 repos  2026-10-24..2026-11-07  stars>=40 · baseline 3,622 repos  2026-08-25..2026-10-23  stars>=150 · generated 2026-11-07 13:06 UTC_
+_recent 2,423 repos  2026-10-25..2026-11-08  stars>=40 · baseline 3,670 repos  2026-08-26..2026-10-24  stars>=150 · generated 2026-11-08 13:28 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **pixel-art** | 13 | 13 | 7.9k | 938/d | 613/d | ▁▁▁▁▁▂▃▇█▅▄▄▃▃ | 2026-10-24 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) |
-| 2 | **lag** (+ping) | 7 | 7 | 1.7k | 739/d | 340/d | ▁▁▁▁▁▁▅▁▁▁▅█▁▆ | 2026-10-30 | [PulverizeLink/roblox-performance-tool](https://github.com/PulverizeLink/roblox-performance-tool) |
-| 3 | **blockchain** (+bnb) | 8 | 8 | 1.2k | 379/d | 245/d | ▁▁▁▁▁▁▁▄▁▄▅▆█▄ | 2026-10-30 | [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) |
-| 4 | **sniper** (+bsc) | 5 | 5 | 865 | 357/d | 186/d | ▁▂▂▁▂▂▂▁▁▁▁▁█▃ | 2026-10-25 | [Nebularotunnel/Token-Sniper](https://github.com/Nebularotunnel/Token-Sniper) |
-| 5 | **forensics** | 5 | 5 | 848 | 341/d | 148/d | ▁▁▁▁▁▁▃▂▁▂▇▆▄█ | 2026-10-25 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
-| 6 | **eglantine** | 5 | 5 | 936 | 336/d | 267/d | ▁▁▁▁▁▁▁▁▁▂▂▄▆█ | 2026-11-01 | [riyadhHDA/wichforks](https://github.com/riyadhHDA/wichforks) |
-| 7 | **regularly** | 7 | 7 | 1.5k | 321/d | 162/d | ▁▁▁▃▁▁▅▅▅▁▁█▁▁ | 2026-10-27 | [TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026](https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026) |
-| 8 | **leveling** | 5 | 5 | 807 | 252/d | 222/d | ▁▁▁▁▁▁▁▁▁▁▂█▁▁ | 2026-11-01 | [protonversestudio/wow-forever-builds-kindred](https://github.com/protonversestudio/wow-forever-builds-kindred) |
-| 9 | **portrait** (+pose-reference) | 8 | 8 | 797 | 171/d | 63/d | ▁▁▂▂▁▃▅▄▆█▅▃▃▅ | 2026-10-26 | [yt1988/who-are-you](https://github.com/yt1988/who-are-you) |
-| 10 | **six** | 6 | 6 | 1.1k | 164/d | 95/d | ▁▁▁▁▄▃▂▃▅▆█▅▃▄ | 2026-10-25 | [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills) |
+| 1 | **lag** | 6 | 6 | 1.5k | 707/d | 218/d | ▁▁▁▁▁▂▁▁▁▅█▁█▅ | 2026-10-30 | [PulverizeLink/roblox-performance-tool](https://github.com/PulverizeLink/roblox-performance-tool) |
+| 2 | **totk** | 5 | 5 | 7.1k | 704/d | 322/d | ▂▂▁▁▆█▇▇▇▄▄▃▃▃ | 2026-10-25 | [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) |
+| 3 | **trainer** (+blade, phantom) | 7 | 7 | 1.1k | 586/d | 363/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-03 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) |
+| 4 | **regularly** | 6 | 6 | 1.4k | 290/d | 133/d | ▁▁▃▁▁▁▁▅▁▁█▁▁▆ | 2026-10-27 | [fjordostrichhose/Steam-Points-Tools-2026](https://github.com/fjordostrichhose/Steam-Points-Tools-2026) |
+| 5 | **eglantine** | 5 | 5 | 1.1k | 284/d | 281/d | ▁▁▁▁▁▁▁▁▂▂▃▆█▄ | 2026-11-01 | [riyadhHDA/wichforks](https://github.com/riyadhHDA/wichforks) |
+| 6 | **blockchain** (+bnb) | 9 | 9 | 1.2k | 280/d | 179/d | ▁▁▁▁▁▁▄▁▄▅▆█▄▂ | 2026-10-25 | [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) |
+| 7 | **forensics** | 5 | 5 | 977 | 255/d | 159/d | ▁▁▁▁▁▃▂▁▂▇▆▄█▇ | 2026-10-25 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
+| 8 | **nintendo-switch-2** | 6 | 6 | 1.2k | 201/d | 134/d | ▁▁▁▁▁▂▁▁▇█▆▅▄▅ | 2026-10-30 | [xFractals/pokopia-native](https://github.com/xFractals/pokopia-native) |
+| 9 | **portrait** (+pose-reference) | 9 | 9 | 982 | 179/d | 96/d | ▁▂▂▁▃▅▄▆█▅▃▄▆▆ | 2026-10-26 | [yt1988/who-are-you](https://github.com/yt1988/who-are-you) |
+| 10 | **living** | 7 | 7 | 1.7k | 174/d | 72/d | ▄▃▃▂▂█▅▅▅▃▃▃▂▂ | 2026-10-25 | [alchaincyf/huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **configured** (+pre-configured, utility, software-engineering, windows-app, ensuring, 46 more) | 166 | 166 | 24.5k | 22.4k/d | 8.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-27 | [chordexpertflourish/autocad](https://github.com/chordexpertflourish/autocad) | near-duplicate, same-day, flat-stars |
-| 2 | **activator** (+kms, windows-10, activation, scala, office365, 22 more) | 137 | 137 | 6.3k | 6.0k/d | 73/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▅ | 2026-10-29 | [Layerriclient/microsoft-365](https://github.com/Layerriclient/microsoft-365) | near-duplicate, same-day, flat-stars |
-| 3 | **gemeni** (+general-purpose, manus, purpose, typescript-sdk, function-calling, 19 more) | 66 | 59 | 5.3k | 5.3k/d | 258/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-06 | [quyetcao/ai-manus](https://github.com/quyetcao/ai-manus) | near-duplicate, same-day, flat-stars |
-| 4 | **ai-image-generation** (+apimart, gpt-image) | 14 | 2 | 1.8k | 697/d | 444/d | ▁▁▁▁▁▂▁▁▁▂▁▁█▂ | 2026-10-29 | [wquguru/shisei](https://github.com/wquguru/shisei) | same-day, few-owners |
-| 5 | **rpocket** (+desert) | 30 | 30 | 1.2k | 601/d | 400/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-05 | [RiventronLucky53535/crypto-rpocket-accumulation-scanner](https://github.com/RiventronLucky53535/crypto-rpocket-accumulation-scanner) | same-day, flat-stars |
-| 6 | **resocket** | 16 | 16 | 640 | 320/d | 213/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-05 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | same-day |
-| 7 | **coregold** (+vcc, usdt, visa, mastercard) | 42 | 37 | 2.4k | 283/d | 309/d | ▁▁▁▁▃▄▅▃▇▁▅█▇▁ | 2026-10-28 | [gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console](https://github.com/gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console) | flat-stars |
-| 8 | **resp** | 11 | 11 | 441 | 221/d | 147/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-05 | [ViaBecrest/Eden-Switch-Emulator-resp](https://github.com/ViaBecrest/Eden-Switch-Emulator-resp) | same-day |
-| 9 | **aion** (+aion-2, mmorpg, aion2, dps-meter, dps, 6 more) | 15 | 15 | 863 | 62/d | 2/d | ▁█▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-10-24 | [ORICHO08/aion2-combat-overlay](https://github.com/ORICHO08/aion2-combat-overlay) | same-day |
+| 1 | **configured** (+pre-configured, software-engineering, utility, scripts, seamless, 80 more) | 293 | 293 | 76.7k | 58.4k/d | 11.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▂█ | 2026-10-25 | [PaladinDiscriminate/adobe-substance-3d](https://github.com/PaladinDiscriminate/adobe-substance-3d) | near-duplicate, same-day, flat-stars |
+| 2 | **activator** (+kms, activation, windows-10, massgravel, office365, 25 more) | 136 | 136 | 19.8k | 9.7k/d | 6.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-29 | [bautistacorujo610-stack/office-activation-command-tool](https://github.com/bautistacorujo610-stack/office-activation-command-tool) | near-duplicate, same-day, flat-stars |
+| 3 | **windows-app** (+activated, community-driven, enabled, mirroring) | 54 | 54 | 13.7k | 8.4k/d | 3.6k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-06 | [OhmUrchinSee/abbyy-finereader-pdf](https://github.com/OhmUrchinSee/abbyy-finereader-pdf) | same-day, flat-stars |
+| 4 | **gemeni** (+general-purpose, manus, purpose, typescript-sdk, function-calling, 15 more) | 33 | 29 | 1.8k | 1.3k/d | 591/d | ▁▁▁▁▁▁▁▁▁▁▁▁▆█ | 2026-11-06 | [quyetcao/ai-manus](https://github.com/quyetcao/ai-manus) | near-duplicate, flat-stars |
+| 5 | **ai-image-generation** (+apimart, gpt-image) | 14 | 2 | 1.8k | 477/d | 438/d | ▁▁▁▁▂▁▁▁▂▁▁█▂▁ | 2026-10-29 | [wquguru/shisei](https://github.com/wquguru/shisei) | same-day, few-owners |
+| 6 | **coregold** (+vcc, usdt, visa, mastercard) | 42 | 37 | 2.4k | 253/d | 138/d | ▁▁▁▃▄▅▃▇▁▅█▇▁▁ | 2026-10-28 | [gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console](https://github.com/gutrfgtd-cyber/CoreGold---Direct-Issue-Global-Virtual-Credit-Card-Infrastructure-Management-Console) | flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>pixel-art</b>: 13 repos, 7.9k stars</summary>
-
-- [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) 5.7k★ 244 pixel art effects, every one a small piece of code. Plus a Claude Code skil…
-- [yalongwastaken/git-koi](https://github.com/yalongwastaken/git-koi) 618★ Draw a pixel-art koi from a GitHub account's public activity, as a looping GIF …
-- [Lanqiao-Luca/ai-video-marker](https://github.com/Lanqiao-Luca/ai-video-marker) 385★ 🎬 AI 视频制作与 AIGC 创作工作流（AI Video Creation Workflow）｜用 AI 制作视频、像素动画与漫画短片｜分镜、素材、配乐…
-- [sloemo01/diorama](https://github.com/sloemo01/diorama) 346★ Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroke…
-- [SparrowPortray/horizon-free-capes](https://github.com/SparrowPortray/horizon-free-capes) 231★ Every cape, wing, hat, pet and emote in Drip is free: 24 capes, your own PNG or…
-
-</details>
-
-<details><summary><b>lag</b>: 7 repos, 1.7k stars</summary>
+<details><summary><b>lag</b>: 6 repos, 1.5k stars</summary>
 
 - [PulverizeLink/roblox-performance-tool](https://github.com/PulverizeLink/roblox-performance-tool) 426★ Lightweight performance utility for Roblox on Windows. Boosts FPS, fixes stutte…
-- [StormSkinkGrip/game-ping-multipath-router](https://github.com/StormSkinkGrip/game-ping-multipath-router) 325★ Shortcut races your normal route against faster ones to the game server, sends …
-- [Badgenyamultiplexer/pc-game-fps-doctor](https://github.com/Badgenyamultiplexer/pc-game-fps-doctor) 305★ One button: why the game stutters, why it lags and why it won't start. Pitstop …
-- [QuantumBladesmith/FPS-Optimizer-Universal-Game-Performance-Booster-2026](https://github.com/QuantumBladesmith/FPS-Optimizer-Universal-Game-Performance-Booster-2026) 302★ Powerful FPS Optimizer for all games. Increase frame rate, reduce lag and stutt…
-- [SkinkSmelter6/valorant-fps-lag-fixer](https://github.com/SkinkSmelter6/valorant-fps-lag-fixer) 272★ VALORANT stutters, lags or won't start? Tick reads the Vanguard code, measures …
+- [StormSkinkGrip/game-ping-multipath-router](https://github.com/StormSkinkGrip/game-ping-multipath-router) 326★ Shortcut races your normal route against faster ones to the game server, sends …
+- [Badgenyamultiplexer/pc-game-fps-doctor](https://github.com/Badgenyamultiplexer/pc-game-fps-doctor) 307★ One button: why the game stutters, why it lags and why it won't start. Pitstop …
+- [PlateParrotTerminal/lag-doctor](https://github.com/PlateParrotTerminal/lag-doctor) 190★ Game ping, jitter & packet loss monitor: finds who causes your lag
+- [MajestyPoemFold/ghostclick-mouse-double-click-fix](https://github.com/MajestyPoemFold/ghostclick-mouse-double-click-fix) 173★ Free mouse double click test and fix for Windows 11/10. Finds ghost clicks (mou…
 
 </details>
 
-<details><summary><b>blockchain</b>: 8 repos, 1.2k stars</summary>
+<details><summary><b>totk</b>: 5 repos, 7.1k stars</summary>
 
-- [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) 387★ Paste a wallet or a transaction hash and follow stolen crypto to the exchange t…
-- [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) 255★ Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize di…
-- [Signcluengine/onchain-money-trail-analyzer](https://github.com/Signcluengine/onchain-money-trail-analyzer) 166★ Follow stolen crypto hop by hop across Bitcoin, Ethereum, TRON, BNB Chain and S…
-- [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 164★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
-- [git-wallet/gitwallet](https://github.com/git-wallet/gitwallet) 61★ GitWallet — non-custodial multi-chain crypto wallet for Android. 14 blockchains…
-
-</details>
-
-<details><summary><b>sniper</b>: 5 repos, 865 stars</summary>
-
-- [Nebularotunnel/Token-Sniper](https://github.com/Nebularotunnel/Token-Sniper) 391★ Advanced desktop analyzer for DEX activity. Monitors new liquidity pair creatio…
-- [jacke-pp/ai-wallet-binance](https://github.com/jacke-pp/ai-wallet-binance) 308★ 让任何 AI 用你自己的币安 AI 钱包交易：秒买秒卖、狙击 Agent 专属发射台（Four、Flap、GANG）、AI 专属 Mint、本机交易页面。币安…
-- [Stratumgreawning7/MemeCoin-Sniper-Bot](https://github.com/Stratumgreawning7/MemeCoin-Sniper-Bot) 58★ Crypto Meme Coin Sniper Bot for Automated Trading, New Token Sniping, Meme Toke…
-- [hamnurger0501/binance-agentic-sniper](https://github.com/hamnurger0501/binance-agentic-sniper) 57★ BSC launchpad sniper (Gang V3 / Fair / CA / Flap Agent-ID) using Binance Agenti…
-- [Beingfluresurrect/Solana-token-sniper](https://github.com/Beingfluresurrect/Solana-token-sniper) 51★ Solana token sniper for Raydium V4 and Pump.fun. Bypass mempool with Jito MEV b…
+- [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) 5.8k★ Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Win…
+- [kuraeow/ultratears](https://github.com/kuraeow/ultratears) 836★ Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using st…
+- [daniel-madrid-07/weeping-of-the-empire](https://github.com/daniel-madrid-07/weeping-of-the-empire) 306★ Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulka…
+- [FurkanAnc/totk-launcher](https://github.com/FurkanAnc/totk-launcher) 89★ Launcher for the Tears of the Kingdom PC recomp: settings, key rebinding, keybo…
+- [AurelioB/totk-android](https://github.com/AurelioB/totk-android) 72★ Tears of the Kingdom native Android port (TotK Native)
 
 </details>
 
-<details><summary><b>forensics</b>: 5 repos, 848 stars</summary>
+<details><summary><b>trainer</b>: 7 repos, 1.1k stars</summary>
 
-- [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) 406★ Python tool for aircraft Doppler audio geolocation using historical ADS-B fligh…
-- [arnold117/iOS-NOIR](https://github.com/arnold117/iOS-NOIR) 224★ No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (in…
-- [phishdestroy/TgWitness](https://github.com/phishdestroy/TgWitness) 109★ Telegram chat exporter and OSINT evidence workspace. Preserve observed edits an…
-- [acnekot/frauddb](https://github.com/acnekot/frauddb) 59★ 
-- [ycc77cn/skills](https://github.com/ycc77cn/skills) 50★ 杨CC 开源 AI Agent 技能合集 \| Divination, Software Development, Digital Forensics
+- [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) 244★ Phantom Blade Zero Trainer 2026: God Mode, One-Hit Kill, start All Weapons
+- [pablomatosdev/phantom-blade-zero-save-manager](https://github.com/pablomatosdev/phantom-blade-zero-save-manager) 244★ Phantom Blade Zero Save Manager 2026 — Automated Progress Backup Utility
+- [richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit](https://github.com/richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit) 244★ PhantomBladeZero-Cheat: 54 toggleable runtime options and three presets for Pha…
+- [wanjalaibra05-lgtm/phantom-blade-zero-assist](https://github.com/wanjalaibra05-lgtm/phantom-blade-zero-assist) 244★ Phantom Blade Zero: Symbol Cues, Wider Parry Windows, Full Arsenal
+- [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) 73★ Whole-body motion tracking for the Unitree G1 in under a minute. BlinkMimic's w…
+
+</details>
+
+<details><summary><b>regularly</b>: 6 repos, 1.4k stars</summary>
+
+- [fjordostrichhose/Steam-Points-Tools-2026](https://github.com/fjordostrichhose/Steam-Points-Tools-2026) 426★ Professional desktop application for Steam users. Smart tools for points manage…
+- [davidlopez-x05x8/minecraft-aim-assist](https://github.com/davidlopez-x05x8/minecraft-aim-assist) 300★ Minecraft Aim Assist 2026 — Smooth aiming assistance for 1.21.4 Fabric. Adaptiv…
+- [StraitBailiff/Voice-Changer-2026](https://github.com/StraitBailiff/Voice-Changer-2026) 235★ Lightweight desktop application for real-time voice changing. Multiple voice ef…
+- [ChannelDivinerCast/VSCode-Extension-Helper](https://github.com/ChannelDivinerCast/VSCode-Extension-Helper) 163★ Lightweight desktop tool for Visual Studio Code users. Smart extension manageme…
+- [GrandeurPikeman/Roblox-MM2-Utility-2026](https://github.com/GrandeurPikeman/Roblox-MM2-Utility-2026) 144★ Lightweight desktop utility for Roblox Murder Mystery 2. Convenient helpers, qu…
+
+</details>
+
+<details><summary><b>eglantine</b>: 5 repos, 1.1k stars</summary>
+
+- [riyadhHDA/wichforks](https://github.com/riyadhHDA/wichforks) 500★ Use-case guide to Nintendo Switch 2 emulator forks: builds, games, GPUs, Androi…
+- [sylvieistaken/selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine) 249★ Selevet Eglantine: an unofficial Eglantine (Switch 2 emulator) build tuned for …
+- [viejunerd/Eglantine-PS5-](https://github.com/viejunerd/Eglantine-PS5-) 150★ 
+- [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs) 114★ Better performance, Frame Generation FSR 3 and LSFG. DynamicFPS. 30FPS LOCK. On…
+- [sikoGD/playDB-CNT](https://github.com/sikoGD/playDB-CNT) 88★ Play The Duskbloods Network Test on Eglantine/Lichii: a launcher with local loo…
 
 </details>
 <!-- starwave:end -->
