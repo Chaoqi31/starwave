@@ -48,41 +48,54 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 2,561 repos  2026-10-29..2026-11-12  stars>=40 · baseline 3,820 repos  2026-08-30..2026-10-28  stars>=150 · generated 2026-11-12 15:19 UTC_
+_recent 3,047 repos  2026-10-30..2026-11-13  stars>=40 · baseline 3,887 repos  2026-08-31..2026-10-29  stars>=150 · generated 2026-11-13 14:38 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **ocarina** | 6 | 6 | 10.1k | 1.5k/d | 1.7k/d | ▁▁▁▁▁▁▁▁▄▇▆█▆▅ | 2026-11-05 | [NotRexed/Hookshot](https://github.com/NotRexed/Hookshot) |
-| 2 | **blockchain** (+ethereum) | 10 | 10 | 2.2k | 366/d | 325/d | ▁▁▃▁▃▃▄▆▃▁▂▁█▇ | 2026-10-30 | [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) |
-| 3 | **enhancements** | 5 | 5 | 2.1k | 289/d | 428/d | ▁▁▁▁▂▁▂▂▂▄▃▆▅█ | 2026-10-29 | [shivsupratik/windows-optimizer](https://github.com/shivsupratik/windows-optimizer) |
-| 4 | **eglantine** | 6 | 6 | 1.3k | 169/d | 45/d | ▁▁▁▁▂▂▃▆█▅▃▂▂▂ | 2026-11-01 | [riyadhHDA/wichforks](https://github.com/riyadhHDA/wichforks) |
-| 5 | **que** | 6 | 6 | 1.1k | 149/d | 47/d | ▁▁▁▆█▇▄▃▅▃▂▂▂▃ | 2026-10-30 | [mille-okws/pestinha](https://github.com/mille-okws/pestinha) |
-| 6 | **flight** (+endless, ads-b) | 10 | 10 | 1.3k | 143/d | 52/d | ▁▁▁▁▃██▄▂▃▄▂▂▂ | 2026-10-29 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
-| 7 | **codes** | 5 | 5 | 464 | 130/d | 10/d | ▁▃█▁▂▁▄▁█▂▆▂▂▁ | 2026-10-29 | [Townlanurture/aegis-skin-terminal](https://github.com/Townlanurture/aegis-skin-terminal) |
-| 8 | **nintendo-switch-2** | 5 | 5 | 1.3k | 126/d | 118/d | ▁▃▂▂▄▆▄▃▄▅█▆▅▄ | 2026-10-30 | [Lucas-blip-png/dkb-pc-recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp) |
-| 9 | **portrait** | 7 | 7 | 1.3k | 124/d | 84/d | ▃▅▄▆█▅▃▃▅▅▇▄▃▇ | 2026-10-29 | [yt1988/who-are-you](https://github.com/yt1988/who-are-you) |
-| 10 | **gpl-3.0** | 7 | 7 | 861 | 101/d | 55/d | ▁▁▄█▃▃▃▂▂▂▃▂▃▃ | 2026-10-30 | [0xCodez/DuoDesk](https://github.com/0xCodez/DuoDesk) |
+| 1 | **tweaks** | 9 | 9 | 8.3k | 1.9k/d | 1.3k/d | ▁▁▁▁▁▁▁▁▁▁█▆▃▂ | 2026-10-30 | [huamidev/GestaltX](https://github.com/huamidev/GestaltX) |
+| 2 | **crack** | 7 | 7 | 1.8k | 471/d | 417/d | ▁▁▁▁▁▂▂▁▄▂▃▆█▅ | 2026-11-04 | [marorateb/burning-studio-desktop](https://github.com/marorateb/burning-studio-desktop) |
+| 3 | **blockchain** (+ethereum) | 10 | 10 | 2.2k | 298/d | 316/d | ▁▃▁▃▃▅▆▃▁▂▁█▇▁ | 2026-10-30 | [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) |
+| 4 | **trainer** (+blade) | 6 | 6 | 1.4k | 201/d | 7/d | ▁▁▁▁▁▁▂▁█▆█▁▁▁ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) |
+| 5 | **flight** (+ads-b) | 10 | 10 | 1.3k | 132/d | 45/d | ▁▁▁▃█▆▃▂▃▄▂▂▂▂ | 2026-10-31 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
+| 6 | **gpl-3.0** | 8 | 8 | 929 | 114/d | 66/d | ▁▄█▃▃▃▂▂▂▃▂▃▄▂ | 2026-10-30 | [0xCodez/DuoDesk](https://github.com/0xCodez/DuoDesk) |
+| 7 | **cs2** (+aegis, fee) | 7 | 7 | 985 | 108/d | 1/d | ▂█▁▂▁▁▁▁▁▃▂▁▁▁ | 2026-10-30 | [SoldierMultiply/footstep-equalizer](https://github.com/SoldierMultiply/footstep-equalizer) |
+| 8 | **switch2** | 5 | 5 | 374 | 103/d | 65/d | ▁▁▁▁▁▁▂▁▂▇▅▃█▅ | 2026-11-04 | [enjoyerofslop/droidplay-core](https://github.com/enjoyerofslop/droidplay-core) |
+| 9 | **plamo** | 5 | 5 | 604 | 80/d | 58/d | ▁▁▁▁▁▁▃▂▅▆█▆▂▂ | 2026-11-05 | [jammaru/sakutto](https://github.com/jammaru/sakutto) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **trial-version** (+trial, windows-software, windows-10, latest, download, 70 more) | 367 | 367 | 38.4k | 18.3k/d | 12.3k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-30 | [uchihamx999-beep/imei-repair-toolkit](https://github.com/uchihamx999-beep/imei-repair-toolkit) | same-day, flat-stars |
-| 2 | **utility** (+windows-app, software-engineering, setup, configured, pre-configured, 10 more) | 117 | 117 | 88.6k | 15.3k/d | 22.1k/d | ▁▁▁▁▁▁▁▁▁▄▃▄▄█ | 2026-10-29 | [mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor) | near-duplicate, same-day, flat-stars |
-| 3 | **activator** (+kms, activation, massgravel, office365, scala, 22 more) | 135 | 135 | 19.6k | 3.2k/d | 2/d | ▁▁▁▁▁▁▁▁▁█▁▁▁▁ | 2026-10-29 | [CCardona6/office-suite-alternative-access](https://github.com/CCardona6/office-suite-alternative-access) | near-duplicate, same-day, flat-stars |
-| 4 | **coregold** (+vcc, usdt, visa, billing, mastercard, 1 more) | 70 | 64 | 5.1k | 518/d | 708/d | ▂▂▂▄▁▃▆▆▁▁▄▄█▇ | 2026-10-29 | [jmarianodaa-ctrl/-CoreGold---Global-Virtual-Card-Gateway](https://github.com/jmarianodaa-ctrl/-CoreGold---Global-Virtual-Card-Gateway) | flat-stars |
-| 5 | **gemeni** (+general-purpose, manus, solidjs, typescript-sdk, tool-calling, 14 more) | 27 | 25 | 1.4k | 252/d | 1/d | ▁▁▁▁▁▁▁▁▇█▁▁▁▁ | 2026-11-06 | [Abdul-Rehman7826/ai-manus](https://github.com/Abdul-Rehman7826/ai-manus) | near-duplicate, flat-stars |
-| 6 | **ai-image-generation** (+gpt-image, apimart) | 14 | 2 | 1.8k | 220/d | 7/d | ▂▁▁▁▂▁▁█▂▁▁▁▁▁ | 2026-10-29 | [wquguru/shisei](https://github.com/wquguru/shisei) | same-day, few-owners |
+| 1 | **trial-version** (+trial, windows-software, windows-10, latest, download, 73 more) | 366 | 366 | 38.4k | 12.7k/d | 12.3k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-31 | [uchihamx999-beep/imei-repair-toolkit](https://github.com/uchihamx999-beep/imei-repair-toolkit) | same-day, flat-stars |
+| 2 | **utility** (+windows-app, software-engineering, configured, setup, pre-configured, 10 more) | 112 | 112 | 82.6k | 12.4k/d | 16.2k/d | ▁▁▁▁▁▁▁▁▄▃▄▄█▁ | 2026-11-01 | [mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor) | near-duplicate, same-day, flat-stars |
+| 3 | **rpocket** (+recoil, pre-activated, esp, meteor, items, 47 more) | 236 | 235 | 12.9k | 3.6k/d | 4.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [Arcanedagger38906/Domination-for-Red-rpocket-Engineers-server](https://github.com/Arcanedagger38906/Domination-for-Red-rpocket-Engineers-server) | flat-stars |
+| 4 | **activator** (+kms, activation, microsoft, office365, scala, 19 more) | 131 | 131 | 19.0k | 2.9k/d | 91/d | ▁▁▁▁▁▁▁▁█▁▁▁▁▁ | 2026-11-05 | [CCardona6/office-suite-alternative-access](https://github.com/CCardona6/office-suite-alternative-access) | near-duplicate, same-day, flat-stars |
+| 5 | **resp** (+changer, troubleshooting, monitors, ban, dealer, 9 more) | 142 | 140 | 7.8k | 2.0k/d | 2.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [ViaBecrest/Eden-Switch-Emulator-resp](https://github.com/ViaBecrest/Eden-Switch-Emulator-resp) | flat-stars |
+| 6 | **respocket** (+cheats, aax, soft, aio, yet, 4 more) | 65 | 65 | 3.5k | 1.2k/d | 1.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [Ironisnex/FC27-Respocket-AIO-Soft](https://github.com/Ironisnex/FC27-Respocket-AIO-Soft) | flat-stars |
+| 7 | **resocket** | 72 | 72 | 4.2k | 730/d | 1.3k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | flat-stars |
+| 8 | **coregold** (+vcc, billing, guard, stripe) | 64 | 62 | 4.5k | 479/d | 618/d | ▂▁▃▁▃▅▆▁▁▄▅█▇▄ | 2026-10-30 | [sygnomkt-ops/CoreGold---3-Step-Guide-to-Subscribe-to-Claude-Pro-Cursor-AI](https://github.com/sygnomkt-ops/CoreGold---3-Step-Guide-to-Subscribe-to-Claude-Pro-Cursor-AI) | flat-stars |
+| 9 | **gemeni** (+general-purpose, manus, typescript-sdk, ai-manus, purpose, 12 more) | 26 | 24 | 1.4k | 205/d | 1/d | ▁▁▁▁▁▁▁▇█▁▁▁▁▁ | 2026-11-06 | [Abdul-Rehman7826/ai-manus](https://github.com/Abdul-Rehman7826/ai-manus) | near-duplicate, same-day, flat-stars |
+| 10 | **ai-image-generation** (+gpt-image, apimart) | 13 | 1 | 1.3k | 162/d | 0/d | ▁▁▁▁▁▁█▂▁▁▁▁▁▁ | 2026-11-05 | [fujc683/gpt-image-2-6-commercial-use](https://github.com/fujc683/gpt-image-2-6-commercial-use) | same-day, few-owners |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>ocarina</b>: 6 repos, 10.1k stars</summary>
+<details><summary><b>tweaks</b>: 9 repos, 8.3k stars</summary>
 
-- [NotRexed/Hookshot](https://github.com/NotRexed/Hookshot) 8.4k★ A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch …
-- [sostenesfreitas/ocarina-recomp](https://github.com/sostenesfreitas/ocarina-recomp) 1.2k★ Ocarina of Time running natively on Windows, no emulator. Built on your PC from…
-- [jaigner-hub/ocarina-of-time-recomp](https://github.com/jaigner-hub/ocarina-of-time-recomp) 296★ Static recompilation of The Legend of Zelda: Ocarina of Time into a native PC p…
-- [adi0900/GreenKid-MV](https://github.com/adi0900/GreenKid-MV) 109★ Game-free Mac builder for native Ocarina of Time (Switch 2) ports on Apple Sili…
-- [dsi-hub/HookLink](https://github.com/dsi-hub/HookLink) 66★ The Legend of Zelda: Ocarina of Time (Switch 2 Edition) on iPhone, built on you…
+- [huamidev/GestaltX](https://github.com/huamidev/GestaltX) 7.2k★ An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device pres…
+- [JaceThings/DiaTweaks](https://github.com/JaceThings/DiaTweaks) 668★ Unofficial tweaks for the Dia browser, kept in place across updates
+- [PoomSmart/ios-logos-tweak](https://github.com/PoomSmart/ios-logos-tweak) 105★ Agent skill for best practices for iOS jailbreak tweaks
+- [PranavDupati/ninboy-hat-for-macos](https://github.com/PranavDupati/ninboy-hat-for-macos) 82★ Native compilation enhancements, crash fixes, keyboard/mouse controls, and perf…
+- [WithElectron83682/PC-Gaming-Tweaker](https://github.com/WithElectron83682/PC-Gaming-Tweaker) 63★ Optimize Windows 10/11 for gaming – boost FPS, reduce latency, clean disk, and …
+
+</details>
+
+<details><summary><b>crack</b>: 7 repos, 1.8k stars</summary>
+
+- [marorateb/burning-studio-desktop](https://github.com/marorateb/burning-studio-desktop) 1.1k★ Burning Studio 2026: Complete Standalone Desktop Setup with Full Feature Config…
+- [tigerogijzooav/Hyperliquid-Trade-Bot](https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot) 289★ Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, …
+- [silverdugongenhance/PromptReel](https://github.com/silverdugongenhance/PromptReel) 207★ Free desktop app that turns a text prompt into a short video clip on your own P…
+- [FrontierPheasant/voicemod](https://github.com/FrontierPheasant/voicemod) 102★ Reactive state management for voice modes, real-time streaming, and audio inter…
+- [DeckhandIgnite/Davinci-Resolve-Studio-For-Windows](https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows) 50★ DaVinci Resolve Studio for Windows — professional video editing, color grading,…
 
 </details>
 
@@ -90,39 +103,29 @@ _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per da
 
 - [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) 934★ Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize di…
 - [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) 392★ Paste a wallet or a transaction hash and follow stolen crypto to the exchange t…
-- [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 241★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
+- [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 240★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
 - [Signcluengine/onchain-money-trail-analyzer](https://github.com/Signcluengine/onchain-money-trail-analyzer) 167★ Follow stolen crypto hop by hop across Bitcoin, Ethereum, TRON, BNB Chain and S…
 - [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 164★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
 
 </details>
 
-<details><summary><b>enhancements</b>: 5 repos, 2.1k stars</summary>
+<details><summary><b>trainer</b>: 6 repos, 1.4k stars</summary>
 
-- [shivsupratik/windows-optimizer](https://github.com/shivsupratik/windows-optimizer) 1.1k★ Windows Optimizer: Advanced System Tweaks and Performance Enhancements
-- [Dittobyte/Recompia](https://github.com/Dittobyte/Recompia) 673★ Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Han…
-- [Mabec-games/Conker-Recomped-and-Reloaded](https://github.com/Mabec-games/Conker-Recomped-and-Reloaded) 163★ Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with …
-- [PranavDupati/ninboy-hat-for-macos](https://github.com/PranavDupati/ninboy-hat-for-macos) 81★ Native compilation enhancements, crash fixes, keyboard/mouse controls, and perf…
-- [ethanseagull/sm64ds-enhanced](https://github.com/ethanseagull/sm64ds-enhanced) 53★ Super Mario 64 DS native 3ds port with enhancements
-
-</details>
-
-<details><summary><b>eglantine</b>: 6 repos, 1.3k stars</summary>
-
-- [riyadhHDA/wichforks](https://github.com/riyadhHDA/wichforks) 574★ Use-case guide to Nintendo Switch 2 emulator forks: builds, games, GPUs, Androi…
-- [sylvieistaken/selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine) 258★ Selevet Eglantine: an unofficial Eglantine (Switch 2 emulator) build tuned for …
-- [viejunerd/Eglantine-PS5-](https://github.com/viejunerd/Eglantine-PS5-) 172★ 
-- [sikoGD/playDB-CNT](https://github.com/sikoGD/playDB-CNT) 138★ Play The Duskbloods Network Test on Eglantine/Lichii: a launcher with local loo…
-- [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs) 110★ Better performance, Frame Generation FSR 3 and LSFG. DynamicFPS. 30FPS LOCK. On…
+- [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) 382★ Phantom Blade Zero Trainer 2026: God Mode, One-Hit Kill, start All Weapons
+- [richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit](https://github.com/richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit) 382★ PhantomBladeZero-Cheat: 54 toggleable runtime options and three presets for Pha…
+- [wanjalaibra05-lgtm/phantom-blade-zero-assist](https://github.com/wanjalaibra05-lgtm/phantom-blade-zero-assist) 382★ Phantom Blade Zero: Symbol Cues, Wider Parry Windows, Full Arsenal
+- [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) 130★ Whole-body motion tracking for the Unitree G1 in under a minute. BlinkMimic's w…
+- [prabeakarve/microgpt](https://github.com/prabeakarve/microgpt) 51★ A from-scratch, dependency-free GPT implementation in pure NumPy: byte-level to…
 
 </details>
 
-<details><summary><b>que</b>: 6 repos, 1.1k stars</summary>
+<details><summary><b>flight</b>: 10 repos, 1.3k stars</summary>
 
-- [mille-okws/pestinha](https://github.com/mille-okws/pestinha) 405★ Pestinha é um pet virtual de desktop para Windows, com rede neural pulsada, emo…
-- [R238Company/meu-emprego-novo](https://github.com/R238Company/meu-emprego-novo) 256★ Equipe de agentes de IA (CrewAI + AWS Bedrock/Claude) que lê a descrição de uma…
-- [viajatech/agente-isabella](https://github.com/viajatech/agente-isabella) 173★ 🌐 PÚBLICO · Agente Isabella: convierte un Android en asistente de voz con IA q…
-- [SalmeronDevZone/azure-lab](https://github.com/SalmeronDevZone/azure-lab) 139★ Simulador de Azure para aprender DevOps sin cuenta ni costes: portal, Cloud She…
-- [LeiteZ/fluxo-de-edicao](https://github.com/LeiteZ/fluxo-de-edicao) 99★ Skill para o Claude Code que te guia a montar o seu fluxo de edição de vídeo
+- [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) 580★ Python tool for aircraft Doppler audio geolocation using historical ADS-B fligh…
+- [mjshiggins/dopplertrack](https://github.com/mjshiggins/dopplertrack) 259★ Acoustic geolocation from the Doppler curves of propeller aircraft.
+- [WeebLabs/Nightscape](https://github.com/WeebLabs/Nightscape) 96★ A cozy, endless flight above a moonlit sea of storm clouds, rendered in real ti…
+- [nathanmarlor/flightscope-public](https://github.com/nathanmarlor/flightscope-public) 86★ Handheld Raspberry Pi flight tracker for a young plane-spotter: live map, plane…
+- [globalmpc/vibe-preflight](https://github.com/globalmpc/vibe-preflight) 65★ Claude Code skill: pre-flight check for vibe-coded apps before launch — leaked …
 
 </details>
 <!-- starwave:end -->
