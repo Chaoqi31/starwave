@@ -48,84 +48,85 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 3,047 repos  2026-10-30..2026-11-13  stars>=40 · baseline 3,887 repos  2026-08-31..2026-10-29  stars>=150 · generated 2026-11-13 14:38 UTC_
+_recent 3,727 repos  2026-10-31..2026-11-14  stars>=40 · baseline 3,933 repos  2026-09-01..2026-10-30  stars>=150 · generated 2026-11-14 13:35 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **tweaks** | 9 | 9 | 8.3k | 1.9k/d | 1.3k/d | ▁▁▁▁▁▁▁▁▁▁█▆▃▂ | 2026-10-30 | [huamidev/GestaltX](https://github.com/huamidev/GestaltX) |
-| 2 | **crack** | 7 | 7 | 1.8k | 471/d | 417/d | ▁▁▁▁▁▂▂▁▄▂▃▆█▅ | 2026-11-04 | [marorateb/burning-studio-desktop](https://github.com/marorateb/burning-studio-desktop) |
-| 3 | **blockchain** (+ethereum) | 10 | 10 | 2.2k | 298/d | 316/d | ▁▃▁▃▃▅▆▃▁▂▁█▇▁ | 2026-10-30 | [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) |
-| 4 | **trainer** (+blade) | 6 | 6 | 1.4k | 201/d | 7/d | ▁▁▁▁▁▁▂▁█▆█▁▁▁ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) |
-| 5 | **flight** (+ads-b) | 10 | 10 | 1.3k | 132/d | 45/d | ▁▁▁▃█▆▃▂▃▄▂▂▂▂ | 2026-10-31 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
-| 6 | **gpl-3.0** | 8 | 8 | 929 | 114/d | 66/d | ▁▄█▃▃▃▂▂▂▃▂▃▄▂ | 2026-10-30 | [0xCodez/DuoDesk](https://github.com/0xCodez/DuoDesk) |
-| 7 | **cs2** (+aegis, fee) | 7 | 7 | 985 | 108/d | 1/d | ▂█▁▂▁▁▁▁▁▃▂▁▁▁ | 2026-10-30 | [SoldierMultiply/footstep-equalizer](https://github.com/SoldierMultiply/footstep-equalizer) |
-| 8 | **switch2** | 5 | 5 | 374 | 103/d | 65/d | ▁▁▁▁▁▁▂▁▂▇▅▃█▅ | 2026-11-04 | [enjoyerofslop/droidplay-core](https://github.com/enjoyerofslop/droidplay-core) |
-| 9 | **plamo** | 5 | 5 | 604 | 80/d | 58/d | ▁▁▁▁▁▁▃▂▅▆█▆▂▂ | 2026-11-05 | [jammaru/sakutto](https://github.com/jammaru/sakutto) |
+| 1 | **osint-tool** | 9 | 9 | 1.4k | 1.4k/d | 345/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-13 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) |
+| 2 | **scripting** (+blender-ai, blender-automation, blender-mcp, blender-plugin, blender-scripting, 8 more) | 8 | 8 | 2.0k | 1.2k/d | 560/d | ▁▁▁▁▁▁▁▁▁▁▁▁▄█ | 2026-11-12 | [ben14-dunn/native-instruments-kontakt-desktop](https://github.com/ben14-dunn/native-instruments-kontakt-desktop) |
+| 3 | **hghub** | 5 | 5 | 9.7k | 939/d | 429/d | ▁▁▁▂▃▂▂▃▅█▄▂▃▂ | 2026-11-03 | [Minireel/HGhub](https://github.com/Minireel/HGhub) |
+| 4 | **blockchain** | 9 | 9 | 1.9k | 493/d | 230/d | ▁▁▂▂▁▆▃▁▂▁█▇▁▅ | 2026-10-31 | [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) |
+| 5 | **was** | 6 | 6 | 1.8k | 303/d | 151/d | ▁▁▂▂▂▂█▂▄▃▃▃▃▄ | 2026-11-01 | [Lucas-blip-png/dkb-pc-recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp) |
+| 6 | **ocarina** | 6 | 6 | 1.6k | 226/d | 104/d | ▁▁▁▁▁▁▇█▄▄▃▃▂▃ | 2026-11-05 | [sostenesfreitas/ocarina-recomp](https://github.com/sostenesfreitas/ocarina-recomp) |
+| 7 | **trainer** (+blade) | 6 | 6 | 1.4k | 176/d | 4/d | ▁▁▁▁▁▂▁█▆█▁▁▁▁ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) |
+| 8 | **flight** (+ads-b) | 11 | 11 | 1.4k | 128/d | 44/d | ▁▁▃█▇▄▃▃▄▂▂▂▂▂ | 2026-10-31 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
+| 9 | **mapping** | 8 | 7 | 798 | 88/d | 48/d | ▁▁▄█▇▇▅▅▅▃▃▄▃▄ | 2026-10-31 | [sylvieistaken/selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine) |
+| 10 | **switch2** | 5 | 5 | 383 | 78/d | 59/d | ▁▁▁▁▁▂▁▂▇▅▃█▅▂ | 2026-11-04 | [enjoyerofslop/droidplay-core](https://github.com/enjoyerofslop/droidplay-core) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **trial-version** (+trial, windows-software, windows-10, latest, download, 73 more) | 366 | 366 | 38.4k | 12.7k/d | 12.3k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-31 | [uchihamx999-beep/imei-repair-toolkit](https://github.com/uchihamx999-beep/imei-repair-toolkit) | same-day, flat-stars |
-| 2 | **utility** (+windows-app, software-engineering, configured, setup, pre-configured, 10 more) | 112 | 112 | 82.6k | 12.4k/d | 16.2k/d | ▁▁▁▁▁▁▁▁▄▃▄▄█▁ | 2026-11-01 | [mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor) | near-duplicate, same-day, flat-stars |
-| 3 | **rpocket** (+recoil, pre-activated, esp, meteor, items, 47 more) | 236 | 235 | 12.9k | 3.6k/d | 4.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [Arcanedagger38906/Domination-for-Red-rpocket-Engineers-server](https://github.com/Arcanedagger38906/Domination-for-Red-rpocket-Engineers-server) | flat-stars |
-| 4 | **activator** (+kms, activation, microsoft, office365, scala, 19 more) | 131 | 131 | 19.0k | 2.9k/d | 91/d | ▁▁▁▁▁▁▁▁█▁▁▁▁▁ | 2026-11-05 | [CCardona6/office-suite-alternative-access](https://github.com/CCardona6/office-suite-alternative-access) | near-duplicate, same-day, flat-stars |
-| 5 | **resp** (+changer, troubleshooting, monitors, ban, dealer, 9 more) | 142 | 140 | 7.8k | 2.0k/d | 2.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [ViaBecrest/Eden-Switch-Emulator-resp](https://github.com/ViaBecrest/Eden-Switch-Emulator-resp) | flat-stars |
-| 6 | **respocket** (+cheats, aax, soft, aio, yet, 4 more) | 65 | 65 | 3.5k | 1.2k/d | 1.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [Ironisnex/FC27-Respocket-AIO-Soft](https://github.com/Ironisnex/FC27-Respocket-AIO-Soft) | flat-stars |
-| 7 | **resocket** | 72 | 72 | 4.2k | 730/d | 1.3k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-10-31 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | flat-stars |
-| 8 | **coregold** (+vcc, billing, guard, stripe) | 64 | 62 | 4.5k | 479/d | 618/d | ▂▁▃▁▃▅▆▁▁▄▅█▇▄ | 2026-10-30 | [sygnomkt-ops/CoreGold---3-Step-Guide-to-Subscribe-to-Claude-Pro-Cursor-AI](https://github.com/sygnomkt-ops/CoreGold---3-Step-Guide-to-Subscribe-to-Claude-Pro-Cursor-AI) | flat-stars |
-| 9 | **gemeni** (+general-purpose, manus, typescript-sdk, ai-manus, purpose, 12 more) | 26 | 24 | 1.4k | 205/d | 1/d | ▁▁▁▁▁▁▁▇█▁▁▁▁▁ | 2026-11-06 | [Abdul-Rehman7826/ai-manus](https://github.com/Abdul-Rehman7826/ai-manus) | near-duplicate, same-day, flat-stars |
-| 10 | **ai-image-generation** (+gpt-image, apimart) | 13 | 1 | 1.3k | 162/d | 0/d | ▁▁▁▁▁▁█▂▁▁▁▁▁▁ | 2026-11-05 | [fujc683/gpt-image-2-6-commercial-use](https://github.com/fujc683/gpt-image-2-6-commercial-use) | same-day, few-owners |
+| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 22 more) | 509 | 434 | 105.3k | 100.1k/d | 13.3k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-06 | [AdmiralEmporium/ai--manus](https://github.com/AdmiralEmporium/ai--manus) | near-duplicate, same-day, flat-stars |
+| 2 | **m3u** (+player2, player2.0, ip-tv, iptv-channels, iptv-m3u8, 22 more) | 334 | 334 | 59.0k | 59.0k/d | 5.6k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-13 | [AdmiralEmporium/IPTV_Player2.0](https://github.com/AdmiralEmporium/IPTV_Player2.0) | near-duplicate, same-day, flat-stars |
+| 3 | **software-engineering** (+utility, windows-app, configured, pre-configured, setup, 10 more) | 117 | 117 | 88.3k | 12.9k/d | 12.1k/d | ▁▁▁▁▁▁▁▄▃▄▄█▁▁ | 2026-11-02 | [mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor) | near-duplicate, same-day, flat-stars |
+| 4 | **trial-version** (+trial, windows-software, latest, windows-10, download, 55 more) | 351 | 351 | 36.8k | 9.7k/d | 12.0k/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-11-08 | [DevedevT/FFmpeg-GUI-Editor-Windows](https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows) | same-day, flat-stars |
+| 5 | **activator** (+kms, activation, office365, scala, microsoft, 15 more) | 129 | 129 | 18.9k | 2.4k/d | 74/d | ▁▁▁▁▁▁▁█▁▁▁▁▁▁ | 2026-11-05 | [CCardona6/office-suite-alternative-access](https://github.com/CCardona6/office-suite-alternative-access) | near-duplicate, same-day, flat-stars |
+| 6 | **rpocket** (+recoil, meteor, premiere, optimize, optimizations, 33 more) | 219 | 218 | 15.7k | 2.4k/d | 2.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-31 | [Harmonicdellafitting/minecraft-jenny-mod-download](https://github.com/Harmonicdellafitting/minecraft-jenny-mod-download) | flat-stars |
+| 7 | **resp** (+troubleshooting, changer, monitors, autoclicker, dealer, 5 more) | 129 | 128 | 9.3k | 1.3k/d | 1.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-31 | [ViaBecrest/Eden-Switch-Emulator-resp](https://github.com/ViaBecrest/Eden-Switch-Emulator-resp) | flat-stars |
+| 8 | **respocket** (+cheats, aax, soft, aio, yet, 4 more) | 56 | 56 | 3.9k | 663/d | 622/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-10-31 | [BeyondLibraBlaze/Fl-Studio-26-Respocket-Installer](https://github.com/BeyondLibraBlaze/Fl-Studio-26-Respocket-Installer) | flat-stars |
+| 9 | **resocket** (+shooter) | 66 | 66 | 5.1k | 585/d | 787/d | ▁▁▁▁▁▂▁▁▁▁▁▁█▁ | 2026-10-31 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | flat-stars |
+| 10 | **coregold** (+billing, stripe) | 52 | 50 | 3.4k | 346/d | 335/d | ▁▂▁▃▅▅▁▁▄▅█▇▄▃ | 2026-10-31 | [sahinmola5-rgb/coregold-vcc-terminal](https://github.com/sahinmola5-rgb/coregold-vcc-terminal) | flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>tweaks</b>: 9 repos, 8.3k stars</summary>
+<details><summary><b>osint-tool</b>: 9 repos, 1.4k stars</summary>
 
-- [huamidev/GestaltX](https://github.com/huamidev/GestaltX) 7.2k★ An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device pres…
-- [JaceThings/DiaTweaks](https://github.com/JaceThings/DiaTweaks) 668★ Unofficial tweaks for the Dia browser, kept in place across updates
-- [PoomSmart/ios-logos-tweak](https://github.com/PoomSmart/ios-logos-tweak) 105★ Agent skill for best practices for iOS jailbreak tweaks
-- [PranavDupati/ninboy-hat-for-macos](https://github.com/PranavDupati/ninboy-hat-for-macos) 82★ Native compilation enhancements, crash fixes, keyboard/mouse controls, and perf…
-- [WithElectron83682/PC-Gaming-Tweaker](https://github.com/WithElectron83682/PC-Gaming-Tweaker) 63★ Optimize Windows 10/11 for gaming – boost FPS, reduce latency, clean disk, and …
-
-</details>
-
-<details><summary><b>crack</b>: 7 repos, 1.8k stars</summary>
-
-- [marorateb/burning-studio-desktop](https://github.com/marorateb/burning-studio-desktop) 1.1k★ Burning Studio 2026: Complete Standalone Desktop Setup with Full Feature Config…
-- [tigerogijzooav/Hyperliquid-Trade-Bot](https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot) 289★ Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, …
-- [silverdugongenhance/PromptReel](https://github.com/silverdugongenhance/PromptReel) 207★ Free desktop app that turns a text prompt into a short video clip on your own P…
-- [FrontierPheasant/voicemod](https://github.com/FrontierPheasant/voicemod) 102★ Reactive state management for voice modes, real-time streaming, and audio inter…
-- [DeckhandIgnite/Davinci-Resolve-Studio-For-Windows](https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows) 50★ DaVinci Resolve Studio for Windows — professional video editing, color grading,…
+- [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) 196★ AI OSINT investigator for Windows: ask a question in plain words and get an ans…
+- [solderpupabridge/mutuals-osint-social-connections](https://github.com/solderpupabridge/mutuals-osint-social-connections) 186★ OSINT tool for Windows: enter two public accounts and see everyone who links th…
+- [IceBricklayer4/exposure-osint-digital-footprint](https://github.com/IceBricklayer4/exposure-osint-digital-footprint) 176★ Self-OSINT scanner for Windows: look yourself up the way a stranger would, see …
+- [rivetternregard/acid-test-osint-scam-checker](https://github.com/rivetternregard/acid-test-osint-scam-checker) 164★ OSINT website checker for Windows: paste a link to a shop, site or project and …
+- [RouteInferno/shamus-osint-ai-agent](https://github.com/RouteInferno/shamus-osint-ai-agent) 157★ Command-line AI agent for OSINT: one command, it picks the tools, runs them and…
 
 </details>
 
-<details><summary><b>blockchain</b>: 10 repos, 2.2k stars</summary>
+<details><summary><b>scripting</b>: 8 repos, 2.0k stars</summary>
+
+- [ben14-dunn/native-instruments-kontakt-desktop](https://github.com/ben14-dunn/native-instruments-kontakt-desktop) 280★ Native Instruments Kontakt 2026 desktop setup with industry-standard sampler fo…
+- [hitkeeen/blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon) 253★ AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent …
+- [precygtrucqui1981/blender-ai-copilot-lab](https://github.com/precygtrucqui1981/blender-ai-copilot-lab) 253★ An AI lab for Blender where manager–worker–reviewer agent teams run multi-step …
+- [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) 252★ A controlled AI workflow for Blender: every copilot edit is a supervised tool c…
+- [zovulrira1974/blender-ai-copilot-assets](https://github.com/zovulrira1974/blender-ai-copilot-assets) 249★ An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Piz…
+
+</details>
+
+<details><summary><b>hghub</b>: 5 repos, 9.7k stars</summary>
+
+- [Minireel/HGhub](https://github.com/Minireel/HGhub) 8.8k★ YellowFruit third-party client
+- [LNPANDY/HGhub-MacOS-iOS-Version](https://github.com/LNPANDY/HGhub-MacOS-iOS-Version) 518★ HGhub 跨平台客户端 (macOS & iOS 增强版) · 支持 Apple Silicon / Intel 双架构 DMG 与 iOS 免签 IPA …
+- [vps1986/hghub-clone](https://github.com/vps1986/hghub-clone) 150★ HGhub 1.2.0 复刻：竖屏短剧网页 + 播放解析代理 + Android WebView 壳，小白可跟着复刻
+- [Kel077/HGhub](https://github.com/Kel077/HGhub) 117★ YellowFruit third-party client
+- [Kepler16f/HGhub](https://github.com/Kepler16f/HGhub) 50★ 派生自 Minireel/HGhub (Fork) · HGhub 跨平台桌面与移动端社区移植增强版 - 支持 macOS (Apple Silicon/In…
+
+</details>
+
+<details><summary><b>blockchain</b>: 9 repos, 1.9k stars</summary>
 
 - [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) 934★ Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize di…
-- [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) 392★ Paste a wallet or a transaction hash and follow stolen crypto to the exchange t…
-- [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 240★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
-- [Signcluengine/onchain-money-trail-analyzer](https://github.com/Signcluengine/onchain-money-trail-analyzer) 167★ Follow stolen crypto hop by hop across Bitcoin, Ethereum, TRON, BNB Chain and S…
+- [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 230★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
+- [tabookhandawn/interchange-osint-cross-chain-tracing](https://github.com/tabookhandawn/interchange-osint-cross-chain-tracing) 176★ OSINT tracing of crypto funds across blockchains.
 - [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 164★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
+- [ifrc-zju/blockchain-federated-prototypes](https://github.com/ifrc-zju/blockchain-federated-prototypes) 127★ 区块链协作的联邦原型学习，结合语义加权对比学习与原型收缩，通过智能合约校验训练轮次、客户端提交和聚合状态。
 
 </details>
 
-<details><summary><b>trainer</b>: 6 repos, 1.4k stars</summary>
+<details><summary><b>was</b>: 6 repos, 1.8k stars</summary>
 
-- [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) 382★ Phantom Blade Zero Trainer 2026: God Mode, One-Hit Kill, start All Weapons
-- [richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit](https://github.com/richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit) 382★ PhantomBladeZero-Cheat: 54 toggleable runtime options and three presets for Pha…
-- [wanjalaibra05-lgtm/phantom-blade-zero-assist](https://github.com/wanjalaibra05-lgtm/phantom-blade-zero-assist) 382★ Phantom Blade Zero: Symbol Cues, Wider Parry Windows, Full Arsenal
-- [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) 130★ Whole-body motion tracking for the Unitree G1 in under a minute. BlinkMimic's w…
-- [prabeakarve/microgpt](https://github.com/prabeakarve/microgpt) 51★ A from-scratch, dependency-free GPT implementation in pure NumPy: byte-level to…
-
-</details>
-
-<details><summary><b>flight</b>: 10 repos, 1.3k stars</summary>
-
-- [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) 580★ Python tool for aircraft Doppler audio geolocation using historical ADS-B fligh…
-- [mjshiggins/dopplertrack](https://github.com/mjshiggins/dopplertrack) 259★ Acoustic geolocation from the Doppler curves of propeller aircraft.
-- [WeebLabs/Nightscape](https://github.com/WeebLabs/Nightscape) 96★ A cozy, endless flight above a moonlit sea of storm clouds, rendered in real ti…
-- [nathanmarlor/flightscope-public](https://github.com/nathanmarlor/flightscope-public) 86★ Handheld Raspberry Pi flight tracker for a young plane-spotter: live map, plane…
-- [globalmpc/vibe-preflight](https://github.com/globalmpc/vibe-preflight) 65★ Claude Code skill: pre-flight check for vibe-coded apps before launch — leaked …
+- [Lucas-blip-png/dkb-pc-recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp) 983★ Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with V…
+- [Tropicaldrescoop/discord-id-osint-checker](https://github.com/Tropicaldrescoop/discord-id-osint-checker) 383★ Free OSINT app for Discord IDs: paste a user, server or invite and see when it …
+- [retropineaple/ForbiddenItlwm](https://github.com/retropineaple/ForbiddenItlwm) 157★ Because AirDrop was never supposed to work on Intel Wi-Fi.
+- [CityGrubWedge/amber-osint-web-archive](https://github.com/CityGrubWedge/amber-osint-web-archive) 130★ OSINT time machine for the web: how a page looked, and what was removed from it.
+- [Hexay/dopplerprint](https://github.com/Hexay/dopplerprint) 67★ Work out where and when an audio recording was made using only the doppler band…
 
 </details>
 <!-- starwave:end -->
