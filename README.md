@@ -48,43 +48,54 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 3,689 repos  2026-11-01..2026-11-15  stars>=40 · baseline 3,971 repos  2026-09-02..2026-10-31  stars>=150 · generated 2026-11-15 13:58 UTC_
+_recent 3,565 repos  2026-11-02..2026-11-16  stars>=40 · baseline 4,012 repos  2026-09-03..2026-11-01  stars>=150 · generated 2026-11-16 15:51 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **hghub** | 5 | 5 | 9.8k | 869/d | 375/d | ▁▁▂▃▂▂▃▅█▄▂▃▂▁ | 2026-11-03 | [Minireel/HGhub](https://github.com/Minireel/HGhub) |
-| 2 | **blockchain** | 9 | 9 | 2.0k | 508/d | 148/d | ▁▂▂▁▆▃▁▁▁██▁▃▆ | 2026-11-01 | [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) |
-| 3 | **trainer** | 7 | 7 | 1.6k | 405/d | 87/d | ▁▁▁▁▂▁█▆█▁▁▁▁▅ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) |
-| 4 | **ocarina** (+oot) | 8 | 8 | 2.0k | 311/d | 159/d | ▁▁▁▁▁▇█▄▄▃▃▂▄▄ | 2026-11-05 | [sostenesfreitas/ocarina-recomp](https://github.com/sostenesfreitas/ocarina-recomp) |
-| 5 | **nup** | 6 | 6 | 1.7k | 130/d | 85/d | ▅▆▄▄▄▃▄▇█▅▄▄▄▃ | 2026-11-01 | [Lucas-blip-png/dkb-pc-recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp) |
-| 6 | **flight** (+ads-b) | 10 | 10 | 1.4k | 117/d | 27/d | ▁▂█▇▄▃▃▄▃▂▂▂▂▁ | 2026-11-01 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
-| 7 | **mapping** | 6 | 6 | 674 | 81/d | 51/d | ▁▅▃▇█▆▅▅▂▃▃▂▅▇ | 2026-11-01 | [sylvieistaken/selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine) |
-| 8 | **plamo** | 5 | 5 | 642 | 67/d | 21/d | ▁▁▁▁▃▂▅▆█▆▂▂▂▂ | 2026-11-05 | [jammaru/sakutto](https://github.com/jammaru/sakutto) |
+| 1 | **mobilegestalt** | 5 | 5 | 10.4k | 1.5k/d | 398/d | ▁▁▁▁▁▁▁█▇▄▂▂▂▂ | 2026-11-08 | [huamidev/GestaltX](https://github.com/huamidev/GestaltX) |
+| 2 | **trainer** | 8 | 8 | 1.7k | 433/d | 11/d | ▁▁▁▂▁█▆█▁▁▁▁▁▁ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) |
+| 3 | **blockchain** | 9 | 9 | 2.0k | 407/d | 178/d | ▂▁▁▆▃▁▁▁██▁▅▃▃ | 2026-11-02 | [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) |
+| 4 | **ocarina** (+oot) | 9 | 9 | 2.3k | 319/d | 212/d | ▁▁▁▁▇█▄▅▄▃▂▄▄▅ | 2026-11-05 | [sostenesfreitas/ocarina-recomp](https://github.com/sostenesfreitas/ocarina-recomp) |
+| 5 | **fable** | 7 | 7 | 1.4k | 228/d | 119/d | ▄▂▁▁▁▁▁▁▄█▅▃▃▄ | 2026-11-02 | [realcodebear/saltline-fable-5.2](https://github.com/realcodebear/saltline-fable-5.2) |
+| 6 | **address** | 5 | 5 | 711 | 213/d | 164/d | ▁▁▁▁▂▂▂▂▁▁▁▆█▃ | 2026-11-06 | [zacharyrogue/Crypto-Whale-Tracker](https://github.com/zacharyrogue/Crypto-Whale-Tracker) |
+| 7 | **flight** (+ads-b) | 11 | 11 | 1.6k | 203/d | 102/d | ▂█▆▃▂▃▄▃▂▂▂▂▃▅ | 2026-11-02 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
+| 8 | **plamo** | 5 | 5 | 659 | 62/d | 18/d | ▁▁▁▃▂▅▆█▆▂▂▂▂▂ | 2026-11-05 | [jammaru/sakutto](https://github.com/jammaru/sakutto) |
+| 9 | **switch2** | 5 | 5 | 402 | 56/d | 10/d | ▁▁▁▂▂▂▇▅▃█▆▂▂▂ | 2026-11-04 | [enjoyerofslop/droidplay-core](https://github.com/enjoyerofslop/droidplay-core) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 24 more) | 556 | 476 | 140.5k | 81.6k/d | 46.4k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▄█ | 2026-11-06 | [Topkiflare74/ai--manus2.0](https://github.com/Topkiflare74/ai--manus2.0) | near-duplicate, same-day, flat-stars |
-| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 37 more) | 395 | 353 | 99.5k | 71.3k/d | 33.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▂█ | 2026-11-13 | [WarriorRemember/IPTV_Player_2.0](https://github.com/WarriorRemember/IPTV_Player_2.0) | near-duplicate, flat-stars |
-| 3 | **software-engineering** (+windows-app, utility, configured, pre-configured, setup, 12 more) | 118 | 118 | 88.5k | 11.6k/d | 1.1k/d | ▁▁▁▁▁▁▄▃▄▄█▁▁▁ | 2026-11-02 | [mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor) | near-duplicate, same-day, flat-stars |
-| 4 | **trial-version** (+trial, windows-software, latest, windows-10, dvd, 57 more) | 349 | 349 | 35.9k | 7.7k/d | 220/d | ▁▁▁▁▁▁▁▁▁▁█▁▁▁ | 2026-11-10 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | same-day, flat-stars |
-| 5 | **activator** (+kms, activation, office365, scala, microsoft, 15 more) | 128 | 128 | 18.8k | 2.1k/d | 114/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▁ | 2026-11-05 | [CCardona6/office-suite-alternative-access](https://github.com/CCardona6/office-suite-alternative-access) | near-duplicate, same-day, flat-stars |
-| 6 | **rpocket** (+meteor, recoil, optimize, optimizations, playerbots, 19 more) | 159 | 158 | 13.6k | 1.9k/d | 4.4k/d | ▁▁▁▁▁▁▁▁▁▁▁▆▁█ | 2026-11-01 | [FaelVenomvale/JennyModMinecraft-rpocket-team](https://github.com/FaelVenomvale/JennyModMinecraft-rpocket-team) | flat-stars |
-| 7 | **resp** (+monitors, dealer, macro, weapons, exposure, 4 more) | 102 | 101 | 8.7k | 1.1k/d | 2.8k/d | ▁▁▁▁▁▁▁▁▁▁▁▆▁█ | 2026-11-01 | [ViaBecrest/Eden-Switch-Emulator-resp](https://github.com/ViaBecrest/Eden-Switch-Emulator-resp) | flat-stars |
-| 8 | **osint-tool** (+nickname, investigation) | 11 | 11 | 1.8k | 894/d | 534/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▅ | 2026-11-06 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) | same-day |
-| 9 | **respocket** (+soft, aio, yet, aax, mastering, 1 more) | 42 | 42 | 3.5k | 534/d | 1.2k/d | ▁▁▁▁▁▁▁▁▁▁▁▆▁█ | 2026-11-01 | [BeyondLibraBlaze/Fl-Studio-26-Respocket-Installer](https://github.com/BeyondLibraBlaze/Fl-Studio-26-Respocket-Installer) | flat-stars |
-| 10 | **resocket** (+autoclicker) | 54 | 54 | 4.8k | 513/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁▁▆▁█ | 2026-11-01 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | same-day, flat-stars |
+| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 39 more) | 482 | 368 | 81.1k | 34.6k/d | 26.6k/d | ▁▁▁▁▁▁▁▁▁▁▁▇█▃ | 2026-11-06 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
+| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 38 more) | 314 | 269 | 40.3k | 15.7k/d | 13.4k/d | ▁▁▁▁▁▁▁▁▁▁▁▄█▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
+| 3 | **software-engineering** (+utility, windows-app, configured, pre-configured, setup, 10 more) | 118 | 118 | 88.4k | 9.8k/d | 1.0k/d | ▁▁▁▁▁▄▃▄▄█▁▁▁▁ | 2026-11-02 | [mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor) | near-duplicate, same-day, flat-stars |
+| 4 | **trial-version** (+trial, windows-software, latest, windows-10, download, 60 more) | 350 | 350 | 35.9k | 6.2k/d | 205/d | ▁▁▁▁▁▁▁▁▁█▁▁▁▁ | 2026-11-10 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | same-day, flat-stars |
+| 5 | **activator** (+kms, activation, office365, tweak, scala, 15 more) | 129 | 129 | 18.8k | 1.9k/d | 54/d | ▁▁▁▁▁█▁▁▁▁▁▁▁▁ | 2026-11-05 | [haroonwattoo556677-max/ios-forensic-exploitation-framework](https://github.com/haroonwattoo556677-max/ios-forensic-exploitation-framework) | near-duplicate, same-day, flat-stars |
+| 6 | **scripting** (+blender-ai, blender-automation, blender-mcp, blender-plugin, blender-scripting, 9 more) | 10 | 10 | 5.5k | 1.4k/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁▃▅▇█ | 2026-11-11 | [hitkeeen/blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon) | same-day |
+| 7 | **rpocket** (+optimize, playerbots, improve, stuttering, spigot, 11 more) | 130 | 129 | 7.4k | 872/d | 912/d | ▁▁▁▂▁▁▁▁▁▁█▁▅▁ | 2026-11-05 | [FaelVenomvale/JennyModMinecraft-rpocket-team](https://github.com/FaelVenomvale/JennyModMinecraft-rpocket-team) | same-day, flat-stars |
+| 8 | **osint-tool** (+diligence, due, due-diligence, osint, investigation) | 15 | 15 | 2.4k | 786/d | 783/d | ▁▁▁▁▁▁▁▁▁▁▁█▆▃ | 2026-11-06 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) | same-day |
+| 9 | **resp** (+monitors, macro, exposure, gamma, troubleshooting) | 82 | 81 | 4.6k | 527/d | 571/d | ▁▁▁▁▁▁▁▁▁▁█▁▅▁ | 2026-11-05 | [ViaBecrest/Eden-Switch-Emulator-resp](https://github.com/ViaBecrest/Eden-Switch-Emulator-resp) | same-day, flat-stars |
+| 10 | **resocket** (+autoclicker, validator) | 45 | 45 | 2.7k | 268/d | 315/d | ▁▁▁▂▁▁▁▁▁▁█▁▅▁ | 2026-11-05 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | same-day, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>hghub</b>: 5 repos, 9.8k stars</summary>
+<details><summary><b>mobilegestalt</b>: 5 repos, 10.4k stars</summary>
 
-- [Minireel/HGhub](https://github.com/Minireel/HGhub) 8.9k★ Plug-in media player
-- [LNPANDY/HGhub-MacOS-iOS-Version](https://github.com/LNPANDY/HGhub-MacOS-iOS-Version) 521★ HGhub 跨平台客户端 (macOS & iOS 增强版) · 支持 Apple Silicon / Intel 双架构 DMG 与 iOS 免签 IPA …
-- [vps1986/hghub-clone](https://github.com/vps1986/hghub-clone) 175★ HGhub 1.2.0 复刻：竖屏短剧网页 + 播放解析代理 + Android WebView 壳，小白可跟着复刻
-- [Kel077/HGhub](https://github.com/Kel077/HGhub) 146★ YellowFruit third-party client
-- [Kepler16f/HGhub](https://github.com/Kepler16f/HGhub) 62★ 派生自 Minireel/HGhub (Fork) · HGhub 跨平台桌面与移动端社区移植增强版 - 支持 macOS (Apple Silicon/In…
+- [huamidev/GestaltX](https://github.com/huamidev/GestaltX) 7.8k★ An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device pres…
+- [Kianuni/Erosion-CN](https://github.com/Kianuni/Erosion-CN) 2.2k★ iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） \| Bootloop-safe iOS / …
+- [ichitaso/Regitela](https://github.com/ichitaso/Regitela) 206★ A file explorer and tweak toolbox for iOS, built on the worse_query sandbox esc…
+- [murk-sus/kamui-escape](https://github.com/murk-sus/kamui-escape) 87★ KAMUI (神威) — iOS 27.x sandbox escape + MobileGestalt editor. MIT licensed, free…
+- [LogicSense1/WatchRegion](https://github.com/LogicSense1/WatchRegion) 40★ A standalone watchOS app to inspect and change supported MobileGestalt sales-re…
+
+</details>
+
+<details><summary><b>trainer</b>: 8 repos, 1.7k stars</summary>
+
+- [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) 382★ Phantom Blade Zero Trainer 2026: God Mode, One-Hit Kill, start All Weapons
+- [richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit](https://github.com/richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit) 382★ PhantomBladeZero-Cheat: 54 toggleable runtime options and three presets for Pha…
+- [wanjalaibra05-lgtm/phantom-blade-zero-assist](https://github.com/wanjalaibra05-lgtm/phantom-blade-zero-assist) 382★ Phantom Blade Zero: Symbol Cues, Wider Parry Windows, Full Arsenal
+- [SavageHaulerCrater54/Rob-Run-private-helper](https://github.com/SavageHaulerCrater54/Rob-Run-private-helper) 223★ 🏙️ Rob Run Private Tool 2026 - undetected cheat for Windows 10/11. Player ESP,…
+- [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) 166★ Whole-body motion tracking for the Unitree G1 in under a minute. BlinkMimic's w…
 
 </details>
 
@@ -92,39 +103,29 @@ _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per da
 
 - [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) 934★ Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize di…
 - [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 230★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
-- [Beachfromgate/Wallet-Hunter](https://github.com/Beachfromgate/Wallet-Hunter) 179★ A cryptocurrency wallet discovery and balance scanning tool designed to check m…
-- [tabookhandawn/interchange-osint-cross-chain-tracing](https://github.com/tabookhandawn/interchange-osint-cross-chain-tracing) 177★ OSINT tracing of crypto funds across blockchains.
+- [tabookhandawn/interchange-osint-cross-chain-tracing](https://github.com/tabookhandawn/interchange-osint-cross-chain-tracing) 178★ OSINT tracing of crypto funds across blockchains.
 - [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 164★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
+- [Driftgrocontact/spout-osint-whale-alerts](https://github.com/Driftgrocontact/spout-osint-whale-alerts) 144★ OSINT monitor of large crypto wallets and big transfers.
 
 </details>
 
-<details><summary><b>trainer</b>: 7 repos, 1.6k stars</summary>
-
-- [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) 382★ Phantom Blade Zero Trainer 2026: God Mode, One-Hit Kill, start All Weapons
-- [richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit](https://github.com/richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit) 382★ PhantomBladeZero-Cheat: 54 toggleable runtime options and three presets for Pha…
-- [wanjalaibra05-lgtm/phantom-blade-zero-assist](https://github.com/wanjalaibra05-lgtm/phantom-blade-zero-assist) 382★ Phantom Blade Zero: Symbol Cues, Wider Parry Windows, Full Arsenal
-- [charliestanley1993/rob-run-desktop](https://github.com/charliestanley1993/rob-run-desktop) 247★ Rob Run Hack 2026 - undetected cheat for Windows 10/11. Player ESP, Cop ESP, Lo…
-- [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) 147★ Whole-body motion tracking for the Unitree G1 in under a minute. BlinkMimic's w…
-
-</details>
-
-<details><summary><b>ocarina</b>: 8 repos, 2.0k stars</summary>
+<details><summary><b>ocarina</b>: 9 repos, 2.3k stars</summary>
 
 - [sostenesfreitas/ocarina-recomp](https://github.com/sostenesfreitas/ocarina-recomp) 1.2k★ Ocarina of Time running natively on Windows, no emulator. Built on your PC from…
-- [pixl27/ProjectReLink](https://github.com/pixl27/ProjectReLink) 192★ Project ReLink - Zelda OOT Remake Recomp. An unofficial native PC recompilation…
-- [daurosk/oot-remake-multiplayer](https://github.com/daurosk/oot-remake-multiplayer) 174★ Working multiplayer for the Ocarina of Time remake: first on an emulator, then …
-- [adi0900/GreenKid-MV](https://github.com/adi0900/GreenKid-MV) 118★ Game-free Mac builder for native Ocarina of Time (Switch 2) ports on Apple Sili…
-- [dsi-hub/HookLink](https://github.com/dsi-hub/HookLink) 117★ The Legend of Zelda: Ocarina of Time (Switch 2 Edition) on iPhone, built on you…
+- [pixl27/ProjectReLink](https://github.com/pixl27/ProjectReLink) 318★ Project ReLink - Zelda OOT Remake Recomp. An unofficial native PC recompilation…
+- [daurosk/oot-remake-multiplayer](https://github.com/daurosk/oot-remake-multiplayer) 198★ Squadala! - online co-op for the Ocarina of Time remake on PC (Longshot). Playe…
+- [dsi-hub/HookLink](https://github.com/dsi-hub/HookLink) 129★ The Legend of Zelda: Ocarina of Time (Switch 2 Edition) on iPhone, built on you…
+- [adi0900/GreenKid-MV](https://github.com/adi0900/GreenKid-MV) 120★ Game-free Mac builder for native Ocarina of Time (Switch 2) ports on Apple Sili…
 
 </details>
 
-<details><summary><b>nup</b>: 6 repos, 1.7k stars</summary>
+<details><summary><b>fable</b>: 7 repos, 1.4k stars</summary>
 
-- [Lucas-blip-png/dkb-pc-recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp) 1.0k★ Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with V…
-- [a55uka/nup](https://github.com/a55uka/nup) 393★ NUP is a clean-room container format for unencrypted NX (Nintendo Switch 1/2) g…
-- [Alano6678/hwaoi-recomp](https://github.com/Alano6678/hwaoi-recomp) 83★ Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, wi…
-- [PranavDupati/ninboy-hat-for-macos](https://github.com/PranavDupati/ninboy-hat-for-macos) 83★ Native compilation enhancements, crash fixes, keyboard/mouse controls, and perf…
-- [SPIN0ZAi/nup-extractor](https://github.com/SPIN0ZAi/nup-extractor) 55★ A modern, high-performance native desktop GUI for inspecting, exploring, verify…
+- [realcodebear/saltline-fable-5.2](https://github.com/realcodebear/saltline-fable-5.2) 360★ 
+- [fengyiqicoder/awesome-fable-5.2](https://github.com/fengyiqicoder/awesome-fable-5.2) 344★ Games, 3D worlds and web pages built with Claude Fable 5.2 that you can actuall…
+- [ChetasLua/moss-keeper](https://github.com/ChetasLua/moss-keeper) 265★ The Moss Keeper — a one-file HTML anime short made with Fable 5.5
+- [MiaAI-Lab/Claude-Fable-5.2-HTML-Files](https://github.com/MiaAI-Lab/Claude-Fable-5.2-HTML-Files) 124★ Claude Fable 5.2 HTML Files — 76 visual studies with screenshots and original p…
+- [wquguru/fable52-fps-repro](https://github.com/wquguru/fable52-fps-repro) 102★ Fable 5.2 一句话生成 3D FPS 复现：4 个单文件演示、提示词与缓存账单 / One-prompt 3D FPS repro with demo…
 
 </details>
 <!-- starwave:end -->
