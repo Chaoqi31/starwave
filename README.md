@@ -48,84 +48,85 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 3,565 repos  2026-11-02..2026-11-16  stars>=40 · baseline 4,012 repos  2026-09-03..2026-11-01  stars>=150 · generated 2026-11-16 15:51 UTC_
+_recent 3,069 repos  2026-11-04..2026-11-18  stars>=40 · baseline 4,093 repos  2026-09-05..2026-11-03  stars>=150 · generated 2026-11-18 15:42 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **mobilegestalt** | 5 | 5 | 10.4k | 1.5k/d | 398/d | ▁▁▁▁▁▁▁█▇▄▂▂▂▂ | 2026-11-08 | [huamidev/GestaltX](https://github.com/huamidev/GestaltX) |
-| 2 | **trainer** | 8 | 8 | 1.7k | 433/d | 11/d | ▁▁▁▂▁█▆█▁▁▁▁▁▁ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) |
-| 3 | **blockchain** | 9 | 9 | 2.0k | 407/d | 178/d | ▂▁▁▆▃▁▁▁██▁▅▃▃ | 2026-11-02 | [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) |
-| 4 | **ocarina** (+oot) | 9 | 9 | 2.3k | 319/d | 212/d | ▁▁▁▁▇█▄▅▄▃▂▄▄▅ | 2026-11-05 | [sostenesfreitas/ocarina-recomp](https://github.com/sostenesfreitas/ocarina-recomp) |
-| 5 | **fable** | 7 | 7 | 1.4k | 228/d | 119/d | ▄▂▁▁▁▁▁▁▄█▅▃▃▄ | 2026-11-02 | [realcodebear/saltline-fable-5.2](https://github.com/realcodebear/saltline-fable-5.2) |
-| 6 | **address** | 5 | 5 | 711 | 213/d | 164/d | ▁▁▁▁▂▂▂▂▁▁▁▆█▃ | 2026-11-06 | [zacharyrogue/Crypto-Whale-Tracker](https://github.com/zacharyrogue/Crypto-Whale-Tracker) |
-| 7 | **flight** (+ads-b) | 11 | 11 | 1.6k | 203/d | 102/d | ▂█▆▃▂▃▄▃▂▂▂▂▃▅ | 2026-11-02 | [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) |
-| 8 | **plamo** | 5 | 5 | 659 | 62/d | 18/d | ▁▁▁▃▂▅▆█▆▂▂▂▂▂ | 2026-11-05 | [jammaru/sakutto](https://github.com/jammaru/sakutto) |
-| 9 | **switch2** | 5 | 5 | 402 | 56/d | 10/d | ▁▁▁▂▂▂▇▅▃█▆▂▂▂ | 2026-11-04 | [enjoyerofslop/droidplay-core](https://github.com/enjoyerofslop/droidplay-core) |
+| 1 | **setup** | 53 | 53 | 10.8k | 2.4k/d | 1.1k/d | ▁▁▁▁▂▂▂▃▂▅█▂▁█ | 2026-11-04 | [uchihamx999-beep/imei-repair-toolkit](https://github.com/uchihamx999-beep/imei-repair-toolkit) |
+| 2 | **systemhelper** | 5 | 5 | 2.0k | 263/d | 284/d | ▁▁▂▂▂▁▁▂▂▂█▆▄▃ | 2026-11-05 | [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) |
+| 3 | **modders** | 5 | 5 | 765 | 255/d | 255/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-15 | [AlbertoIlustra/marvel-rivals-galacta-mod](https://github.com/AlbertoIlustra/marvel-rivals-galacta-mod) |
+| 4 | **colab** | 8 | 8 | 1.1k | 242/d | 123/d | ▂▂▂▂▅▄▂▁▁▁▁▁▁█ | 2026-11-04 | [scarletkc/colab-playground](https://github.com/scarletkc/colab-playground) |
+| 5 | **hero** | 6 | 6 | 742 | 220/d | 210/d | ▁▁▁▁▁▂▁▁▁▁▁▁▁█ | 2026-11-09 | [donsimox0-wq/azerothcore-personal-loot-mod](https://github.com/donsimox0-wq/azerothcore-personal-loot-mod) |
+| 6 | **asset** | 8 | 8 | 886 | 215/d | 188/d | ▁▁▁▁▁▁▁▁▁▃▂▁▂█ | 2026-11-04 | [wraithlegislatorknot/domesday-osint-asset-records](https://github.com/wraithlegislatorknot/domesday-osint-asset-records) |
+| 7 | **oot** (+ocarina) | 7 | 7 | 929 | 192/d | 147/d | ▁▁▂▂▃▃▂▂▂▅██▇▇ | 2026-11-06 | [pixl27/ProjectReLink](https://github.com/pixl27/ProjectReLink) |
+| 8 | **address** | 5 | 5 | 809 | 185/d | 98/d | ▁▁▃▂▃▂▁▁▁██▁▅█ | 2026-11-06 | [JouninGlide65/assay-osint-crypto-aml-check](https://github.com/JouninGlide65/assay-osint-crypto-aml-check) |
+| 9 | **delivery** | 10 | 10 | 854 | 144/d | 106/d | ▃▅▂▂▂▂▁▂▄▂▂▂▃█ | 2026-11-04 | [guzhezao/parcel-shift](https://github.com/guzhezao/parcel-shift) |
+| 10 | **plamo** | 6 | 6 | 730 | 58/d | 20/d | ▁▃▂▅▆█▆▂▂▂▂▂▂▂ | 2026-11-05 | [jammaru/sakutto](https://github.com/jammaru/sakutto) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 39 more) | 482 | 368 | 81.1k | 34.6k/d | 26.6k/d | ▁▁▁▁▁▁▁▁▁▁▁▇█▃ | 2026-11-06 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
-| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 38 more) | 314 | 269 | 40.3k | 15.7k/d | 13.4k/d | ▁▁▁▁▁▁▁▁▁▁▁▄█▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
-| 3 | **software-engineering** (+utility, windows-app, configured, pre-configured, setup, 10 more) | 118 | 118 | 88.4k | 9.8k/d | 1.0k/d | ▁▁▁▁▁▄▃▄▄█▁▁▁▁ | 2026-11-02 | [mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor) | near-duplicate, same-day, flat-stars |
-| 4 | **trial-version** (+trial, windows-software, latest, windows-10, download, 60 more) | 350 | 350 | 35.9k | 6.2k/d | 205/d | ▁▁▁▁▁▁▁▁▁█▁▁▁▁ | 2026-11-10 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | same-day, flat-stars |
-| 5 | **activator** (+kms, activation, office365, tweak, scala, 15 more) | 129 | 129 | 18.8k | 1.9k/d | 54/d | ▁▁▁▁▁█▁▁▁▁▁▁▁▁ | 2026-11-05 | [haroonwattoo556677-max/ios-forensic-exploitation-framework](https://github.com/haroonwattoo556677-max/ios-forensic-exploitation-framework) | near-duplicate, same-day, flat-stars |
-| 6 | **scripting** (+blender-ai, blender-automation, blender-mcp, blender-plugin, blender-scripting, 9 more) | 10 | 10 | 5.5k | 1.4k/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁▃▅▇█ | 2026-11-11 | [hitkeeen/blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon) | same-day |
-| 7 | **rpocket** (+optimize, playerbots, improve, stuttering, spigot, 11 more) | 130 | 129 | 7.4k | 872/d | 912/d | ▁▁▁▂▁▁▁▁▁▁█▁▅▁ | 2026-11-05 | [FaelVenomvale/JennyModMinecraft-rpocket-team](https://github.com/FaelVenomvale/JennyModMinecraft-rpocket-team) | same-day, flat-stars |
-| 8 | **osint-tool** (+diligence, due, due-diligence, osint, investigation) | 15 | 15 | 2.4k | 786/d | 783/d | ▁▁▁▁▁▁▁▁▁▁▁█▆▃ | 2026-11-06 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) | same-day |
-| 9 | **resp** (+monitors, macro, exposure, gamma, troubleshooting) | 82 | 81 | 4.6k | 527/d | 571/d | ▁▁▁▁▁▁▁▁▁▁█▁▅▁ | 2026-11-05 | [ViaBecrest/Eden-Switch-Emulator-resp](https://github.com/ViaBecrest/Eden-Switch-Emulator-resp) | same-day, flat-stars |
-| 10 | **resocket** (+autoclicker, validator) | 45 | 45 | 2.7k | 268/d | 315/d | ▁▁▁▂▁▁▁▁▁▁█▁▅▁ | 2026-11-05 | [AstraLunarvenom33479/BloodStrike-region-limit-resocket](https://github.com/AstraLunarvenom33479/BloodStrike-region-limit-resocket) | same-day, flat-stars |
+| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 41 more) | 399 | 322 | 74.8k | 17.1k/d | 3.7k/d | ▁▁▁▁▁▁▁▁▁█▇▃▁▁ | 2026-11-06 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
+| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 33 more) | 196 | 194 | 30.7k | 7.3k/d | 374/d | ▁▁▁▁▁▁▁▁▁▆█▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
+| 3 | **utility** (+software-engineering, windows-app, configured, pre-configured, crack, 9 more) | 87 | 87 | 42.9k | 4.8k/d | 999/d | ▁▁▁▄▃▄▄█▁▂▂▁▁▂ | 2026-11-06 | [ebtsamalhakmy-sketch/desktop-backup-suite](https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite) | near-duplicate, flat-stars |
+| 4 | **trial-version** (+trial, windows-software, latest, windows-10, download, 42 more) | 266 | 266 | 27.3k | 3.5k/d | 104/d | ▁▁▁▁▁▁▁█▁▁▁▁▁▁ | 2026-11-08 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | same-day, flat-stars |
+| 5 | **community-driven** (+community) | 33 | 33 | 5.9k | 1.7k/d | 1.6k/d | ▁▁▁▁▁▁▁▂▁▁▁▁▁█ | 2026-11-06 | [RolandoV3/metatrader-5-bot](https://github.com/RolandoV3/metatrader-5-bot) | same-day |
+| 6 | **activator** (+activation, kms, scala, office365, tweak, 13 more) | 99 | 99 | 14.8k | 1.3k/d | 106/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-11-06 | [markrusell/excel-spreadsheet](https://github.com/markrusell/excel-spreadsheet) | near-duplicate, same-day, flat-stars |
+| 7 | **trainer** (+blade, fling, cheat) | 26 | 26 | 4.3k | 1.2k/d | 952/d | ▁▁▁▂▂▂▁▁▁▁▁▁▁█ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) | flat-stars |
+| 8 | **apimart** (+ai-image-generation, gpt-image, ai-video-generation) | 23 | 1 | 3.3k | 1.1k/d | 684/d | ▁█▂▁▁▁▁▁▁▁▁▁█▇ | 2026-11-05 | [fujc683/seedance-2-5-flash-pricing](https://github.com/fujc683/seedance-2-5-flash-pricing) | few-owners, flat-stars |
+| 9 | **osint-tool** (+nickname, osint, socmint, investigation) | 15 | 14 | 3.7k | 797/d | 554/d | ▁▁▁▁▁▁▁▁▁█▆▃▅▆ | 2026-11-06 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) | same-day |
+| 10 | **scripting** (+blender-mcp, 3d-automation, blender-agents, blender-ai, blender-assistant, 9 more) | 10 | 10 | 3.5k | 626/d | 300/d | ▁▁▁▁▁▁▁▁▄▅█▄▁▃ | 2026-11-04 | [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>mobilegestalt</b>: 5 repos, 10.4k stars</summary>
+<details><summary><b>setup</b>: 53 repos, 10.8k stars</summary>
 
-- [huamidev/GestaltX](https://github.com/huamidev/GestaltX) 7.8k★ An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device pres…
-- [Kianuni/Erosion-CN](https://github.com/Kianuni/Erosion-CN) 2.2k★ iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） \| Bootloop-safe iOS / …
-- [ichitaso/Regitela](https://github.com/ichitaso/Regitela) 206★ A file explorer and tweak toolbox for iOS, built on the worse_query sandbox esc…
-- [murk-sus/kamui-escape](https://github.com/murk-sus/kamui-escape) 87★ KAMUI (神威) — iOS 27.x sandbox escape + MobileGestalt editor. MIT licensed, free…
-- [LogicSense1/WatchRegion](https://github.com/LogicSense1/WatchRegion) 40★ A standalone watchOS app to inspect and change supported MobileGestalt sales-re…
-
-</details>
-
-<details><summary><b>trainer</b>: 8 repos, 1.7k stars</summary>
-
-- [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) 382★ Phantom Blade Zero Trainer 2026: God Mode, One-Hit Kill, start All Weapons
-- [richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit](https://github.com/richmondasensomensah-eng/phantom-blade-zero-runtime-toolkit) 382★ PhantomBladeZero-Cheat: 54 toggleable runtime options and three presets for Pha…
-- [wanjalaibra05-lgtm/phantom-blade-zero-assist](https://github.com/wanjalaibra05-lgtm/phantom-blade-zero-assist) 382★ Phantom Blade Zero: Symbol Cues, Wider Parry Windows, Full Arsenal
-- [SavageHaulerCrater54/Rob-Run-private-helper](https://github.com/SavageHaulerCrater54/Rob-Run-private-helper) 223★ 🏙️ Rob Run Private Tool 2026 - undetected cheat for Windows 10/11. Player ESP,…
-- [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) 166★ Whole-body motion tracking for the Unitree G1 in under a minute. BlinkMimic's w…
+- [uchihamx999-beep/imei-repair-toolkit](https://github.com/uchihamx999-beep/imei-repair-toolkit) 1.1k★ IMEI Repair 2026: Standalone Installer and Complete Setup for Device Repair Sol…
+- [ariamitchell54/cubase-studio-desktop](https://github.com/ariamitchell54/cubase-studio-desktop) 367★ Cubase Studio 2026 desktop setup with full plugin suite and complete feature set
+- [ben14-dunn/native-instruments-kontakt-desktop](https://github.com/ben14-dunn/native-instruments-kontakt-desktop) 366★ Native Instruments Kontakt 2026 desktop setup with industry-standard sampler fo…
+- [bradburns2001/topaz-video-ai-desktop](https://github.com/bradburns2001/topaz-video-ai-desktop) 365★ Topaz Video AI 2026 desktop setup with AI upscaling up to 16K with detail recov…
+- [brave-shell-07/izotope-rx-11-desktop](https://github.com/brave-shell-07/izotope-rx-11-desktop) 365★ iZotope RX 11 2026 desktop setup with AI audio repair, denoise, de-reverb and d…
 
 </details>
 
-<details><summary><b>blockchain</b>: 9 repos, 2.0k stars</summary>
+<details><summary><b>systemhelper</b>: 5 repos, 2.0k stars</summary>
 
-- [Danuse84/Exodus-Fake-Balance](https://github.com/Danuse84/Exodus-Fake-Balance) 934★ Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize di…
-- [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 230★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
-- [tabookhandawn/interchange-osint-cross-chain-tracing](https://github.com/tabookhandawn/interchange-osint-cross-chain-tracing) 178★ OSINT tracing of crypto funds across blockchains.
-- [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 164★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
-- [Driftgrocontact/spout-osint-whale-alerts](https://github.com/Driftgrocontact/spout-osint-whale-alerts) 144★ OSINT monitor of large crypto wallets and big transfers.
-
-</details>
-
-<details><summary><b>ocarina</b>: 9 repos, 2.3k stars</summary>
-
-- [sostenesfreitas/ocarina-recomp](https://github.com/sostenesfreitas/ocarina-recomp) 1.2k★ Ocarina of Time running natively on Windows, no emulator. Built on your PC from…
-- [pixl27/ProjectReLink](https://github.com/pixl27/ProjectReLink) 318★ Project ReLink - Zelda OOT Remake Recomp. An unofficial native PC recompilation…
-- [daurosk/oot-remake-multiplayer](https://github.com/daurosk/oot-remake-multiplayer) 198★ Squadala! - online co-op for the Ocarina of Time remake on PC (Longshot). Playe…
-- [dsi-hub/HookLink](https://github.com/dsi-hub/HookLink) 129★ The Legend of Zelda: Ocarina of Time (Switch 2 Edition) on iPhone, built on you…
-- [adi0900/GreenKid-MV](https://github.com/adi0900/GreenKid-MV) 120★ Game-free Mac builder for native Ocarina of Time (Switch 2) ports on Apple Sili…
+- [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) 1.6k★ 基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块
+- [vivibibi30/hyperpguard](https://github.com/vivibibi30/hyperpguard) 136★ 可配置的应用行为开关模块（LSPosed）：网络、存储、接口、采集四层，纯本地
+- [acxun/hyperos-dm-report](https://github.com/acxun/hyperos-dm-report) 119★ HyperOS preinstalled carrier DM components: data collection, crypto, and decryp…
+- [zhang010416/carrier-dm-blocker](https://github.com/zhang010416/carrier-dm-blocker) 72★ 三家运营商预装 DM 组件拦截（联通 SystemHelper / 移动 RegService / 电信 CTAutoRegist）：LSPosed + Ke…
+- [zd-Ethan/systemhelper](https://github.com/zd-Ethan/systemhelper) 40★ SystemHelper 免 Root 用户级卸载方案：小米 14 Pro / 小米 17 Pro Max 实测记录
 
 </details>
 
-<details><summary><b>fable</b>: 7 repos, 1.4k stars</summary>
+<details><summary><b>modders</b>: 5 repos, 765 stars</summary>
 
-- [realcodebear/saltline-fable-5.2](https://github.com/realcodebear/saltline-fable-5.2) 360★ 
-- [fengyiqicoder/awesome-fable-5.2](https://github.com/fengyiqicoder/awesome-fable-5.2) 344★ Games, 3D worlds and web pages built with Claude Fable 5.2 that you can actuall…
-- [ChetasLua/moss-keeper](https://github.com/ChetasLua/moss-keeper) 265★ The Moss Keeper — a one-file HTML anime short made with Fable 5.5
-- [MiaAI-Lab/Claude-Fable-5.2-HTML-Files](https://github.com/MiaAI-Lab/Claude-Fable-5.2-HTML-Files) 124★ Claude Fable 5.2 HTML Files — 76 visual studies with screenshots and original p…
-- [wquguru/fable52-fps-repro](https://github.com/wquguru/fable52-fps-repro) 102★ Fable 5.2 一句话生成 3D FPS 复现：4 个单文件演示、提示词与缓存账单 / One-prompt 3D FPS repro with demo…
+- [AlbertoIlustra/marvel-rivals-galacta-mod](https://github.com/AlbertoIlustra/marvel-rivals-galacta-mod) 153★ Marvel Rivals Galacta Mod: Native Runtime Skin Swapper and Companion Manager
+- [ahmedmahtab9991-cpu/scurz-fps-plus](https://github.com/ahmedmahtab9991-cpu/scurz-fps-plus) 153★ Scurz FPS Plus: A Minecraft 1.20 Performance Mod for Modders
+- [alkabdohagag/fxdeck-fivem-command-deck](https://github.com/alkabdohagag/fxdeck-fivem-command-deck) 153★ FxDeck FiveM Command Deck - Streamlined In-Game Command Interface for Modders
+- [bagusprastika-dot/aurora-dialog-enhancer](https://github.com/bagusprastika-dot/aurora-dialog-enhancer) 153★ Aurora Dialog Enhancer - Deeper Conversations, Richer Worlds for Modders
+- [cumarmahamed7288-bit/jainacore-playerbots-mod](https://github.com/cumarmahamed7288-bit/jainacore-playerbots-mod) 153★ JainaCore Playerbots Mod: Bring Azeroth's Heroes to Life for Modders
+
+</details>
+
+<details><summary><b>colab</b>: 8 repos, 1.1k stars</summary>
+
+- [scarletkc/colab-playground](https://github.com/scarletkc/colab-playground) 256★ A desktop app for the Google Colab CLI: accounts, GPU sessions with cost guards…
+- [designfuchen/worldforge](https://github.com/designfuchen/worldforge) 221★ WorldForge 世界工坊 — Squeeze 100% out of Google Colab GPUs (RTX PRO 6000 Blackwell…
+- [TizenryA/colab-gpu-studio](https://github.com/TizenryA/colab-gpu-studio) 218★ 移动端 AI 创作工作台：按需 Colab GPU、ComfyUI 工作流、Drive 缓存与任务管理。
+- [miguellclc/cod3-extraction-tools](https://github.com/miguellclc/cod3-extraction-tools) 153★ Extraction Tools: Xbox 360 asset extractors, format notes, and game checks
+- [dseditor/h3-colab-skill](https://github.com/dseditor/h3-colab-skill) 120★ MiniMax H3 pictures, talking video, extensions and TTS on your own Google Colab…
+
+</details>
+
+<details><summary><b>hero</b>: 6 repos, 742 stars</summary>
+
+- [donsimox0-wq/azerothcore-personal-loot-mod](https://github.com/donsimox0-wq/azerothcore-personal-loot-mod) 153★ AzerothCore Loot Mod - Tailored Loot for Every Hero
+- [jbfixurpc/satano-overwatch-2-overlay](https://github.com/jbfixurpc/satano-overwatch-2-overlay) 153★ Satano Overwatch 2 Overlay: Real-Time Hero Head Marking for Focused Target Trac…
+- [mherrerahuacachino-lang/marvel-rivals-skins-customization](https://github.com/mherrerahuacachino-lang/marvel-rivals-skins-customization) 153★ Marvel Rivals Skin Forge: Reshape Every Hero Your Way
+- [nikhishamudin-create/deadlock-counterpicker](https://github.com/nikhishamudin-create/deadlock-counterpicker) 153★ Deadlock Counterpicker: Pick the Right Hero, Win the Match
+- [jyotiprakash101/nuvio-badge-kit](https://github.com/jyotiprakash101/nuvio-badge-kit) 83★ The complete stream badge pack for Nuvio and Fusion: 261 badges in 5 styles. Go…
 
 </details>
 <!-- starwave:end -->
