@@ -48,85 +48,85 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 3,069 repos  2026-11-04..2026-11-18  stars>=40 · baseline 4,093 repos  2026-09-05..2026-11-03  stars>=150 · generated 2026-11-18 15:42 UTC_
+_recent 3,380 repos  2026-11-05..2026-11-19  stars>=40 · baseline 4,096 repos  2026-09-06..2026-11-04  stars>=150 · generated 2026-11-19 15:48 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **setup** | 53 | 53 | 10.8k | 2.4k/d | 1.1k/d | ▁▁▁▁▂▂▂▃▂▅█▂▁█ | 2026-11-04 | [uchihamx999-beep/imei-repair-toolkit](https://github.com/uchihamx999-beep/imei-repair-toolkit) |
-| 2 | **systemhelper** | 5 | 5 | 2.0k | 263/d | 284/d | ▁▁▂▂▂▁▁▂▂▂█▆▄▃ | 2026-11-05 | [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) |
-| 3 | **modders** | 5 | 5 | 765 | 255/d | 255/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-15 | [AlbertoIlustra/marvel-rivals-galacta-mod](https://github.com/AlbertoIlustra/marvel-rivals-galacta-mod) |
-| 4 | **colab** | 8 | 8 | 1.1k | 242/d | 123/d | ▂▂▂▂▅▄▂▁▁▁▁▁▁█ | 2026-11-04 | [scarletkc/colab-playground](https://github.com/scarletkc/colab-playground) |
-| 5 | **hero** | 6 | 6 | 742 | 220/d | 210/d | ▁▁▁▁▁▂▁▁▁▁▁▁▁█ | 2026-11-09 | [donsimox0-wq/azerothcore-personal-loot-mod](https://github.com/donsimox0-wq/azerothcore-personal-loot-mod) |
-| 6 | **asset** | 8 | 8 | 886 | 215/d | 188/d | ▁▁▁▁▁▁▁▁▁▃▂▁▂█ | 2026-11-04 | [wraithlegislatorknot/domesday-osint-asset-records](https://github.com/wraithlegislatorknot/domesday-osint-asset-records) |
-| 7 | **oot** (+ocarina) | 7 | 7 | 929 | 192/d | 147/d | ▁▁▂▂▃▃▂▂▂▅██▇▇ | 2026-11-06 | [pixl27/ProjectReLink](https://github.com/pixl27/ProjectReLink) |
-| 8 | **address** | 5 | 5 | 809 | 185/d | 98/d | ▁▁▃▂▃▂▁▁▁██▁▅█ | 2026-11-06 | [JouninGlide65/assay-osint-crypto-aml-check](https://github.com/JouninGlide65/assay-osint-crypto-aml-check) |
-| 9 | **delivery** | 10 | 10 | 854 | 144/d | 106/d | ▃▅▂▂▂▂▁▂▄▂▂▂▃█ | 2026-11-04 | [guzhezao/parcel-shift](https://github.com/guzhezao/parcel-shift) |
-| 10 | **plamo** | 6 | 6 | 730 | 58/d | 20/d | ▁▃▂▅▆█▆▂▂▂▂▂▂▂ | 2026-11-05 | [jammaru/sakutto](https://github.com/jammaru/sakutto) |
+| 1 | **scripting** (+blender-mcp, 3d-automation, blender-agents, blender-ai, blender-assistant, 8 more) | 8 | 8 | 3.4k | 512/d | 106/d | ▁▁▁▁▁▁▁▄▅█▄▁▃▁ | 2026-11-12 | [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) |
+| 2 | **apex** | 5 | 5 | 3.2k | 407/d | 232/d | ▁▁▁▁▁▁▂█▄▄▄▃▃▂ | 2026-11-06 | [apex-compute/ANR](https://github.com/apex-compute/ANR) |
+| 3 | **blockchain** (+ethereum) | 14 | 14 | 1.8k | 358/d | 302/d | ▃▁▁▁▁▃▁▁▃▂▂▁█▁ | 2026-11-05 | [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) |
+| 4 | **systemhelper** | 5 | 5 | 2.3k | 270/d | 220/d | ▁▂▂▂▁▁▂▂▂█▆▄▃▄ | 2026-11-05 | [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) |
+| 5 | **asset** | 9 | 9 | 967 | 200/d | 227/d | ▁▁▁▁▁▁▁▁▂▂▁▁█▁ | 2026-11-05 | [sarderji889900-bit/rea-game-asset-scraper](https://github.com/sarderji889900-bit/rea-game-asset-scraper) |
+| 6 | **modders** | 5 | 5 | 766 | 192/d | 255/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-15 | [ahmedmahtab9991-cpu/scurz-fps-plus](https://github.com/ahmedmahtab9991-cpu/scurz-fps-plus) |
+| 7 | **hero** | 6 | 6 | 745 | 168/d | 209/d | ▁▁▁▁▂▁▁▁▁▁▁▁█▁ | 2026-11-09 | [donsimox0-wq/azerothcore-personal-loot-mod](https://github.com/donsimox0-wq/azerothcore-personal-loot-mod) |
+| 8 | **item** | 5 | 5 | 575 | 152/d | 178/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-05 | [Ffcj2025/steam-community-market-scraper](https://github.com/Ffcj2025/steam-community-market-scraper) |
+| 9 | **address** | 6 | 6 | 754 | 137/d | 108/d | ▁▃▂▃▂▁▁▁▆█▁█▇▁ | 2026-11-06 | [zacharyrogue/Crypto-Whale-Tracker](https://github.com/zacharyrogue/Crypto-Whale-Tracker) |
+| 10 | **oot** (+ocarina) | 6 | 6 | 923 | 122/d | 91/d | ▁▂▂▃▃▃▂▂▅██▆▅▃ | 2026-11-06 | [pixl27/ProjectReLink](https://github.com/pixl27/ProjectReLink) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 41 more) | 399 | 322 | 74.8k | 17.1k/d | 3.7k/d | ▁▁▁▁▁▁▁▁▁█▇▃▁▁ | 2026-11-06 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
-| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 33 more) | 196 | 194 | 30.7k | 7.3k/d | 374/d | ▁▁▁▁▁▁▁▁▁▆█▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
-| 3 | **utility** (+software-engineering, windows-app, configured, pre-configured, crack, 9 more) | 87 | 87 | 42.9k | 4.8k/d | 999/d | ▁▁▁▄▃▄▄█▁▂▂▁▁▂ | 2026-11-06 | [ebtsamalhakmy-sketch/desktop-backup-suite](https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite) | near-duplicate, flat-stars |
-| 4 | **trial-version** (+trial, windows-software, latest, windows-10, download, 42 more) | 266 | 266 | 27.3k | 3.5k/d | 104/d | ▁▁▁▁▁▁▁█▁▁▁▁▁▁ | 2026-11-08 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | same-day, flat-stars |
-| 5 | **community-driven** (+community) | 33 | 33 | 5.9k | 1.7k/d | 1.6k/d | ▁▁▁▁▁▁▁▂▁▁▁▁▁█ | 2026-11-06 | [RolandoV3/metatrader-5-bot](https://github.com/RolandoV3/metatrader-5-bot) | same-day |
-| 6 | **activator** (+activation, kms, scala, office365, tweak, 13 more) | 99 | 99 | 14.8k | 1.3k/d | 106/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-11-06 | [markrusell/excel-spreadsheet](https://github.com/markrusell/excel-spreadsheet) | near-duplicate, same-day, flat-stars |
-| 7 | **trainer** (+blade, fling, cheat) | 26 | 26 | 4.3k | 1.2k/d | 952/d | ▁▁▁▂▂▂▁▁▁▁▁▁▁█ | 2026-11-05 | [Mymedspharmacy/phantom-blade-zero-trainer](https://github.com/Mymedspharmacy/phantom-blade-zero-trainer) | flat-stars |
-| 8 | **apimart** (+ai-image-generation, gpt-image, ai-video-generation) | 23 | 1 | 3.3k | 1.1k/d | 684/d | ▁█▂▁▁▁▁▁▁▁▁▁█▇ | 2026-11-05 | [fujc683/seedance-2-5-flash-pricing](https://github.com/fujc683/seedance-2-5-flash-pricing) | few-owners, flat-stars |
-| 9 | **osint-tool** (+nickname, osint, socmint, investigation) | 15 | 14 | 3.7k | 797/d | 554/d | ▁▁▁▁▁▁▁▁▁█▆▃▅▆ | 2026-11-06 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) | same-day |
-| 10 | **scripting** (+blender-mcp, 3d-automation, blender-agents, blender-ai, blender-assistant, 9 more) | 10 | 10 | 3.5k | 626/d | 300/d | ▁▁▁▁▁▁▁▁▄▅█▄▁▃ | 2026-11-04 | [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) | same-day |
+| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 41 more) | 494 | 380 | 80.5k | 14.7k/d | 394/d | ▁▁▁▁▁▁▁▁▇█▃▁▁▁ | 2026-11-06 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
+| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 38 more) | 328 | 283 | 40.3k | 7.5k/d | 348/d | ▁▁▁▁▁▁▁▁▄█▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, flat-stars |
+| 3 | **trial-version** (+trial, windows-software, latest, windows-10, conversion, 65 more) | 299 | 299 | 30.2k | 3.6k/d | 214/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▁ | 2026-11-06 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | near-duplicate, same-day, flat-stars |
+| 4 | **setup** (+activated) | 54 | 54 | 9.0k | 1.8k/d | 994/d | ▁▁▁▂▂▁▂▂▅█▂▁█▂ | 2026-11-05 | [ariamitchell54/cubase-studio-desktop](https://github.com/ariamitchell54/cubase-studio-desktop) | flat-stars |
+| 5 | **utility** (+software-engineering, configured, pre-configured, acrobat, scripts, 2 more) | 52 | 52 | 7.2k | 1.7k/d | 1.0k/d | ▁▁▁▂▄▂▁▁▃▄▁▁█▁ | 2026-11-06 | [ben-miller-23/dxo-photolab-10-desktop](https://github.com/ben-miller-23/dxo-photolab-10-desktop) | near-duplicate, flat-stars |
+| 6 | **community-driven** (+community) | 33 | 33 | 5.0k | 1.2k/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-11 | [aburhabanas-sketch/signal-bot-client](https://github.com/aburhabanas-sketch/signal-bot-client) | same-day, flat-stars |
+| 7 | **activator** (+activation, kms, scala, office365, tweak, 9 more) | 94 | 94 | 13.9k | 1.1k/d | 4/d | ▁▁█▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-06 | [haroonwattoo556677-max/ios-forensic-exploitation-framework](https://github.com/haroonwattoo556677-max/ios-forensic-exploitation-framework) | same-day, flat-stars |
+| 8 | **apimart** (+ai-image-generation, ai-video-generation, gpt-image) | 23 | 1 | 3.3k | 777/d | 684/d | █▂▁▁▁▁▁▁▁▁▁█▇▁ | 2026-11-05 | [fujc683/seedance-2-5-flash-pricing](https://github.com/fujc683/seedance-2-5-flash-pricing) | few-owners, flat-stars |
+| 9 | **trainer** (+fling, cheat) | 21 | 21 | 3.0k | 743/d | 916/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-05 | [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) | same-day, flat-stars |
+| 10 | **coregold** (+vcc, applepay, usdt, finops, architectural, 6 more) | 58 | 55 | 2.9k | 316/d | 215/d | ▃▁▁▃▃▇█▆▇▂▁▆▃▅ | 2026-11-05 | [manassiradao368-tech/gemini-2-flash-thinking-api-guard](https://github.com/manassiradao368-tech/gemini-2-flash-thinking-api-guard) | near-duplicate, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>setup</b>: 53 repos, 10.8k stars</summary>
+<details><summary><b>scripting</b>: 8 repos, 3.4k stars</summary>
 
-- [uchihamx999-beep/imei-repair-toolkit](https://github.com/uchihamx999-beep/imei-repair-toolkit) 1.1k★ IMEI Repair 2026: Standalone Installer and Complete Setup for Device Repair Sol…
-- [ariamitchell54/cubase-studio-desktop](https://github.com/ariamitchell54/cubase-studio-desktop) 367★ Cubase Studio 2026 desktop setup with full plugin suite and complete feature set
-- [ben14-dunn/native-instruments-kontakt-desktop](https://github.com/ben14-dunn/native-instruments-kontakt-desktop) 366★ Native Instruments Kontakt 2026 desktop setup with industry-standard sampler fo…
-- [bradburns2001/topaz-video-ai-desktop](https://github.com/bradburns2001/topaz-video-ai-desktop) 365★ Topaz Video AI 2026 desktop setup with AI upscaling up to 16K with detail recov…
-- [brave-shell-07/izotope-rx-11-desktop](https://github.com/brave-shell-07/izotope-rx-11-desktop) 365★ iZotope RX 11 2026 desktop setup with AI audio repair, denoise, de-reverb and d…
-
-</details>
-
-<details><summary><b>systemhelper</b>: 5 repos, 2.0k stars</summary>
-
-- [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) 1.6k★ 基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块
-- [vivibibi30/hyperpguard](https://github.com/vivibibi30/hyperpguard) 136★ 可配置的应用行为开关模块（LSPosed）：网络、存储、接口、采集四层，纯本地
-- [acxun/hyperos-dm-report](https://github.com/acxun/hyperos-dm-report) 119★ HyperOS preinstalled carrier DM components: data collection, crypto, and decryp…
-- [zhang010416/carrier-dm-blocker](https://github.com/zhang010416/carrier-dm-blocker) 72★ 三家运营商预装 DM 组件拦截（联通 SystemHelper / 移动 RegService / 电信 CTAutoRegist）：LSPosed + Ke…
-- [zd-Ethan/systemhelper](https://github.com/zd-Ethan/systemhelper) 40★ SystemHelper 免 Root 用户级卸载方案：小米 14 Pro / 小米 17 Pro Max 实测记录
+- [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) 514★ A controlled AI workflow for Blender: every copilot edit is a supervised tool c…
+- [zovulrira1974/blender-ai-copilot-assets](https://github.com/zovulrira1974/blender-ai-copilot-assets) 510★ An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Piz…
+- [Doug-218/blender-ai-copilot-forge](https://github.com/Doug-218/blender-ai-copilot-forge) 509★ A scene-forging AI copilot for Blender—describe the layout and watch primitives…
+- [precygtrucqui1981/blender-ai-copilot-lab](https://github.com/precygtrucqui1981/blender-ai-copilot-lab) 507★ An AI lab for Blender where manager–worker–reviewer agent teams run multi-step …
+- [fumbdendade19718/blender-ai-copilot-desk](https://github.com/fumbdendade19718/blender-ai-copilot-desk) 505★ A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals…
 
 </details>
 
-<details><summary><b>modders</b>: 5 repos, 765 stars</summary>
+<details><summary><b>apex</b>: 5 repos, 3.2k stars</summary>
 
-- [AlbertoIlustra/marvel-rivals-galacta-mod](https://github.com/AlbertoIlustra/marvel-rivals-galacta-mod) 153★ Marvel Rivals Galacta Mod: Native Runtime Skin Swapper and Companion Manager
-- [ahmedmahtab9991-cpu/scurz-fps-plus](https://github.com/ahmedmahtab9991-cpu/scurz-fps-plus) 153★ Scurz FPS Plus: A Minecraft 1.20 Performance Mod for Modders
-- [alkabdohagag/fxdeck-fivem-command-deck](https://github.com/alkabdohagag/fxdeck-fivem-command-deck) 153★ FxDeck FiveM Command Deck - Streamlined In-Game Command Interface for Modders
-- [bagusprastika-dot/aurora-dialog-enhancer](https://github.com/bagusprastika-dot/aurora-dialog-enhancer) 153★ Aurora Dialog Enhancer - Deeper Conversations, Richer Worlds for Modders
-- [cumarmahamed7288-bit/jainacore-playerbots-mod](https://github.com/cumarmahamed7288-bit/jainacore-playerbots-mod) 153★ JainaCore Playerbots Mod: Bring Azeroth's Heroes to Life for Modders
+- [apex-compute/ANR](https://github.com/apex-compute/ANR) 2.7k★ Apex Neural Rendering (ANR) by Apex Compute
+- [Sxuan-Coder/open-apex-drama](https://github.com/Sxuan-Coder/open-apex-drama) 204★ 第三方水果短剧客户端，免登录、免广告、免费使用，支持真人剧、AI漫剧、AI短剧等多种短剧。支持Windows和安卓双端播放
+- [Ar6thr-333/apex-legends-fps-optimizer](https://github.com/Ar6thr-333/apex-legends-fps-optimizer) 153★ Apex Legends FPS Optimizer — Open-Source Windows Performance Boost
+- [SoldierMultiply/footstep-equalizer](https://github.com/SoldierMultiply/footstep-equalizer) 75★ Footstep equalizer for FPS games: auto EQ for Valorant, CS2, Apex
+- [DiamondCockatooFlow/Apex-Legends-cheat-client](https://github.com/DiamondCockatooFlow/Apex-Legends-cheat-client) 53★ 
 
 </details>
 
-<details><summary><b>colab</b>: 8 repos, 1.1k stars</summary>
+<details><summary><b>blockchain</b>: 14 repos, 1.8k stars</summary>
 
-- [scarletkc/colab-playground](https://github.com/scarletkc/colab-playground) 256★ A desktop app for the Google Colab CLI: accounts, GPU sessions with cost guards…
-- [designfuchen/worldforge](https://github.com/designfuchen/worldforge) 221★ WorldForge 世界工坊 — Squeeze 100% out of Google Colab GPUs (RTX PRO 6000 Blackwell…
-- [TizenryA/colab-gpu-studio](https://github.com/TizenryA/colab-gpu-studio) 218★ 移动端 AI 创作工作台：按需 Colab GPU、ComfyUI 工作流、Drive 缓存与任务管理。
+- [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 227★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
+- [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 163★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
+- [EmeerMacapili/ethereum-anomaly-detection](https://github.com/EmeerMacapili/ethereum-anomaly-detection) 153★ Ethereum Anomaly Detection: Behavioral Analysis and Threat Identification
+- [ZeekCursos/metaid-file-system](https://github.com/ZeekCursos/metaid-file-system) 153★ MetaID File System: Blockchain-Based Decentralized File Storage and Service Pla…
+- [abhijitacharyathegoat-collab/7fchain-blockchain](https://github.com/abhijitacharyathegoat-collab/7fchain-blockchain) 153★ 7FChain Blockchain: Desktop Node Software for Decentralized Ledger Infrastructu…
+
+</details>
+
+<details><summary><b>systemhelper</b>: 5 repos, 2.3k stars</summary>
+
+- [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) 1.9k★ 基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块
+- [vivibibi30/hyperpguard](https://github.com/vivibibi30/hyperpguard) 137★ 可配置的应用行为开关模块（LSPosed）：网络、存储、接口、采集四层，纯本地
+- [acxun/hyperos-dm-report](https://github.com/acxun/hyperos-dm-report) 120★ HyperOS preinstalled carrier DM components: data collection, crypto, and decryp…
+- [zhang010416/carrier-dm-blocker](https://github.com/zhang010416/carrier-dm-blocker) 77★ 三家运营商预装 DM 组件拦截（联通 SystemHelper / 移动 RegService / 电信 CTAutoRegist）：LSPosed + Ke…
+- [zd-Ethan/systemhelper](https://github.com/zd-Ethan/systemhelper) 42★ SystemHelper 免 Root 用户级卸载方案：小米 14 Pro / 小米 17 Pro Max 实测记录
+
+</details>
+
+<details><summary><b>asset</b>: 9 repos, 967 stars</summary>
+
+- [sarderji889900-bit/rea-game-asset-scraper](https://github.com/sarderji889900-bit/rea-game-asset-scraper) 154★ REA Game Asset Scraper: Scoped Asset Extraction for Visual Workflows
+- [erwachirakenya-dot/gflfc-decryption-toolkit](https://github.com/erwachirakenya-dot/gflfc-decryption-toolkit) 153★ GFLFC Decryption Toolkit: Fire Control UnityFS XOR, FlatBuffers Manifest, CDN S…
+- [jalelhmem26-hub/rpg-maker-decrypter](https://github.com/jalelhmem26-hub/rpg-maker-decrypter) 153★ Fast RPG Maker archive and asset decrypter with built-in asset inspection
 - [miguellclc/cod3-extraction-tools](https://github.com/miguellclc/cod3-extraction-tools) 153★ Extraction Tools: Xbox 360 asset extractors, format notes, and game checks
-- [dseditor/h3-colab-skill](https://github.com/dseditor/h3-colab-skill) 120★ MiniMax H3 pictures, talking video, extensions and TTS on your own Google Colab…
-
-</details>
-
-<details><summary><b>hero</b>: 6 repos, 742 stars</summary>
-
-- [donsimox0-wq/azerothcore-personal-loot-mod](https://github.com/donsimox0-wq/azerothcore-personal-loot-mod) 153★ AzerothCore Loot Mod - Tailored Loot for Every Hero
-- [jbfixurpc/satano-overwatch-2-overlay](https://github.com/jbfixurpc/satano-overwatch-2-overlay) 153★ Satano Overwatch 2 Overlay: Real-Time Hero Head Marking for Focused Target Trac…
-- [mherrerahuacachino-lang/marvel-rivals-skins-customization](https://github.com/mherrerahuacachino-lang/marvel-rivals-skins-customization) 153★ Marvel Rivals Skin Forge: Reshape Every Hero Your Way
-- [nikhishamudin-create/deadlock-counterpicker](https://github.com/nikhishamudin-create/deadlock-counterpicker) 153★ Deadlock Counterpicker: Pick the Right Hero, Win the Match
-- [jyotiprakash101/nuvio-badge-kit](https://github.com/jyotiprakash101/nuvio-badge-kit) 83★ The complete stream badge pack for Nuvio and Fusion: 261 badges in 5 styles. Go…
+- [wraithlegislatorknot/domesday-osint-asset-records](https://github.com/wraithlegislatorknot/domesday-osint-asset-records) 112★ OSINT search of public financial and property records.
 
 </details>
 <!-- starwave:end -->
