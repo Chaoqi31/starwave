@@ -48,85 +48,85 @@ These numbers come from the 12:53 UTC capture that the tests use. The image at t
 A GitHub Action rewrites this table every day at 06:17 UTC. Earlier days are in [`data/`](data).
 
 <!-- starwave:start -->
-_recent 3,380 repos  2026-11-05..2026-11-19  stars>=40 · baseline 4,096 repos  2026-09-06..2026-11-04  stars>=150 · generated 2026-11-19 15:48 UTC_
+_recent 3,207 repos  2026-11-06..2026-11-20  stars>=40 · baseline 4,115 repos  2026-09-07..2026-11-05  stars>=150 · generated 2026-11-20 15:29 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **scripting** (+blender-mcp, 3d-automation, blender-agents, blender-ai, blender-assistant, 8 more) | 8 | 8 | 3.4k | 512/d | 106/d | ▁▁▁▁▁▁▁▄▅█▄▁▃▁ | 2026-11-12 | [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) |
-| 2 | **apex** | 5 | 5 | 3.2k | 407/d | 232/d | ▁▁▁▁▁▁▂█▄▄▄▃▃▂ | 2026-11-06 | [apex-compute/ANR](https://github.com/apex-compute/ANR) |
-| 3 | **blockchain** (+ethereum) | 14 | 14 | 1.8k | 358/d | 302/d | ▃▁▁▁▁▃▁▁▃▂▂▁█▁ | 2026-11-05 | [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) |
-| 4 | **systemhelper** | 5 | 5 | 2.3k | 270/d | 220/d | ▁▂▂▂▁▁▂▂▂█▆▄▃▄ | 2026-11-05 | [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) |
-| 5 | **asset** | 9 | 9 | 967 | 200/d | 227/d | ▁▁▁▁▁▁▁▁▂▂▁▁█▁ | 2026-11-05 | [sarderji889900-bit/rea-game-asset-scraper](https://github.com/sarderji889900-bit/rea-game-asset-scraper) |
-| 6 | **modders** | 5 | 5 | 766 | 192/d | 255/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-15 | [ahmedmahtab9991-cpu/scurz-fps-plus](https://github.com/ahmedmahtab9991-cpu/scurz-fps-plus) |
-| 7 | **hero** | 6 | 6 | 745 | 168/d | 209/d | ▁▁▁▁▂▁▁▁▁▁▁▁█▁ | 2026-11-09 | [donsimox0-wq/azerothcore-personal-loot-mod](https://github.com/donsimox0-wq/azerothcore-personal-loot-mod) |
-| 8 | **item** | 5 | 5 | 575 | 152/d | 178/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-05 | [Ffcj2025/steam-community-market-scraper](https://github.com/Ffcj2025/steam-community-market-scraper) |
-| 9 | **address** | 6 | 6 | 754 | 137/d | 108/d | ▁▃▂▃▂▁▁▁▆█▁█▇▁ | 2026-11-06 | [zacharyrogue/Crypto-Whale-Tracker](https://github.com/zacharyrogue/Crypto-Whale-Tracker) |
-| 10 | **oot** (+ocarina) | 6 | 6 | 923 | 122/d | 91/d | ▁▂▂▃▃▃▂▂▅██▆▅▃ | 2026-11-06 | [pixl27/ProjectReLink](https://github.com/pixl27/ProjectReLink) |
+| 1 | **scripting** (+blender-mcp, blender-ai, blender-automation, blender-plugin, blender-scripting, 8 more) | 12 | 12 | 4.9k | 1.7k/d | 446/d | ▁▁▁▁▁▁▃▆█▄▁▃▁▆ | 2026-11-12 | [bookwjitchieni1986/blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon) |
+| 2 | **adobe** (+digital-art, graphic-design) | 20 | 20 | 1.8k | 1.0k/d | 425/d | ▁▁▁▁▁▁▁▁▁▁▁▅▁█ | 2026-11-15 | [FloorTurtleResurrect/free-adobe-activation](https://github.com/FloorTurtleResurrect/free-adobe-activation) |
+| 3 | **blockchain** (+ethereum) | 11 | 11 | 1.6k | 437/d | 311/d | ▁▁▁▁▃▁▁▂▁▁▁█▁▂ | 2026-11-10 | [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) |
+| 4 | **ai-video-generation** | 7 | 1 | 1.4k | 362/d | 245/d | ▁▁▁▁▁▁▁▁▁▁██▁▁ | 2026-11-16 | [fujc683/seedance-2-5-flash-pricing](https://github.com/fujc683/seedance-2-5-flash-pricing) |
+| 5 | **streamlined** | 7 | 7 | 727 | 322/d | 190/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▄ | 2026-11-15 | [alkabdohagag/fxdeck-fivem-command-deck](https://github.com/alkabdohagag/fxdeck-fivem-command-deck) |
+| 6 | **macro** (+wardogs) | 6 | 6 | 641 | 307/d | 146/d | ▁▁▁▁▁▁▁▁▁▁▁█▂▁ | 2026-11-15 | [Afabio2007/weekend-lottery-contract](https://github.com/Afabio2007/weekend-lottery-contract) |
+| 7 | **delivers** | 5 | 5 | 436 | 296/d | 93/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-18 | [luciskynet-cloud/sonyvegas](https://github.com/luciskynet-cloud/sonyvegas) |
+| 8 | **defi** | 6 | 6 | 735 | 230/d | 207/d | ▁▁▁▁▁▁▁▁▁▂▁█▁▂ | 2026-11-15 | [antonioRicanto/pioneercrypto](https://github.com/antonioRicanto/pioneercrypto) |
+| 9 | **asset** | 9 | 9 | 1.0k | 207/d | 252/d | ▁▁▁▁▁▁▁▂▂▁▁█▁▂ | 2026-11-08 | [sarderji889900-bit/rea-game-asset-scraper](https://github.com/sarderji889900-bit/rea-game-asset-scraper) |
+| 10 | **agy** | 8 | 8 | 698 | 201/d | 87/d | ▁▁▂▁▁▁▂▅▃▄█▅▅▇ | 2026-11-08 | [oil-oil/agy-fast-io](https://github.com/oil-oil/agy-fast-io) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 41 more) | 494 | 380 | 80.5k | 14.7k/d | 394/d | ▁▁▁▁▁▁▁▁▇█▃▁▁▁ | 2026-11-06 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
-| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 38 more) | 328 | 283 | 40.3k | 7.5k/d | 348/d | ▁▁▁▁▁▁▁▁▄█▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, flat-stars |
-| 3 | **trial-version** (+trial, windows-software, latest, windows-10, conversion, 65 more) | 299 | 299 | 30.2k | 3.6k/d | 214/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▁ | 2026-11-06 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | near-duplicate, same-day, flat-stars |
-| 4 | **setup** (+activated) | 54 | 54 | 9.0k | 1.8k/d | 994/d | ▁▁▁▂▂▁▂▂▅█▂▁█▂ | 2026-11-05 | [ariamitchell54/cubase-studio-desktop](https://github.com/ariamitchell54/cubase-studio-desktop) | flat-stars |
-| 5 | **utility** (+software-engineering, configured, pre-configured, acrobat, scripts, 2 more) | 52 | 52 | 7.2k | 1.7k/d | 1.0k/d | ▁▁▁▂▄▂▁▁▃▄▁▁█▁ | 2026-11-06 | [ben-miller-23/dxo-photolab-10-desktop](https://github.com/ben-miller-23/dxo-photolab-10-desktop) | near-duplicate, flat-stars |
-| 6 | **community-driven** (+community) | 33 | 33 | 5.0k | 1.2k/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-11 | [aburhabanas-sketch/signal-bot-client](https://github.com/aburhabanas-sketch/signal-bot-client) | same-day, flat-stars |
-| 7 | **activator** (+activation, kms, scala, office365, tweak, 9 more) | 94 | 94 | 13.9k | 1.1k/d | 4/d | ▁▁█▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-06 | [haroonwattoo556677-max/ios-forensic-exploitation-framework](https://github.com/haroonwattoo556677-max/ios-forensic-exploitation-framework) | same-day, flat-stars |
-| 8 | **apimart** (+ai-image-generation, ai-video-generation, gpt-image) | 23 | 1 | 3.3k | 777/d | 684/d | █▂▁▁▁▁▁▁▁▁▁█▇▁ | 2026-11-05 | [fujc683/seedance-2-5-flash-pricing](https://github.com/fujc683/seedance-2-5-flash-pricing) | few-owners, flat-stars |
-| 9 | **trainer** (+fling, cheat) | 21 | 21 | 3.0k | 743/d | 916/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-05 | [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) | same-day, flat-stars |
-| 10 | **coregold** (+vcc, applepay, usdt, finops, architectural, 6 more) | 58 | 55 | 2.9k | 316/d | 215/d | ▃▁▁▃▃▇█▆▇▂▁▆▃▅ | 2026-11-05 | [manassiradao368-tech/gemini-2-flash-thinking-api-guard](https://github.com/manassiradao368-tech/gemini-2-flash-thinking-api-guard) | near-duplicate, flat-stars |
+| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 41 more) | 450 | 373 | 77.9k | 11.8k/d | 281/d | ▁▁▁▁▁▁▁▇█▃▁▁▁▁ | 2026-11-06 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
+| 2 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 37 more) | 300 | 272 | 38.8k | 6.0k/d | 300/d | ▁▁▁▁▁▁▁▄█▁▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
+| 3 | **trial-version** (+trial, windows-software, latest, shape, conversion, 70 more) | 310 | 310 | 31.4k | 3.8k/d | 1.2k/d | ▁▁▁▁▁█▁▁▁▁▁▁▁▂ | 2026-11-06 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | near-duplicate, same-day, flat-stars |
+| 4 | **setup** (+activated, color-grading, bundled, multitrack, updater, 1 more) | 54 | 54 | 8.5k | 1.8k/d | 1.2k/d | ▁▁▂▂▁▂▂▄▇▂▁█▂▃ | 2026-11-06 | [ariamitchell54/cubase-studio-desktop](https://github.com/ariamitchell54/cubase-studio-desktop) | flat-stars |
+| 5 | **utility** (+software-engineering, fortnite, configured, pre-configured, scripts, 1 more) | 56 | 56 | 7.9k | 1.7k/d | 1.2k/d | ▁▁▂▄▂▁▁▃▃▁▁█▁▃ | 2026-11-06 | [ben-miller-23/dxo-photolab-10-desktop](https://github.com/ben-miller-23/dxo-photolab-10-desktop) | near-duplicate, flat-stars |
+| 6 | **activator** (+office365, kms, activation, tweak, scala, 10 more) | 93 | 93 | 13.8k | 990/d | 1/d | ▁█▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-06 | [CCardona6/office-suite-alternative-access](https://github.com/CCardona6/office-suite-alternative-access) | same-day, flat-stars |
+| 7 | **community-driven** | 32 | 32 | 4.8k | 957/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-11-11 | [aburhabanas-sketch/signal-bot-client](https://github.com/aburhabanas-sketch/signal-bot-client) | same-day, flat-stars |
+| 8 | **game-data** (+game-overlay, game-statistics, game-utilities, statistics, first-person-shooter, 16 more) | 16 | 16 | 1.6k | 784/d | 495/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-18 | [Anonymoussgc/dayz-selora](https://github.com/Anonymoussgc/dayz-selora) | near-duplicate, same-day |
+| 9 | **trainer** (+hack, fling, cheat) | 21 | 21 | 3.0k | 645/d | 902/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▁ | 2026-11-07 | [nico-bohlinger/xmimic](https://github.com/nico-bohlinger/xmimic) | same-day, flat-stars |
+| 10 | **base-building** (+resource-management, survival-game, co-op-game, cooperative-game, team-play, 5 more) | 11 | 11 | 957 | 584/d | 249/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-18 | [Moyaking/rust-norvella](https://github.com/Moyaking/rust-norvella) | near-duplicate, same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>scripting</b>: 8 repos, 3.4k stars</summary>
+<details><summary><b>scripting</b>: 12 repos, 4.9k stars</summary>
 
-- [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) 514★ A controlled AI workflow for Blender: every copilot edit is a supervised tool c…
-- [zovulrira1974/blender-ai-copilot-assets](https://github.com/zovulrira1974/blender-ai-copilot-assets) 510★ An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Piz…
+- [bookwjitchieni1986/blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon) 1.0k★ AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent …
+- [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) 515★ A controlled AI workflow for Blender: every copilot edit is a supervised tool c…
+- [zovulrira1974/blender-ai-copilot-assets](https://github.com/zovulrira1974/blender-ai-copilot-assets) 511★ An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Piz…
 - [Doug-218/blender-ai-copilot-forge](https://github.com/Doug-218/blender-ai-copilot-forge) 509★ A scene-forging AI copilot for Blender—describe the layout and watch primitives…
-- [precygtrucqui1981/blender-ai-copilot-lab](https://github.com/precygtrucqui1981/blender-ai-copilot-lab) 507★ An AI lab for Blender where manager–worker–reviewer agent teams run multi-step …
-- [fumbdendade19718/blender-ai-copilot-desk](https://github.com/fumbdendade19718/blender-ai-copilot-desk) 505★ A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals…
+- [fumbdendade19718/blender-ai-copilot-desk](https://github.com/fumbdendade19718/blender-ai-copilot-desk) 506★ A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals…
 
 </details>
 
-<details><summary><b>apex</b>: 5 repos, 3.2k stars</summary>
+<details><summary><b>adobe</b>: 20 repos, 1.8k stars</summary>
 
-- [apex-compute/ANR](https://github.com/apex-compute/ANR) 2.7k★ Apex Neural Rendering (ANR) by Apex Compute
-- [Sxuan-Coder/open-apex-drama](https://github.com/Sxuan-Coder/open-apex-drama) 204★ 第三方水果短剧客户端，免登录、免广告、免费使用，支持真人剧、AI漫剧、AI短剧等多种短剧。支持Windows和安卓双端播放
-- [Ar6thr-333/apex-legends-fps-optimizer](https://github.com/Ar6thr-333/apex-legends-fps-optimizer) 153★ Apex Legends FPS Optimizer — Open-Source Windows Performance Boost
-- [SoldierMultiply/footstep-equalizer](https://github.com/SoldierMultiply/footstep-equalizer) 75★ Footstep equalizer for FPS games: auto EQ for Valorant, CS2, Apex
-- [DiamondCockatooFlow/Apex-Legends-cheat-client](https://github.com/DiamondCockatooFlow/Apex-Legends-cheat-client) 53★ 
+- [FloorTurtleResurrect/free-adobe-activation](https://github.com/FloorTurtleResurrect/free-adobe-activation) 193★ simple tutorial adobe activation with GenP
+- [kokarai/premiere-elements](https://github.com/kokarai/premiere-elements) 153★ Premiere Elements: Story-First Home Video Editing Workflow
+- [yahyaouiraouf31-sys/l-ve-light-shadow-library](https://github.com/yahyaouiraouf31-sys/l-ve-light-shadow-library) 153★ Löve Light Shadow Library: 2D light and shadow rendering for Löve2D
+- [MinosoaRafalimanana/adobe-dreamweaver-varvera](https://github.com/MinosoaRafalimanana/adobe-dreamweaver-varvera) 113★ Varvera edition of Adobe Dreamweaver, a web development environment for coding …
+- [abhyudaychauhan/adobe-indesign-merrarin](https://github.com/abhyudaychauhan/adobe-indesign-merrarin) 113★ Provides layout and typesetting tools for structured, multi-page document produ…
 
 </details>
 
-<details><summary><b>blockchain</b>: 14 repos, 1.8k stars</summary>
+<details><summary><b>blockchain</b>: 11 repos, 1.6k stars</summary>
 
 - [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) 227★ Solana validator health in 60 seconds: score, leader duties, rewards, disk fore…
-- [zeemscript/block-roll](https://github.com/zeemscript/block-roll) 163★ Non-custodial, encrypted file storage & sharing platform with Stellar payments …
+- [sjohansson2004/Exodus-Fake-Balance](https://github.com/sjohansson2004/Exodus-Fake-Balance) 188★ Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize di…
 - [EmeerMacapili/ethereum-anomaly-detection](https://github.com/EmeerMacapili/ethereum-anomaly-detection) 153★ Ethereum Anomaly Detection: Behavioral Analysis and Threat Identification
 - [ZeekCursos/metaid-file-system](https://github.com/ZeekCursos/metaid-file-system) 153★ MetaID File System: Blockchain-Based Decentralized File Storage and Service Pla…
 - [abhijitacharyathegoat-collab/7fchain-blockchain](https://github.com/abhijitacharyathegoat-collab/7fchain-blockchain) 153★ 7FChain Blockchain: Desktop Node Software for Decentralized Ledger Infrastructu…
 
 </details>
 
-<details><summary><b>systemhelper</b>: 5 repos, 2.3k stars</summary>
+<details><summary><b>ai-video-generation</b>: 7 repos, 1.4k stars</summary>
 
-- [Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner) 1.9k★ 基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块
-- [vivibibi30/hyperpguard](https://github.com/vivibibi30/hyperpguard) 137★ 可配置的应用行为开关模块（LSPosed）：网络、存储、接口、采集四层，纯本地
-- [acxun/hyperos-dm-report](https://github.com/acxun/hyperos-dm-report) 120★ HyperOS preinstalled carrier DM components: data collection, crypto, and decryp…
-- [zhang010416/carrier-dm-blocker](https://github.com/zhang010416/carrier-dm-blocker) 77★ 三家运营商预装 DM 组件拦截（联通 SystemHelper / 移动 RegService / 电信 CTAutoRegist）：LSPosed + Ke…
-- [zd-Ethan/systemhelper](https://github.com/zd-Ethan/systemhelper) 42★ SystemHelper 免 Root 用户级卸载方案：小米 14 Pro / 小米 17 Pro Max 实测记录
+- [fujc683/seedance-2-5-flash-pricing](https://github.com/fujc683/seedance-2-5-flash-pricing) 216★ Seedance 2.5 Flash cost per second of video, with comparisons.
+- [fujc683/seedance-2-5-flash-camera-movements](https://github.com/fujc683/seedance-2-5-flash-camera-movements) 209★ 12 camera moves for text-to-video, with copy-paste prompt phrases.
+- [fujc683/seedance-2-5-flash-reference-video](https://github.com/fujc683/seedance-2-5-flash-reference-video) 208★ Control Seedance 2.5 Flash motion with a first frame or reference clip.
+- [fujc683/seedance-2-5-flash-api](https://github.com/fujc683/seedance-2-5-flash-api) 207★ Seedance 2.5 Flash API: text-to-video endpoint, parameters and errors.
+- [fujc683/seedance-2-5-flash-alternatives](https://github.com/fujc683/seedance-2-5-flash-alternatives) 205★ Seedance 2.5 Flash vs Seedance 2.0, Kling 4.0 Flash and Veo 3.
 
 </details>
 
-<details><summary><b>asset</b>: 9 repos, 967 stars</summary>
+<details><summary><b>streamlined</b>: 7 repos, 727 stars</summary>
 
-- [sarderji889900-bit/rea-game-asset-scraper](https://github.com/sarderji889900-bit/rea-game-asset-scraper) 154★ REA Game Asset Scraper: Scoped Asset Extraction for Visual Workflows
-- [erwachirakenya-dot/gflfc-decryption-toolkit](https://github.com/erwachirakenya-dot/gflfc-decryption-toolkit) 153★ GFLFC Decryption Toolkit: Fire Control UnityFS XOR, FlatBuffers Manifest, CDN S…
-- [jalelhmem26-hub/rpg-maker-decrypter](https://github.com/jalelhmem26-hub/rpg-maker-decrypter) 153★ Fast RPG Maker archive and asset decrypter with built-in asset inspection
-- [miguellclc/cod3-extraction-tools](https://github.com/miguellclc/cod3-extraction-tools) 153★ Extraction Tools: Xbox 360 asset extractors, format notes, and game checks
-- [wraithlegislatorknot/domesday-osint-asset-records](https://github.com/wraithlegislatorknot/domesday-osint-asset-records) 112★ OSINT search of public financial and property records.
+- [alkabdohagag/fxdeck-fivem-command-deck](https://github.com/alkabdohagag/fxdeck-fivem-command-deck) 154★ FxDeck FiveM Command Deck - Streamlined In-Game Command Interface for Modders
+- [tahsintasnuva/voice-notes-pipeline](https://github.com/tahsintasnuva/voice-notes-pipeline) 153★ Voice Notes Pipeline: Automation Script for Streamlined Note Processing
+- [vkindustries49-star/minectaft-on-rust-easy-launch](https://github.com/vkindustries49-star/minectaft-on-rust-easy-launch) 101★ Launch and manage Minecraft on Rust through a streamlined setup and launcher.
+- [kenzz-devv/open-webui-talora-ai-workspace](https://github.com/kenzz-devv/open-webui-talora-ai-workspace) 94★ Streamlined workspace for organizing and running AI workflows in one place.
+- [samuelmatus/canva-magic-studio-workbench](https://github.com/samuelmatus/canva-magic-studio-workbench) 94★ Canva Magic Studio Workbench: Streamlined Workflow for Modern Teams
 
 </details>
 <!-- starwave:end -->
