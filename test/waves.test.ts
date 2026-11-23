@@ -7,7 +7,7 @@ import type { Capture, Snapshot, Wave } from "../dist/index.js";
 import { STOP, detectWaves, terms } from "../dist/waves.js";
 
 const fixture = JSON.parse(
-  gunzipSync(readFileSync(new URL("./fixtures/2026-09-30.json.gz", import.meta.url))).toString("utf8"),
+  gunzipSync(readFileSync(new URL("../test/fixtures/2026-09-30.json.gz", import.meta.url))).toString("utf8"),
 ) as Capture;
 const today = "2026-09-30";
 const waves = detectWaves(fixture.recent, fixture.baseline, { today });
