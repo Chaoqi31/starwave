@@ -57,7 +57,7 @@ A *capture* is the raw input: `{ capturedAt, recentWindow, baselineWindow, recen
 ## Fetching (`src/github.ts`)
 
 - The token comes from `GITHUB_TOKEN`, else from `gh auth token`.
-- `fetchWindow` splits a date range into slices (3 days for the recent window, 7 for the baseline) and runs `created:A..B stars:>=M` searches, sorted by stars, 100 per page. The search API returns at most 1,000 results per query, which is why the range is sliced.
+- `fetchWindow` splits a date range into slices (3 days for the recent window, 7 for the baseline) and runs `created:A..B stars:>=M` searches, sorted by stars, 100 per page. If a query exceeds 1,000 results or GitHub marks it incomplete, the slice is split recursively into non-overlapping timestamp ranges, down to one second. An unsplittable range fails explicitly rather than returning a truncated capture.
 - Search allows 30 requests per minute, so requests are paced at 2.1 s. A 403 or 429 with rate-limit headers waits for the reset (at most 70 s) and retries once.
 - Results cache in `~/.cache/starwave/` for 6 hours. `--no-cache` skips the cache.
 
