@@ -48,85 +48,82 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 3,840 repos  2026-11-08..2026-11-22  stars>=40 · baseline 4,160 repos  2026-09-09..2026-11-07  stars>=150 · generated 2026-11-22 14:38 UTC_
+_recent 3,080 repos  2026-11-09..2026-11-23  stars>=40 · baseline 4,204 repos  2026-09-10..2026-11-08  stars>=150 · generated 2026-11-23 18:15 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **scripting** (+blender-mcp, blender3d, blender-ai, blender-automation, blender-plugin, 8 more) | 13 | 13 | 6.8k | 1.6k/d | 1.0k/d | ▁▁▁▁▄▆█▄▁▃▁▆▇▆ | 2026-11-12 | [bookwjitchieni1986/blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon) |
-| 2 | **adobe** (+after-effects, visual-effects, keyframe) | 17 | 17 | 2.7k | 943/d | 701/d | ▁▁▁▁▁▁▁▁▁▄▁▄█▃ | 2026-11-14 | [purvprajapati2504-design/premiere-pro-video-editor](https://github.com/purvprajapati2504-design/premiere-pro-video-editor) |
-| 3 | **digital-art** (+3d-rendering, graphic-design) | 6 | 6 | 1.1k | 672/d | 366/d | ▁▁▁▁▁▁▁▁▁▁▁▃█▆ | 2026-11-18 | [randrianiaina1/illustrator-datalin-vector-design](https://github.com/randrianiaina1/illustrator-datalin-vector-design) |
-| 4 | **streamlined** | 9 | 9 | 1.3k | 461/d | 263/d | ▁▁▁▁▁▁▁▁▁█▁▃▇▃ | 2026-11-15 | [Blaqsoft/acrobat-pro-fajalor-pdf-workspace](https://github.com/Blaqsoft/acrobat-pro-fajalor-pdf-workspace) |
-| 5 | **riemann** (+alp) | 5 | 5 | 761 | 359/d | 212/d | ▁▂▁▁▁▁▁▁▁▁▁▁█▄ | 2026-11-09 | [CocoSgt/riemann-hypothesis-lean](https://github.com/CocoSgt/riemann-hypothesis-lean) |
-| 6 | **escape** | 6 | 5 | 4.1k | 356/d | 144/d | ▃▅█▄▂▃▂▂▂▃▂▃▂▁ | 2026-11-08 | [Kianuni/Erosion-CN](https://github.com/Kianuni/Erosion-CN) |
-| 7 | **rob** | 6 | 6 | 656 | 355/d | 185/d | ▁▁▁▁▁▁▂▁▁▁▁▃▅█ | 2026-11-13 | [jubileeuk27-ship-it/rob-run-orvella](https://github.com/jubileeuk27-ship-it/rob-run-orvella) |
-| 8 | **modder** | 6 | 6 | 911 | 254/d | 151/d | ▁▁▁▁▁▁▁▁▁█▁▂▇▁ | 2026-11-15 | [guaravs01-prog/better-orbital-strike-cannon](https://github.com/guaravs01-prog/better-orbital-strike-cannon) |
-| 9 | **blockchain** (+bnb) | 13 | 13 | 1.7k | 246/d | 47/d | ▁▁▃▁▁▃▂▂▁█▁▁▂▁ | 2026-11-10 | [ValidatorStack/solana-vigil](https://github.com/ValidatorStack/solana-vigil) |
-| 10 | **ai-video-generation** | 7 | 1 | 1.4k | 241/d | 0/d | ▁▁▁▁▁▁▁▁██▁▁▁▁ | 2026-11-16 | [fujc683/seedance-2-5-flash-pricing](https://github.com/fujc683/seedance-2-5-flash-pricing) |
+| 1 | **riemann** (+alp) | 6 | 6 | 1.7k | 536/d | 475/d | ▂▁▁▁▁▁▁▁▁▁▁█▅▄ | 2026-11-09 | [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) |
+| 2 | **force** | 5 | 5 | 1.1k | 272/d | 152/d | ▁▁▁▁▁▁▃▅▅▂▃▂█▂ | 2026-11-14 | [34306/ForceDuoApp](https://github.com/34306/ForceDuoApp) |
+| 3 | **fable** | 8 | 8 | 1.9k | 166/d | 57/d | ▁▄█▅▃▃▃▄▇▃▃▂▂▂ | 2026-11-09 | [fengyiqicoder/awesome-fable-5.2](https://github.com/fengyiqicoder/awesome-fable-5.2) |
+| 4 | **streamlined** | 7 | 7 | 953 | 149/d | 54/d | ▁▁▁▁▁▁▁▁█▁▄▃▁▁ | 2026-11-15 | [Cllayver/fl-studio-installer](https://github.com/Cllayver/fl-studio-installer) |
+| 5 | **changer** | 6 | 6 | 1.2k | 125/d | 102/d | ▁▁▁▁▁▁▁▁█▁▁▁▃▂ | 2026-11-10 | [D1ngtalk/iap2loc](https://github.com/D1ngtalk/iap2loc) |
+| 6 | **address** | 6 | 6 | 694 | 89/d | 12/d | ▁▁▁▁▆█▁█▇▁▃▁▁▂ | 2026-11-12 | [zacharyrogue/Crypto-Whale-Tracker](https://github.com/zacharyrogue/Crypto-Whale-Tracker) |
+| 7 | **hero** | 6 | 6 | 753 | 87/d | 2/d | ▂▁▁▁▁▁▁▁█▁▁▁▁▁ | 2026-11-09 | [Veeru7411/dota-2-fps-booster](https://github.com/Veeru7411/dota-2-fps-booster) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **win** (+architectural, computer-graphics, imaging, microsoftexcel, autodesk, 74 more) | 269 | 203 | 66.5k | 65.0k/d | 14.0k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-14 | [esamZumrawi/dr-fone-mobile-launch-suite](https://github.com/esamZumrawi/dr-fone-mobile-launch-suite) | near-duplicate, same-day, flat-stars |
-| 2 | **software-engineering** (+windows-app, utility, utilities, acrobat, scripts, 23 more) | 215 | 214 | 64.8k | 61.3k/d | 17.9k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-08 | [Dhruv2710-hub/cellebrite-ufed](https://github.com/Dhruv2710-hub/cellebrite-ufed) | near-duplicate, same-day, flat-stars |
-| 3 | **prebuilt** (+hot-reloadable, low-overhead, reloadable, overhead, configuration, 92 more) | 175 | 161 | 44.9k | 44.7k/d | 14.9k/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-15 | [kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64](https://github.com/kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64) | near-duplicate, same-day, flat-stars |
-| 4 | **ai--manus** (+gemeni, manus, typescript-sdk, general-purpose, solidjs, 19 more) | 298 | 298 | 43.9k | 4.9k/d | 0/d | ▁▁▁▁▁██▁▁▁▁▁▁▁ | 2026-11-13 | [AcgBoss/ai--manus](https://github.com/AcgBoss/ai--manus) | near-duplicate, same-day, flat-stars |
-| 5 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 37 more) | 323 | 278 | 39.4k | 4.6k/d | 0/d | ▁▁▁▁▁▄█▁▁▁▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, flat-stars |
-| 6 | **setup** (+configured, pre-configured, visio, multitrack, bundled, 1 more) | 62 | 62 | 11.0k | 3.6k/d | 1.2k/d | ▂▂▁▂▁▂▆▂▁█▂▂▃█ | 2026-11-08 | [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) | flat-stars |
-| 7 | **trial-version** (+trial, windows-software, latest, download, conversion, 35 more) | 265 | 265 | 27.2k | 2.3k/d | 1/d | ▁▁▁█▁▁▁▁▁▁▁▁▁▁ | 2026-11-08 | [brisk-thrush-husky/malware-defender-desktop](https://github.com/brisk-thrush-husky/malware-defender-desktop) | same-day, flat-stars |
-| 8 | **trainer** (+hack, blade, cheat, fling, hacks) | 25 | 25 | 4.3k | 1.7k/d | 415/d | ▁▁▁▁▁▁▁▁▁█▁▁▁▄ | 2026-11-15 | [vinujak/phantom-blade-zero-modifier](https://github.com/vinujak/phantom-blade-zero-modifier) | same-day, flat-stars |
-| 9 | **aichecker** (+anti-dpi, config-checker, gemeni-checker, gemini-config-checker, lim, 10 more) | 27 | 27 | 10.2k | 1.5k/d | 0/d | ▁▁▁▁▁▁▁█▁▁▁▁▁▁ | 2026-11-15 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
-| 10 | **manus--ai** | 64 | 64 | 12.1k | 1.3k/d | 0/d | ▁▁▁▁▁█▄▁▁▁▁▁▁▁ | 2026-11-13 | [AcgBoss/manus--ai](https://github.com/AcgBoss/manus--ai) | near-duplicate, same-day, flat-stars |
+| 1 | **software-engineering** (+windows-app, utility, scripts, setup, crack, 7 more) | 155 | 155 | 50.4k | 24.1k/d | 15.9k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▂ | 2026-11-10 | [icitycode/capcut-for-windows](https://github.com/icitycode/capcut-for-windows) | near-duplicate, same-day, flat-stars |
+| 2 | **hot-reloadable** (+low-overhead, prebuilt, reloadable, configuration, overhead, 64 more) | 108 | 86 | 18.2k | 18.2k/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-22 | [TalhaKang/resident-evil-4-cheat-trainer](https://github.com/TalhaKang/resident-evil-4-cheat-trainer) | near-duplicate, same-day, flat-stars |
+| 3 | **ai--manus** (+gemeni, manus, typescript-sdk, general-purpose, solidjs, 22 more) | 366 | 300 | 59.4k | 6.0k/d | 0/d | ▁▁▁▁██▁▁▁▁▁▁▁▁ | 2026-11-13 | [topapothecarycanal/ai--manus2.0](https://github.com/topapothecarycanal/ai--manus2.0) | near-duplicate, same-day, flat-stars |
+| 4 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 37 more) | 267 | 239 | 36.1k | 3.8k/d | 0/d | ▁▁▁▁▅█▁▁▁▁▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
+| 5 | **trial-version** (+trial, windows-software, latest, shape, download, 38 more) | 268 | 268 | 27.9k | 2.3k/d | 129/d | ▁▁█▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-10 | [vivitimiguel-dotcom/protonvpn-business-client](https://github.com/vivitimiguel-dotcom/protonvpn-business-client) | same-day, flat-stars |
+| 6 | **aichecker** (+config-checker, gemeni-checker, gemini-config-checker, lim, lim-seo, 10 more) | 26 | 26 | 10.0k | 1.3k/d | 0/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▁ | 2026-11-15 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
+| 7 | **scripting** (+blender-mcp, blender-ai, blender-automation, blender-plugin, blender-scripting, 8 more) | 10 | 10 | 6.4k | 1.0k/d | 607/d | ▁▁▁▃▆█▄▁▃▁▆▆▅▁ | 2026-11-12 | [bookwjitchieni1986/blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon) | same-day |
+| 8 | **trainer** (+blade, fling, hit) | 23 | 23 | 4.3k | 985/d | 439/d | ▁▁▁▁▁▁▁▁█▁▁▁▄▁ | 2026-11-15 | [vinujak/phantom-blade-zero-modifier](https://github.com/vinujak/phantom-blade-zero-modifier) | same-day, flat-stars |
+| 9 | **community-driven** (+community) | 28 | 28 | 4.4k | 671/d | 118/d | ▁▁▁▁▁▁▁▁█▁▁▁▂▁ | 2026-11-11 | [Baracos99/discord-quest-helper](https://github.com/Baracos99/discord-quest-helper) | same-day, flat-stars |
+| 10 | **coregold** (+vcc, usdt, applepay, finops, architectural, 9 more) | 81 | 53 | 5.8k | 637/d | 438/d | ▁▂▃▂▃▁▁▄▃▄█▇▁▅ | 2026-11-09 | [borchertnad-creator/runpod-cloud-gpu-spend-firewall-vcc](https://github.com/borchertnad-creator/runpod-cloud-gpu-spend-firewall-vcc) | near-duplicate, flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>scripting</b>: 13 repos, 6.8k stars</summary>
+<details><summary><b>riemann</b>: 6 repos, 1.7k stars</summary>
 
-- [bookwjitchieni1986/blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon) 2.7k★ AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent …
-- [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) 514★ A controlled AI workflow for Blender: every copilot edit is a supervised tool c…
-- [Doug-218/blender-ai-copilot-forge](https://github.com/Doug-218/blender-ai-copilot-forge) 509★ A scene-forging AI copilot for Blender—describe the layout and watch primitives…
-- [zovulrira1974/blender-ai-copilot-assets](https://github.com/zovulrira1974/blender-ai-copilot-assets) 509★ An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Piz…
-- [fumbdendade19718/blender-ai-copilot-desk](https://github.com/fumbdendade19718/blender-ai-copilot-desk) 505★ A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals…
-
-</details>
-
-<details><summary><b>adobe</b>: 17 repos, 2.7k stars</summary>
-
-- [purvprajapati2504-design/premiere-pro-video-editor](https://github.com/purvprajapati2504-design/premiere-pro-video-editor) 337★ Professional Multi-Track Video Editing Suite for Windows with 4K/8K Export
-- [FloorTurtleResurrect/free-adobe-activation](https://github.com/FloorTurtleResurrect/free-adobe-activation) 193★ simple tutorial adobe activation with GenP
-- [kokarai/premiere-elements](https://github.com/kokarai/premiere-elements) 154★ Premiere Elements: Story-First Home Video Editing Workflow
-- [yahyaouiraouf31-sys/l-ve-light-shadow-library](https://github.com/yahyaouiraouf31-sys/l-ve-light-shadow-library) 153★ Löve Light Shadow Library: 2D light and shadow rendering for Löve2D
-- [124113009-art/adobe-fresco-elrina](https://github.com/124113009-art/adobe-fresco-elrina) 150★ Explore brushes and tools in Adobe Fresco Elrina with screenshot-heavy visual g…
+- [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) 808★ Independent Comparator setup for the Lean formalization of the Riemann Hypothes…
+- [CocoSgt/riemann-hypothesis-lean](https://github.com/CocoSgt/riemann-hypothesis-lean) 543★ Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). A…
+- [mccorvie/riemann-masullo](https://github.com/mccorvie/riemann-masullo) 106★ Lean 4 formalization of A. M. Masullo, The Music of the Primes
+- [professorsolderin/project-lighthouse](https://github.com/professorsolderin/project-lighthouse) 100★ Project Lighthouse — shining AI on the pages history never read: transcriptions…
+- [TomasOrtega/RH](https://github.com/TomasOrtega/RH) 77★ Lean files extracted from the archive accompanying Levent Alpöge’s Riemann Hypo…
 
 </details>
 
-<details><summary><b>digital-art</b>: 6 repos, 1.1k stars</summary>
+<details><summary><b>force</b>: 5 repos, 1.1k stars</summary>
 
-- [randrianiaina1/illustrator-datalin-vector-design](https://github.com/randrianiaina1/illustrator-datalin-vector-design) 205★ Illustrator Datalin Vector Design delivers precise vector design workflows for …
-- [bgleeson180-afk/cinema-4d-sacerin-motion-studio](https://github.com/bgleeson180-afk/cinema-4d-sacerin-motion-studio) 201★ Builds Cinema 4D Sacerin motion scenes through a structured studio workflow.
-- [Visionservice117/lightroom-classic-belelan-photo-workflow](https://github.com/Visionservice117/lightroom-classic-belelan-photo-workflow) 199★ Manage photo workflows in Lightroom Classic with Belelan Photo Workflow.
-- [himeshsuthar91-eng/after-effects-ceramar-motion-design](https://github.com/himeshsuthar91-eng/after-effects-ceramar-motion-design) 194★ After Effects Ceramar Motion Design: a motion design project built around Ceram…
-- [tarouquelaprogramacao-max/krita-elvona-art-studio](https://github.com/tarouquelaprogramacao-max/krita-elvona-art-studio) 151★ Krita plugin that builds a structured art studio workspace for digital painters.
+- [34306/ForceDuoApp](https://github.com/34306/ForceDuoApp) 376★ Force iPhone Duo's application use latest SDK to adaptive and supports iPhone D…
+- [aathreynair22-bit/wifi-password-tester](https://github.com/aathreynair22-bit/wifi-password-tester) 337★ WiFi Credential Strength Auditor: PowerShell Brute-Force Tester for Wireless Ne…
+- [SUBIR33/sbft-bip39-brute-force-framework](https://github.com/SUBIR33/sbft-bip39-brute-force-framework) 153★ SBFT BIP39 Brute-Force Framework: Concurrent Multi-Provider Balance Checking wi…
+- [yunusozgur944-source/delta-force-verina](https://github.com/yunusozgur944-source/delta-force-verina) 139★ Delta Force Verina: field intel and combat readouts for sharper tactical play.
+- [smolderyguest/Super3DXPlus](https://github.com/smolderyguest/Super3DXPlus) 84★ An accessibility-focused native port of Wangan Midnight Maximum Tune 3DX+ for P…
 
 </details>
 
-<details><summary><b>streamlined</b>: 9 repos, 1.3k stars</summary>
+<details><summary><b>fable</b>: 8 repos, 1.9k stars</summary>
 
-- [Blaqsoft/acrobat-pro-fajalor-pdf-workspace](https://github.com/Blaqsoft/acrobat-pro-fajalor-pdf-workspace) 188★ Streamlined PDF workspace for editing, converting, and organizing documents.
+- [fengyiqicoder/awesome-fable-5.2](https://github.com/fengyiqicoder/awesome-fable-5.2) 535★ Games, 3D worlds and web pages built with Claude Fable 5.2 that you can actuall…
+- [realcodebear/saltline-fable-5.2](https://github.com/realcodebear/saltline-fable-5.2) 533★ 
+- [viktorkav/uno-com-escada](https://github.com/viktorkav/uno-com-escada) 171★ Fiat Uno Mille EP com escada no teto, para pilotar no navegador. Três versões d…
+- [MiaAI-Lab/Claude-Fable-5.2-HTML-Files](https://github.com/MiaAI-Lab/Claude-Fable-5.2-HTML-Files) 140★ Claude Fable 5.2 HTML Files — 76 visual studies with screenshots and original p…
+- [andrisgauracs/bevel-os](https://github.com/andrisgauracs/bevel-os) 131★ A small Windows-95-style desktop OS for a single ESP32-S3 on a VGA monitor, wri…
+
+</details>
+
+<details><summary><b>streamlined</b>: 7 repos, 953 stars</summary>
+
 - [Cllayver/fl-studio-installer](https://github.com/Cllayver/fl-studio-installer) 154★ FL Studio Installer: Streamlined Setup and Enhanced Performance
 - [alkabdohagag/fxdeck-fivem-command-deck](https://github.com/alkabdohagag/fxdeck-fivem-command-deck) 154★ FxDeck FiveM Command Deck - Streamlined In-Game Command Interface for Modders
 - [tahsintasnuva/voice-notes-pipeline](https://github.com/tahsintasnuva/voice-notes-pipeline) 153★ Voice Notes Pipeline: Automation Script for Streamlined Note Processing
-- [vkindustries49-star/minectaft-on-rust-easy-launch](https://github.com/vkindustries49-star/minectaft-on-rust-easy-launch) 151★ Launch and manage Minecraft on Rust through a streamlined setup and launcher.
+- [Bhavya-ragala95/monster-hunter-wilds-varvana](https://github.com/Bhavya-ragala95/monster-hunter-wilds-varvana) 139★ Streamlined monster data and field intel so you hunt smarter in Monster Hunter …
+- [kenzz-devv/open-webui-talora-ai-workspace](https://github.com/kenzz-devv/open-webui-talora-ai-workspace) 139★ Streamlined workspace for organizing and running AI workflows in one place.
 
 </details>
 
-<details><summary><b>riemann</b>: 5 repos, 761 stars</summary>
+<details><summary><b>changer</b>: 6 repos, 1.2k stars</summary>
 
-- [CocoSgt/riemann-hypothesis-lean](https://github.com/CocoSgt/riemann-hypothesis-lean) 498★ Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). A…
-- [professorsolderin/project-lighthouse](https://github.com/professorsolderin/project-lighthouse) 100★ Project Lighthouse — shining AI on the pages history never read: transcriptions…
-- [TomasOrtega/RH](https://github.com/TomasOrtega/RH) 76★ Lean files extracted from the archive accompanying Levent Alpöge’s Riemann Hypo…
-- [Tomodovodoo/Riemann](https://github.com/Tomodovodoo/Riemann) 46★ Levent Alpöge’s claimed proof of the Riemann Hypothesis in 17.4 million lines o…
-- [nasqret/riemann-rev](https://github.com/nasqret/riemann-rev) 41★ Status dashboard, guide and map of the formal proof of the Riemann hypothesis a…
+- [D1ngtalk/iap2loc](https://github.com/D1ngtalk/iap2loc) 460★ A cross-platform iOS location changer client. 跨平台 iOS 虚拟定位客户端，通过 iAP2 协议向 iOS 设…
+- [Tchikov23/cs2-cosmetic-swapper](https://github.com/Tchikov23/cs2-cosmetic-swapper) 153★ CS2 Cosmetic Swapper - Client-Side Skin Changer for Windows 10/11
+- [Yunnix001/fortnite-skin-changer](https://github.com/Yunnix001/fortnite-skin-changer) 153★ Fortnite Skin Changer: Preview and Customize Rare Skins Locally
+- [diom1995/skeet-cs2-cheat](https://github.com/diom1995/skeet-cs2-cheat) 153★ Skeet Cheat: Precision Internal Framework for Competitive Play
+- [moamenrdakje/xeno-protocol-core](https://github.com/moamenrdakje/xeno-protocol-core) 153★ Xeno Protocol Core - Community Discord and Telegram Bot with Rich Features
 
 </details>
 <!-- starwave:end -->
