@@ -48,85 +48,85 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 2,631 repos  2026-11-10..2026-11-24  stars>=40 · baseline 4,108 repos  2026-09-11..2026-11-09  stars>=150 · generated 2026-11-24 17:49 UTC_
+_recent 2,569 repos  2026-11-11..2026-11-25  stars>=40 · baseline 4,242 repos  2026-09-12..2026-11-10  stars>=150 · generated 2026-11-25 17:16 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **utilities** (+cli-utility, winforms, statistics, rpg, system-utilities, 9 more) | 24 | 24 | 2.5k | 1.5k/d | 0/d | ▂▁▁▃▃▁▁▅▁█▁▁▁▁ | 2026-11-10 | [brave-plum-co/leonardo-ai-desktop](https://github.com/brave-plum-co/leonardo-ai-desktop) |
-| 2 | **gta6** (+clipper) | 10 | 10 | 1.8k | 1.1k/d | 443/d | ▁▁▁▁▁▁▁▁▁▁▁▁▃█ | 2026-11-12 | [Ahmet-Dedeler/awesome-gta6-reverse-engineering](https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering) |
-| 3 | **adobe** | 13 | 13 | 1.9k | 634/d | 321/d | ▁▁▁▁▁▂▁▇▁▅▁█▂▄ | 2026-11-15 | [MBPERFORMANCE/adobe-lightroom-full](https://github.com/MBPERFORMANCE/adobe-lightroom-full) |
-| 4 | **delivers** | 5 | 5 | 605 | 492/d | 97/d | ▁▁▁▁▁▁▁▁▁▄▁▁▁█ | 2026-11-18 | [loveplug7/wave-velocity-executor-keyless-lite-loader-100-bemarin](https://github.com/loveplug7/wave-velocity-executor-keyless-lite-loader-100-bemarin) |
-| 5 | **changer** (+loadout) | 9 | 9 | 1.7k | 461/d | 158/d | ▁▁▁▁▁▁▁█▁▁▁▃▂▃ | 2026-11-10 | [D1ngtalk/iap2loc](https://github.com/D1ngtalk/iap2loc) |
-| 6 | **agy** | 8 | 8 | 2.4k | 358/d | 362/d | ▁▁▁▂▁▂▃▂▂▃▅▄█▇ | 2026-11-11 | [INK-Q/agy-fast](https://github.com/INK-Q/agy-fast) |
-| 7 | **macro** | 7 | 7 | 838 | 355/d | 130/d | ▁▁▁▁▁▁▁█▂▁▁▂▂▆ | 2026-11-14 | [cavito142/omniclicker-autoclicker](https://github.com/cavito142/omniclicker-autoclicker) |
-| 8 | **fable** | 7 | 7 | 1.8k | 145/d | 45/d | ▃█▆▃▃▃▄▇▃▄▃▂▂▂ | 2026-11-10 | [realcodebear/saltline-fable-5.2](https://github.com/realcodebear/saltline-fable-5.2) |
-| 9 | **task-management** | 5 | 5 | 856 | 116/d | 187/d | ▁▁▁▁▁▁▁▁▁▄▁▁▂█ | 2026-11-13 | [hovocope135-tech/DSH-projects](https://github.com/hovocope135-tech/DSH-projects) |
-| 10 | **osint-tool** (+socmint) | 8 | 8 | 1.2k | 105/d | 24/d | ▁▁▁█▄▂▃▄▁▁▁▁▂▁ | 2026-11-13 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) |
+| 1 | **desktop-application** | 6 | 6 | 2.9k | 1.2k/d | 717/d | ▁▁▁▁▁▁▂▁▁▂▁▁▁█ | 2026-11-12 | [Umbra9179/clipboard-history-manager-windows](https://github.com/Umbra9179/clipboard-history-manager-windows) |
+| 2 | **macro** (+keyless) | 13 | 13 | 1.8k | 1.1k/d | 254/d | ▁▁▁▁▁▁▇▁▂▁▁▁▁█ | 2026-11-13 | [henkbonnet297/steal-a-brainrot-roblox-index-macro](https://github.com/henkbonnet297/steal-a-brainrot-roblox-index-macro) |
+| 3 | **hack** | 13 | 13 | 2.1k | 890/d | 122/d | ▁▁▂▁▁▁█▁▁▁▁▁▁▃ | 2026-11-11 | [gigarectorpulse/Universal-Gaming-Hub](https://github.com/gigarectorpulse/Universal-Gaming-Hub) |
+| 4 | **mev** (+sniper, jito, fun) | 6 | 6 | 871 | 556/d | 172/d | ▁▁▁▁▁▁▆▁▁▁▁▁▁█ | 2026-11-15 | [Norao01/solana-pump-fun-jito-bundler-sniper](https://github.com/Norao01/solana-pump-fun-jito-bundler-sniper) |
+| 5 | **radar** (+statistics, rpg, game-data, game-overlay, game-statistics, 2 more) | 16 | 16 | 4.2k | 543/d | 224/d | ▁▁▂▅▄▄█▂▅▂▂▂▂▄ | 2026-11-11 | [ZiChuanLan/freebie-radar](https://github.com/ZiChuanLan/freebie-radar) |
+| 6 | **agy** (+antigravity-plugin) | 9 | 9 | 3.2k | 422/d | 591/d | ▁▁▂▁▁▂▂▂▂▃▃▅▄█ | 2026-11-11 | [INK-Q/agy-fast](https://github.com/INK-Q/agy-fast) |
+| 7 | **advanced** | 13 | 13 | 1.7k | 400/d | 99/d | ▁▁▁▁▁▁█▁▂▁▅▂▁▃ | 2026-11-12 | [hisdelikat/total-commander](https://github.com/hisdelikat/total-commander) |
+| 8 | **fortnite** (+valorant) | 5 | 5 | 873 | 355/d | 138/d | ▁▁▁▁▁▁█▁▁▁▁▁▄▄ | 2026-11-15 | [GleamThunder/fortnite-pirate-chest-map](https://github.com/GleamThunder/fortnite-pirate-chest-map) |
+| 9 | **force** | 5 | 5 | 1.2k | 329/d | 84/d | ▁▁▁▁▃▅▅▂▁▁█▂▁▅ | 2026-11-14 | [34306/ForceDuoApp](https://github.com/34306/ForceDuoApp) |
+| 10 | **scripting** (+3d-automation, blender-agents, blender-ai, blender-assistant, blender-automation, 8 more) | 9 | 9 | 3.7k | 291/d | 2/d | ▁▃▆█▄▁▃▁▁▁▁▁▁▁ | 2026-11-12 | [tiobeharxi1987/blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **directx-11** (+multithreading, performance-tuning, cmake, directx-12, win32-api, 54 more) | 133 | 132 | 17.9k | 17.7k/d | 834/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-15 | [isadhanjana-cpu/gta-5-enhanced-mod-menu](https://github.com/isadhanjana-cpu/gta-5-enhanced-mod-menu) | near-duplicate, same-day, flat-stars |
-| 2 | **software-engineering** (+utility, windows-app, scripts, acrobat, crack, 2 more) | 65 | 65 | 19.9k | 6.4k/d | 5.7k/d | ▁▁▁▁▂▁▁▁▁▁▁█▂▁ | 2026-11-10 | [Adabi0304/studioonepro7-release](https://github.com/Adabi0304/studioonepro7-release) | same-day, flat-stars |
-| 3 | **ai--manus** (+gemeni, manus, typescript-sdk, general-purpose, solidjs, 23 more) | 306 | 245 | 54.4k | 5.0k/d | 0/d | ▁▁▁█▇▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [topapothecarycanal/ai--manus2.0](https://github.com/topapothecarycanal/ai--manus2.0) | near-duplicate, same-day, flat-stars |
-| 4 | **cli-app** (+json-rpc, trading-systems, defi, orderbook, quantitative-trading, 51 more) | 28 | 28 | 3.6k | 3.6k/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-24 | [lesuzuki40434/bip39-mnemonic-seed-balance-scanner-v3](https://github.com/lesuzuki40434/bip39-mnemonic-seed-balance-scanner-v3) | near-duplicate, same-day, flat-stars |
-| 5 | **trial-version** (+trial, windows-software, latest, shape, download, 44 more) | 273 | 273 | 28.6k | 2.9k/d | 211/d | ▁█▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-10 | [hisdelikat/total-commander](https://github.com/hisdelikat/total-commander) | same-day, flat-stars |
-| 6 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 28 more) | 169 | 169 | 28.7k | 2.6k/d | 0/d | ▁▁▁▆█▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
-| 7 | **community-driven** (+community, feature-rich) | 28 | 28 | 4.7k | 1.2k/d | 83/d | ▁▁▁▁▁▁▁█▁▁▁▁▁▁ | 2026-11-11 | [LeonidaReforge/Leonida](https://github.com/LeonidaReforge/Leonida) | same-day, flat-stars |
-| 8 | **trainer** (+cheat, fling, hacks) | 25 | 25 | 4.5k | 1.2k/d | 478/d | ▁▁▁▁▁▁▁█▁▁▁▃▁▂ | 2026-11-15 | [tweak-for-me/impulse](https://github.com/tweak-for-me/impulse) | same-day, flat-stars |
-| 9 | **aichecker** (+config-checker, gemeni-checker, gemini-config-checker, lim, lim-seo, 10 more) | 21 | 21 | 9.7k | 1.1k/d | 0/d | ▁▁▁▁▁█▁▁▁▁▁▁▁▁ | 2026-11-15 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
-| 10 | **cli-utility** (+winforms, utilities, system-utilities) | 7 | 7 | 915 | 915/d | 0/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-24 | [eriksson49/kontakt-8-portable-library-manager-portable](https://github.com/eriksson49/kontakt-8-portable-library-manager-portable) | near-duplicate |
+| 1 | **gemeni** (+manus, typescript-sdk, ai--manus, general-purpose, solidjs, 39 more) | 422 | 328 | 67.4k | 5.9k/d | 1/d | ▁▁▇█▃▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
+| 2 | **software-engineering** (+utility, windows-app, scripts, setup, crack, 1 more) | 58 | 58 | 18.7k | 4.5k/d | 463/d | ▁▁▁▁▁▁▁▁▁▁█▂▁▁ | 2026-11-13 | [Adabi0304/studioonepro7-release](https://github.com/Adabi0304/studioonepro7-release) | same-day, flat-stars |
+| 3 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 38 more) | 313 | 268 | 39.6k | 3.4k/d | 0/d | ▁▁▄█▁▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
+| 4 | **trainer** (+directx-11, overlay, external, blade, directx, 4 more) | 36 | 35 | 6.6k | 2.8k/d | 234/d | ▁▁▁▁▁▁█▁▁▁▄▁▁▂ | 2026-11-15 | [tweak-for-me/impulse](https://github.com/tweak-for-me/impulse) | flat-stars |
+| 5 | **community-driven** (+community, feature-rich) | 27 | 27 | 4.3k | 819/d | 141/d | ▁▁▁▁▁▁█▁▁▁▁▁▁▂ | 2026-11-11 | [ProjectLeonidaL/leonida](https://github.com/ProjectLeonidaL/leonida) | same-day, flat-stars |
+| 6 | **coregold** (+vcc, usdt, applepay, finops, architectural, 10 more) | 67 | 54 | 6.2k | 618/d | 865/d | ▁▂▂▁▁▃▂▃▅▄▁▃█▅ | 2026-11-11 | [KenjiIra5580/openai-o3-deep-research-applepay-vcc](https://github.com/KenjiIra5580/openai-o3-deep-research-applepay-vcc) | near-duplicate, flat-stars |
+| 7 | **download** (+streamline) | 27 | 27 | 4.2k | 512/d | 55/d | ▁▁▂▃▁▁█▁▁▁▃▁▁▁ | 2026-11-11 | [darthvader097br-ctrl/acronis-standalone-bundle](https://github.com/darthvader097br-ctrl/acronis-standalone-bundle) | flat-stars |
+| 8 | **install-guide** (+configuration, windows-11, covers, desktop-software, file-tools, 5 more) | 32 | 32 | 2.6k | 213/d | 0/d | ▁▁▁▁▁▁▁▁█▁▁▁▁▁ | 2026-11-13 | [DictatorHinge/IBM-SPSS-Statistics-Full](https://github.com/DictatorHinge/IBM-SPSS-Statistics-Full) | near-duplicate, same-day, flat-stars |
+| 9 | **jetbrains** | 5 | 5 | 937 | 198/d | 18/d | ▁▁▁▁▂▁▃▁▁▁█▂▁▁ | 2026-11-15 | [parthivvinod95-blip/clion-desktop](https://github.com/parthivvinod95-blip/clion-desktop) | near-duplicate |
+| 10 | **osint-tool** (+nickname, osint, socmint) | 12 | 12 | 1.5k | 127/d | 24/d | ▁▁█▆▂▄▅▁▁▁▁▂▁▁ | 2026-11-13 | [StormBrawlerSack/legwork-osint-ai-investigator](https://github.com/StormBrawlerSack/legwork-osint-ai-investigator) | same-day |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>utilities</b>: 24 repos, 2.5k stars</summary>
+<details><summary><b>desktop-application</b>: 6 repos, 2.9k stars</summary>
 
-- [brave-plum-co/leonardo-ai-desktop](https://github.com/brave-plum-co/leonardo-ai-desktop) 303★ Leonardo AI 2026 desktop setup with text-to-image generation using fine-tuned m…
-- [uza51162-stack/wintoolkit-portable-toolkit](https://github.com/uza51162-stack/wintoolkit-portable-toolkit) 153★ WinToolKit Portable Toolkit: App Management, System Info, and setup for Windows…
-- [yuuki200/microsoft-excel-365](https://github.com/yuuki200/microsoft-excel-365) 153★ Microsoft Excel 365: Desktop spreadsheet for reports, budgets, lists, charts, a…
-- [Wozniak947/lossless-scaling-3-dlss4-unlocked-download](https://github.com/Wozniak947/lossless-scaling-3-dlss4-unlocked-download) 127★ Lossless Scaling 3.1 + DLSS 4 Multi-Frame Generation (LSFG 3.0 4x) Portable Unl…
-- [liu9029/lossless-scaling-3-dlss4-unlocked-win11](https://github.com/liu9029/lossless-scaling-3-dlss4-unlocked-win11) 114★ Lossless Scaling 3.1 + DLSS 4 Multi-Frame Generation (LSFG 3.0 4x) Portable Unl…
-
-</details>
-
-<details><summary><b>gta6</b>: 10 repos, 1.8k stars</summary>
-
-- [Ahmet-Dedeler/awesome-gta6-reverse-engineering](https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering) 670★ Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / …
-- [lenguyenkhang816792-arch/gta-6-pc-emulator](https://github.com/lenguyenkhang816792-arch/gta-6-pc-emulator) 340★ GTA 6 PC Emulator: Your Portal to Grand Theft Auto VI on Windows
-- [valvarez8840/PClabs](https://github.com/valvarez8840/PClabs) 163★ 
-- [jemimaravelomanantsoa020-tech/gta6-preload-emulator](https://github.com/jemimaravelomanantsoa020-tech/gta6-preload-emulator) 151★ Gta6 Preload Emulator: simulates preload behavior to test loading workflows.
-- [mostaphabname52-cloud/gta6-120fps-tajarin](https://github.com/mostaphabname52-cloud/gta6-120fps-tajarin) 147★ Configurable frame-rate targeting for GTA6 with adjustable performance profiles.
+- [Umbra9179/clipboard-history-manager-windows](https://github.com/Umbra9179/clipboard-history-manager-windows) 1.3k★ Free open-source Windows clipboard manager with searchable history, image previ…
+- [solv4626/steam-achievement-manager-windows](https://github.com/solv4626/steam-achievement-manager-windows) 1.1k★ Free open-source Steam Achievement Manager for Windows to manage game achieveme…
+- [umbra0688/windows-clipboard-manager-sync](https://github.com/umbra0688/windows-clipboard-manager-sync) 214★ Free open-source Windows clipboard manager with searchable history, smart colle…
+- [gordonotaminaguo008-png/syncsetup](https://github.com/gordonotaminaguo008-png/syncsetup) 153★ SyncSetup: Cross-PC app install, update, backup, and restore tool
+- [DentistRoute/WInslop](https://github.com/DentistRoute/WInslop) 126★ Take full control of Windows with Winslop — a modern WinUI 3 tweaking tool for …
 
 </details>
 
-<details><summary><b>adobe</b>: 13 repos, 1.9k stars</summary>
+<details><summary><b>macro</b>: 13 repos, 1.8k stars</summary>
 
-- [MBPERFORMANCE/adobe-lightroom-full](https://github.com/MBPERFORMANCE/adobe-lightroom-full) 337★ Adobe Lightroom Full Desktop for Windows: Complete Feature Set with Smooth Work…
-- [ali7080/adobe-air-sdk](https://github.com/ali7080/adobe-air-sdk) 337★ Adobe AIR SDK: Cross-Platform Desktop App Development with AJAX, HTML, and Flash
-- [FloorTurtleResurrect/free-adobe-activation](https://github.com/FloorTurtleResurrect/free-adobe-activation) 194★ simple tutorial adobe activation with GenP
-- [kokarai/premiere-elements](https://github.com/kokarai/premiere-elements) 154★ Premiere Elements: Story-First Home Video Editing Workflow
-- [yahyaouiraouf31-sys/l-ve-light-shadow-library](https://github.com/yahyaouiraouf31-sys/l-ve-light-shadow-library) 153★ Löve Light Shadow Library: 2D light and shadow rendering for Löve2D
-
-</details>
-
-<details><summary><b>delivers</b>: 5 repos, 605 stars</summary>
-
-- [loveplug7/wave-velocity-executor-keyless-lite-loader-100-bemarin](https://github.com/loveplug7/wave-velocity-executor-keyless-lite-loader-100-bemarin) 177★ Wave Velocity Executor Keyless Lite Loader 100 Bemarin delivers in-game script …
-- [Tenert007/after-effects-tadelin-motion-design](https://github.com/Tenert007/after-effects-tadelin-motion-design) 149★ After Effects Tadelin Motion Design delivers structured motion-design tooling f…
-- [athanstarr-del/roblox-game-hub-fisch-auto-cast-instant-raren](https://github.com/athanstarr-del/roblox-game-hub-fisch-auto-cast-instant-raren) 143★ Roblox Game Hub Fisch Auto Cast Instant Raren delivers Fisch auto-casting and i…
-- [hiteshrao1022006-ship-it/microsoft-visio-orveven](https://github.com/hiteshrao1022006-ship-it/microsoft-visio-orveven) 68★ Microsoft Visio Orveven delivers diagramming tools for technical and business v…
-- [pgmergulhao75-dot/openbb-calvona-market-research](https://github.com/pgmergulhao75-dot/openbb-calvona-market-research) 68★ Openbb Calvona Market Research delivers structured market data analysis and res…
+- [henkbonnet297/steal-a-brainrot-roblox-index-macro](https://github.com/henkbonnet297/steal-a-brainrot-roblox-index-macro) 176★ Steal a Brainrot Script & Roblox Index Macro [2026] — Base Shield Timer, Auto C…
+- [kprice417/rust-recoil-script-esp-macro-2026](https://github.com/kprice417/rust-recoil-script-esp-macro-2026) 171★ Rust Recoil Script & Rust Macro Suite [2026] — Humanized Mouse Smoothing, Auto …
+- [JisungDiaz447/blox-fruits-script-keyless-2026](https://github.com/JisungDiaz447/blox-fruits-script-keyless-2026) 168★ Blox Fruits Script [2026] — Keyless Auto Farm Mastery, Dragon/Kitsune Fruit Sni…
+- [RijuliXiye39/grow-a-garden-script-roblox-macro](https://github.com/RijuliXiye39/grow-a-garden-script-roblox-macro) 166★ Grow a Garden Script Roblox [2026] — Keyless Auto Plant, Instant Harvest, Seed …
+- [alkabdohagag/fxdeck-fivem-command-deck](https://github.com/alkabdohagag/fxdeck-fivem-command-deck) 154★ FxDeck FiveM Command Deck - Streamlined In-Game Command Interface for Modders
 
 </details>
 
-<details><summary><b>changer</b>: 9 repos, 1.7k stars</summary>
+<details><summary><b>hack</b>: 13 repos, 2.1k stars</summary>
 
-- [D1ngtalk/iap2loc](https://github.com/D1ngtalk/iap2loc) 498★ A cross-platform iOS location changer client. 跨平台 iOS 定位客户端，通过 iAP2 协议向 iOS 设备下…
-- [joelkreasey-tech/samsung-android-mtp-samfw-tool-v5-mtp-bemaron](https://github.com/joelkreasey-tech/samsung-android-mtp-samfw-tool-v5-mtp-bemaron) 177★ Connects Samsung Android devices over MTP to transfer files through a guided de…
-- [Tchikov23/cs2-cosmetic-swapper](https://github.com/Tchikov23/cs2-cosmetic-swapper) 153★ CS2 Cosmetic Swapper - Client-Side Skin Changer for Windows 10/11
-- [Yunnix001/fortnite-skin-changer](https://github.com/Yunnix001/fortnite-skin-changer) 153★ Fortnite Skin Changer: Preview and Customize Rare Skins Locally
-- [ayaanra644/valorant-match-tracker](https://github.com/ayaanra644/valorant-match-tracker) 153★ Valorant Match Tracker: Match History and Agent Pick Rates
+- [gigarectorpulse/Universal-Gaming-Hub](https://github.com/gigarectorpulse/Universal-Gaming-Hub) 266★ A universal gaming hub for games such as: CS2, Counter-Strike 2, GTA V, Fortnit…
+- [QakajaVeca60/deadlock-cheat-esp-aimbot-win11](https://github.com/QakajaVeca60/deadlock-cheat-esp-aimbot-win11) 206★ Deadlock Cheat ESP Aimbot Win11 [2026] — Standalone Windows 10/11 (x64) Release…
+- [ismaelkahh-netizen/brave-desktop-browser](https://github.com/ismaelkahh-netizen/brave-desktop-browser) 154★ Brave Desktop Browser: Privacy-Focused Web Browser for Windows 10/11 with Built…
+- [DARSC-FIlp/minecraft-xray-mod](https://github.com/DARSC-FIlp/minecraft-xray-mod) 153★ Minecraft Xray Mod Windows: See Every Ore, Play Sharper
+- [alexis1688/minecraft-client-base](https://github.com/alexis1688/minecraft-client-base) 153★ Minecraft Client Base: Modular ImGui Framework for Serious Gameplay
+
+</details>
+
+<details><summary><b>mev</b>: 6 repos, 871 stars</summary>
+
+- [Norao01/solana-pump-fun-jito-bundler-sniper](https://github.com/Norao01/solana-pump-fun-jito-bundler-sniper) 182★ Jito MEV Bot & Solana Pump.fun gRPC Sniper Bundler [2026] — Sub-Millisecond Shr…
+- [pinargomez/raydium-meteora-grpc-sniper-bot](https://github.com/pinargomez/raydium-meteora-grpc-sniper-bot) 171★ Raydium Sniper Bot & Solana Copy Trading Bot [2026] — Sub-Millisecond Yellowsto…
+- [rajmyers29/jupiter-v6-atomic-arbitrage-bot](https://github.com/rajmyers29/jupiter-v6-atomic-arbitrage-bot) 167★ Jupiter Arbitrage Bot & Solana DEX Atomic MEV Bot [2026] — V6 Quote Router, Fla…
+- [farzanamustafa936-dot/solana-pump-fun-sniper-bot](https://github.com/farzanamustafa936-dot/solana-pump-fun-sniper-bot) 153★ Feature-rich Solana Pump.fun Sniper Bot with Jito MEV protection and community …
+- [guruyxs/blockrazor-documentation](https://github.com/guruyxs/blockrazor-documentation) 153★ BlockRazor Documentation: Technical Guide and Reference
+
+</details>
+
+<details><summary><b>radar</b>: 16 repos, 4.2k stars</summary>
+
+- [ZiChuanLan/freebie-radar](https://github.com/ZiChuanLan/freebie-radar) 2.7k★ 白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送
+- [PaulSchaefer86202/cs2-cheat-external-esp-triggerbot-v2](https://github.com/PaulSchaefer86202/cs2-cheat-external-esp-triggerbot-v2) 189★ CS2 Cheat & Counter-Strike 2 External ESP, Triggerbot & Radar Overlay [2026] — …
+- [dennisyang1986/polymarket-proxy](https://github.com/dennisyang1986/polymarket-proxy) 160★ Polymarket Proxy — a local Polymarket desk inside DeepSeek Harness: deposit add…
+- [deyvi9333-sys/black-ops-6-esp-aimbot](https://github.com/deyvi9333-sys/black-ops-6-esp-aimbot) 153★ Black Ops 6 ESP Aimbot: Precision ESP and Aimbot
+- [diom1995/skeet-cs2-cheat](https://github.com/diom1995/skeet-cs2-cheat) 153★ Skeet Cheat: Precision Internal Framework for Competitive Play
 
 </details>
 <!-- starwave:end -->
