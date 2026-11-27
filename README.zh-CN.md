@@ -48,85 +48,85 @@ npx github:Chaoqi31/starwave
 GitHub Action 每天 06:17 UTC（北京时间 14:17）重写这张表。往日数据在 [`data/`](data)。
 
 <!-- starwave:start -->
-_recent 3,687 repos  2026-11-12..2026-11-26  stars>=40 · baseline 4,270 repos  2026-09-13..2026-11-11  stars>=150 · generated 2026-11-26 16:57 UTC_
+_recent 3,331 repos  2026-11-13..2026-11-27  stars>=40 · baseline 4,328 repos  2026-09-14..2026-11-12  stars>=150 · generated 2026-11-27 16:42 UTC_
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|
-| 1 | **victory** | 11 | 11 | 20.8k | 10.2k/d | 6.5k/d | ▁▁▁▁▁▁▁▁▁▁▁▆█▅ | 2026-11-23 | [Marvisak/VIctory](https://github.com/Marvisak/VIctory) |
-| 2 | **trainer** (+blade, fling, phantom-blade-zero, hit) | 26 | 26 | 5.6k | 2.0k/d | 458/d | ▁▁▁▁▁█▁▁▁▄▂▂▁▄ | 2026-11-15 | [alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm) |
-| 3 | **gdk** (+xbox-series) | 5 | 5 | 8.9k | 1.7k/d | 2.7k/d | ▁▁▁▁▁▁▁▁▁▁▁█▆▂ | 2026-11-20 | [xcl-dev/xcl](https://github.com/xcl-dev/xcl) |
-| 4 | **clips** (+video-ai, video-api, video-game, video-games, highlight) | 22 | 22 | 5.6k | 1.6k/d | 874/d | ▁▁▁▁▁▁▁▄▅▄▃▂█▆ | 2026-11-12 | [iamajmeena/neonclipping](https://github.com/iamajmeena/neonclipping) |
-| 5 | **riemann** (+alp, hypothesis) | 9 | 9 | 3.4k | 1.3k/d | 510/d | ▁▁▁▁▁▁▁▁▆▄▄▃▃█ | 2026-11-20 | [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) |
-| 6 | **video-converter** | 6 | 6 | 3.6k | 1.1k/d | 1.1k/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▁ | 2026-11-15 | [zero5122/offline-file-converter-windows](https://github.com/zero5122/offline-file-converter-windows) |
-| 7 | **shape** | 18 | 18 | 2.6k | 903/d | 349/d | ▁▁▁▁▁█▁▂▁▁▁▂▂▄ | 2026-11-15 | [HoangMinh-sikula/rob-run-mod-trainer](https://github.com/HoangMinh-sikula/rob-run-mod-trainer) |
-| 8 | **macro** (+recoil, keyless-script, luau-script) | 19 | 19 | 1.6k | 607/d | 292/d | ▁▁▁▁▁█▁▂▁▁▂▆▅▃ | 2026-11-13 | [alkabdohagag/fxdeck-fivem-command-deck](https://github.com/alkabdohagag/fxdeck-fivem-command-deck) |
-| 9 | **adobe** | 17 | 17 | 2.6k | 592/d | 124/d | ▁▁▁▁▁▄▁▂▁█▂▂▂▂ | 2026-11-15 | [purvprajapati2504-design/premiere-pro-video-editor](https://github.com/purvprajapati2504-design/premiere-pro-video-editor) |
-| 10 | **agy** (+antigravity-plugin) | 12 | 11 | 4.5k | 574/d | 782/d | ▁▂▁▁▂▁▂▂▃▃▅▅██ | 2026-11-13 | [INK-Q/agy-fast](https://github.com/INK-Q/agy-fast) |
+| 1 | **victory** (+dxil, shader-recompiler) | 25 | 23 | 27.9k | 10.0k/d | 6.4k/d | ▁▁▁▁▁▁▁▁▁▁▆█▅▅ | 2026-11-21 | [Marvisak/VIctory](https://github.com/Marvisak/VIctory) |
+| 2 | **gdk** (+xbox-series, xcl) | 5 | 5 | 10.0k | 1.6k/d | 1.6k/d | ▁▁▁▁▁▁▁▁▁▁█▆▂▃ | 2026-11-20 | [xcl-dev/xcl](https://github.com/xcl-dev/xcl) |
+| 3 | **riemann** (+alp, hypothesis) | 10 | 10 | 4.0k | 1.0k/d | 618/d | ▁▁▁▁▁▁▁▆▄▄▃▃█▆ | 2026-11-20 | [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) |
+| 4 | **prebuilt** (+portable, windows-tool, x64, abuse, dota, 4 more) | 38 | 38 | 2.5k | 996/d | 783/d | ▁▁▁▁▁▁▁▁▁▁▁▄█▂ | 2026-11-23 | [Locorreia1992/native-instruments-reaktor-6](https://github.com/Locorreia1992/native-instruments-reaktor-6) |
+| 5 | **shape** (+modder, save-editor) | 23 | 23 | 3.5k | 950/d | 536/d | ▁▁▁▁█▁▂▁▁▁▁▂▄▅ | 2026-11-15 | [avciomer1155/izotope-tonal-balance-control](https://github.com/avciomer1155/izotope-tonal-balance-control) |
+| 6 | **video-converter** | 6 | 6 | 2.7k | 725/d | 812/d | ▁▁▁▁▁▁▁▁▁▁▁█▁▂ | 2026-11-15 | [kai415-debug/ffmpeg-video-audio-converter](https://github.com/kai415-debug/ffmpeg-video-audio-converter) |
+| 7 | **agy** (+antigravity-plugin) | 13 | 12 | 5.5k | 615/d | 954/d | ▂▁▁▂▁▂▂▃▃▅▄▇██ | 2026-11-13 | [INK-Q/agy-fast](https://github.com/INK-Q/agy-fast) |
+| 8 | **mastering** | 8 | 8 | 2.0k | 464/d | 303/d | ▁▁▁▁█▁▁▁▅▁▁▅▄▅ | 2026-11-15 | [Msen4/easeus-partition-master](https://github.com/Msen4/easeus-partition-master) |
+| 9 | **adobe** | 10 | 10 | 2.2k | 455/d | 203/d | ▁▁▁▁▄▁▂▁█▂▁▂▂▄ | 2026-11-15 | [Ifeanyimorozov/substance-3d-stager](https://github.com/Ifeanyimorozov/substance-3d-stager) |
+| 10 | **architectural** | 7 | 7 | 1.6k | 451/d | 353/d | ▁▁▁▁▄▁▂▁▂▁▁▆▅█ | 2026-11-15 | [james-plus-96/octane-render](https://github.com/james-plus-96/octane-render) |
 
 **Looks coordinated**
 
 | # | wave | repos | owners | stars | vel/d | 3d/d | last 14 days | first seen | anchor | flags |
 |--:|---|--:|--:|--:|--:|--:|---|---|---|---|
-| 1 | **software-engineering** (+windows-app, utilities, letting, windows-10, utility, 160 more) | 506 | 506 | 122.9k | 44.8k/d | 20.8k/d | ▁▁▁▁▁▁▁▁▁█▂▁▇▅ | 2026-11-13 | [Umbra9179/clipboard-history-manager-windows](https://github.com/Umbra9179/clipboard-history-manager-windows) | near-duplicate, same-day, flat-stars |
-| 2 | **prebuilt** (+windows-tool, rotation, portable, x64, utility, 60 more) | 324 | 272 | 18.1k | 9.0k/d | 6.0k/d | ▁▁▁▁▁▁▁▁▁▁▁▃█▆ | 2026-11-23 | [SodovaFo7/claude-code-unlimited](https://github.com/SodovaFo7/claude-code-unlimited) | near-duplicate, same-day, flat-stars |
-| 3 | **gemeni** (+manus, typescript-sdk, ai--manus, function-calling, general-purpose, 39 more) | 366 | 308 | 64.5k | 5.1k/d | 1/d | ▁▇█▃▁▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
-| 4 | **latest** (+activated, premium, izotope-ozone, genius, lite, 1 more) | 57 | 57 | 11.3k | 5.1k/d | 2.7k/d | ▁▁▁▁▁▃▁▁▁▁▁▁█▇ | 2026-11-14 | [34306/ForceDuoApp](https://github.com/34306/ForceDuoApp) | same-day, flat-stars |
-| 5 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 35 more) | 248 | 221 | 35.2k | 2.8k/d | 1/d | ▁▅█▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
-| 6 | **desktop-ai** (+desktop-apps, serum, desktop-client, hyper, desktop-tools, 16 more) | 16 | 16 | 3.3k | 1.7k/d | 985/d | ▁▁▁▁▁▁▁▁▁▁▁▁█▇ | 2026-11-17 | [jyotiazev3do/duolingo-desktop](https://github.com/jyotiazev3do/duolingo-desktop) | same-day |
-| 7 | **x64** (+autodesk-3ds-max-app, autodesk-3d-design, autodesk-automation, autodesk-desktop, autodesk-maya-pc, 11 more) | 23 | 22 | 3.3k | 1.5k/d | 809/d | ▁▁▂▁▁▁▁▁▁▁▂▂█▅ | 2026-11-14 | [Freminet/ScarlettX](https://github.com/Freminet/ScarlettX) | flat-stars |
-| 8 | **directx-11** (+multithreading, performance-tuning, directx-12, configuration, cmake, 8 more) | 35 | 33 | 2.7k | 1.4k/d | 886/d | ▁▁▁▁▁▁▁▁▁▁▁█▇▃ | 2026-11-23 | [isadhanjana-cpu/gta-5-enhanced-mod-menu](https://github.com/isadhanjana-cpu/gta-5-enhanced-mod-menu) | near-duplicate, flat-stars |
-| 9 | **hack** (+robrun-mod) | 20 | 20 | 3.1k | 1.3k/d | 693/d | ▁▁▁▁▁▆▁▁▁▁▁▂▅█ | 2026-11-15 | [gigarectorpulse/Universal-Gaming-Hub](https://github.com/gigarectorpulse/Universal-Gaming-Hub) | flat-stars |
-| 10 | **coregold** (+vcc, usdt, applepay, finops, ustd, 18 more) | 91 | 76 | 7.7k | 1.1k/d | 1.5k/d | ▁▂▁▁▂▂▂▄▄▁▃█▆█ | 2026-11-12 | [TabethaBult399205/virtual-card-usdt-indie-hacker-ai-mvp-saas-applepay](https://github.com/TabethaBult399205/virtual-card-usdt-indie-hacker-ai-mvp-saas-applepay) | near-duplicate, flat-stars |
+| 1 | **software-engineering** (+windows-app, utilities, letting, windows-10, utility, 195 more) | 549 | 549 | 180.6k | 50.7k/d | 34.8k/d | ▁▁▁▁▂▁▁▁█▂▁▇▆▇ | 2026-11-13 | [zephyr4123/snug](https://github.com/zephyr4123/snug) | near-duplicate, same-day, flat-stars |
+| 2 | **prebuilt-clones** (+windows-tool, rotation, portable, x64, utility, 45 more) | 283 | 241 | 16.2k | 5.4k/d | 4.6k/d | ▁▁▁▁▁▁▁▁▁▁▃█▅▁ | 2026-11-23 | [SodovaFo7/claude-code-unlimited](https://github.com/SodovaFo7/claude-code-unlimited) | near-duplicate, same-day, flat-stars |
+| 3 | **gemeni** (+manus, typescript-sdk, ai--manus, function-calling, general-purpose, 39 more) | 318 | 265 | 59.9k | 4.4k/d | 1/d | ██▄▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [YellowLaborerMarket/Gemini-Config-Checker-](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | near-duplicate, same-day, flat-stars |
+| 4 | **activated** (+latest) | 23 | 23 | 6.5k | 2.1k/d | 1.6k/d | ▂▂▁▁▂▁▁▁▁▁▁█▇█ | 2026-11-14 | [ByteNetQuiet2/basecamp](https://github.com/ByteNetQuiet2/basecamp) | same-day, flat-stars |
+| 5 | **xtreamcode** (+ip-tv, iptv-channels, iptv-m3u8, iptv-player, iptv-player-application, 26 more) | 173 | 172 | 29.0k | 2.1k/d | 1/d | ▆█▁▁▁▁▁▁▁▁▁▁▁▁ | 2026-11-13 | [trackersnailgrip/GitHub-Copilot-app](https://github.com/trackersnailgrip/GitHub-Copilot-app) | near-duplicate, same-day, flat-stars |
+| 6 | **desktop-ai** (+desktop-apps, serum, desktop-client, desktop-files, desktop-hyper, 17 more) | 14 | 14 | 5.0k | 1.7k/d | 1.4k/d | ▁▁▁▁▁▁▁▁▁▁▁█▇█ | 2026-11-24 | [hudaflo8391/tradingview-desktop](https://github.com/hudaflo8391/tradingview-desktop) | same-day |
+| 7 | **clips** (+video-games, video-ai, video-api, video-game) | 16 | 16 | 6.5k | 1.5k/d | 1.1k/d | ▁▁▁▁▁▁▅▅▄▃▂█▆▇ | 2026-11-17 | [iamajmeena/neonclipping](https://github.com/iamajmeena/neonclipping) | same-day |
+| 8 | **directx-11** (+multithreading, performance-tuning, directx-12, cmake, win32-api, 8 more) | 24 | 24 | 1.7k | 1.3k/d | 251/d | ▁▁▁▁▁▁▁▁▁▁▁▁▁█ | 2026-11-25 | [ahmaddyeager-coder/fisch-script-macro-defaron](https://github.com/ahmaddyeager-coder/fisch-script-macro-defaron) | same-day |
+| 9 | **coregold** (+vcc, usdt, applepay, ustd, avs, 16 more) | 94 | 84 | 8.3k | 1.2k/d | 1.3k/d | ▂▁▁▂▂▂▃▃▁▃▇▆█▅ | 2026-11-13 | [TabethaBult399205/virtual-card-usdt-indie-hacker-ai-mvp-saas-applepay](https://github.com/TabethaBult399205/virtual-card-usdt-indie-hacker-ai-mvp-saas-applepay) | near-duplicate, flat-stars |
+| 10 | **hack** (+wardogs) | 26 | 26 | 4.3k | 1.1k/d | 525/d | ▁▁▁▁█▁▁▁▁▁▁▂▂▃ | 2026-11-15 | [Glebbennett597/image-line-harmor](https://github.com/Glebbennett597/image-line-harmor) | flat-stars |
 
 _vel/d: each repo's stars divided by its age in days, summed. 3d/d: stars per day over the last 3 full days._
 
-<details><summary><b>victory</b>: 11 repos, 20.8k stars</summary>
+<details><summary><b>victory</b>: 25 repos, 27.9k stars</summary>
 
-- [Marvisak/VIctory](https://github.com/Marvisak/VIctory) 13.1k★ An attempt at running GTA VI on PC
-- [fxceless/victory-fork](https://github.com/fxceless/victory-fork) 3.2k★ Work-in-progress fork of VIctory: getting an Xbox Series title to render and ru…
-- [Belobug/VIctory-Belobug-AMD](https://github.com/Belobug/VIctory-Belobug-AMD) 1.8k★ 
-- [avatarmanz/VIctory-7900XTX](https://github.com/avatarmanz/VIctory-7900XTX) 1.7k★ Goal: an Xbox Series title (your own dump) at a stable 30+ fps on PC without ra…
-- [ZigZagBoi1/ScarlettPort](https://github.com/ZigZagBoi1/ScarlettPort) 450★ Native PC port layer for an Xbox Series X\|S title: the game's x64 code runs on …
-
-</details>
-
-<details><summary><b>trainer</b>: 26 repos, 5.6k stars</summary>
-
-- [alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm) 1.2k★ Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch …
-- [tweak-for-me/impulse](https://github.com/tweak-for-me/impulse) 515★ Lightweight alternative Windows client for game trainers: hotkeys, overlay and …
-- [vinujak/phantom-blade-zero-modifier](https://github.com/vinujak/phantom-blade-zero-modifier) 339★ Phantom Blade Zero Modifier: God Mode, Infinite Health, One-Hit Kill Trainer fo…
-- [aagiiretry/phantom-blade-zero-enhancer](https://github.com/aagiiretry/phantom-blade-zero-enhancer) 335★ Blade Zero Enhancer: Runtime Utility for Blade Zero
-- [sukhwinder776/phantom-blade-zero-trainer](https://github.com/sukhwinder776/phantom-blade-zero-trainer) 335★ Phantom Blade Zero Trainer: Symbol Cues, Wider Parry Windows, Full Arsenal Star…
+- [Marvisak/VIctory](https://github.com/Marvisak/VIctory) 13.7k★ An attempt at running GTA VI on PC
+- [Belobug/VIctory-Belobug-AMD](https://github.com/Belobug/VIctory-Belobug-AMD) 4.1k★ 
+- [fxceless/victory-fork](https://github.com/fxceless/victory-fork) 3.3k★ Work-in-progress fork of VIctory: getting an Xbox Series title to render and ru…
+- [avatarmanz/VIctory-7900XTX](https://github.com/avatarmanz/VIctory-7900XTX) 1.9k★ Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K …
+- [trustno1-coder/VIctory-NVIDIA](https://github.com/trustno1-coder/VIctory-NVIDIA) 1.1k★ VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X …
 
 </details>
 
-<details><summary><b>gdk</b>: 5 repos, 8.9k stars</summary>
+<details><summary><b>gdk</b>: 5 repos, 10.0k stars</summary>
 
-- [xcl-dev/xcl](https://github.com/xcl-dev/xcl) 8.5k★ Xbox Series compatibility layer for Windows - runs console game code natively, …
-- [PastiiJay/klbf-lab](https://github.com/PastiiJay/klbf-lab) 156★ Xbox Series X\|S (Scarlett) GDK compatibility layer for Windows: runs the Xbox S…
-- [isaac-btw/AmericasLauncher](https://github.com/isaac-btw/AmericasLauncher) 78★ A modern Windows launcher that automatically sets up, updates, builds, and laun…
-- [zortos293/XSEmu](https://github.com/zortos293/XSEmu) 60★ Experimental Xbox Series X\|S (GDK) title runner for Windows, built on the XCL t…
+- [xcl-dev/xcl](https://github.com/xcl-dev/xcl) 8.7k★ Xbox Series compatibility layer for Windows - runs console game code natively, …
+- [zortos293/XSEmu](https://github.com/zortos293/XSEmu) 859★ Experimental Xbox Series X\|S (GDK) title runner for Windows, built on the XCL t…
+- [isaac-btw/AmericasLauncher](https://github.com/isaac-btw/AmericasLauncher) 185★ A modern Windows launcher that automatically sets up, updates, builds, and laun…
+- [PastiiJay/klbf-lab](https://github.com/PastiiJay/klbf-lab) 177★ Xbox Series X\|S (Scarlett) GDK compatibility layer for Windows: runs the Xbox S…
 - [jadeowaowa/scarlett-layer](https://github.com/jadeowaowa/scarlett-layer) 46★ Experimental Windows x64 / D3D12 compatibility layer for unpacked, unencrypted …
 
 </details>
 
-<details><summary><b>clips</b>: 22 repos, 5.6k stars</summary>
+<details><summary><b>riemann</b>: 10 repos, 4.0k stars</summary>
 
-- [iamajmeena/neonclipping](https://github.com/iamajmeena/neonclipping) 2.7k★ Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clip…
-- [D3bug-patch91/davinci-resolve-speed-editor](https://github.com/D3bug-patch91/davinci-resolve-speed-editor) 226★ Davinci Resolve Speed Editor for Windows 10/11. Edits timelines faster with a d…
-- [Gerald-wallace25/gopro-fusion-studio](https://github.com/Gerald-wallace25/gopro-fusion-studio) 226★ Gopro Fusion Studio for Windows 10/11. Stitches dual-lens 360 footage into flat…
-- [DivyaPham/intel-arc-control](https://github.com/DivyaPham/intel-arc-control) 221★ Intel Arc Control for Windows 10/11. Monitors GPU performance, installs driver …
-- [Mario-smith54/kolor-autopano-video](https://github.com/Mario-smith54/kolor-autopano-video) 219★ Kolor Autopano Video for Windows 10/11. Stitches footage from multiple action c…
+- [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) 1.5k★ Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) being cleaned…
+- [lsernau/grh-lean](https://github.com/lsernau/grh-lean) 1.0k★ A short Lean 4 proof of the Generalized Riemann Hypothesis
+- [CocoSgt/riemann-hypothesis-lean](https://github.com/CocoSgt/riemann-hypothesis-lean) 589★ Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). A…
+- [yuiyuiui/Natural-Language-Proof-Generalized-Riemann-Hypothesis](https://github.com/yuiyuiui/Natural-Language-Proof-Generalized-Riemann-Hypothesis) 252★ 
+- [jimjamzola/RH-Alpoge-Reconstruction](https://github.com/jimjamzola/RH-Alpoge-Reconstruction) 196★ An attempt to make the proof of the Riemann hypothesis human readable
 
 </details>
 
-<details><summary><b>riemann</b>: 9 repos, 3.4k stars</summary>
+<details><summary><b>prebuilt</b>: 38 repos, 2.5k stars</summary>
 
-- [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) 1.4k★ Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) being cleaned…
-- [lsernau/grh-lean](https://github.com/lsernau/grh-lean) 814★ A short Lean 4 proof of the Generalized Riemann Hypothesis
-- [CocoSgt/riemann-hypothesis-lean](https://github.com/CocoSgt/riemann-hypothesis-lean) 581★ Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). A…
-- [mccorvie/riemann-masullo](https://github.com/mccorvie/riemann-masullo) 175★ Lean 4 formalization of A. M. Masullo, The Music of the Primes
-- [jimjamzola/RH-Alpoge-Reconstruction](https://github.com/jimjamzola/RH-Alpoge-Reconstruction) 171★ An attempt to make the proof of the Riemann hypothesis human readable
+- [Locorreia1992/native-instruments-reaktor-6](https://github.com/Locorreia1992/native-instruments-reaktor-6) 360★ Native Instruments Reaktor 6 for Windows 10/11. Builds custom synths, samplers …
+- [DugihaJede29/rob-run-heist-timer](https://github.com/DugihaJede29/rob-run-heist-timer) 66★ Heist timers for ROB RUN — never miss a payout window.
+- [MoqisaGolo94/youtube-mp3-converter](https://github.com/MoqisaGolo94/youtube-mp3-converter) 66★ YouTube to MP3 with covers and tags — desktop, instant.
+- [MoxaheZil50/nitro-code-tool](https://github.com/MoxaheZil50/nitro-code-tool) 66★ Nitro gift code generator with a concurrent checker. Fast, silent, proxy-ready.…
+- [PabloZhu42/pet-sim-helper](https://github.com/PabloZhu42/pet-sim-helper) 66★ Pet Simulator 99 farm kit: coins, auto-hatch, rare tracking. \| pet-sim-99 roblo…
+
+</details>
+
+<details><summary><b>shape</b>: 23 repos, 3.5k stars</summary>
+
+- [avciomer1155/izotope-tonal-balance-control](https://github.com/avciomer1155/izotope-tonal-balance-control) 359★ Izotope Tonal Balance Control for Windows 10/11. Analyzes your mix against genr…
+- [Mgupta495/fabfilter-pro-r](https://github.com/Mgupta495/fabfilter-pro-r) 358★ Fabfilter Pro R for Windows 10/11. Sculpts reverb spaces on vocals, drums and f…
+- [HoangMinh-sikula/rob-run-mod-trainer](https://github.com/HoangMinh-sikula/rob-run-mod-trainer) 335★ Rob Run Mod Trainer: Shape Your Run, Bend the Rules, Build the Mod
+- [A188-ux/warframe-solvian](https://github.com/A188-ux/warframe-solvian) 193★ Shape the Origin System your way - a modder's toolkit for Warframe.
+- [Rijalox/guild-wars-2-varvalia](https://github.com/Rijalox/guild-wars-2-varvalia) 192★ Shape Tyria your way — a modder's toolkit for Guild Wars 2 Varvalia.
 
 </details>
 <!-- starwave:end -->
